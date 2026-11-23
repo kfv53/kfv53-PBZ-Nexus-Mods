@@ -1,0 +1,2261 @@
+"use strict";
+// Auto-generated from PBZ runtime BulletData, GA & deep GEComponents dumps.
+// Full i18n (zh-Hans / zh-Hant / en) + 100% native PBZ RichText styles.
+
+exports.LOC_PATCHES = {
+  "Weapon_FunctionDes_001_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>12</>段)：伤害 <WeaponDes_Num_Green>800%</> / 杀气 <WeaponDes_Num_Green>360%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>12</>段)：傷害 <WeaponDes_Num_Green>800%</> / 殺氣 <WeaponDes_Num_Green>360%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>12</> hits): DMG <WeaponDes_Num_Green>800%</> / Sha-Chi <WeaponDes_Num_Green>360%</>)"
+    }
+  },
+  "Weapon_FunctionDes_002_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>7</>段)：伤害 <WeaponDes_Num_Green>700%</> / 杀气 <WeaponDes_Num_Green>400%</> / 流血 <WeaponDes_Num_Green>1700%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>7</>段)：傷害 <WeaponDes_Num_Green>700%</> / 殺氣 <WeaponDes_Num_Green>400%</> / 流血 <WeaponDes_Num_Green>1700%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>7</> hits): DMG <WeaponDes_Num_Green>700%</> / Sha-Chi <WeaponDes_Num_Green>400%</> / Bleed <WeaponDes_Num_Green>1700%</>)"
+    }
+  },
+  "Weapon_FunctionDes_003_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊轻派生(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>449%</> / 杀气 <WeaponDes_Num_Green>179.6%</>；剑气·特殊轻派生(<WeaponDes_Num_Green>7</>段)：伤害 <WeaponDes_Num_Green>401.4%</> / 杀气 <WeaponDes_Num_Green>160.5%</>）",
+      "zh-Hant": "（特殊輕派生(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>449%</> / 殺氣 <WeaponDes_Num_Green>179.6%</>；劍氣·特殊輕派生(<WeaponDes_Num_Green>7</>段)：傷害 <WeaponDes_Num_Green>401.4%</> / 殺氣 <WeaponDes_Num_Green>160.5%</>）",
+      "en": " (Special Light (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>449%</> / Sha-Chi <WeaponDes_Num_Green>179.6%</>; Wave Special Light (<WeaponDes_Num_Green>7</> hits): DMG <WeaponDes_Num_Green>401.4%</> / Sha-Chi <WeaponDes_Num_Green>160.5%</>)"
+    }
+  },
+  "Weapon_FunctionDes_004_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>8</>段)：伤害 <WeaponDes_Num_Green>1000%</> / 杀气 <WeaponDes_Num_Green>400%</> / 元素 <WeaponDes_Num_Green>1000%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>8</>段)：傷害 <WeaponDes_Num_Green>1000%</> / 殺氣 <WeaponDes_Num_Green>400%</> / 元素 <WeaponDes_Num_Green>1000%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>8</> hits): DMG <WeaponDes_Num_Green>1000%</> / Sha-Chi <WeaponDes_Num_Green>400%</> / Elem <WeaponDes_Num_Green>1000%</>)"
+    }
+  },
+  "Weapon_FunctionDes_005_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>1000%</> / 杀气 <WeaponDes_Num_Green>400%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>1000%</> / 殺氣 <WeaponDes_Num_Green>400%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>1000%</> / Sha-Chi <WeaponDes_Num_Green>400%</>)"
+    }
+  },
+  "Weapon_FunctionDes_007_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>732.8%</> / 杀气 <WeaponDes_Num_Green>293.1%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>732.8%</> / 殺氣 <WeaponDes_Num_Green>293.1%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>732.8%</> / Sha-Chi <WeaponDes_Num_Green>293.1%</>)"
+    }
+  },
+  "Weapon_FunctionDes_008_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>600%</> / 杀气 <WeaponDes_Num_Green>270%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>600%</> / 殺氣 <WeaponDes_Num_Green>270%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>600%</> / Sha-Chi <WeaponDes_Num_Green>270%</>)"
+    }
+  },
+  "Weapon_FunctionDes_010_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>616.9%</> / 杀气 <WeaponDes_Num_Green>250.7%</> / 风雷 <WeaponDes_Num_Green>616.9%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>616.9%</> / 殺氣 <WeaponDes_Num_Green>250.7%</> / 風雷 <WeaponDes_Num_Green>616.9%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>616.9%</> / Sha-Chi <WeaponDes_Num_Green>250.7%</> / Elem <WeaponDes_Num_Green>616.9%</>)"
+    }
+  },
+  "Weapon_FunctionDes_011_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技：伤害 <WeaponDes_Num_Green>47.1%</> / 杀气 <WeaponDes_Num_Green>21.2%</>；特殊二连斩(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>360%</> / 杀气 <WeaponDes_Num_Green>144%</> / 异常 <WeaponDes_Num_Green>225%</>；特殊三连斩：伤害 <WeaponDes_Num_Green>1000%</> / 杀气 <WeaponDes_Num_Green>400%</>）",
+      "zh-Hant": "（特殊技：傷害 <WeaponDes_Num_Green>47.1%</> / 殺氣 <WeaponDes_Num_Green>21.2%</>；特殊二連斬(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>360%</> / 殺氣 <WeaponDes_Num_Green>144%</> / 異常 <WeaponDes_Num_Green>225%</>；特殊三連斬：傷害 <WeaponDes_Num_Green>1000%</> / 殺氣 <WeaponDes_Num_Green>400%</>）",
+      "en": " (Special: DMG <WeaponDes_Num_Green>47.1%</> / Sha-Chi <WeaponDes_Num_Green>21.2%</>; Special Combo 2 (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>360%</> / Sha-Chi <WeaponDes_Num_Green>144%</> / Status <WeaponDes_Num_Green>225%</>; Special Combo 3: DMG <WeaponDes_Num_Green>1000%</> / Sha-Chi <WeaponDes_Num_Green>400%</>)"
+    }
+  },
+  "Weapon_FunctionDes_012_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>900%</> / 杀气 <WeaponDes_Num_Green>400%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>900%</> / 殺氣 <WeaponDes_Num_Green>400%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>900%</> / Sha-Chi <WeaponDes_Num_Green>400%</>)"
+    }
+  },
+  "Weapon_FunctionDes_013_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>900%</> / 杀气 <WeaponDes_Num_Green>400%</> / 流血 <WeaponDes_Num_Green>900%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>900%</> / 殺氣 <WeaponDes_Num_Green>400%</> / 流血 <WeaponDes_Num_Green>900%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>900%</> / Sha-Chi <WeaponDes_Num_Green>400%</> / Bleed <WeaponDes_Num_Green>900%</>)"
+    }
+  },
+  "Weapon_FunctionDes_015_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>8</>段)：伤害 <WeaponDes_Num_Green>797.5%</> / 杀气 <WeaponDes_Num_Green>362.9%</> / 流血 <WeaponDes_Num_Green>797.5%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>8</>段)：傷害 <WeaponDes_Num_Green>797.5%</> / 殺氣 <WeaponDes_Num_Green>362.9%</> / 流血 <WeaponDes_Num_Green>797.5%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>8</> hits): DMG <WeaponDes_Num_Green>797.5%</> / Sha-Chi <WeaponDes_Num_Green>362.9%</> / Bleed <WeaponDes_Num_Green>797.5%</>)"
+    }
+  },
+  "Weapon_FunctionDes_016_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>8</>段)：伤害 <WeaponDes_Num_Green>1000%</> / 杀气 <WeaponDes_Num_Green>440%</> / 冰冻 <WeaponDes_Num_Green>1000%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>8</>段)：傷害 <WeaponDes_Num_Green>1000%</> / 殺氣 <WeaponDes_Num_Green>440%</> / 冰凍 <WeaponDes_Num_Green>1000%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>8</> hits): DMG <WeaponDes_Num_Green>1000%</> / Sha-Chi <WeaponDes_Num_Green>440%</> / Frost <WeaponDes_Num_Green>1000%</>)"
+    }
+  },
+  "Weapon_FunctionDes_017_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技：伤害 <WeaponDes_Num_Green>600%</> / 杀气 <WeaponDes_Num_Green>388%</>）",
+      "zh-Hant": "（特殊技：傷害 <WeaponDes_Num_Green>600%</> / 殺氣 <WeaponDes_Num_Green>388%</>）",
+      "en": " (Special: DMG <WeaponDes_Num_Green>600%</> / Sha-Chi <WeaponDes_Num_Green>388%</>)"
+    }
+  },
+  "Weapon_FunctionDes_018_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>1000%</> / 杀气 <WeaponDes_Num_Green>440%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>1000%</> / 殺氣 <WeaponDes_Num_Green>440%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>1000%</> / Sha-Chi <WeaponDes_Num_Green>440%</>)"
+    }
+  },
+  "Weapon_FunctionDes_019_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>1000%</> / 杀气 <WeaponDes_Num_Green>440%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>1000%</> / 殺氣 <WeaponDes_Num_Green>440%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>1000%</> / Sha-Chi <WeaponDes_Num_Green>440%</>)"
+    }
+  },
+  "Weapon_FunctionDes_020_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技：伤害 <WeaponDes_Num_Green>900%</> / 杀气 <WeaponDes_Num_Green>400%</>）",
+      "zh-Hant": "（特殊技：傷害 <WeaponDes_Num_Green>900%</> / 殺氣 <WeaponDes_Num_Green>400%</>）",
+      "en": " (Special: DMG <WeaponDes_Num_Green>900%</> / Sha-Chi <WeaponDes_Num_Green>400%</>)"
+    }
+  },
+  "Weapon_FunctionDes_022_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>15</>段)：伤害 <WeaponDes_Num_Green>1000%</> / 杀气 <WeaponDes_Num_Green>440%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>15</>段)：傷害 <WeaponDes_Num_Green>1000%</> / 殺氣 <WeaponDes_Num_Green>440%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>15</> hits): DMG <WeaponDes_Num_Green>1000%</> / Sha-Chi <WeaponDes_Num_Green>440%</>)"
+    }
+  },
+  "Weapon_FunctionDes_023_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>10</>段)：伤害 <WeaponDes_Num_Green>600%</> / 杀气 <WeaponDes_Num_Green>240%</> / 妖气 <WeaponDes_Num_Green>600%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>10</>段)：傷害 <WeaponDes_Num_Green>600%</> / 殺氣 <WeaponDes_Num_Green>240%</> / 妖氣 <WeaponDes_Num_Green>600%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>10</> hits): DMG <WeaponDes_Num_Green>600%</> / Sha-Chi <WeaponDes_Num_Green>240%</> / YaoQi <WeaponDes_Num_Green>600%</>)"
+    }
+  },
+  "Weapon_FunctionDes_024_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>533.9%</> / 杀气 <WeaponDes_Num_Green>258.9%</> / 异常 <WeaponDes_Num_Green>233.9%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>533.9%</> / 殺氣 <WeaponDes_Num_Green>258.9%</> / 異常 <WeaponDes_Num_Green>233.9%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>533.9%</> / Sha-Chi <WeaponDes_Num_Green>258.9%</> / Status <WeaponDes_Num_Green>233.9%</>)"
+    }
+  },
+  "Weapon_FunctionDes_026_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>281.5%</> / 杀气 <WeaponDes_Num_Green>123.9%</> / 异常 <WeaponDes_Num_Green>174.5%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>281.5%</> / 殺氣 <WeaponDes_Num_Green>123.9%</> / 異常 <WeaponDes_Num_Green>174.5%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>281.5%</> / Sha-Chi <WeaponDes_Num_Green>123.9%</> / Status <WeaponDes_Num_Green>174.5%</>)"
+    }
+  },
+  "Weapon_FunctionDes_027_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>12</>段)：伤害 <WeaponDes_Num_Green>734.2%</> / 杀气 <WeaponDes_Num_Green>330.4%</> / 中毒 <WeaponDes_Num_Green>680.7%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>12</>段)：傷害 <WeaponDes_Num_Green>734.2%</> / 殺氣 <WeaponDes_Num_Green>330.4%</> / 中毒 <WeaponDes_Num_Green>680.7%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>12</> hits): DMG <WeaponDes_Num_Green>734.2%</> / Sha-Chi <WeaponDes_Num_Green>330.4%</> / Poison <WeaponDes_Num_Green>680.7%</>)"
+    }
+  },
+  "Weapon_FunctionDes_028_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>8</>段)：伤害 <WeaponDes_Num_Green>1000%</> / 杀气 <WeaponDes_Num_Green>440%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>8</>段)：傷害 <WeaponDes_Num_Green>1000%</> / 殺氣 <WeaponDes_Num_Green>440%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>8</> hits): DMG <WeaponDes_Num_Green>1000%</> / Sha-Chi <WeaponDes_Num_Green>440%</>)"
+    }
+  },
+  "Weapon_FunctionDes_029_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>281.6%</> / 杀气 <WeaponDes_Num_Green>125.2%</>）",
+      "zh-Hant": "（特殊技(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>281.6%</> / 殺氣 <WeaponDes_Num_Green>125.2%</>）",
+      "en": " (Special (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>281.6%</> / Sha-Chi <WeaponDes_Num_Green>125.2%</>)"
+    }
+  },
+  "Weapon_FunctionDes_031_Skill": {
+    "kind": "skill",
+    "append": {
+      "zh-Hans": "（特殊技：伤害 <WeaponDes_Num_Green>1000%</> / 杀气 <WeaponDes_Num_Green>440%</> / 元素 <WeaponDes_Num_Green>1000%</>）",
+      "zh-Hant": "（特殊技：傷害 <WeaponDes_Num_Green>1000%</> / 殺氣 <WeaponDes_Num_Green>440%</> / 元素 <WeaponDes_Num_Green>1000%</>）",
+      "en": " (Special: DMG <WeaponDes_Num_Green>1000%</> / Sha-Chi <WeaponDes_Num_Green>440%</> / Elem <WeaponDes_Num_Green>1000%</>)"
+    }
+  },
+  "Weapon_FunctionDes_000_EX": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（完美时机强化攻击倍率 <WeaponDes_Num_Green>+50%</>）",
+      "zh-Hant": "（完美時机強化攻擊倍率 <WeaponDes_Num_Green>+50%</>）",
+      "en": " (Perfect timing bonus <WeaponDes_Num_Green>+50%</>)"
+    }
+  },
+  "Weapon_Function_000_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（完美格挡反震杀气 <WeaponDes_Num_Green>+15%</>）",
+      "zh-Hant": "（完美格擋反震殺氣 <WeaponDes_Num_Green>+15%</>）",
+      "en": " (Perfect deflect Sha-Chi <WeaponDes_Num_Green>+15%</>)"
+    }
+  },
+  "Weapon_Function_000_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（破防伤害提升 {&<WeaponDes_Num_Green>+25%</>|<WeaponDes_Num_Green>+35%</>|<WeaponDes_Num_Green>+45%</>}，满级 <WeaponDes_Num_Green>+45%</>）",
+      "zh-Hant": "（破防傷害提升 {&<WeaponDes_Num_Green>+25%</>|<WeaponDes_Num_Green>+35%</>|<WeaponDes_Num_Green>+45%</>}，滿級 <WeaponDes_Num_Green>+45%</>）",
+      "en": " (Break DMG {&<WeaponDes_Num_Green>+25%</>|<WeaponDes_Num_Green>+35%</>|<WeaponDes_Num_Green>+45%</>}, Max <WeaponDes_Num_Green>+45%</>)"
+    }
+  },
+  "Weapon_Function_002_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（嗜血斩击 <WeaponDes_Num_Green>2</>段：伤害 <WeaponDes_Num_Green>240%</> / 杀气 <WeaponDes_Num_Green>240%</> / 流血 <WeaponDes_Num_Green>240%</>；<Character_Yellow_Decorator2>【血刃】</>1/2/3层：伤害 <WeaponDes_Num_Green>+5%</>/<WeaponDes_Num_Green>+10%</>/<WeaponDes_Num_Green>+15%</>、流血积累 <WeaponDes_Num_Green>+40%</>/<WeaponDes_Num_Green>+60%</>/<WeaponDes_Num_Green>+100%</>）",
+      "zh-Hant": "（嗜血斬擊 <WeaponDes_Num_Green>2</>段：傷害 <WeaponDes_Num_Green>240%</> / 殺氣 <WeaponDes_Num_Green>240%</> / 流血 <WeaponDes_Num_Green>240%</>；<Character_Yellow_Decorator2>【血刃】</>1/2/3層：傷害 <WeaponDes_Num_Green>+5%</>/<WeaponDes_Num_Green>+10%</>/<WeaponDes_Num_Green>+15%</>、流血积累 <WeaponDes_Num_Green>+40%</>/<WeaponDes_Num_Green>+60%</>/<WeaponDes_Num_Green>+100%</>）",
+      "en": " (Break Slash <WeaponDes_Num_Green>2</> hits: DMG <WeaponDes_Num_Green>240%</> / Sha-Chi <WeaponDes_Num_Green>240%</> / Bleed <WeaponDes_Num_Green>240%</>; Bloodblade 1/2/3 stacks: DMG <WeaponDes_Num_Green>+5%</>/<WeaponDes_Num_Green>+10%</>/<WeaponDes_Num_Green>+15%</>, Bleed <WeaponDes_Num_Green>+40%</>/<WeaponDes_Num_Green>+60%</>/<WeaponDes_Num_Green>+100%</>)"
+    }
+  },
+  "Weapon_Function_002_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（流血积累速度提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，满级 <WeaponDes_Num_Green>+30%</>）",
+      "zh-Hant": "（流血积累速度提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，滿級 <WeaponDes_Num_Green>+30%</>）",
+      "en": " (Bleed Buildup {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}, Max <WeaponDes_Num_Green>+30%</>)"
+    }
+  },
+  "Weapon_Function_002_15": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（1/2/3段蓄力斩：伤害/杀气/流血分别为 <WeaponDes_Num_Green>140%</> / <WeaponDes_Num_Green>180%</> / <WeaponDes_Num_Green>220%</>）",
+      "zh-Hant": "（1/2/3段蓄力斬：傷害/殺氣/流血分别为 <WeaponDes_Num_Green>140%</> / <WeaponDes_Num_Green>180%</> / <WeaponDes_Num_Green>220%</>）",
+      "en": " (Lv1/2/3 Charged Slash: DMG/Sha-Chi/Bleed <WeaponDes_Num_Green>140%</> / <WeaponDes_Num_Green>180%</> / <WeaponDes_Num_Green>220%</>)"
+    }
+  },
+  "Weapon_Function_002_25": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（满层癫狂态：伤害 <WeaponDes_Num_Green>+15%</>、流血积累 <WeaponDes_Num_Green>+100%</>，并附带持续流血积累 <WeaponDes_Num_Green>10%</>）",
+      "zh-Hant": "（滿層癫狂態：傷害 <WeaponDes_Num_Green>+15%</>、流血积累 <WeaponDes_Num_Green>+100%</>，并附带持續流血积累 <WeaponDes_Num_Green>10%</>）",
+      "en": " (Frenzy state: DMG <WeaponDes_Num_Green>+15%</>, Bleed buildup <WeaponDes_Num_Green>+100%</>, plus <WeaponDes_Num_Green>10%</> periodic Bleed)"
+    }
+  },
+  "Weapon_Function_003_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（基础<Character_Yellow_Decorator2>【莺痕】</>：受到伤害 <WeaponDes_Num_Green>+8%</> / 受到杀气 <WeaponDes_Num_Green>+5%</>，持续 <WeaponDes_Num_Green>5</>秒）",
+      "zh-Hant": "（基礎<Character_Yellow_Decorator2>【莺痕】</>：受到傷害 <WeaponDes_Num_Green>+8%</> / 受到殺氣 <WeaponDes_Num_Green>+5%</>，持續 <WeaponDes_Num_Green>5</>秒）",
+      "en": " (Base Yinghen: Target DMG taken <WeaponDes_Num_Green>+8%</> / Sha-Chi taken <WeaponDes_Num_Green>+5%</> for <WeaponDes_Num_Green>5</>s)"
+    }
+  },
+  "Weapon_Function_003_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（受伤害 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+15%</>|<WeaponDes_Num_Green>+20%</>} / 受杀气 {&<WeaponDes_Num_Green>+6%</>|<WeaponDes_Num_Green>+8%</>|<WeaponDes_Num_Green>+10%</>}，满级 <WeaponDes_Num_Green>+20%</>/<WeaponDes_Num_Green>+10%</>）",
+      "zh-Hant": "（受傷害 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+15%</>|<WeaponDes_Num_Green>+20%</>} / 受殺氣 {&<WeaponDes_Num_Green>+6%</>|<WeaponDes_Num_Green>+8%</>|<WeaponDes_Num_Green>+10%</>}，滿級 <WeaponDes_Num_Green>+20%</>/<WeaponDes_Num_Green>+10%</>）",
+      "en": " (DMG taken {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+15%</>|<WeaponDes_Num_Green>+20%</>} / Sha-Chi {&<WeaponDes_Num_Green>+6%</>|<WeaponDes_Num_Green>+8%</>|<WeaponDes_Num_Green>+10%</>}, Max <WeaponDes_Num_Green>+20%</>/<WeaponDes_Num_Green>+10%</>)"
+    }
+  },
+  "Weapon_Function_003_15": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（莺痕爆发倍率 <WeaponDes_Num_Green>300%</>）",
+      "zh-Hant": "（莺痕爆发倍率 <WeaponDes_Num_Green>300%</>）",
+      "en": " (Yinghen Burst <WeaponDes_Num_Green>300%</>)"
+    }
+  },
+  "Weapon_FunctionDes_004_EX": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（钢刃态：伤害/杀气 <WeaponDes_Num_Green>+10%</>；烈焰态：混沌伤 <WeaponDes_Num_Green>+10%</>；寒冰态：冰冻积累 <WeaponDes_Num_Green>+50%</>）",
+      "zh-Hant": "（鋼刃態：傷害/殺氣 <WeaponDes_Num_Green>+10%</>；烈焰態：混沌傷 <WeaponDes_Num_Green>+10%</>；寒冰態：冰凍积累 <WeaponDes_Num_Green>+50%</>）",
+      "en": " (Steel: DMG/Sha-Chi <WeaponDes_Num_Green>+10%</>; Fire: Chaos <WeaponDes_Num_Green>+10%</>; Ice: Frost <WeaponDes_Num_Green>+50%</>)"
+    }
+  },
+  "Weapon_Function_004_15": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（对冰冻目标伤害 <WeaponDes_Num_Green>+30%</>）",
+      "zh-Hant": "（对冰凍目标傷害 <WeaponDes_Num_Green>+30%</>）",
+      "en": " (DMG vs Frozen <WeaponDes_Num_Green>+30%</>)"
+    }
+  },
+  "Weapon_FunctionDes_004_Re": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（三态转换增益：伤害 <WeaponDes_Num_Green>+30%</> / 杀气 <WeaponDes_Num_Green>+10%</>）",
+      "zh-Hant": "（三態转换增益：傷害 <WeaponDes_Num_Green>+30%</> / 殺氣 <WeaponDes_Num_Green>+10%</>）",
+      "en": " (Tri-Stance Buff: DMG <WeaponDes_Num_Green>+30%</> / Sha-Chi <WeaponDes_Num_Green>+10%</>)"
+    }
+  },
+  "Weapon_FunctionDes_008_EX": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（微醺：物理/杀气 <WeaponDes_Num_Green>+10%</>、受火伤 <WeaponDes_Num_Green>+10%</>；醉酒：物理 <WeaponDes_Num_Green>+15%</> / 杀气 <WeaponDes_Num_Green>+5%</> / 绝技充能 <WeaponDes_Num_Green>+20%</> / 受火伤 <WeaponDes_Num_Green>+100%</>）",
+      "zh-Hant": "（微醺：物理/殺氣 <WeaponDes_Num_Green>+10%</>、受火傷 <WeaponDes_Num_Green>+10%</>；醉酒：物理 <WeaponDes_Num_Green>+15%</> / 殺氣 <WeaponDes_Num_Green>+5%</> / 绝技充能 <WeaponDes_Num_Green>+20%</> / 受火傷 <WeaponDes_Num_Green>+100%</>）",
+      "en": " (Tipsy: Phys/Sha-Chi <WeaponDes_Num_Green>+10%</>, Fire taken <WeaponDes_Num_Green>+10%</>; Drunk: Phys <WeaponDes_Num_Green>+15%</>/Sha-Chi <WeaponDes_Num_Green>+5%</>/Ult <WeaponDes_Num_Green>+20%</>/Fire taken <WeaponDes_Num_Green>+100%</>)"
+    }
+  },
+  "Weapon_Function_008_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（喝酒回复杀气 <WeaponDes_Num_Green>160</>）",
+      "zh-Hant": "（喝酒回復殺氣 <WeaponDes_Num_Green>160</>）",
+      "en": " (Drink restores <WeaponDes_Num_Green>160</> Sha-Chi)"
+    }
+  },
+  "Weapon_Function_008_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（微醺持续总时长 {&<WeaponDes_Num_Green>20秒</>|<WeaponDes_Num_Green>25秒</>|<WeaponDes_Num_Green>30秒</>}，满级 <WeaponDes_Num_Green>30秒</>）",
+      "zh-Hant": "（微醺持續总時长 {&<WeaponDes_Num_Green>20秒</>|<WeaponDes_Num_Green>25秒</>|<WeaponDes_Num_Green>30秒</>}，滿級 <WeaponDes_Num_Green>30秒</>）",
+      "en": " (Tipsy Duration {&<WeaponDes_Num_Green>20秒</>|<WeaponDes_Num_Green>25秒</>|<WeaponDes_Num_Green>30秒</>}, Max <WeaponDes_Num_Green>30秒</>)"
+    }
+  },
+  "Weapon_Function_008_25": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（饮酒状态额外物理/杀气 <WeaponDes_Num_Green>+10%</>）",
+      "zh-Hant": "（飲酒狀態額外物理/殺氣 <WeaponDes_Num_Green>+10%</>）",
+      "en": " (Extra Phys/Sha-Chi <WeaponDes_Num_Green>+10%</>)"
+    }
+  },
+  "Weapon_FunctionDes_009_EX": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（格挡杀气损耗降低 <WeaponDes_Num_Green>40%</>）",
+      "zh-Hant": "（格擋殺氣损耗降低 <WeaponDes_Num_Green>40%</>）",
+      "en": " (Guard Sha-Chi cost <WeaponDes_Num_Green>-40%</>)"
+    }
+  },
+  "Weapon_Function_009_25": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（穿透伤害系数：物理 <WeaponDes_Num_Green>25%</> / 杀气 <WeaponDes_Num_Green>25%</>）",
+      "zh-Hant": "（穿透傷害系數：物理 <WeaponDes_Num_Green>25%</> / 殺氣 <WeaponDes_Num_Green>25%</>）",
+      "en": " (Penetration coeff: Phys <WeaponDes_Num_Green>25%</> / Sha-Chi <WeaponDes_Num_Green>25%</>)"
+    }
+  },
+  "Weapon_FunctionDes_010_EX": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（风势：杀气 <WeaponDes_Num_Green>+10%</>；雷势：雷伤 <WeaponDes_Num_Green>+5%</>（解放态 <WeaponDes_Num_Green>+20%</>）、感电积累 <WeaponDes_Num_Green>+20%</>）",
+      "zh-Hant": "（風勢：殺氣 <WeaponDes_Num_Green>+10%</>；雷勢：雷傷 <WeaponDes_Num_Green>+5%</>（解放態 <WeaponDes_Num_Green>+20%</>）、感電积累 <WeaponDes_Num_Green>+20%</>）",
+      "en": " (Wind: Sha-Chi <WeaponDes_Num_Green>+10%</>; Thunder: Lightning <WeaponDes_Num_Green>+5%</> (Unleashed <WeaponDes_Num_Green>+20%</>), Elec <WeaponDes_Num_Green>+20%</>)"
+    }
+  },
+  "Weapon_Function_011_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（受到所有伤害提升 {&<WeaponDes_Num_Green>+6%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+16%</>}，满级 <WeaponDes_Num_Green>+16%</>）",
+      "zh-Hant": "（受到所有傷害提升 {&<WeaponDes_Num_Green>+6%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+16%</>}，滿級 <WeaponDes_Num_Green>+16%</>）",
+      "en": " (Target DMG Taken {&<WeaponDes_Num_Green>+6%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+16%</>}, Max <WeaponDes_Num_Green>+16%</>)"
+    }
+  },
+  "Weapon_Function_012_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（1/2/3阶凝气：伤害 <WeaponDes_Num_Green>+13%</>/<WeaponDes_Num_Green>+20%</>/<WeaponDes_Num_Green>+30%</>，3阶额外杀气 <WeaponDes_Num_Green>+10%</>）",
+      "zh-Hant": "（1/2/3阶凝氣：傷害 <WeaponDes_Num_Green>+13%</>/<WeaponDes_Num_Green>+20%</>/<WeaponDes_Num_Green>+30%</>，3阶額外殺氣 <WeaponDes_Num_Green>+10%</>）",
+      "en": " (Lv1/2/3 Charge Buff: DMG <WeaponDes_Num_Green>+13%</>/<WeaponDes_Num_Green>+20%</>/<WeaponDes_Num_Green>+30%</>, Lv3 Sha-Chi <WeaponDes_Num_Green>+10%</>)"
+    }
+  },
+  "Weapon_FunctionDes_013_EX": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（持续流血增伤：每秒 <WeaponDes_Num_Green>+2%</>，最高 <WeaponDes_Num_Green>+25%</>；特殊技减伤 <WeaponDes_Num_Green>20%</>）",
+      "zh-Hant": "（持續流血增傷：每秒 <WeaponDes_Num_Green>+2%</>，最高 <WeaponDes_Num_Green>+25%</>；特殊技減傷 <WeaponDes_Num_Green>20%</>）",
+      "en": " (Sustained Bleed bonus: <WeaponDes_Num_Green>+2%</>/s up to <WeaponDes_Num_Green>+25%</>; Special DR <WeaponDes_Num_Green>20%</>)"
+    }
+  },
+  "Weapon_FunctionDes_015_EX": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（完美格挡后下击杀气削减 <WeaponDes_Num_Green>+30%</>）",
+      "zh-Hant": "（完美格擋后下擊殺氣削減 <WeaponDes_Num_Green>+30%</>）",
+      "en": " (Next hit Sha-Chi <WeaponDes_Num_Green>+30%</> after Perfect Deflect)"
+    }
+  },
+  "Weapon_Function_015_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（破防伤害提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，满级 <WeaponDes_Num_Green>+30%</>）",
+      "zh-Hant": "（破防傷害提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，滿級 <WeaponDes_Num_Green>+30%</>）",
+      "en": " (Break DMG {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}, Max <WeaponDes_Num_Green>+30%</>)"
+    }
+  },
+  "Weapon_Function_015_15": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（血锯流血积累 <WeaponDes_Num_Green>+200%</>）",
+      "zh-Hant": "（血锯流血积累 <WeaponDes_Num_Green>+200%</>）",
+      "en": " (Blood Saw Bleed buildup <WeaponDes_Num_Green>+200%</>)"
+    }
+  },
+  "Weapon_Function_016_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（冰霜强化：冰冻积累 <WeaponDes_Num_Green>+70%</>）",
+      "zh-Hant": "（冰霜強化：冰凍积累 <WeaponDes_Num_Green>+70%</>）",
+      "en": " (Frost Buff: Frost buildup <WeaponDes_Num_Green>+70%</>)"
+    }
+  },
+  "Weapon_Function_016_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（冰冻积累强化 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，满级 <WeaponDes_Num_Green>+30%</>）",
+      "zh-Hant": "（冰凍积累強化 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，滿級 <WeaponDes_Num_Green>+30%</>）",
+      "en": " (Frost Buildup {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}, Max <WeaponDes_Num_Green>+30%</>)"
+    }
+  },
+  "Weapon_Function_016_15": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（强化攻击命中回复杀气 <WeaponDes_Num_Green>+10</>）",
+      "zh-Hant": "（強化攻擊命中回復殺氣 <WeaponDes_Num_Green>+10</>）",
+      "en": " (Buffed hit restores <WeaponDes_Num_Green>+10</> Sha-Chi)"
+    }
+  },
+  "Weapon_Function_017_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（花瓣引爆：小花 <WeaponDes_Num_Green>9%</> / 大花 <WeaponDes_Num_Green>13.5%</>（杀气易伤 <WeaponDes_Num_Green>+20%</>）/ 终极花 <WeaponDes_Num_Green>30%</> 伤害与杀气）",
+      "zh-Hant": "（花瓣引爆：小花 <WeaponDes_Num_Green>9%</> / 大花 <WeaponDes_Num_Green>13.5%</>（殺氣易傷 <WeaponDes_Num_Green>+20%</>）/ 终极花 <WeaponDes_Num_Green>30%</> 傷害与殺氣）",
+      "en": " (Blossom detonate: Small <WeaponDes_Num_Green>9%</> / Big <WeaponDes_Num_Green>13.5%</> (Sha-Chi vuln <WeaponDes_Num_Green>+20%</>) / Ultra <WeaponDes_Num_Green>30%</> DMG & Sha-Chi)"
+    }
+  },
+  "Weapon_Function_017_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（持续杀气损耗 {&<WeaponDes_Num_Green>11%</>|<WeaponDes_Num_Green>14%</>|<WeaponDes_Num_Green>17%</>}，爆炸强化 {&<WeaponDes_Num_Green>2.5秒</>|<WeaponDes_Num_Green>3秒</>|<WeaponDes_Num_Green>3.5秒</>}）",
+      "zh-Hant": "（持續殺氣损耗 {&<WeaponDes_Num_Green>11%</>|<WeaponDes_Num_Green>14%</>|<WeaponDes_Num_Green>17%</>}，爆炸強化 {&<WeaponDes_Num_Green>2.5秒</>|<WeaponDes_Num_Green>3秒</>|<WeaponDes_Num_Green>3.5秒</>}）",
+      "en": " (Sha-Chi drain {&<WeaponDes_Num_Green>11%</>|<WeaponDes_Num_Green>14%</>|<WeaponDes_Num_Green>17%</>}, Burst Buff {&<WeaponDes_Num_Green>2.5s</>|<WeaponDes_Num_Green>3s</>|<WeaponDes_Num_Green>3.5s</>})"
+    }
+  },
+  "Weapon_Function_017_15": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（强化状态：伤害与杀气 <WeaponDes_Num_Green>+20%</>）",
+      "zh-Hant": "（強化狀態：傷害与殺氣 <WeaponDes_Num_Green>+20%</>）",
+      "en": " (Buffed state: DMG & Sha-Chi <WeaponDes_Num_Green>+20%</>)"
+    }
+  },
+  "Weapon_FunctionDes_017_Re": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（花瓣状态：杀气消耗 <WeaponDes_Num_Green>-35%</>、治疗效果 <WeaponDes_Num_Green>+30%</>；连击爆发 <WeaponDes_Num_Green>200%</>）",
+      "zh-Hant": "（花瓣狀態：殺氣消耗 <WeaponDes_Num_Green>-35%</>、治疗效果 <WeaponDes_Num_Green>+30%</>；連擊爆发 <WeaponDes_Num_Green>200%</>）",
+      "en": " (Blossom: Sha-Chi cost <WeaponDes_Num_Green>-35%</>, Heal <WeaponDes_Num_Green>+30%</>; Burst <WeaponDes_Num_Green>200%</>)"
+    }
+  },
+  "Weapon_FunctionDes_018_EX": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（蓄力期间受到物理/杀气伤害降低 <WeaponDes_Num_Green>20%</>）",
+      "zh-Hant": "（蓄力期間受到物理/殺氣傷害降低 <WeaponDes_Num_Green>20%</>）",
+      "en": " (Charge DR: <WeaponDes_Num_Green>20%</> Phys & Sha-Chi)"
+    }
+  },
+  "Weapon_Function_018_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（蓄力攻击伤害提升 {&<WeaponDes_Num_Green>+5%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>}，满级 <WeaponDes_Num_Green>+20%</>）",
+      "zh-Hant": "（蓄力攻擊傷害提升 {&<WeaponDes_Num_Green>+5%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>}，滿級 <WeaponDes_Num_Green>+20%</>）",
+      "en": " (Charged Attack DMG {&<WeaponDes_Num_Green>+5%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>}, Max <WeaponDes_Num_Green>+20%</>)"
+    }
+  },
+  "Weapon_Function_019_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（印记触发：伤害 <WeaponDes_Num_Green>+15%</> / 杀气 <WeaponDes_Num_Green>+15%</>）",
+      "zh-Hant": "（印記触发：傷害 <WeaponDes_Num_Green>+15%</> / 殺氣 <WeaponDes_Num_Green>+15%</>）",
+      "en": " (Mark proc: DMG <WeaponDes_Num_Green>+15%</> / Sha-Chi <WeaponDes_Num_Green>+15%</>)"
+    }
+  },
+  "Weapon_Function_019_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（过载增伤 {&<WeaponDes_Num_Green>+5%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+15%</>}，满级 <WeaponDes_Num_Green>+15%</>）",
+      "zh-Hant": "（過載增傷 {&<WeaponDes_Num_Green>+5%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+15%</>}，滿級 <WeaponDes_Num_Green>+15%</>）",
+      "en": " (Overcharge DMG {&<WeaponDes_Num_Green>+5%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+15%</>}, Max <WeaponDes_Num_Green>+15%</>)"
+    }
+  },
+  "Weapon_Function_022_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（凝气强化：伤害 <WeaponDes_Num_Green>+20%</>）",
+      "zh-Hant": "（凝氣強化：傷害 <WeaponDes_Num_Green>+20%</>）",
+      "en": " (Buffed DMG <WeaponDes_Num_Green>+20%</>)"
+    }
+  },
+  "Weapon_FunctionDes_023_EX": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（妖气上限 <WeaponDes_Num_Green>100</>，满值爆发伤害 <WeaponDes_Num_Green>200%</> / 杀气 <WeaponDes_Num_Green>200%</> / 削韧 <WeaponDes_Num_Green>100</>；<WeaponDes_Num_Green>2</>秒未攻击后每秒衰减 <WeaponDes_Num_Green>5</>）",
+      "zh-Hant": "（妖氣上限 <WeaponDes_Num_Green>100</>，滿值爆发傷害 <WeaponDes_Num_Green>200%</> / 殺氣 <WeaponDes_Num_Green>200%</> / 削韌 <WeaponDes_Num_Green>100</>；<WeaponDes_Num_Green>2</>秒未攻擊后每秒衰減 <WeaponDes_Num_Green>5</>）",
+      "en": " (Max YaoQi <WeaponDes_Num_Green>100</>; Burst DMG <WeaponDes_Num_Green>200%</> / Sha-Chi <WeaponDes_Num_Green>200%</> / Poise <WeaponDes_Num_Green>100</>; decays <WeaponDes_Num_Green>5</>/s after <WeaponDes_Num_Green>2</>s)"
+    }
+  },
+  "Weapon_Function_023_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（蓄势连斩 <WeaponDes_Num_Green>5</>段：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>72%</>；<Character_Yellow_Decorator2>【幽蓝侵蚀】</>引爆杀气倍率 <WeaponDes_Num_Green>×1.3</>，即基础 <WeaponDes_Num_Green>260%</> / Lv10 <WeaponDes_Num_Green>303%</> / Lv20 <WeaponDes_Num_Green>346%</> / Lv30 <WeaponDes_Num_Green>390%</>）",
+      "zh-Hant": "（蓄勢連斬 <WeaponDes_Num_Green>5</>段：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>72%</>；<Character_Yellow_Decorator2>【幽蓝侵蚀】</>引爆殺氣倍率 <WeaponDes_Num_Green>×1.3</>，即基礎 <WeaponDes_Num_Green>260%</> / Lv10 <WeaponDes_Num_Green>303%</> / Lv20 <WeaponDes_Num_Green>346%</> / Lv30 <WeaponDes_Num_Green>390%</>）",
+      "en": " (Charged Combo <WeaponDes_Num_Green>5</> hits: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>72%</>; Blue Erosion Burst Sha-Chi <WeaponDes_Num_Green>x1.3</>: <WeaponDes_Num_Green>260%</> base, <WeaponDes_Num_Green>303%</>/<WeaponDes_Num_Green>346%</>/<WeaponDes_Num_Green>390%</> at Lv10/20/30)"
+    }
+  },
+  "Weapon_Function_023_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（爆发伤害/杀气倍率 {&<WeaponDes_Num_Green>233%</>|<WeaponDes_Num_Green>266%</>|<WeaponDes_Num_Green>300%</>}，提升 {&<WeaponDes_Num_Green>+16.5%</>|<WeaponDes_Num_Green>+33%</>|<WeaponDes_Num_Green>+50%</>}，满级 <WeaponDes_Num_Green>300%</>）",
+      "zh-Hant": "（爆发傷害/殺氣倍率 {&<WeaponDes_Num_Green>233%</>|<WeaponDes_Num_Green>266%</>|<WeaponDes_Num_Green>300%</>}，提升 {&<WeaponDes_Num_Green>+16.5%</>|<WeaponDes_Num_Green>+33%</>|<WeaponDes_Num_Green>+50%</>}，滿級 <WeaponDes_Num_Green>300%</>）",
+      "en": " (Burst DMG/Sha-Chi {&<WeaponDes_Num_Green>233%</>|<WeaponDes_Num_Green>266%</>|<WeaponDes_Num_Green>300%</>}, {&<WeaponDes_Num_Green>+16.5%</>|<WeaponDes_Num_Green>+33%</>|<WeaponDes_Num_Green>+50%</>}, Max <WeaponDes_Num_Green>300%</>)"
+    }
+  },
+  "Weapon_Function_023_15": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（蓄势重击 <WeaponDes_Num_Green>7</>段：伤害 <WeaponDes_Num_Green>140%</> / 杀气 <WeaponDes_Num_Green>126%</>；<Character_Yellow_Decorator2>【深红侵蚀】</>引爆伤害倍率 <WeaponDes_Num_Green>×1.3</>，即基础 <WeaponDes_Num_Green>260%</> / Lv10 <WeaponDes_Num_Green>303%</> / Lv20 <WeaponDes_Num_Green>346%</> / Lv30 <WeaponDes_Num_Green>390%</>）",
+      "zh-Hant": "（蓄勢重擊 <WeaponDes_Num_Green>7</>段：傷害 <WeaponDes_Num_Green>140%</> / 殺氣 <WeaponDes_Num_Green>126%</>；<Character_Yellow_Decorator2>【深红侵蚀】</>引爆傷害倍率 <WeaponDes_Num_Green>×1.3</>，即基礎 <WeaponDes_Num_Green>260%</> / Lv10 <WeaponDes_Num_Green>303%</> / Lv20 <WeaponDes_Num_Green>346%</> / Lv30 <WeaponDes_Num_Green>390%</>）",
+      "en": " (Charged Heavy <WeaponDes_Num_Green>7</> hits: DMG <WeaponDes_Num_Green>140%</> / Sha-Chi <WeaponDes_Num_Green>126%</>; Crimson Erosion Burst DMG <WeaponDes_Num_Green>x1.3</>: <WeaponDes_Num_Green>260%</> base, <WeaponDes_Num_Green>303%</>/<WeaponDes_Num_Green>346%</>/<WeaponDes_Num_Green>390%</> at Lv10/20/30)"
+    }
+  },
+  "Weapon_Function_023_25": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（提前引爆导致破防时，破防时间延长 <WeaponDes_Num_Green>+20%</>）",
+      "zh-Hant": "（提前引爆导致破防時，破防時間延长 <WeaponDes_Num_Green>+20%</>）",
+      "en": " (Extends break duration by <WeaponDes_Num_Green>+20%</>)"
+    }
+  },
+  "Weapon_FunctionDes_026_EX": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（强化1阶：物理 <WeaponDes_Num_Green>+25%</> / 杀气 <WeaponDes_Num_Green>+20%</>；强化2阶：物理 <WeaponDes_Num_Green>+50%</> / 杀气 <WeaponDes_Num_Green>+40%</>）",
+      "zh-Hant": "（強化1阶：物理 <WeaponDes_Num_Green>+25%</> / 殺氣 <WeaponDes_Num_Green>+20%</>；強化2阶：物理 <WeaponDes_Num_Green>+50%</> / 殺氣 <WeaponDes_Num_Green>+40%</>）",
+      "en": " (Phase 1: Phys <WeaponDes_Num_Green>+25%</> / Sha-Chi <WeaponDes_Num_Green>+20%</>; Phase 2: Phys <WeaponDes_Num_Green>+50%</> / Sha-Chi <WeaponDes_Num_Green>+40%</>)"
+    }
+  },
+  "Weapon_Function_027_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（突刺强化：物理 <WeaponDes_Num_Green>+20%</> / 杀气 <WeaponDes_Num_Green>+5%</>）",
+      "zh-Hant": "（突刺強化：物理 <WeaponDes_Num_Green>+20%</> / 殺氣 <WeaponDes_Num_Green>+5%</>）",
+      "en": " (Stab Buff: Phys <WeaponDes_Num_Green>+20%</> / Sha-Chi <WeaponDes_Num_Green>+5%</>)"
+    }
+  },
+  "Weapon_Function_027_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（每段伤害增幅 {&<WeaponDes_Num_Green>+6%</>|<WeaponDes_Num_Green>+7%</>|<WeaponDes_Num_Green>+8%</>}，满级 <WeaponDes_Num_Green>+8%</>）",
+      "zh-Hant": "（每段傷害增幅 {&<WeaponDes_Num_Green>+6%</>|<WeaponDes_Num_Green>+7%</>|<WeaponDes_Num_Green>+8%</>}，滿級 <WeaponDes_Num_Green>+8%</>）",
+      "en": " (DMG Ramp per Hit {&<WeaponDes_Num_Green>+6%</>|<WeaponDes_Num_Green>+7%</>|<WeaponDes_Num_Green>+8%</>}, Max <WeaponDes_Num_Green>+8%</>)"
+    }
+  },
+  "Weapon_Function_028_15": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（强化状态：伤害 <WeaponDes_Num_Green>+20%</>，对护盾伤害大幅提升）",
+      "zh-Hant": "（強化狀態：傷害 <WeaponDes_Num_Green>+20%</>，对護盾傷害大幅提升）",
+      "en": " (Buffed DMG <WeaponDes_Num_Green>+20%</>, massive Shield DMG)"
+    }
+  },
+  "Weapon_Function_029_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（飞环伤害提升 {&<WeaponDes_Num_Green>+15%</>|<WeaponDes_Num_Green>+30%</>|<WeaponDes_Num_Green>+50%</>}，满级 <WeaponDes_Num_Green>+50%</>）",
+      "zh-Hant": "（飛環傷害提升 {&<WeaponDes_Num_Green>+15%</>|<WeaponDes_Num_Green>+30%</>|<WeaponDes_Num_Green>+50%</>}，滿級 <WeaponDes_Num_Green>+50%</>）",
+      "en": " (Chakram DMG {&<WeaponDes_Num_Green>+15%</>|<WeaponDes_Num_Green>+30%</>|<WeaponDes_Num_Green>+50%</>}, Max <WeaponDes_Num_Green>+50%</>)"
+    }
+  },
+  "Weapon_FunctionDes_031_EX": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（冰火印记增伤：伤害 <WeaponDes_Num_Green>+20%</>（满蓄 <WeaponDes_Num_Green>+25%</>）、杀气 <WeaponDes_Num_Green>+5%</>）",
+      "zh-Hant": "（冰火印記增傷：傷害 <WeaponDes_Num_Green>+20%</>（滿蓄 <WeaponDes_Num_Green>+25%</>）、殺氣 <WeaponDes_Num_Green>+5%</>）",
+      "en": " (Fire/Ice Boost: DMG <WeaponDes_Num_Green>+20%</> (Full <WeaponDes_Num_Green>+25%</>), Sha-Chi <WeaponDes_Num_Green>+5%</>)"
+    }
+  },
+  "PhantomEdges_Function_001_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（蓄力受伤害降低 {&<WeaponDes_Num_Green>-15%</>|<WeaponDes_Num_Green>-30%</>|<WeaponDes_Num_Green>-45%</>}，满级 <WeaponDes_Num_Green>-45%</>）",
+      "zh-Hant": "（蓄力受傷害降低 {&<WeaponDes_Num_Green>-15%</>|<WeaponDes_Num_Green>-30%</>|<WeaponDes_Num_Green>-45%</>}，滿級 <WeaponDes_Num_Green>-45%</>）",
+      "en": " (Charge DMG Taken {&<WeaponDes_Num_Green>-15%</>|<WeaponDes_Num_Green>-30%</>|<WeaponDes_Num_Green>-45%</>}, Max <WeaponDes_Num_Green>-45%</>)"
+    }
+  },
+  "PhantomEdges_Function_004_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（处决回复灵影概率 {&<WeaponDes_Num_Green>33%</>|<WeaponDes_Num_Green>66%</>|<WeaponDes_Num_Green>100%</>}，满级 <WeaponDes_Num_Green>100%</>）",
+      "zh-Hant": "（處決回復靈影概率 {&<WeaponDes_Num_Green>33%</>|<WeaponDes_Num_Green>66%</>|<WeaponDes_Num_Green>100%</>}，滿級 <WeaponDes_Num_Green>100%</>）",
+      "en": " (Execution Spirit Shadow chance {&<WeaponDes_Num_Green>33%</>|<WeaponDes_Num_Green>66%</>|<WeaponDes_Num_Green>100%</>}, Max <WeaponDes_Num_Green>100%</>)"
+    }
+  },
+  "PhantomEdges_FunctionDes_005_Re": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（铸魂激活：混沌伤害 <WeaponDes_Num_Green>+10%</>）",
+      "zh-Hant": "（铸魂激活：混沌傷害 <WeaponDes_Num_Green>+10%</>）",
+      "en": " (Awakened Chaos DMG <WeaponDes_Num_Green>+10%</>)"
+    }
+  },
+  "PhantomEdges_Function_006_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（地面火焰伤害倍率 {&<WeaponDes_Num_Green>100%</>|<WeaponDes_Num_Green>120%</>|<WeaponDes_Num_Green>140%</>}，满级 <WeaponDes_Num_Green>140%</>）",
+      "zh-Hant": "（地面火焰傷害倍率 {&<WeaponDes_Num_Green>100%</>|<WeaponDes_Num_Green>120%</>|<WeaponDes_Num_Green>140%</>}，滿級 <WeaponDes_Num_Green>140%</>）",
+      "en": " (Fire Ground DMG {&<WeaponDes_Num_Green>100%</>|<WeaponDes_Num_Green>120%</>|<WeaponDes_Num_Green>140%</>}, Max <WeaponDes_Num_Green>140%</>)"
+    }
+  },
+  "PhantomEdges_Function_008_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（左闪射击 <WeaponDes_Num_Green>73.3%</> / 杀气 <WeaponDes_Num_Green>58.7%</>；右闪射击 <WeaponDes_Num_Green>2</>段 <WeaponDes_Num_Green>146.7%</> / 杀气 <WeaponDes_Num_Green>117.3%</>）",
+      "zh-Hant": "（左閃射擊 <WeaponDes_Num_Green>73.3%</> / 殺氣 <WeaponDes_Num_Green>58.7%</>；右閃射擊 <WeaponDes_Num_Green>2</>段 <WeaponDes_Num_Green>146.7%</> / 殺氣 <WeaponDes_Num_Green>117.3%</>）",
+      "en": " (Left Dash <WeaponDes_Num_Green>73.3%</> / Sha-Chi <WeaponDes_Num_Green>58.7%</>; Right Dash <WeaponDes_Num_Green>2</> hits <WeaponDes_Num_Green>146.7%</> / Sha-Chi <WeaponDes_Num_Green>117.3%</>)"
+    }
+  },
+  "PhantomEdges_Function_008_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（对未破防敌人伤害提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+15%</>|<WeaponDes_Num_Green>+20%</>}，满级 <WeaponDes_Num_Green>+20%</>）",
+      "zh-Hant": "（对未破防敌人傷害提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+15%</>|<WeaponDes_Num_Green>+20%</>}，滿級 <WeaponDes_Num_Green>+20%</>）",
+      "en": " (DMG vs Unbroken {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+15%</>|<WeaponDes_Num_Green>+20%</>}, Max <WeaponDes_Num_Green>+20%</>)"
+    }
+  },
+  "PhantomEdges_Function_008_15": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（前冲射击：伤害 <WeaponDes_Num_Green>73.3%</> / 杀气 <WeaponDes_Num_Green>58.7%</>）",
+      "zh-Hant": "（前衝射擊：傷害 <WeaponDes_Num_Green>73.3%</> / 殺氣 <WeaponDes_Num_Green>58.7%</>）",
+      "en": " (Fwd Dash Shot: DMG <WeaponDes_Num_Green>73.3%</> / Sha-Chi <WeaponDes_Num_Green>58.7%</>)"
+    }
+  },
+  "PhantomEdges_Function_008_25": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（后撤射击 <WeaponDes_Num_Green>2</>段：伤害 <WeaponDes_Num_Green>146.7%</> / 杀气 <WeaponDes_Num_Green>117.3%</>）",
+      "zh-Hant": "（后撤射擊 <WeaponDes_Num_Green>2</>段：傷害 <WeaponDes_Num_Green>146.7%</> / 殺氣 <WeaponDes_Num_Green>117.3%</>）",
+      "en": " (Back Dash Shot <WeaponDes_Num_Green>2</> hits: DMG <WeaponDes_Num_Green>146.7%</> / Sha-Chi <WeaponDes_Num_Green>117.3%</>)"
+    }
+  },
+  "PhantomEdges_Function_009_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（伏击伤害提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，满级 <WeaponDes_Num_Green>+30%</>）",
+      "zh-Hant": "（伏擊傷害提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，滿級 <WeaponDes_Num_Green>+30%</>）",
+      "en": " (Ambush DMG {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}, Max <WeaponDes_Num_Green>+30%</>)"
+    }
+  },
+  "PhantomEdges_Function_010_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（最佳射程伤害/杀气/削韧提升 {&<WeaponDes_Num_Green>+5%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>}，满级 <WeaponDes_Num_Green>+20%</>）",
+      "zh-Hant": "（最佳射程傷害/殺氣/削韌提升 {&<WeaponDes_Num_Green>+5%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>}，滿級 <WeaponDes_Num_Green>+20%</>）",
+      "en": " (Sweet-spot DMG/Sha-Chi/Poise {&<WeaponDes_Num_Green>+5%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>}, Max <WeaponDes_Num_Green>+20%</>)"
+    }
+  },
+  "PhantomEdges_Function_012_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（火焰伤害提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，满级 <WeaponDes_Num_Green>+30%</>）",
+      "zh-Hant": "（火焰傷害提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，滿級 <WeaponDes_Num_Green>+30%</>）",
+      "en": " (Fire DMG {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}, Max <WeaponDes_Num_Green>+30%</>)"
+    }
+  },
+  "PhantomEdges_Function_013_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（召唤物在场时间 {&<WeaponDes_Num_Green>20秒</>|<WeaponDes_Num_Green>25秒</>|<WeaponDes_Num_Green>30秒</>}，满级 <WeaponDes_Num_Green>30秒</>）",
+      "zh-Hant": "（召唤物在场時間 {&<WeaponDes_Num_Green>20秒</>|<WeaponDes_Num_Green>25秒</>|<WeaponDes_Num_Green>30秒</>}，滿級 <WeaponDes_Num_Green>30秒</>）",
+      "en": " (Summon Duration {&<WeaponDes_Num_Green>20秒</>|<WeaponDes_Num_Green>25秒</>|<WeaponDes_Num_Green>30秒</>}, Max <WeaponDes_Num_Green>30秒</>)"
+    }
+  },
+  "PhantomEdges_Function_014_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（对异常状态敌人伤害提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，满级 <WeaponDes_Num_Green>+30%</>）",
+      "zh-Hant": "（对異常狀態敌人傷害提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，滿級 <WeaponDes_Num_Green>+30%</>）",
+      "en": " (DMG vs Status Targets {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}, Max <WeaponDes_Num_Green>+30%</>)"
+    }
+  },
+  "PhantomEdges_Function_015_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（磷火降低敌人攻击力 {&<WeaponDes_Num_Green>-20%</>|<WeaponDes_Num_Green>-30%</>|<WeaponDes_Num_Green>-40%</>}，满级 <WeaponDes_Num_Green>-40%</>）",
+      "zh-Hant": "（磷火降低敌人攻擊力 {&<WeaponDes_Num_Green>-20%</>|<WeaponDes_Num_Green>-30%</>|<WeaponDes_Num_Green>-40%</>}，滿級 <WeaponDes_Num_Green>-40%</>）",
+      "en": " (Enemy ATK Reduction {&<WeaponDes_Num_Green>-20%</>|<WeaponDes_Num_Green>-30%</>|<WeaponDes_Num_Green>-40%</>}, Max <WeaponDes_Num_Green>-40%</>)"
+    }
+  },
+  "PhantomEdges_Function_015_15": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（绿火易伤：受物理/元素伤害 <WeaponDes_Num_Green>+15%</>、受杀气伤害 <WeaponDes_Num_Green>+10%</>；自身减伤 <WeaponDes_Num_Green>25%</>）",
+      "zh-Hant": "（绿火易傷：受物理/元素傷害 <WeaponDes_Num_Green>+15%</>、受殺氣傷害 <WeaponDes_Num_Green>+10%</>；自身減傷 <WeaponDes_Num_Green>25%</>）",
+      "en": " (Green Fire: Target takes <WeaponDes_Num_Green>+15%</> DMG / <WeaponDes_Num_Green>+10%</> Sha-Chi; Self DR <WeaponDes_Num_Green>25%</>)"
+    }
+  },
+  "PhantomEdges_Function_018_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（光轮剑持续时间 {&<WeaponDes_Num_Green>7秒</>|<WeaponDes_Num_Green>9秒</>|<WeaponDes_Num_Green>11秒</>}，满级 <WeaponDes_Num_Green>11秒</>）",
+      "zh-Hant": "（光轮劍持續時間 {&<WeaponDes_Num_Green>7秒</>|<WeaponDes_Num_Green>9秒</>|<WeaponDes_Num_Green>11秒</>}，滿級 <WeaponDes_Num_Green>11秒</>）",
+      "en": " (Halo Blade Duration {&<WeaponDes_Num_Green>7秒</>|<WeaponDes_Num_Green>9秒</>|<WeaponDes_Num_Green>11秒</>}, Max <WeaponDes_Num_Green>11秒</>)"
+    }
+  },
+  "PhantomEdges_Function_019_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（雷伤与感电积累提升 {&<WeaponDes_Num_Green>+5%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+15%</>}，满级 <WeaponDes_Num_Green>+15%</>）",
+      "zh-Hant": "（雷傷与感電积累提升 {&<WeaponDes_Num_Green>+5%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+15%</>}，滿級 <WeaponDes_Num_Green>+15%</>）",
+      "en": " (Lightning & Elec {&<WeaponDes_Num_Green>+5%</>|<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+15%</>}, Max <WeaponDes_Num_Green>+15%</>)"
+    }
+  },
+  "PhantomEdges_Function_020_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（初始流血积累 <WeaponDes_Num_Green>+20%</>）",
+      "zh-Hant": "（初始流血积累 <WeaponDes_Num_Green>+20%</>）",
+      "en": " (Base Bleed buildup <WeaponDes_Num_Green>+20%</>)"
+    }
+  },
+  "PhantomEdges_Function_020_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（流血积累提升 {&<WeaponDes_Num_Green>+26.6%</>|<WeaponDes_Num_Green>+33.3%</>|<WeaponDes_Num_Green>+40%</>}，满级 <WeaponDes_Num_Green>+40%</>）",
+      "zh-Hant": "（流血积累提升 {&<WeaponDes_Num_Green>+26.6%</>|<WeaponDes_Num_Green>+33.3%</>|<WeaponDes_Num_Green>+40%</>}，滿級 <WeaponDes_Num_Green>+40%</>）",
+      "en": " (Bleed Buildup {&<WeaponDes_Num_Green>+26.6%</>|<WeaponDes_Num_Green>+33.3%</>|<WeaponDes_Num_Green>+40%</>}, Max <WeaponDes_Num_Green>+40%</>)"
+    }
+  },
+  "PhantomEdges_Function_020_25": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（处决伤害 <WeaponDes_Num_Green>+40%</>）",
+      "zh-Hant": "（處決傷害 <WeaponDes_Num_Green>+40%</>）",
+      "en": " (Execution DMG <WeaponDes_Num_Green>+40%</>)"
+    }
+  },
+  "PhantomEdges_Function_023_5": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（领域内：伤害 <WeaponDes_Num_Green>+25%</>、受到伤害降低 <WeaponDes_Num_Green>30%</>）",
+      "zh-Hant": "（领域内：傷害 <WeaponDes_Num_Green>+25%</>、受到傷害降低 <WeaponDes_Num_Green>30%</>）",
+      "en": " (In field: DMG <WeaponDes_Num_Green>+25%</>, DMG taken <WeaponDes_Num_Green>-30%</>)"
+    }
+  },
+  "PhantomEdges_Function_023_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（场域持续时间 {&<WeaponDes_Num_Green>10秒</>|<WeaponDes_Num_Green>12秒</>|<WeaponDes_Num_Green>14秒</>}，满级 <WeaponDes_Num_Green>14秒</>）",
+      "zh-Hant": "（场域持續時間 {&<WeaponDes_Num_Green>10秒</>|<WeaponDes_Num_Green>12秒</>|<WeaponDes_Num_Green>14秒</>}，滿級 <WeaponDes_Num_Green>14秒</>）",
+      "en": " (Field Duration {&<WeaponDes_Num_Green>10秒</>|<WeaponDes_Num_Green>12秒</>|<WeaponDes_Num_Green>14秒</>}, Max <WeaponDes_Num_Green>14秒</>)"
+    }
+  },
+  "PhantomEdges_Function_023_15": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（领域内敌人格挡杀气伤害 <WeaponDes_Num_Green>+30%</>）",
+      "zh-Hant": "（领域内敌人格擋殺氣傷害 <WeaponDes_Num_Green>+30%</>）",
+      "en": " (Enemies in field take <WeaponDes_Num_Green>+30%</> Guard Sha-Chi DMG)"
+    }
+  },
+  "PhantomEdges_Function_024_10": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（蓝/红音刃伤害提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，满级 <WeaponDes_Num_Green>+30%</>）",
+      "zh-Hant": "（蓝/红音刃傷害提升 {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}，滿級 <WeaponDes_Num_Green>+30%</>）",
+      "en": " (Blue/Red Note DMG {&<WeaponDes_Num_Green>+10%</>|<WeaponDes_Num_Green>+20%</>|<WeaponDes_Num_Green>+30%</>}, Max <WeaponDes_Num_Green>+30%</>)"
+    }
+  },
+  "PhantomEdges_Function_025_25": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（强化杀气伤害 <WeaponDes_Num_Green>×2</>）",
+      "zh-Hant": "（強化殺氣傷害 <WeaponDes_Num_Green>×2</>）",
+      "en": " (Enhanced Sha-Chi DMG <WeaponDes_Num_Green>x2</>)"
+    }
+  },
+  "PhantomEdges_Function_026_25": {
+    "kind": "upgrade",
+    "append": {
+      "zh-Hans": "（破防伤害 <WeaponDes_Num_Green>+100%</>）",
+      "zh-Hant": "（破防傷害 <WeaponDes_Num_Green>+100%</>）",
+      "en": " (Break DMG <WeaponDes_Num_Green>+100%</>)"
+    }
+  }
+};
+
+exports.EXTRA_MOVES_BY_WEAPON = {
+  "WeaponDes_000": {
+    "name": "木制黑伤",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "完美闪避反击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>400%</> / 杀气 <WeaponDes_Num_Green>400%</>\nXX(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>200%</> / 杀气 <WeaponDes_Num_Green>200%</>\nXXX(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>200%</> / 杀气 <WeaponDes_Num_Green>200%</>\nXXXX(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>220%</> / 杀气 <WeaponDes_Num_Green>220%</>\nXXXXX(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>220%</> / 杀气 <WeaponDes_Num_Green>220%</>\nXXXY(<WeaponDes_Num_Green>8</>段)：伤害 <WeaponDes_Num_Green>300%</> / 杀气 <WeaponDes_Num_Green>300%</>\nXXXYY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>300%</> / 杀气 <WeaponDes_Num_Green>300%</>\nXXY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>300%</> / 杀气 <WeaponDes_Num_Green>300%</>\nXXYY(<WeaponDes_Num_Green>10</>段)：伤害 <WeaponDes_Num_Green>300%</> / 杀气 <WeaponDes_Num_Green>300%</>\nXY(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>270%</> / 杀气 <WeaponDes_Num_Green>270%</>\nXYY(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>270%</> / 杀气 <WeaponDes_Num_Green>270%</>\nYY(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>240%</> / 杀气 <WeaponDes_Num_Green>240%</>\nYYY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>300%</> / 杀气 <WeaponDes_Num_Green>300%</>\n冲刺(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>416%</> / 杀气 <WeaponDes_Num_Green>416%</>\n切武器攻击冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\n拔刀(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>320%</> / 杀气 <WeaponDes_Num_Green>320%</>\n特殊招式(<WeaponDes_Num_Green>22</>段)：伤害 <WeaponDes_Num_Green>1920%</> / 杀气 <WeaponDes_Num_Green>1040%</>\n疾跑拔刀(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>364%</> / 杀气 <WeaponDes_Num_Green>364%</>\n空中攻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>360%</> / 杀气 <WeaponDes_Num_Green>360%</> / 异常 <WeaponDes_Num_Green>160%</>\n空中攻击拔刀(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>360%</> / 杀气 <WeaponDes_Num_Green>360%</> / 异常 <WeaponDes_Num_Green>160%</>\n闪避攻击(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>448%</> / 杀气 <WeaponDes_Num_Green>448%</>\n闪避突进(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>448%</> / 杀气 <WeaponDes_Num_Green>448%</>",
+          "zh-Hant": "完美閃避反擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>400%</> / 殺氣 <WeaponDes_Num_Green>400%</>\nXX(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>200%</> / 殺氣 <WeaponDes_Num_Green>200%</>\nXXX(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>200%</> / 殺氣 <WeaponDes_Num_Green>200%</>\nXXXX(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>220%</> / 殺氣 <WeaponDes_Num_Green>220%</>\nXXXXX(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>220%</> / 殺氣 <WeaponDes_Num_Green>220%</>\nXXXY(<WeaponDes_Num_Green>8</>段)：傷害 <WeaponDes_Num_Green>300%</> / 殺氣 <WeaponDes_Num_Green>300%</>\nXXXYY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>300%</> / 殺氣 <WeaponDes_Num_Green>300%</>\nXXY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>300%</> / 殺氣 <WeaponDes_Num_Green>300%</>\nXXYY(<WeaponDes_Num_Green>10</>段)：傷害 <WeaponDes_Num_Green>300%</> / 殺氣 <WeaponDes_Num_Green>300%</>\nXY(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>270%</> / 殺氣 <WeaponDes_Num_Green>270%</>\nXYY(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>270%</> / 殺氣 <WeaponDes_Num_Green>270%</>\nYY(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>240%</> / 殺氣 <WeaponDes_Num_Green>240%</>\nYYY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>300%</> / 殺氣 <WeaponDes_Num_Green>300%</>\n衝刺(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>416%</> / 殺氣 <WeaponDes_Num_Green>416%</>\n切武器攻擊衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\n拔刀(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>320%</> / 殺氣 <WeaponDes_Num_Green>320%</>\n特殊招式(<WeaponDes_Num_Green>22</>段)：傷害 <WeaponDes_Num_Green>1920%</> / 殺氣 <WeaponDes_Num_Green>1040%</>\n疾跑拔刀(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>364%</> / 殺氣 <WeaponDes_Num_Green>364%</>\n空中攻擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>360%</> / 殺氣 <WeaponDes_Num_Green>360%</> / 異常 <WeaponDes_Num_Green>160%</>\n空中攻擊拔刀(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>360%</> / 殺氣 <WeaponDes_Num_Green>360%</> / 異常 <WeaponDes_Num_Green>160%</>\n閃避攻擊(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>448%</> / 殺氣 <WeaponDes_Num_Green>448%</>\n閃避突進(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>448%</> / 殺氣 <WeaponDes_Num_Green>448%</>",
+          "en": "Perfect Dodge Counter (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>400%</> / Sha-Chi <WeaponDes_Num_Green>400%</>\nXX (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>200%</> / Sha-Chi <WeaponDes_Num_Green>200%</>\nXXX (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>200%</> / Sha-Chi <WeaponDes_Num_Green>200%</>\nXXXX (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>220%</> / Sha-Chi <WeaponDes_Num_Green>220%</>\nXXXXX (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>220%</> / Sha-Chi <WeaponDes_Num_Green>220%</>\nXXXY (<WeaponDes_Num_Green>8</> hits): DMG <WeaponDes_Num_Green>300%</> / Sha-Chi <WeaponDes_Num_Green>300%</>\nXXXYY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>300%</> / Sha-Chi <WeaponDes_Num_Green>300%</>\nXXY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>300%</> / Sha-Chi <WeaponDes_Num_Green>300%</>\nXXYY (<WeaponDes_Num_Green>10</> hits): DMG <WeaponDes_Num_Green>300%</> / Sha-Chi <WeaponDes_Num_Green>300%</>\nXY (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>270%</> / Sha-Chi <WeaponDes_Num_Green>270%</>\nXYY (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>270%</> / Sha-Chi <WeaponDes_Num_Green>270%</>\nYY (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>240%</> / Sha-Chi <WeaponDes_Num_Green>240%</>\nYYY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>300%</> / Sha-Chi <WeaponDes_Num_Green>300%</>\nDash (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>416%</> / Sha-Chi <WeaponDes_Num_Green>416%</>\nSwitch Attack Dash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nDraw (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>320%</> / Sha-Chi <WeaponDes_Num_Green>320%</>\nSpecial Move (<WeaponDes_Num_Green>22</> hits): DMG <WeaponDes_Num_Green>1920%</> / Sha-Chi <WeaponDes_Num_Green>1040%</>\nDash Draw (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>364%</> / Sha-Chi <WeaponDes_Num_Green>364%</>\nAir Attack (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>360%</> / Sha-Chi <WeaponDes_Num_Green>360%</> / Status <WeaponDes_Num_Green>160%</>\nAir Attack Draw (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>360%</> / Sha-Chi <WeaponDes_Num_Green>360%</> / Status <WeaponDes_Num_Green>160%</>\nDodge Strike (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>448%</> / Sha-Chi <WeaponDes_Num_Green>448%</>\nDodge Strike (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>448%</> / Sha-Chi <WeaponDes_Num_Green>448%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_001": {
+    "name": "黑伤",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n轻2 (XX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n轻3 (XXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\n轻5 (XXXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n輕2 (XX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n輕3 (XXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\n輕5 (XXXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nLight 2 (XX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nLight 5 (XXXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\nXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXXY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXYY(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\nXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXXY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXYY(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>",
+          "en": "XY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXXY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXYY (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n拔刀轻击：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n疾跑拔刀轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n闪避轻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>224%</> / 杀气 <WeaponDes_Num_Green>224%</>\n切武器攻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>300%</> / 杀气 <WeaponDes_Num_Green>360%</>\n冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n疾跑拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n空中攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>180%</> / 异常 <WeaponDes_Num_Green>80%</>\n空中攻击拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>180%</> / 异常 <WeaponDes_Num_Green>80%</>\n闪避攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</>\n闪避突进(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</>",
+          "zh-Hant": "疾跑輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n拔刀輕擊：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n疾跑拔刀輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n閃避輕擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>224%</> / 殺氣 <WeaponDes_Num_Green>224%</>\n切武器攻擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>300%</> / 殺氣 <WeaponDes_Num_Green>360%</>\n衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n疾跑拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n空中攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>180%</> / 異常 <WeaponDes_Num_Green>80%</>\n空中攻擊拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>180%</> / 異常 <WeaponDes_Num_Green>80%</>\n閃避攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</>\n閃避突進(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</>",
+          "en": "Sprint Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nDraw Light: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nSprint Draw Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nDodge Light (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>224%</> / Sha-Chi <WeaponDes_Num_Green>224%</>\nSwitch Attack (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>300%</> / Sha-Chi <WeaponDes_Num_Green>360%</>\nDash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nDraw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nSpecial Move (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nDash Draw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nAir Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>180%</> / Status <WeaponDes_Num_Green>80%</>\nAir Attack Draw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>180%</> / Status <WeaponDes_Num_Green>80%</>\nDodge Strike (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</>\nDodge Strike (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_002": {
+    "name": "残钢刃",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</> / 流血 <WeaponDes_Num_Green>80%</>\n轻2 (XX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</> / 流血 <WeaponDes_Num_Green>100%</>\n轻3 (XXX)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</> / 流血 <WeaponDes_Num_Green>100%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</> / 流血 <WeaponDes_Num_Green>110%</>\n轻5 (XXXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</> / 流血 <WeaponDes_Num_Green>110%</>\n重2 (YY)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 流血 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</> / 流血 <WeaponDes_Num_Green>80%</>\n輕2 (XX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</> / 流血 <WeaponDes_Num_Green>100%</>\n輕3 (XXX)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</> / 流血 <WeaponDes_Num_Green>100%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</> / 流血 <WeaponDes_Num_Green>110%</>\n輕5 (XXXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</> / 流血 <WeaponDes_Num_Green>110%</>\n重2 (YY)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 流血 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</> / Bleed <WeaponDes_Num_Green>80%</>\nLight 2 (XX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</> / Bleed <WeaponDes_Num_Green>100%</>\nLight 3 (XXX): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</> / Bleed <WeaponDes_Num_Green>100%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</> / Bleed <WeaponDes_Num_Green>110%</>\nLight 5 (XXXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</> / Bleed <WeaponDes_Num_Green>110%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Bleed <WeaponDes_Num_Green>120%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Bleed <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 流血 <WeaponDes_Num_Green>120%</>\nXXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>\nXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>\nXXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 流血 <WeaponDes_Num_Green>120%</>\nXXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>\nXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>\nXXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>",
+          "en": "XY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Bleed <WeaponDes_Num_Green>120%</>\nXXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Bleed <WeaponDes_Num_Green>150%</>\nXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Bleed <WeaponDes_Num_Green>150%</>\nXXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Bleed <WeaponDes_Num_Green>150%</>\nXXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Bleed <WeaponDes_Num_Green>150%</>\nXXXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Bleed <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</> / 流血 <WeaponDes_Num_Green>104%</>\n拔刀轻击：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</> / 流血 <WeaponDes_Num_Green>80%</>\n疾跑拔刀轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</> / 流血 <WeaponDes_Num_Green>104%</>\n闪避轻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>224%</> / 杀气 <WeaponDes_Num_Green>224%</> / 流血 <WeaponDes_Num_Green>224%</>\n切武器攻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>300%</>\n一段蓄力斩：伤害 <WeaponDes_Num_Green>140%</> / 杀气 <WeaponDes_Num_Green>140%</> / 流血 <WeaponDes_Num_Green>140%</>\n三段蓄力斩：伤害 <WeaponDes_Num_Green>220%</> / 杀气 <WeaponDes_Num_Green>220%</> / 流血 <WeaponDes_Num_Green>220%</>\n二段蓄力斩：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>180%</> / 流血 <WeaponDes_Num_Green>180%</>\n冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</> / 流血 <WeaponDes_Num_Green>104%</>\n强化斩击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>\n拔刀：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</> / 流血 <WeaponDes_Num_Green>80%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</> / 流血 <WeaponDes_Num_Green>80%</>\n破防追击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>240%</> / 杀气 <WeaponDes_Num_Green>240%</> / 流血 <WeaponDes_Num_Green>240%</>\n闪避攻击：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</> / 流血 <WeaponDes_Num_Green>112%</>\n闪避突进(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</> / 流血 <WeaponDes_Num_Green>112%</>",
+          "zh-Hant": "疾跑輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</> / 流血 <WeaponDes_Num_Green>104%</>\n拔刀輕擊：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</> / 流血 <WeaponDes_Num_Green>80%</>\n疾跑拔刀輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</> / 流血 <WeaponDes_Num_Green>104%</>\n閃避輕擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>224%</> / 殺氣 <WeaponDes_Num_Green>224%</> / 流血 <WeaponDes_Num_Green>224%</>\n切武器攻擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>300%</>\n一段蓄力斬：傷害 <WeaponDes_Num_Green>140%</> / 殺氣 <WeaponDes_Num_Green>140%</> / 流血 <WeaponDes_Num_Green>140%</>\n三段蓄力斬：傷害 <WeaponDes_Num_Green>220%</> / 殺氣 <WeaponDes_Num_Green>220%</> / 流血 <WeaponDes_Num_Green>220%</>\n二段蓄力斬：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>180%</> / 流血 <WeaponDes_Num_Green>180%</>\n衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</> / 流血 <WeaponDes_Num_Green>104%</>\n強化斬擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 流血 <WeaponDes_Num_Green>150%</>\n拔刀：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</> / 流血 <WeaponDes_Num_Green>80%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</> / 流血 <WeaponDes_Num_Green>80%</>\n破防追擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>240%</> / 殺氣 <WeaponDes_Num_Green>240%</> / 流血 <WeaponDes_Num_Green>240%</>\n閃避攻擊：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</> / 流血 <WeaponDes_Num_Green>112%</>\n閃避突進(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</> / 流血 <WeaponDes_Num_Green>112%</>",
+          "en": "Sprint Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</> / Bleed <WeaponDes_Num_Green>104%</>\nDraw Light: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</> / Bleed <WeaponDes_Num_Green>80%</>\nSprint Draw Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</> / Bleed <WeaponDes_Num_Green>104%</>\nDodge Light (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>224%</> / Sha-Chi <WeaponDes_Num_Green>224%</> / Bleed <WeaponDes_Num_Green>224%</>\nSwitch Attack (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Bleed <WeaponDes_Num_Green>300%</>\nCharged Slash Lv1: DMG <WeaponDes_Num_Green>140%</> / Sha-Chi <WeaponDes_Num_Green>140%</> / Bleed <WeaponDes_Num_Green>140%</>\nCharged Slash Lv3: DMG <WeaponDes_Num_Green>220%</> / Sha-Chi <WeaponDes_Num_Green>220%</> / Bleed <WeaponDes_Num_Green>220%</>\nCharged Slash Lv2: DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>180%</> / Bleed <WeaponDes_Num_Green>180%</>\nDash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</> / Bleed <WeaponDes_Num_Green>104%</>\nBuffed Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Bleed <WeaponDes_Num_Green>150%</>\nDraw: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</> / Bleed <WeaponDes_Num_Green>80%</>\nSpecial Move (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</> / Bleed <WeaponDes_Num_Green>80%</>\nBreak Finisher (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>240%</> / Sha-Chi <WeaponDes_Num_Green>240%</> / Bleed <WeaponDes_Num_Green>240%</>\nDodge Strike: DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</> / Bleed <WeaponDes_Num_Green>112%</>\nDodge Strike (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</> / Bleed <WeaponDes_Num_Green>112%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_003": {
+    "name": "乱莺剑",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n轻2 (XX)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n轻3 (XXX)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\n轻5 (XXXXX)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\n重2 (YY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>96%</> / 杀气 <WeaponDes_Num_Green>96%</>\n剑气·重2 (YY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>48%</> / 杀气 <WeaponDes_Num_Green>24%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>46.9%</> / 杀气 <WeaponDes_Num_Green>46.9%</>\n剑气·重3 (YYY)：伤害 <WeaponDes_Num_Green>60%</> / 杀气 <WeaponDes_Num_Green>30%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n輕2 (XX)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n輕3 (XXX)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\n輕5 (XXXXX)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\n重2 (YY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>96%</> / 殺氣 <WeaponDes_Num_Green>96%</>\n劍氣·重2 (YY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>48%</> / 殺氣 <WeaponDes_Num_Green>24%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>46.9%</> / 殺氣 <WeaponDes_Num_Green>46.9%</>\n劍氣·重3 (YYY)：傷害 <WeaponDes_Num_Green>60%</> / 殺氣 <WeaponDes_Num_Green>30%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nLight 2 (XX): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nLight 3 (XXX): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nLight 5 (XXXXX): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>96%</> / Sha-Chi <WeaponDes_Num_Green>96%</>\nWave Heavy 2 (YY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>48%</> / Sha-Chi <WeaponDes_Num_Green>24%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>46.9%</> / Sha-Chi <WeaponDes_Num_Green>46.9%</>\nWave Heavy 3 (YYY): DMG <WeaponDes_Num_Green>60%</> / Sha-Chi <WeaponDes_Num_Green>30%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>75.4%</> / 杀气 <WeaponDes_Num_Green>75.4%</>\nXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\nXXXY：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>75.4%</> / 殺氣 <WeaponDes_Num_Green>75.4%</>\nXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\nXXXY：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>",
+          "en": "XY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>75.4%</> / Sha-Chi <WeaponDes_Num_Green>75.4%</>\nXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nXXXY: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XXXY：伤害 <WeaponDes_Num_Green>40%</> / 杀气 <WeaponDes_Num_Green>40%</>\nXXXY重拳：伤害 <WeaponDes_Num_Green>17.1%</> / 杀气 <WeaponDes_Num_Green>17.1%</>\nXXXY飞环：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\nXXY：伤害 <WeaponDes_Num_Green>24%</> / 杀气 <WeaponDes_Num_Green>24%</>\nXY：伤害 <WeaponDes_Num_Green>8.2%</> / 杀气 <WeaponDes_Num_Green>8.2%</>\nYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>41.1%</> / 杀气 <WeaponDes_Num_Green>41.1%</>\nYYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>68.6%</> / 杀气 <WeaponDes_Num_Green>68.6%</> / 异常 <WeaponDes_Num_Green>48%</>\n切武器攻击(<WeaponDes_Num_Green>7</>段)：伤害 <WeaponDes_Num_Green>254.8%</> / 杀气 <WeaponDes_Num_Green>254.8%</>\n强化斩击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>128%</> / 杀气 <WeaponDes_Num_Green>128%</>\n特殊轻派生(<WeaponDes_Num_Green>12</>段)：伤害 <WeaponDes_Num_Green>874%</> / 杀气 <WeaponDes_Num_Green>349.6%</>\n飞环：伤害 <WeaponDes_Num_Green>43.9%</> / 杀气 <WeaponDes_Num_Green>43.9%</>",
+          "zh-Hant": "XXXY：傷害 <WeaponDes_Num_Green>40%</> / 殺氣 <WeaponDes_Num_Green>40%</>\nXXXY重拳：傷害 <WeaponDes_Num_Green>17.1%</> / 殺氣 <WeaponDes_Num_Green>17.1%</>\nXXXY飛環：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\nXXY：傷害 <WeaponDes_Num_Green>24%</> / 殺氣 <WeaponDes_Num_Green>24%</>\nXY：傷害 <WeaponDes_Num_Green>8.2%</> / 殺氣 <WeaponDes_Num_Green>8.2%</>\nYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>41.1%</> / 殺氣 <WeaponDes_Num_Green>41.1%</>\nYYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>68.6%</> / 殺氣 <WeaponDes_Num_Green>68.6%</> / 異常 <WeaponDes_Num_Green>48%</>\n切武器攻擊(<WeaponDes_Num_Green>7</>段)：傷害 <WeaponDes_Num_Green>254.8%</> / 殺氣 <WeaponDes_Num_Green>254.8%</>\n強化斬擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>128%</> / 殺氣 <WeaponDes_Num_Green>128%</>\n特殊輕派生(<WeaponDes_Num_Green>12</>段)：傷害 <WeaponDes_Num_Green>874%</> / 殺氣 <WeaponDes_Num_Green>349.6%</>\n飛環：傷害 <WeaponDes_Num_Green>43.9%</> / 殺氣 <WeaponDes_Num_Green>43.9%</>",
+          "en": "XXXY: DMG <WeaponDes_Num_Green>40%</> / Sha-Chi <WeaponDes_Num_Green>40%</>\nXXXY Punch: DMG <WeaponDes_Num_Green>17.1%</> / Sha-Chi <WeaponDes_Num_Green>17.1%</>\nXXXY Chakram: DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nXXY: DMG <WeaponDes_Num_Green>24%</> / Sha-Chi <WeaponDes_Num_Green>24%</>\nXY: DMG <WeaponDes_Num_Green>8.2%</> / Sha-Chi <WeaponDes_Num_Green>8.2%</>\nYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>41.1%</> / Sha-Chi <WeaponDes_Num_Green>41.1%</>\nYYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>68.6%</> / Sha-Chi <WeaponDes_Num_Green>68.6%</> / Status <WeaponDes_Num_Green>48%</>\nSwitch Attack (<WeaponDes_Num_Green>7</> hits): DMG <WeaponDes_Num_Green>254.8%</> / Sha-Chi <WeaponDes_Num_Green>254.8%</>\nBuffed Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nSpecial Move (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>128%</> / Sha-Chi <WeaponDes_Num_Green>128%</>\nSpecial Light (<WeaponDes_Num_Green>12</> hits): DMG <WeaponDes_Num_Green>874%</> / Sha-Chi <WeaponDes_Num_Green>349.6%</>\nChakram: DMG <WeaponDes_Num_Green>43.9%</> / Sha-Chi <WeaponDes_Num_Green>43.9%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "强化 / 剑气派生倍率",
+          "zh-Hant": "強化 / 劍氣派生倍率",
+          "en": "Enhanced / Wave Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "剑气·XXXY大型剑气：伤害 <WeaponDes_Num_Green>40%</> / 杀气 <WeaponDes_Num_Green>40%</>\n剑气·XXY剑气(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>48%</> / 杀气 <WeaponDes_Num_Green>48%</>\n剑气·XYY剑气：伤害 <WeaponDes_Num_Green>48%</> / 杀气 <WeaponDes_Num_Green>24%</>\n剑气·XY剑气：伤害 <WeaponDes_Num_Green>21.8%</> / 杀气 <WeaponDes_Num_Green>21.8%</>\n剑气·YYY：伤害 <WeaponDes_Num_Green>44.5%</> / 杀气 <WeaponDes_Num_Green>44.5%</> / 异常 <WeaponDes_Num_Green>55.9%</>\n剑气·YYY闪避攻击：伤害 <WeaponDes_Num_Green>60%</> / 杀气 <WeaponDes_Num_Green>30%</>\n剑气·YY剑气(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>48%</> / 杀气 <WeaponDes_Num_Green>24%</>\n剑气·剑气：伤害 <WeaponDes_Num_Green>32%</> / 杀气 <WeaponDes_Num_Green>16%</>\n剑气·剑气右：伤害 <WeaponDes_Num_Green>16%</> / 杀气 <WeaponDes_Num_Green>8%</>\n剑气·剑气左：伤害 <WeaponDes_Num_Green>16%</> / 杀气 <WeaponDes_Num_Green>8%</>\n剑气·强化斩击剑气(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>70%</>",
+          "zh-Hant": "劍氣·XXXY大型劍氣：傷害 <WeaponDes_Num_Green>40%</> / 殺氣 <WeaponDes_Num_Green>40%</>\n劍氣·XXY劍氣(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>48%</> / 殺氣 <WeaponDes_Num_Green>48%</>\n劍氣·XYY劍氣：傷害 <WeaponDes_Num_Green>48%</> / 殺氣 <WeaponDes_Num_Green>24%</>\n劍氣·XY劍氣：傷害 <WeaponDes_Num_Green>21.8%</> / 殺氣 <WeaponDes_Num_Green>21.8%</>\n劍氣·YYY：傷害 <WeaponDes_Num_Green>44.5%</> / 殺氣 <WeaponDes_Num_Green>44.5%</> / 異常 <WeaponDes_Num_Green>55.9%</>\n劍氣·YYY閃避攻擊：傷害 <WeaponDes_Num_Green>60%</> / 殺氣 <WeaponDes_Num_Green>30%</>\n劍氣·YY劍氣(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>48%</> / 殺氣 <WeaponDes_Num_Green>24%</>\n劍氣·劍氣：傷害 <WeaponDes_Num_Green>32%</> / 殺氣 <WeaponDes_Num_Green>16%</>\n劍氣·劍氣右：傷害 <WeaponDes_Num_Green>16%</> / 殺氣 <WeaponDes_Num_Green>8%</>\n劍氣·劍氣左：傷害 <WeaponDes_Num_Green>16%</> / 殺氣 <WeaponDes_Num_Green>8%</>\n劍氣·強化斬擊劍氣(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>70%</>",
+          "en": "Wave XXXY Large Wave: DMG <WeaponDes_Num_Green>40%</> / Sha-Chi <WeaponDes_Num_Green>40%</>\nWave XXY Wave (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>48%</> / Sha-Chi <WeaponDes_Num_Green>48%</>\nWave XYY Wave: DMG <WeaponDes_Num_Green>48%</> / Sha-Chi <WeaponDes_Num_Green>24%</>\nWave XY Wave: DMG <WeaponDes_Num_Green>21.8%</> / Sha-Chi <WeaponDes_Num_Green>21.8%</>\nWave YYY: DMG <WeaponDes_Num_Green>44.5%</> / Sha-Chi <WeaponDes_Num_Green>44.5%</> / Status <WeaponDes_Num_Green>55.9%</>\nWave YYY Dodge Strike: DMG <WeaponDes_Num_Green>60%</> / Sha-Chi <WeaponDes_Num_Green>30%</>\nWave YY Wave (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>48%</> / Sha-Chi <WeaponDes_Num_Green>24%</>\nWave Wave: DMG <WeaponDes_Num_Green>32%</> / Sha-Chi <WeaponDes_Num_Green>16%</>\nWave Wave Right: DMG <WeaponDes_Num_Green>16%</> / Sha-Chi <WeaponDes_Num_Green>8%</>\nWave Wave Left: DMG <WeaponDes_Num_Green>16%</> / Sha-Chi <WeaponDes_Num_Green>8%</>\nWave Buffed Attack Wave (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>70%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_004": {
+    "name": "刺骨混沌",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</> / 元素 <WeaponDes_Num_Green>80%</>\n轻2 (XX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</> / 元素 <WeaponDes_Num_Green>100%</>\n轻3 (XXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</> / 元素 <WeaponDes_Num_Green>100%</>\n轻4 (XXXX)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\n轻5 (XXXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</> / 元素 <WeaponDes_Num_Green>110%</>\n钢刃·重2 (YY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\n钢刃·重3 (YYY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</> / 元素 <WeaponDes_Num_Green>80%</>\n輕2 (XX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</> / 元素 <WeaponDes_Num_Green>100%</>\n輕3 (XXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</> / 元素 <WeaponDes_Num_Green>100%</>\n輕4 (XXXX)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\n輕5 (XXXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</> / 元素 <WeaponDes_Num_Green>110%</>\n鋼刃·重2 (YY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\n鋼刃·重3 (YYY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</> / Elem <WeaponDes_Num_Green>80%</>\nLight 2 (XX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</> / Elem <WeaponDes_Num_Green>100%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</> / Elem <WeaponDes_Num_Green>100%</>\nLight 4 (XXXX): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nLight 5 (XXXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</> / Elem <WeaponDes_Num_Green>110%</>\nSteel Heavy 2 (YY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Elem <WeaponDes_Num_Green>120%</>\nSteel Heavy 3 (YYY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "钢刃·XY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\n钢刃·XXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n钢刃·XYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n钢刃·XXXY：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n钢刃·XXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n钢刃·XXXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "鋼刃·XY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\n鋼刃·XXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n鋼刃·XYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n鋼刃·XXXY：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n鋼刃·XXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n鋼刃·XXXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>",
+          "en": "Steel XY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Elem <WeaponDes_Num_Green>120%</>\nSteel XXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nSteel XYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nSteel XXXY: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nSteel XXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nSteel XXXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</> / 元素 <WeaponDes_Num_Green>104%</>\n寒冰·XXXYY寒冰(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n寒冰·XXXY寒冰：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n寒冰·XXYY寒冰：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n寒冰·XXY寒冰(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n寒冰·XYY寒冰(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n寒冰·XY寒冰：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\n寒冰·YYY寒冰：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n寒冰·YY寒冰(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\n寒冰·切换寒冰：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</> / 元素 <WeaponDes_Num_Green>135%</>\n寒冰·寒冰：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</> / 元素 <WeaponDes_Num_Green>80%</>\n寒冰·蓄力寒冰(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>60%</> / 杀气 <WeaponDes_Num_Green>60%</> / 元素 <WeaponDes_Num_Green>60%</>\n烈焰·XXXYY烈焰(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>75%</> / 杀气 <WeaponDes_Num_Green>75%</> / 元素 <WeaponDes_Num_Green>150%</>\n烈焰·XXXY烈焰：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n烈焰·XXYY烈焰(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n烈焰·XXY烈焰(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n烈焰·XYY烈焰(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n烈焰·XY烈焰：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\n烈焰·YYY烈焰(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n烈焰·YY烈焰(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\n烈焰·烈焰(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>280%</> / 元素 <WeaponDes_Num_Green>280%</>\n烈焰·烈焰蓄力(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>320%</> / 元素 <WeaponDes_Num_Green>400%</>\n钢刃·冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</> / 元素 <WeaponDes_Num_Green>104%</>\n钢刃·切换(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>260%</> / 杀气 <WeaponDes_Num_Green>260%</> / 元素 <WeaponDes_Num_Green>260%</>\n钢刃·特殊招式：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</> / 元素 <WeaponDes_Num_Green>80%</>\n钢刃·蓄力：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</> / 元素 <WeaponDes_Num_Green>80%</>",
+          "zh-Hant": "疾跑輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</> / 元素 <WeaponDes_Num_Green>104%</>\n寒冰·XXXYY寒冰(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n寒冰·XXXY寒冰：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n寒冰·XXYY寒冰：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n寒冰·XXY寒冰(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n寒冰·XYY寒冰(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n寒冰·XY寒冰：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\n寒冰·YYY寒冰：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n寒冰·YY寒冰(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\n寒冰·切换寒冰：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</> / 元素 <WeaponDes_Num_Green>135%</>\n寒冰·寒冰：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</> / 元素 <WeaponDes_Num_Green>80%</>\n寒冰·蓄力寒冰(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>60%</> / 殺氣 <WeaponDes_Num_Green>60%</> / 元素 <WeaponDes_Num_Green>60%</>\n烈焰·XXXYY烈焰(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>75%</> / 殺氣 <WeaponDes_Num_Green>75%</> / 元素 <WeaponDes_Num_Green>150%</>\n烈焰·XXXY烈焰：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n烈焰·XXYY烈焰(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n烈焰·XXY烈焰(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n烈焰·XYY烈焰(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n烈焰·XY烈焰：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\n烈焰·YYY烈焰(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 元素 <WeaponDes_Num_Green>150%</>\n烈焰·YY烈焰(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\n烈焰·烈焰(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>280%</> / 元素 <WeaponDes_Num_Green>280%</>\n烈焰·烈焰蓄力(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>320%</> / 元素 <WeaponDes_Num_Green>400%</>\n鋼刃·衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</> / 元素 <WeaponDes_Num_Green>104%</>\n鋼刃·切换(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>260%</> / 殺氣 <WeaponDes_Num_Green>260%</> / 元素 <WeaponDes_Num_Green>260%</>\n鋼刃·特殊招式：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</> / 元素 <WeaponDes_Num_Green>80%</>\n鋼刃·蓄力：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</> / 元素 <WeaponDes_Num_Green>80%</>",
+          "en": "Sprint Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</> / Elem <WeaponDes_Num_Green>104%</>\nIce XXXYY Ice (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nIce XXXY Ice: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nIce XXYY Ice: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nIce XXY Ice (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nIce XYY Ice (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nIce XY Ice: DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Elem <WeaponDes_Num_Green>120%</>\nIce YYY Ice: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nIce YY Ice (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Elem <WeaponDes_Num_Green>120%</>\nIce Switch Ice: DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</> / Elem <WeaponDes_Num_Green>135%</>\nIce Ice: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</> / Elem <WeaponDes_Num_Green>80%</>\nIce Hold Ice (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>60%</> / Sha-Chi <WeaponDes_Num_Green>60%</> / Elem <WeaponDes_Num_Green>60%</>\nFire XXXYY Fire (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>75%</> / Sha-Chi <WeaponDes_Num_Green>75%</> / Elem <WeaponDes_Num_Green>150%</>\nFire XXXY Fire: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nFire XXYY Fire (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nFire XXY Fire (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nFire XYY Fire (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nFire XY Fire: DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Elem <WeaponDes_Num_Green>120%</>\nFire YYY Fire (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>150%</>\nFire YY Fire (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Elem <WeaponDes_Num_Green>120%</>\nFire Fire (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>280%</> / Elem <WeaponDes_Num_Green>280%</>\nFire Fire Hold (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>320%</> / Elem <WeaponDes_Num_Green>400%</>\nSteel Dash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</> / Elem <WeaponDes_Num_Green>104%</>\nSteel Switch (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>260%</> / Sha-Chi <WeaponDes_Num_Green>260%</> / Elem <WeaponDes_Num_Green>260%</>\nSteel Special Move: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</> / Elem <WeaponDes_Num_Green>80%</>\nSteel Hold: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</> / Elem <WeaponDes_Num_Green>80%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_005": {
+    "name": "黑魔伤",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n强化·轻1 (X)：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\n轻2 (XX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n强化·轻2 (XX)：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\n轻3 (XXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n强化·轻3 (XXX)：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\n强化·轻4 (XXXX)：伤害 <WeaponDes_Num_Green>25%</> / 杀气 <WeaponDes_Num_Green>25%</>\n轻5 (XXXXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\n强化·轻5 (XXXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>40%</> / 杀气 <WeaponDes_Num_Green>40%</>\n轻6 (XXXXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\n强化·轻6 (XXXXXX)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n剑气·重1 (Y)：伤害 <WeaponDes_Num_Green>18.8%</> / 杀气 <WeaponDes_Num_Green>18.8%</>\n重2 (YY)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\n强化·重2 (YY)：伤害 <WeaponDes_Num_Green>30%</> / 杀气 <WeaponDes_Num_Green>30%</>\n重3 (YYY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>105.5%</> / 杀气 <WeaponDes_Num_Green>105.5%</>\n剑气·重3 (YYY)：伤害 <WeaponDes_Num_Green>44.5%</> / 杀气 <WeaponDes_Num_Green>44.5%</>\n重4 (YYYY)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\n强化·重4 (YYYY)：伤害 <WeaponDes_Num_Green>30%</> / 杀气 <WeaponDes_Num_Green>30%</>",
+          "zh-Hant": "輕1 (X)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n強化·輕1 (X)：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\n輕2 (XX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n強化·輕2 (XX)：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\n輕3 (XXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n強化·輕3 (XXX)：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\n強化·輕4 (XXXX)：傷害 <WeaponDes_Num_Green>25%</> / 殺氣 <WeaponDes_Num_Green>25%</>\n輕5 (XXXXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\n強化·輕5 (XXXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>40%</> / 殺氣 <WeaponDes_Num_Green>40%</>\n輕6 (XXXXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\n強化·輕6 (XXXXXX)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n劍氣·重1 (Y)：傷害 <WeaponDes_Num_Green>18.8%</> / 殺氣 <WeaponDes_Num_Green>18.8%</>\n重2 (YY)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\n強化·重2 (YY)：傷害 <WeaponDes_Num_Green>30%</> / 殺氣 <WeaponDes_Num_Green>30%</>\n重3 (YYY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>105.5%</> / 殺氣 <WeaponDes_Num_Green>105.5%</>\n劍氣·重3 (YYY)：傷害 <WeaponDes_Num_Green>44.5%</> / 殺氣 <WeaponDes_Num_Green>44.5%</>\n重4 (YYYY)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\n強化·重4 (YYYY)：傷害 <WeaponDes_Num_Green>30%</> / 殺氣 <WeaponDes_Num_Green>30%</>",
+          "en": "Light 1 (X) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nEnhanced Light 1 (X): DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nLight 2 (XX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nEnhanced Light 2 (XX): DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nEnhanced Light 3 (XXX): DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nEnhanced Light 4 (XXXX): DMG <WeaponDes_Num_Green>25%</> / Sha-Chi <WeaponDes_Num_Green>25%</>\nLight 5 (XXXXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nEnhanced Light 5 (XXXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>40%</> / Sha-Chi <WeaponDes_Num_Green>40%</>\nLight 6 (XXXXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nEnhanced Light 6 (XXXXXX) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nWave Heavy 1 (Y): DMG <WeaponDes_Num_Green>18.8%</> / Sha-Chi <WeaponDes_Num_Green>18.8%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nEnhanced Heavy 2 (YY): DMG <WeaponDes_Num_Green>30%</> / Sha-Chi <WeaponDes_Num_Green>30%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>105.5%</> / Sha-Chi <WeaponDes_Num_Green>105.5%</>\nWave Heavy 3 (YYY): DMG <WeaponDes_Num_Green>44.5%</> / Sha-Chi <WeaponDes_Num_Green>44.5%</>\nHeavy 4 (YYYY): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nEnhanced Heavy 4 (YYYY): DMG <WeaponDes_Num_Green>30%</> / Sha-Chi <WeaponDes_Num_Green>30%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>91.8%</> / 杀气 <WeaponDes_Num_Green>91.8%</>\n剑气·XY：伤害 <WeaponDes_Num_Green>28.2%</> / 杀气 <WeaponDes_Num_Green>28.2%</>\nXXY(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>108.3%</> / 杀气 <WeaponDes_Num_Green>108.3%</>\n剑气·XYY：伤害 <WeaponDes_Num_Green>41.7%</> / 杀气 <WeaponDes_Num_Green>41.7%</>\nXXXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\nXXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>108.3%</> / 杀气 <WeaponDes_Num_Green>108.3%</>\n剑气·XXXY：伤害 <WeaponDes_Num_Green>40%</> / 杀气 <WeaponDes_Num_Green>40%</>\n剑气·XXYY：伤害 <WeaponDes_Num_Green>41.7%</> / 杀气 <WeaponDes_Num_Green>41.7%</>\nXXXXY(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>126.6%</> / 杀气 <WeaponDes_Num_Green>126.6%</>\nXXXYY(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>126.6%</> / 杀气 <WeaponDes_Num_Green>126.6%</>\n剑气·XXXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>75.7%</> / 杀气 <WeaponDes_Num_Green>75.7%</>\nXXXXXYY：伤害 <WeaponDes_Num_Green>210%</> / 杀气 <WeaponDes_Num_Green>210%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>91.8%</> / 殺氣 <WeaponDes_Num_Green>91.8%</>\n劍氣·XY：傷害 <WeaponDes_Num_Green>28.2%</> / 殺氣 <WeaponDes_Num_Green>28.2%</>\nXXY(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>108.3%</> / 殺氣 <WeaponDes_Num_Green>108.3%</>\n劍氣·XYY：傷害 <WeaponDes_Num_Green>41.7%</> / 殺氣 <WeaponDes_Num_Green>41.7%</>\nXXXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\nXXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>108.3%</> / 殺氣 <WeaponDes_Num_Green>108.3%</>\n劍氣·XXXY：傷害 <WeaponDes_Num_Green>40%</> / 殺氣 <WeaponDes_Num_Green>40%</>\n劍氣·XXYY：傷害 <WeaponDes_Num_Green>41.7%</> / 殺氣 <WeaponDes_Num_Green>41.7%</>\nXXXXY(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>126.6%</> / 殺氣 <WeaponDes_Num_Green>126.6%</>\nXXXYY(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>126.6%</> / 殺氣 <WeaponDes_Num_Green>126.6%</>\n劍氣·XXXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>75.7%</> / 殺氣 <WeaponDes_Num_Green>75.7%</>\nXXXXXYY：傷害 <WeaponDes_Num_Green>210%</> / 殺氣 <WeaponDes_Num_Green>210%</>",
+          "en": "XY (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>91.8%</> / Sha-Chi <WeaponDes_Num_Green>91.8%</>\nWave XY: DMG <WeaponDes_Num_Green>28.2%</> / Sha-Chi <WeaponDes_Num_Green>28.2%</>\nXXY (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>108.3%</> / Sha-Chi <WeaponDes_Num_Green>108.3%</>\nWave XYY: DMG <WeaponDes_Num_Green>41.7%</> / Sha-Chi <WeaponDes_Num_Green>41.7%</>\nXXXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nXXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>108.3%</> / Sha-Chi <WeaponDes_Num_Green>108.3%</>\nWave XXXY: DMG <WeaponDes_Num_Green>40%</> / Sha-Chi <WeaponDes_Num_Green>40%</>\nWave XXYY: DMG <WeaponDes_Num_Green>41.7%</> / Sha-Chi <WeaponDes_Num_Green>41.7%</>\nXXXXY (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>126.6%</> / Sha-Chi <WeaponDes_Num_Green>126.6%</>\nXXXYY (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>126.6%</> / Sha-Chi <WeaponDes_Num_Green>126.6%</>\nWave XXXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>75.7%</> / Sha-Chi <WeaponDes_Num_Green>75.7%</>\nXXXXXYY: DMG <WeaponDes_Num_Green>210%</> / Sha-Chi <WeaponDes_Num_Green>210%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n剑气·疾跑重击：伤害 <WeaponDes_Num_Green>41.6%</> / 杀气 <WeaponDes_Num_Green>41.6%</>\n拔刀轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n疾跑拔刀轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>62.4%</> / 杀气 <WeaponDes_Num_Green>62.4%</>\n切武器攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>410%</> / 杀气 <WeaponDes_Num_Green>410%</>\n拔刀(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>61.2%</> / 杀气 <WeaponDes_Num_Green>61.2%</>\n特殊招式(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>147.4%</> / 杀气 <WeaponDes_Num_Green>100%</> / 异常 <WeaponDes_Num_Green>61.2%</>\n疾跑拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>62.4%</> / 杀气 <WeaponDes_Num_Green>62.4%</>\n起手：伤害 <WeaponDes_Num_Green>200%</> / 杀气 <WeaponDes_Num_Green>50%</>",
+          "zh-Hant": "疾跑輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n劍氣·疾跑重擊：傷害 <WeaponDes_Num_Green>41.6%</> / 殺氣 <WeaponDes_Num_Green>41.6%</>\n拔刀輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n疾跑拔刀輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>62.4%</> / 殺氣 <WeaponDes_Num_Green>62.4%</>\n切武器攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>410%</> / 殺氣 <WeaponDes_Num_Green>410%</>\n拔刀(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>61.2%</> / 殺氣 <WeaponDes_Num_Green>61.2%</>\n特殊招式(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>147.4%</> / 殺氣 <WeaponDes_Num_Green>100%</> / 異常 <WeaponDes_Num_Green>61.2%</>\n疾跑拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>62.4%</> / 殺氣 <WeaponDes_Num_Green>62.4%</>\n起手：傷害 <WeaponDes_Num_Green>200%</> / 殺氣 <WeaponDes_Num_Green>50%</>",
+          "en": "Sprint Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nWave Sprint Heavy: DMG <WeaponDes_Num_Green>41.6%</> / Sha-Chi <WeaponDes_Num_Green>41.6%</>\nDraw Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nSprint Draw Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nDash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>62.4%</> / Sha-Chi <WeaponDes_Num_Green>62.4%</>\nSwitch Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>410%</> / Sha-Chi <WeaponDes_Num_Green>410%</>\nDraw (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>61.2%</> / Sha-Chi <WeaponDes_Num_Green>61.2%</>\nSpecial Move (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>147.4%</> / Sha-Chi <WeaponDes_Num_Green>100%</> / Status <WeaponDes_Num_Green>61.2%</>\nDash Draw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>62.4%</> / Sha-Chi <WeaponDes_Num_Green>62.4%</>\nOpener: DMG <WeaponDes_Num_Green>200%</> / Sha-Chi <WeaponDes_Num_Green>50%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "强化 / 剑气派生倍率",
+          "zh-Hant": "強化 / 劍氣派生倍率",
+          "en": "Enhanced / Wave Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "强化·XYY强化(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>60%</> / 杀气 <WeaponDes_Num_Green>60%</>\n强化·XY强化(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>40%</> / 杀气 <WeaponDes_Num_Green>40%</>\n强化·YYY强化(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</>\n强化·YY强化(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>70%</> / 杀气 <WeaponDes_Num_Green>70%</>\n强化·强化：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\n强化·拔刀强化：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>",
+          "zh-Hant": "強化·XYY強化(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>60%</> / 殺氣 <WeaponDes_Num_Green>60%</>\n強化·XY強化(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>40%</> / 殺氣 <WeaponDes_Num_Green>40%</>\n強化·YYY強化(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</>\n強化·YY強化(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>70%</> / 殺氣 <WeaponDes_Num_Green>70%</>\n強化·強化：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\n強化·拔刀強化：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>",
+          "en": "Enhanced XYY Enhanced (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>60%</> / Sha-Chi <WeaponDes_Num_Green>60%</>\nEnhanced XY Enhanced (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>40%</> / Sha-Chi <WeaponDes_Num_Green>40%</>\nEnhanced YYY Enhanced (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</>\nEnhanced YY Enhanced (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>70%</> / Sha-Chi <WeaponDes_Num_Green>70%</>\nEnhanced Enhanced: DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nEnhanced Draw Enhanced: DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_007": {
+    "name": "天玄青铜剑",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n轻2 (XX)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\n轻3 (XXX)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\n轻4 (XXXX)：伤害 <WeaponDes_Num_Green>148.5%</> / 杀气 <WeaponDes_Num_Green>148.5%</>\n重2 (YY)：伤害 <WeaponDes_Num_Green>162%</> / 杀气 <WeaponDes_Num_Green>162%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>202.5%</> / 杀气 <WeaponDes_Num_Green>202.5%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n輕2 (XX)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\n輕3 (XXX)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\n輕4 (XXXX)：傷害 <WeaponDes_Num_Green>148.5%</> / 殺氣 <WeaponDes_Num_Green>148.5%</>\n重2 (YY)：傷害 <WeaponDes_Num_Green>162%</> / 殺氣 <WeaponDes_Num_Green>162%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>202.5%</> / 殺氣 <WeaponDes_Num_Green>202.5%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nLight 2 (XX): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nLight 3 (XXX): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nLight 4 (XXXX): DMG <WeaponDes_Num_Green>148.5%</> / Sha-Chi <WeaponDes_Num_Green>148.5%</>\nHeavy 2 (YY): DMG <WeaponDes_Num_Green>162%</> / Sha-Chi <WeaponDes_Num_Green>162%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>202.5%</> / Sha-Chi <WeaponDes_Num_Green>202.5%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>162%</> / 杀气 <WeaponDes_Num_Green>162%</>\nYX(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXXY：伤害 <WeaponDes_Num_Green>202.5%</> / 杀气 <WeaponDes_Num_Green>202.5%</>\nXYY：伤害 <WeaponDes_Num_Green>202.5%</> / 杀气 <WeaponDes_Num_Green>202.5%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>202.5%</> / 杀气 <WeaponDes_Num_Green>202.5%</>\nXXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>202.5%</> / 杀气 <WeaponDes_Num_Green>202.5%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>202.5%</> / 杀气 <WeaponDes_Num_Green>202.5%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>162%</> / 殺氣 <WeaponDes_Num_Green>162%</>\nYX(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXXY：傷害 <WeaponDes_Num_Green>202.5%</> / 殺氣 <WeaponDes_Num_Green>202.5%</>\nXYY：傷害 <WeaponDes_Num_Green>202.5%</> / 殺氣 <WeaponDes_Num_Green>202.5%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>202.5%</> / 殺氣 <WeaponDes_Num_Green>202.5%</>\nXXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>202.5%</> / 殺氣 <WeaponDes_Num_Green>202.5%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>202.5%</> / 殺氣 <WeaponDes_Num_Green>202.5%</>",
+          "en": "XY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>162%</> / Sha-Chi <WeaponDes_Num_Green>162%</>\nYX (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXXY: DMG <WeaponDes_Num_Green>202.5%</> / Sha-Chi <WeaponDes_Num_Green>202.5%</>\nXYY: DMG <WeaponDes_Num_Green>202.5%</> / Sha-Chi <WeaponDes_Num_Green>202.5%</>\nXXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>202.5%</> / Sha-Chi <WeaponDes_Num_Green>202.5%</>\nXXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>202.5%</> / Sha-Chi <WeaponDes_Num_Green>202.5%</>\nXXXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>202.5%</> / Sha-Chi <WeaponDes_Num_Green>202.5%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</>\n闪避轻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>302.4%</> / 杀气 <WeaponDes_Num_Green>302.4%</>\n切武器攻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>300%</> / 杀气 <WeaponDes_Num_Green>300%</>\n冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</>\n剑气(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>398.5%</> / 杀气 <WeaponDes_Num_Green>238.2%</>\n特殊招式(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>317%</> / 杀气 <WeaponDes_Num_Green>202%</>\n蓄力释放(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>310.5%</> / 杀气 <WeaponDes_Num_Green>310.5%</>\n闪避攻击：伤害 <WeaponDes_Num_Green>151.2%</> / 杀气 <WeaponDes_Num_Green>151.2%</>\n闪避突进(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>151.2%</> / 杀气 <WeaponDes_Num_Green>151.2%</>",
+          "zh-Hant": "疾跑輕擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</>\n閃避輕擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>302.4%</> / 殺氣 <WeaponDes_Num_Green>302.4%</>\n切武器攻擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>300%</> / 殺氣 <WeaponDes_Num_Green>300%</>\n衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</>\n劍氣(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>398.5%</> / 殺氣 <WeaponDes_Num_Green>238.2%</>\n特殊招式(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>317%</> / 殺氣 <WeaponDes_Num_Green>202%</>\n蓄力释放(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>310.5%</> / 殺氣 <WeaponDes_Num_Green>310.5%</>\n閃避攻擊：傷害 <WeaponDes_Num_Green>151.2%</> / 殺氣 <WeaponDes_Num_Green>151.2%</>\n閃避突進(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>151.2%</> / 殺氣 <WeaponDes_Num_Green>151.2%</>",
+          "en": "Sprint Light (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</>\nDodge Light (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>302.4%</> / Sha-Chi <WeaponDes_Num_Green>302.4%</>\nSwitch Attack (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>300%</> / Sha-Chi <WeaponDes_Num_Green>300%</>\nDash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</>\nWave (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>398.5%</> / Sha-Chi <WeaponDes_Num_Green>238.2%</>\nSpecial Move (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>317%</> / Sha-Chi <WeaponDes_Num_Green>202%</>\nHold Release (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>310.5%</> / Sha-Chi <WeaponDes_Num_Green>310.5%</>\nDodge Strike: DMG <WeaponDes_Num_Green>151.2%</> / Sha-Chi <WeaponDes_Num_Green>151.2%</>\nDodge Strike (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>151.2%</> / Sha-Chi <WeaponDes_Num_Green>151.2%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_008": {
+    "name": "痴者残剑",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "切武器攻击：伤害 <WeaponDes_Num_Green>75%</> / 杀气 <WeaponDes_Num_Green>75%</>\nXX(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\nXXX(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\nXXXX(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>121%</> / 杀气 <WeaponDes_Num_Green>121%</>\nXXXXX(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>84.7%</> / 杀气 <WeaponDes_Num_Green>84.7%</>\nYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>264%</> / 杀气 <WeaponDes_Num_Green>264%</>\nYYY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>330%</> / 杀气 <WeaponDes_Num_Green>330%</>\n斩击：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\n斩击大型：伤害 <WeaponDes_Num_Green>50%</> / 杀气 <WeaponDes_Num_Green>50%</> / 异常 <WeaponDes_Num_Green>20%</>\n普通(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>144%</> / 杀气 <WeaponDes_Num_Green>144%</>\n普通XX：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</>\n普通XXX：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</>\n普通XXXX：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</>\n普通XXXXX(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</>\n普通YY：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n普通YYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\n特殊招式(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>264%</> / 杀气 <WeaponDes_Num_Green>264%</>\n醉态(<WeaponDes_Num_Green>10</>段)：伤害 <WeaponDes_Num_Green>1200%</> / 杀气 <WeaponDes_Num_Green>640%</>\n闪避完美右：伤害 <WeaponDes_Num_Green>40%</> / 杀气 <WeaponDes_Num_Green>40%</>\n闪避完美左：伤害 <WeaponDes_Num_Green>40%</> / 杀气 <WeaponDes_Num_Green>40%</>\n闪避攻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>160%</> / 杀气 <WeaponDes_Num_Green>160%</>",
+          "zh-Hant": "切武器攻擊：傷害 <WeaponDes_Num_Green>75%</> / 殺氣 <WeaponDes_Num_Green>75%</>\nXX(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\nXXX(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\nXXXX(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>121%</> / 殺氣 <WeaponDes_Num_Green>121%</>\nXXXXX(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>84.7%</> / 殺氣 <WeaponDes_Num_Green>84.7%</>\nYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>264%</> / 殺氣 <WeaponDes_Num_Green>264%</>\nYYY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>330%</> / 殺氣 <WeaponDes_Num_Green>330%</>\n斬擊：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\n斬擊大型：傷害 <WeaponDes_Num_Green>50%</> / 殺氣 <WeaponDes_Num_Green>50%</> / 異常 <WeaponDes_Num_Green>20%</>\n普通(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>144%</> / 殺氣 <WeaponDes_Num_Green>144%</>\n普通XX：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</>\n普通XXX：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</>\n普通XXXX：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</>\n普通XXXXX(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</>\n普通YY：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n普通YYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\n特殊招式(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>264%</> / 殺氣 <WeaponDes_Num_Green>264%</>\n醉態(<WeaponDes_Num_Green>10</>段)：傷害 <WeaponDes_Num_Green>1200%</> / 殺氣 <WeaponDes_Num_Green>640%</>\n閃避完美右：傷害 <WeaponDes_Num_Green>40%</> / 殺氣 <WeaponDes_Num_Green>40%</>\n閃避完美左：傷害 <WeaponDes_Num_Green>40%</> / 殺氣 <WeaponDes_Num_Green>40%</>\n閃避攻擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>160%</> / 殺氣 <WeaponDes_Num_Green>160%</>",
+          "en": "Switch Attack: DMG <WeaponDes_Num_Green>75%</> / Sha-Chi <WeaponDes_Num_Green>75%</>\nXX (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nXXX (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nXXXX (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>121%</> / Sha-Chi <WeaponDes_Num_Green>121%</>\nXXXXX (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>84.7%</> / Sha-Chi <WeaponDes_Num_Green>84.7%</>\nYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>264%</> / Sha-Chi <WeaponDes_Num_Green>264%</>\nYYY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>330%</> / Sha-Chi <WeaponDes_Num_Green>330%</>\nSlash: DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nSlash Large: DMG <WeaponDes_Num_Green>50%</> / Sha-Chi <WeaponDes_Num_Green>50%</> / Status <WeaponDes_Num_Green>20%</>\nNormal (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>144%</> / Sha-Chi <WeaponDes_Num_Green>144%</>\nNormal XX: DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</>\nNormal XXX: DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</>\nNormal XXXX: DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</>\nNormal XXXXX (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</>\nNormal YY: DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nNormal YYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nSpecial Move (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>264%</> / Sha-Chi <WeaponDes_Num_Green>264%</>\nDrunken (<WeaponDes_Num_Green>10</> hits): DMG <WeaponDes_Num_Green>1200%</> / Sha-Chi <WeaponDes_Num_Green>640%</>\nDodge Perfect Right: DMG <WeaponDes_Num_Green>40%</> / Sha-Chi <WeaponDes_Num_Green>40%</>\nDodge Perfect Left: DMG <WeaponDes_Num_Green>40%</> / Sha-Chi <WeaponDes_Num_Green>40%</>\nDodge Strike (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>160%</> / Sha-Chi <WeaponDes_Num_Green>160%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_009": {
+    "name": "灵蛇软剑",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n轻2 (XX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n轻3 (XXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>93.5%</> / 杀气 <WeaponDes_Num_Green>93.5%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\n轻5 (XXXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>77%</> / 杀气 <WeaponDes_Num_Green>0.6%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>84.5%</> / 杀气 <WeaponDes_Num_Green>84.5%</>",
+          "zh-Hant": "輕1 (X)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n輕2 (XX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n輕3 (XXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>93.5%</> / 殺氣 <WeaponDes_Num_Green>93.5%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\n輕5 (XXXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>77%</> / 殺氣 <WeaponDes_Num_Green>0.6%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>84.5%</> / 殺氣 <WeaponDes_Num_Green>84.5%</>",
+          "en": "Light 1 (X) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nLight 2 (XX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>93.5%</> / Sha-Chi <WeaponDes_Num_Green>93.5%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nLight 5 (XXXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>77%</> / Sha-Chi <WeaponDes_Num_Green>0.6%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>84.5%</> / Sha-Chi <WeaponDes_Num_Green>84.5%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\nXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXXYY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\nXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXXYY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>",
+          "en": "XY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXXYY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n闪避轻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>224%</> / 杀气 <WeaponDes_Num_Green>224%</>\n切武器攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>200%</> / 杀气 <WeaponDes_Num_Green>200%</>\n冲刺(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n完美(<WeaponDes_Num_Green>14</>段)：伤害 <WeaponDes_Num_Green>991%</> / 杀气 <WeaponDes_Num_Green>495.5%</> / 异常 <WeaponDes_Num_Green>955.8%</>\n普通(<WeaponDes_Num_Green>9</>段)：伤害 <WeaponDes_Num_Green>607.1%</> / 杀气 <WeaponDes_Num_Green>294.9%</>\n特殊招式(<WeaponDes_Num_Green>11</>段)：伤害 <WeaponDes_Num_Green>585.7%</> / 杀气 <WeaponDes_Num_Green>535.1%</>\n蓄势(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>300%</> / 杀气 <WeaponDes_Num_Green>200%</>\n轻击派生：伤害 <WeaponDes_Num_Green>3.3%</> / 杀气 <WeaponDes_Num_Green>1.7%</>\n连击(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>360%</> / 杀气 <WeaponDes_Num_Green>320%</>\n闪避攻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</>\n闪避突进(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</>",
+          "zh-Hant": "疾跑輕擊：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n閃避輕擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>224%</> / 殺氣 <WeaponDes_Num_Green>224%</>\n切武器攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>200%</> / 殺氣 <WeaponDes_Num_Green>200%</>\n衝刺(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n完美(<WeaponDes_Num_Green>14</>段)：傷害 <WeaponDes_Num_Green>991%</> / 殺氣 <WeaponDes_Num_Green>495.5%</> / 異常 <WeaponDes_Num_Green>955.8%</>\n普通(<WeaponDes_Num_Green>9</>段)：傷害 <WeaponDes_Num_Green>607.1%</> / 殺氣 <WeaponDes_Num_Green>294.9%</>\n特殊招式(<WeaponDes_Num_Green>11</>段)：傷害 <WeaponDes_Num_Green>585.7%</> / 殺氣 <WeaponDes_Num_Green>535.1%</>\n蓄勢(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>300%</> / 殺氣 <WeaponDes_Num_Green>200%</>\n輕擊派生：傷害 <WeaponDes_Num_Green>3.3%</> / 殺氣 <WeaponDes_Num_Green>1.7%</>\n連擊(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>360%</> / 殺氣 <WeaponDes_Num_Green>320%</>\n閃避攻擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</>\n閃避突進(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</>",
+          "en": "Sprint Light: DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nDodge Light (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>224%</> / Sha-Chi <WeaponDes_Num_Green>224%</>\nSwitch Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>200%</> / Sha-Chi <WeaponDes_Num_Green>200%</>\nDash (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nPerfect (<WeaponDes_Num_Green>14</> hits): DMG <WeaponDes_Num_Green>991%</> / Sha-Chi <WeaponDes_Num_Green>495.5%</> / Status <WeaponDes_Num_Green>955.8%</>\nNormal (<WeaponDes_Num_Green>9</> hits): DMG <WeaponDes_Num_Green>607.1%</> / Sha-Chi <WeaponDes_Num_Green>294.9%</>\nSpecial Move (<WeaponDes_Num_Green>11</> hits): DMG <WeaponDes_Num_Green>585.7%</> / Sha-Chi <WeaponDes_Num_Green>535.1%</>\nPotential (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>300%</> / Sha-Chi <WeaponDes_Num_Green>200%</>\nLight Follow-up: DMG <WeaponDes_Num_Green>3.3%</> / Sha-Chi <WeaponDes_Num_Green>1.7%</>\nCombo (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>360%</> / Sha-Chi <WeaponDes_Num_Green>320%</>\nDodge Strike (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</>\nDodge Strike (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_010": {
+    "name": "白山风雷剑",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>36%</> / 风雷 <WeaponDes_Num_Green>72%</>\n轻2 (XX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>45%</> / 风雷 <WeaponDes_Num_Green>90%</>\n轻3 (XXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>45%</> / 风雷 <WeaponDes_Num_Green>90%</>\n轻4 (XXXX)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>49.5%</> / 风雷 <WeaponDes_Num_Green>99%</>\n重2 (YY)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</> / 风雷 <WeaponDes_Num_Green>108%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 风雷 <WeaponDes_Num_Green>135%</>\n重4 (YYYY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>150%</> / 风雷 <WeaponDes_Num_Green>225%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>36%</> / 風雷 <WeaponDes_Num_Green>72%</>\n輕2 (XX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>45%</> / 風雷 <WeaponDes_Num_Green>90%</>\n輕3 (XXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>45%</> / 風雷 <WeaponDes_Num_Green>90%</>\n輕4 (XXXX)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>49.5%</> / 風雷 <WeaponDes_Num_Green>99%</>\n重2 (YY)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</> / 風雷 <WeaponDes_Num_Green>108%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 風雷 <WeaponDes_Num_Green>135%</>\n重4 (YYYY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 風雷 <WeaponDes_Num_Green>225%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>36%</> / Elem <WeaponDes_Num_Green>72%</>\nLight 2 (XX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>45%</> / Elem <WeaponDes_Num_Green>90%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>45%</> / Elem <WeaponDes_Num_Green>90%</>\nLight 4 (XXXX): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>49.5%</> / Elem <WeaponDes_Num_Green>99%</>\nHeavy 2 (YY): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</> / Elem <WeaponDes_Num_Green>108%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Elem <WeaponDes_Num_Green>135%</>\nHeavy 4 (YYYY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Elem <WeaponDes_Num_Green>225%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</> / 风雷 <WeaponDes_Num_Green>108%</>\nXXY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>165%</> / 杀气 <WeaponDes_Num_Green>165%</> / 风雷 <WeaponDes_Num_Green>165%</>\nXXXY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>168%</> / 风雷 <WeaponDes_Num_Green>168%</>\nXXYX：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</> / 风雷 <WeaponDes_Num_Green>99%</>\nXXYY：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 风雷 <WeaponDes_Num_Green>135%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 风雷 <WeaponDes_Num_Green>135%</>\nXXYXY：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 风雷 <WeaponDes_Num_Green>135%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</> / 風雷 <WeaponDes_Num_Green>108%</>\nXXY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>165%</> / 殺氣 <WeaponDes_Num_Green>165%</> / 風雷 <WeaponDes_Num_Green>165%</>\nXXXY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>168%</> / 風雷 <WeaponDes_Num_Green>168%</>\nXXYX：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</> / 風雷 <WeaponDes_Num_Green>99%</>\nXXYY：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 風雷 <WeaponDes_Num_Green>135%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 風雷 <WeaponDes_Num_Green>135%</>\nXXYXY：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 風雷 <WeaponDes_Num_Green>135%</>",
+          "en": "XY (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</> / Elem <WeaponDes_Num_Green>108%</>\nXXY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>165%</> / Sha-Chi <WeaponDes_Num_Green>165%</> / Elem <WeaponDes_Num_Green>165%</>\nXXXY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>168%</> / Elem <WeaponDes_Num_Green>168%</>\nXXYX: DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</> / Elem <WeaponDes_Num_Green>99%</>\nXXYY: DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Elem <WeaponDes_Num_Green>135%</>\nXXXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Elem <WeaponDes_Num_Green>135%</>\nXXYXY: DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Elem <WeaponDes_Num_Green>135%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>46.8%</> / 风雷 <WeaponDes_Num_Green>93.6%</>\n拔刀轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>36%</> / 风雷 <WeaponDes_Num_Green>72%</>\n疾跑拔刀轻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</> / 风雷 <WeaponDes_Num_Green>93.6%</>\n闪避轻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>201.6%</> / 杀气 <WeaponDes_Num_Green>201.6%</> / 风雷 <WeaponDes_Num_Green>201.6%</>\nXXXYY落雷(<WeaponDes_Num_Green>7</>段)：杀气 <WeaponDes_Num_Green>350%</>\nXXYXY落雷：杀气 <WeaponDes_Num_Green>50%</>\n冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</> / 风雷 <WeaponDes_Num_Green>93.6%</>\n切武器攻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>250%</> / 杀气 <WeaponDes_Num_Green>350%</> / 风雷 <WeaponDes_Num_Green>350%</>\n攻击：伤害 <WeaponDes_Num_Green>50%</> / 杀气 <WeaponDes_Num_Green>50%</>\n攻击右：伤害 <WeaponDes_Num_Green>50%</> / 杀气 <WeaponDes_Num_Green>50%</>\n攻击左：伤害 <WeaponDes_Num_Green>50%</> / 杀气 <WeaponDes_Num_Green>50%</>\n特殊招式：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</> / 风雷 <WeaponDes_Num_Green>72%</>\n疾跑拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</> / 风雷 <WeaponDes_Num_Green>93.6%</>\n疾风剑气击打：伤害 <WeaponDes_Num_Green>60%</> / 杀气 <WeaponDes_Num_Green>60%</> / 风雷 <WeaponDes_Num_Green>60%</>\n空中攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>240%</> / 风雷 <WeaponDes_Num_Green>60%</>\n空中攻击拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>240%</> / 风雷 <WeaponDes_Num_Green>60%</>\n蓄力：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>50%</>\n闪避攻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>100.8%</> / 杀气 <WeaponDes_Num_Green>100.8%</> / 风雷 <WeaponDes_Num_Green>100.8%</>\n闪避突进(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100.8%</> / 杀气 <WeaponDes_Num_Green>100.8%</> / 风雷 <WeaponDes_Num_Green>100.8%</>",
+          "zh-Hant": "疾跑輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>46.8%</> / 風雷 <WeaponDes_Num_Green>93.6%</>\n拔刀輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>36%</> / 風雷 <WeaponDes_Num_Green>72%</>\n疾跑拔刀輕擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</> / 風雷 <WeaponDes_Num_Green>93.6%</>\n閃避輕擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>201.6%</> / 殺氣 <WeaponDes_Num_Green>201.6%</> / 風雷 <WeaponDes_Num_Green>201.6%</>\nXXXYY落雷(<WeaponDes_Num_Green>7</>段)：殺氣 <WeaponDes_Num_Green>350%</>\nXXYXY落雷：殺氣 <WeaponDes_Num_Green>50%</>\n衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</> / 風雷 <WeaponDes_Num_Green>93.6%</>\n切武器攻擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>250%</> / 殺氣 <WeaponDes_Num_Green>350%</> / 風雷 <WeaponDes_Num_Green>350%</>\n攻擊：傷害 <WeaponDes_Num_Green>50%</> / 殺氣 <WeaponDes_Num_Green>50%</>\n攻擊右：傷害 <WeaponDes_Num_Green>50%</> / 殺氣 <WeaponDes_Num_Green>50%</>\n攻擊左：傷害 <WeaponDes_Num_Green>50%</> / 殺氣 <WeaponDes_Num_Green>50%</>\n特殊招式：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</> / 風雷 <WeaponDes_Num_Green>72%</>\n疾跑拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</> / 風雷 <WeaponDes_Num_Green>93.6%</>\n疾風劍氣擊打：傷害 <WeaponDes_Num_Green>60%</> / 殺氣 <WeaponDes_Num_Green>60%</> / 風雷 <WeaponDes_Num_Green>60%</>\n空中攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>240%</> / 風雷 <WeaponDes_Num_Green>60%</>\n空中攻擊拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>240%</> / 風雷 <WeaponDes_Num_Green>60%</>\n蓄力：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>50%</>\n閃避攻擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>100.8%</> / 殺氣 <WeaponDes_Num_Green>100.8%</> / 風雷 <WeaponDes_Num_Green>100.8%</>\n閃避突進(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100.8%</> / 殺氣 <WeaponDes_Num_Green>100.8%</> / 風雷 <WeaponDes_Num_Green>100.8%</>",
+          "en": "Sprint Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>46.8%</> / Elem <WeaponDes_Num_Green>93.6%</>\nDraw Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>36%</> / Elem <WeaponDes_Num_Green>72%</>\nSprint Draw Light (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</> / Elem <WeaponDes_Num_Green>93.6%</>\nDodge Light (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>201.6%</> / Sha-Chi <WeaponDes_Num_Green>201.6%</> / Elem <WeaponDes_Num_Green>201.6%</>\nXXXYY Lightning (<WeaponDes_Num_Green>7</> hits): Sha-Chi <WeaponDes_Num_Green>350%</>\nXXYXY Lightning: Sha-Chi <WeaponDes_Num_Green>50%</>\nDash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</> / Elem <WeaponDes_Num_Green>93.6%</>\nSwitch Attack (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>250%</> / Sha-Chi <WeaponDes_Num_Green>350%</> / Elem <WeaponDes_Num_Green>350%</>\nAttack: DMG <WeaponDes_Num_Green>50%</> / Sha-Chi <WeaponDes_Num_Green>50%</>\nAttack Right: DMG <WeaponDes_Num_Green>50%</> / Sha-Chi <WeaponDes_Num_Green>50%</>\nAttack Left: DMG <WeaponDes_Num_Green>50%</> / Sha-Chi <WeaponDes_Num_Green>50%</>\nSpecial Move: DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</> / Elem <WeaponDes_Num_Green>72%</>\nDash Draw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</> / Elem <WeaponDes_Num_Green>93.6%</>\nWind Wave Hit: DMG <WeaponDes_Num_Green>60%</> / Sha-Chi <WeaponDes_Num_Green>60%</> / Elem <WeaponDes_Num_Green>60%</>\nAir Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>240%</> / Elem <WeaponDes_Num_Green>60%</>\nAir Attack Draw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>240%</> / Elem <WeaponDes_Num_Green>60%</>\nHold: DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>50%</>\nDodge Strike (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>100.8%</> / Sha-Chi <WeaponDes_Num_Green>100.8%</> / Elem <WeaponDes_Num_Green>100.8%</>\nDodge Strike (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100.8%</> / Sha-Chi <WeaponDes_Num_Green>100.8%</> / Elem <WeaponDes_Num_Green>100.8%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "强化 / 剑气派生倍率",
+          "zh-Hant": "強化 / 劍氣派生倍率",
+          "en": "Enhanced / Wave Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "风雷·攻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>78.3%</> / 杀气 <WeaponDes_Num_Green>14.9%</> / 风雷 <WeaponDes_Num_Green>89.6%</>\n风雷·攻击大型(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>310.5%</> / 杀气 <WeaponDes_Num_Green>321.1%</> / 风雷 <WeaponDes_Num_Green>321.1%</>\n风雷·攻击大型闪避攻击：杀气 <WeaponDes_Num_Green>10.5%</> / 风雷 <WeaponDes_Num_Green>10.5%</>",
+          "zh-Hant": "風雷·攻擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>78.3%</> / 殺氣 <WeaponDes_Num_Green>14.9%</> / 風雷 <WeaponDes_Num_Green>89.6%</>\n風雷·攻擊大型(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>310.5%</> / 殺氣 <WeaponDes_Num_Green>321.1%</> / 風雷 <WeaponDes_Num_Green>321.1%</>\n風雷·攻擊大型閃避攻擊：殺氣 <WeaponDes_Num_Green>10.5%</> / 風雷 <WeaponDes_Num_Green>10.5%</>",
+          "en": "Storm Attack (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>78.3%</> / Sha-Chi <WeaponDes_Num_Green>14.9%</> / Elem <WeaponDes_Num_Green>89.6%</>\nStorm Attack Large (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>310.5%</> / Sha-Chi <WeaponDes_Num_Green>321.1%</> / Elem <WeaponDes_Num_Green>321.1%</>\nStorm Attack Large Dodge Strike: Sha-Chi <WeaponDes_Num_Green>10.5%</> / Elem <WeaponDes_Num_Green>10.5%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_011": {
+    "name": "紫冥剑",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n轻2 (XX)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n轻3 (XXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\n轻5 (XXXXX)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\n重2 (YY)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>87.4%</> / 杀气 <WeaponDes_Num_Green>87.4%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n輕2 (XX)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n輕3 (XXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\n輕5 (XXXXX)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\n重2 (YY)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>87.4%</> / 殺氣 <WeaponDes_Num_Green>87.4%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nLight 2 (XX): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nLight 5 (XXXXX): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>87.4%</> / Sha-Chi <WeaponDes_Num_Green>87.4%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\nXXY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>68.2%</> / 杀气 <WeaponDes_Num_Green>68.2%</>\nXXXY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXYY(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXXYY：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "XY：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\nXXY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>68.2%</> / 殺氣 <WeaponDes_Num_Green>68.2%</>\nXXXY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXYY(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXXYY：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>",
+          "en": "XY: DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nXXY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>68.2%</> / Sha-Chi <WeaponDes_Num_Green>68.2%</>\nXXXY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXYY (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXXYY: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n闪避轻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>224%</> / 杀气 <WeaponDes_Num_Green>224%</>\n切武器攻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>320%</> / 杀气 <WeaponDes_Num_Green>320%</>\n完美闪避反击：伤害 <WeaponDes_Num_Green>200%</> / 杀气 <WeaponDes_Num_Green>200%</>\n冲刺：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n射击：伤害 <WeaponDes_Num_Green>40%</> / 杀气 <WeaponDes_Num_Green>40%</>\n引爆：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n弹丸：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\n强化：伤害 <WeaponDes_Num_Green>75%</> / 杀气 <WeaponDes_Num_Green>75%</>\n火焰：伤害 <WeaponDes_Num_Green>75%</> / 杀气 <WeaponDes_Num_Green>75%</> / 异常 <WeaponDes_Num_Green>150%</>\n特殊招式(<WeaponDes_Num_Green>9</>段)：伤害 <WeaponDes_Num_Green>1100%</> / 杀气 <WeaponDes_Num_Green>740%</> / 异常 <WeaponDes_Num_Green>1130%</>\n破防：杀气 <WeaponDes_Num_Green>100%</>\n闪避攻击：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</>\n闪避突进：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</>",
+          "zh-Hant": "疾跑輕擊：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n閃避輕擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>224%</> / 殺氣 <WeaponDes_Num_Green>224%</>\n切武器攻擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>320%</> / 殺氣 <WeaponDes_Num_Green>320%</>\n完美閃避反擊：傷害 <WeaponDes_Num_Green>200%</> / 殺氣 <WeaponDes_Num_Green>200%</>\n衝刺：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n射擊：傷害 <WeaponDes_Num_Green>40%</> / 殺氣 <WeaponDes_Num_Green>40%</>\n引爆：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n彈丸：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\n強化：傷害 <WeaponDes_Num_Green>75%</> / 殺氣 <WeaponDes_Num_Green>75%</>\n火焰：傷害 <WeaponDes_Num_Green>75%</> / 殺氣 <WeaponDes_Num_Green>75%</> / 異常 <WeaponDes_Num_Green>150%</>\n特殊招式(<WeaponDes_Num_Green>9</>段)：傷害 <WeaponDes_Num_Green>1100%</> / 殺氣 <WeaponDes_Num_Green>740%</> / 異常 <WeaponDes_Num_Green>1130%</>\n破防：殺氣 <WeaponDes_Num_Green>100%</>\n閃避攻擊：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</>\n閃避突進：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</>",
+          "en": "Sprint Light: DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nDodge Light (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>224%</> / Sha-Chi <WeaponDes_Num_Green>224%</>\nSwitch Attack (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>320%</> / Sha-Chi <WeaponDes_Num_Green>320%</>\nPerfect Dodge Counter: DMG <WeaponDes_Num_Green>200%</> / Sha-Chi <WeaponDes_Num_Green>200%</>\nDash: DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nShot: DMG <WeaponDes_Num_Green>40%</> / Sha-Chi <WeaponDes_Num_Green>40%</>\nDetonate: DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nBullet: DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nEnhanced: DMG <WeaponDes_Num_Green>75%</> / Sha-Chi <WeaponDes_Num_Green>75%</>\nFlame: DMG <WeaponDes_Num_Green>75%</> / Sha-Chi <WeaponDes_Num_Green>75%</> / Status <WeaponDes_Num_Green>150%</>\nSpecial Move (<WeaponDes_Num_Green>9</> hits): DMG <WeaponDes_Num_Green>1100%</> / Sha-Chi <WeaponDes_Num_Green>740%</> / Status <WeaponDes_Num_Green>1130%</>\nBreak: Sha-Chi <WeaponDes_Num_Green>100%</>\nDodge Strike: DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</>\nDodge Strike: DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_012": {
+    "name": "长形黑伤",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n轻2 (XX)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n轻3 (XXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>52%</> / 杀气 <WeaponDes_Num_Green>52%</> / 异常 <WeaponDes_Num_Green>84.7%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n輕2 (XX)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n輕3 (XXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>52%</> / 殺氣 <WeaponDes_Num_Green>52%</> / 異常 <WeaponDes_Num_Green>84.7%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nLight 2 (XX): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>52%</> / Sha-Chi <WeaponDes_Num_Green>52%</> / Status <WeaponDes_Num_Green>84.7%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\nXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXXY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXXXY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>192%</> / 杀气 <WeaponDes_Num_Green>192%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\nXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXXY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXXXY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>192%</> / 殺氣 <WeaponDes_Num_Green>192%</>",
+          "en": "XY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXXY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXXXY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>192%</> / Sha-Chi <WeaponDes_Num_Green>192%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n拔刀轻击：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n疾跑拔刀轻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n闪避轻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>224%</> / 杀气 <WeaponDes_Num_Green>224%</>\n切武器攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>460%</> / 杀气 <WeaponDes_Num_Green>700%</>\n冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n反击(<WeaponDes_Num_Green>8</>段)：伤害 <WeaponDes_Num_Green>501.9%</> / 杀气 <WeaponDes_Num_Green>501.9%</> / 异常 <WeaponDes_Num_Green>330%</>\n拔刀：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n特殊招式(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>675%</> / 杀气 <WeaponDes_Num_Green>825%</> / 异常 <WeaponDes_Num_Green>580%</>\n疾跑拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n闪避攻击：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</>\n闪避突进(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</>",
+          "zh-Hant": "疾跑輕擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n拔刀輕擊：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n疾跑拔刀輕擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n閃避輕擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>224%</> / 殺氣 <WeaponDes_Num_Green>224%</>\n切武器攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>460%</> / 殺氣 <WeaponDes_Num_Green>700%</>\n衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n反擊(<WeaponDes_Num_Green>8</>段)：傷害 <WeaponDes_Num_Green>501.9%</> / 殺氣 <WeaponDes_Num_Green>501.9%</> / 異常 <WeaponDes_Num_Green>330%</>\n拔刀：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n特殊招式(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>675%</> / 殺氣 <WeaponDes_Num_Green>825%</> / 異常 <WeaponDes_Num_Green>580%</>\n疾跑拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n閃避攻擊：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</>\n閃避突進(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</>",
+          "en": "Sprint Light (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nDraw Light: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nSprint Draw Light (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nDodge Light (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>224%</> / Sha-Chi <WeaponDes_Num_Green>224%</>\nSwitch Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>460%</> / Sha-Chi <WeaponDes_Num_Green>700%</>\nDash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nCounter (<WeaponDes_Num_Green>8</> hits): DMG <WeaponDes_Num_Green>501.9%</> / Sha-Chi <WeaponDes_Num_Green>501.9%</> / Status <WeaponDes_Num_Green>330%</>\nDraw: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nSpecial Move (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>675%</> / Sha-Chi <WeaponDes_Num_Green>825%</> / Status <WeaponDes_Num_Green>580%</>\nDash Draw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nDodge Strike: DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</>\nDodge Strike (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_013": {
+    "name": "亡命斩马刀",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>91.8%</> / 杀气 <WeaponDes_Num_Green>91.8%</> / 流血 <WeaponDes_Num_Green>108%</>\n轻2 (XX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>114.8%</> / 杀气 <WeaponDes_Num_Green>114.8%</> / 流血 <WeaponDes_Num_Green>114.8%</>\n轻3 (XXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>114.8%</> / 杀气 <WeaponDes_Num_Green>114.8%</> / 流血 <WeaponDes_Num_Green>114.8%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>126.2%</> / 杀气 <WeaponDes_Num_Green>126.2%</> / 流血 <WeaponDes_Num_Green>126.2%</>\n重2 (YY)：伤害 <WeaponDes_Num_Green>194.4%</> / 杀气 <WeaponDes_Num_Green>194.4%</> / 流血 <WeaponDes_Num_Green>194.4%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>91.8%</> / 殺氣 <WeaponDes_Num_Green>91.8%</> / 流血 <WeaponDes_Num_Green>108%</>\n輕2 (XX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>114.8%</> / 殺氣 <WeaponDes_Num_Green>114.8%</> / 流血 <WeaponDes_Num_Green>114.8%</>\n輕3 (XXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>114.8%</> / 殺氣 <WeaponDes_Num_Green>114.8%</> / 流血 <WeaponDes_Num_Green>114.8%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>126.2%</> / 殺氣 <WeaponDes_Num_Green>126.2%</> / 流血 <WeaponDes_Num_Green>126.2%</>\n重2 (YY)：傷害 <WeaponDes_Num_Green>194.4%</> / 殺氣 <WeaponDes_Num_Green>194.4%</> / 流血 <WeaponDes_Num_Green>194.4%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>91.8%</> / Sha-Chi <WeaponDes_Num_Green>91.8%</> / Bleed <WeaponDes_Num_Green>108%</>\nLight 2 (XX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>114.8%</> / Sha-Chi <WeaponDes_Num_Green>114.8%</> / Bleed <WeaponDes_Num_Green>114.8%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>114.8%</> / Sha-Chi <WeaponDes_Num_Green>114.8%</> / Bleed <WeaponDes_Num_Green>114.8%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>126.2%</> / Sha-Chi <WeaponDes_Num_Green>126.2%</> / Bleed <WeaponDes_Num_Green>126.2%</>\nHeavy 2 (YY): DMG <WeaponDes_Num_Green>194.4%</> / Sha-Chi <WeaponDes_Num_Green>194.4%</> / Bleed <WeaponDes_Num_Green>194.4%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>194.4%</> / 杀气 <WeaponDes_Num_Green>194.4%</> / 流血 <WeaponDes_Num_Green>194.4%</>\nXXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>243%</> / 杀气 <WeaponDes_Num_Green>243%</> / 流血 <WeaponDes_Num_Green>243%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>243%</> / 杀气 <WeaponDes_Num_Green>243%</> / 流血 <WeaponDes_Num_Green>243%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>194.4%</> / 殺氣 <WeaponDes_Num_Green>194.4%</> / 流血 <WeaponDes_Num_Green>194.4%</>\nXXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>243%</> / 殺氣 <WeaponDes_Num_Green>243%</> / 流血 <WeaponDes_Num_Green>243%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>243%</> / 殺氣 <WeaponDes_Num_Green>243%</> / 流血 <WeaponDes_Num_Green>243%</>",
+          "en": "XY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>194.4%</> / Sha-Chi <WeaponDes_Num_Green>194.4%</> / Bleed <WeaponDes_Num_Green>194.4%</>\nXXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>243%</> / Sha-Chi <WeaponDes_Num_Green>243%</> / Bleed <WeaponDes_Num_Green>243%</>\nXXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>243%</> / Sha-Chi <WeaponDes_Num_Green>243%</> / Bleed <WeaponDes_Num_Green>243%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击：伤害 <WeaponDes_Num_Green>119.3%</> / 杀气 <WeaponDes_Num_Green>119.3%</> / 流血 <WeaponDes_Num_Green>119.3%</>\n拔刀轻击：伤害 <WeaponDes_Num_Green>91.8%</> / 杀气 <WeaponDes_Num_Green>91.8%</> / 流血 <WeaponDes_Num_Green>91.8%</>\n疾跑拔刀轻击：伤害 <WeaponDes_Num_Green>119.3%</> / 杀气 <WeaponDes_Num_Green>119.3%</> / 流血 <WeaponDes_Num_Green>119.3%</>\n闪避轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>302.4%</> / 杀气 <WeaponDes_Num_Green>302.4%</> / 流血 <WeaponDes_Num_Green>302.4%</>\n切武器攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>180%</> / 流血 <WeaponDes_Num_Green>180%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>192.4%</> / 杀气 <WeaponDes_Num_Green>192.4%</> / 流血 <WeaponDes_Num_Green>192.4%</>\nXXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>192.4%</> / 杀气 <WeaponDes_Num_Green>192.4%</> / 流血 <WeaponDes_Num_Green>192.4%</>\nXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>153.9%</> / 杀气 <WeaponDes_Num_Green>153.9%</> / 流血 <WeaponDes_Num_Green>153.9%</>\nYY：伤害 <WeaponDes_Num_Green>153.9%</> / 杀气 <WeaponDes_Num_Green>153.9%</> / 流血 <WeaponDes_Num_Green>153.9%</>\n冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>301.9%</> / 杀气 <WeaponDes_Num_Green>301.9%</> / 流血 <WeaponDes_Num_Green>301.9%</>\n弹丸：伤害 <WeaponDes_Num_Green>30%</> / 杀气 <WeaponDes_Num_Green>30%</> / 流血 <WeaponDes_Num_Green>30%</>\n拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>232.2%</> / 杀气 <WeaponDes_Num_Green>232.2%</> / 流血 <WeaponDes_Num_Green>232.2%</>\n拔刀冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>168.5%</> / 杀气 <WeaponDes_Num_Green>168.5%</> / 流血 <WeaponDes_Num_Green>168.5%</>\n特殊招式(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>382.2%</> / 杀气 <WeaponDes_Num_Green>382.2%</> / 流血 <WeaponDes_Num_Green>382.2%</>\n重击派生(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>180%</> / 流血 <WeaponDes_Num_Green>180%</>\n闪避攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>325.1%</> / 杀气 <WeaponDes_Num_Green>325.1%</> / 流血 <WeaponDes_Num_Green>325.1%</>\n闪避突进(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>325.1%</> / 杀气 <WeaponDes_Num_Green>325.1%</> / 流血 <WeaponDes_Num_Green>325.1%</>",
+          "zh-Hant": "疾跑輕擊：傷害 <WeaponDes_Num_Green>119.3%</> / 殺氣 <WeaponDes_Num_Green>119.3%</> / 流血 <WeaponDes_Num_Green>119.3%</>\n拔刀輕擊：傷害 <WeaponDes_Num_Green>91.8%</> / 殺氣 <WeaponDes_Num_Green>91.8%</> / 流血 <WeaponDes_Num_Green>91.8%</>\n疾跑拔刀輕擊：傷害 <WeaponDes_Num_Green>119.3%</> / 殺氣 <WeaponDes_Num_Green>119.3%</> / 流血 <WeaponDes_Num_Green>119.3%</>\n閃避輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>302.4%</> / 殺氣 <WeaponDes_Num_Green>302.4%</> / 流血 <WeaponDes_Num_Green>302.4%</>\n切武器攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>180%</> / 流血 <WeaponDes_Num_Green>180%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>192.4%</> / 殺氣 <WeaponDes_Num_Green>192.4%</> / 流血 <WeaponDes_Num_Green>192.4%</>\nXXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>192.4%</> / 殺氣 <WeaponDes_Num_Green>192.4%</> / 流血 <WeaponDes_Num_Green>192.4%</>\nXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>153.9%</> / 殺氣 <WeaponDes_Num_Green>153.9%</> / 流血 <WeaponDes_Num_Green>153.9%</>\nYY：傷害 <WeaponDes_Num_Green>153.9%</> / 殺氣 <WeaponDes_Num_Green>153.9%</> / 流血 <WeaponDes_Num_Green>153.9%</>\n衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>301.9%</> / 殺氣 <WeaponDes_Num_Green>301.9%</> / 流血 <WeaponDes_Num_Green>301.9%</>\n彈丸：傷害 <WeaponDes_Num_Green>30%</> / 殺氣 <WeaponDes_Num_Green>30%</> / 流血 <WeaponDes_Num_Green>30%</>\n拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>232.2%</> / 殺氣 <WeaponDes_Num_Green>232.2%</> / 流血 <WeaponDes_Num_Green>232.2%</>\n拔刀衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>168.5%</> / 殺氣 <WeaponDes_Num_Green>168.5%</> / 流血 <WeaponDes_Num_Green>168.5%</>\n特殊招式(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>382.2%</> / 殺氣 <WeaponDes_Num_Green>382.2%</> / 流血 <WeaponDes_Num_Green>382.2%</>\n重擊派生(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>180%</> / 流血 <WeaponDes_Num_Green>180%</>\n閃避攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>325.1%</> / 殺氣 <WeaponDes_Num_Green>325.1%</> / 流血 <WeaponDes_Num_Green>325.1%</>\n閃避突進(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>325.1%</> / 殺氣 <WeaponDes_Num_Green>325.1%</> / 流血 <WeaponDes_Num_Green>325.1%</>",
+          "en": "Sprint Light: DMG <WeaponDes_Num_Green>119.3%</> / Sha-Chi <WeaponDes_Num_Green>119.3%</> / Bleed <WeaponDes_Num_Green>119.3%</>\nDraw Light: DMG <WeaponDes_Num_Green>91.8%</> / Sha-Chi <WeaponDes_Num_Green>91.8%</> / Bleed <WeaponDes_Num_Green>91.8%</>\nSprint Draw Light: DMG <WeaponDes_Num_Green>119.3%</> / Sha-Chi <WeaponDes_Num_Green>119.3%</> / Bleed <WeaponDes_Num_Green>119.3%</>\nDodge Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>302.4%</> / Sha-Chi <WeaponDes_Num_Green>302.4%</> / Bleed <WeaponDes_Num_Green>302.4%</>\nSwitch Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>180%</> / Bleed <WeaponDes_Num_Green>180%</>\nXXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>192.4%</> / Sha-Chi <WeaponDes_Num_Green>192.4%</> / Bleed <WeaponDes_Num_Green>192.4%</>\nXXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>192.4%</> / Sha-Chi <WeaponDes_Num_Green>192.4%</> / Bleed <WeaponDes_Num_Green>192.4%</>\nXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>153.9%</> / Sha-Chi <WeaponDes_Num_Green>153.9%</> / Bleed <WeaponDes_Num_Green>153.9%</>\nYY: DMG <WeaponDes_Num_Green>153.9%</> / Sha-Chi <WeaponDes_Num_Green>153.9%</> / Bleed <WeaponDes_Num_Green>153.9%</>\nDash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>301.9%</> / Sha-Chi <WeaponDes_Num_Green>301.9%</> / Bleed <WeaponDes_Num_Green>301.9%</>\nBullet: DMG <WeaponDes_Num_Green>30%</> / Sha-Chi <WeaponDes_Num_Green>30%</> / Bleed <WeaponDes_Num_Green>30%</>\nDraw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>232.2%</> / Sha-Chi <WeaponDes_Num_Green>232.2%</> / Bleed <WeaponDes_Num_Green>232.2%</>\nDraw Dash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>168.5%</> / Sha-Chi <WeaponDes_Num_Green>168.5%</> / Bleed <WeaponDes_Num_Green>168.5%</>\nSpecial Move (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>382.2%</> / Sha-Chi <WeaponDes_Num_Green>382.2%</> / Bleed <WeaponDes_Num_Green>382.2%</>\nHeavy Follow-up (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>180%</> / Bleed <WeaponDes_Num_Green>180%</>\nDodge Strike (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>325.1%</> / Sha-Chi <WeaponDes_Num_Green>325.1%</> / Bleed <WeaponDes_Num_Green>325.1%</>\nDodge Strike (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>325.1%</> / Sha-Chi <WeaponDes_Num_Green>325.1%</> / Bleed <WeaponDes_Num_Green>325.1%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_014": {
+    "name": "炽刃",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</> / 燃烧 <WeaponDes_Num_Green>80%</>\n轻2 (XX)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</> / 燃烧 <WeaponDes_Num_Green>100%</>\n轻3 (XXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</> / 燃烧 <WeaponDes_Num_Green>100%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</> / 燃烧 <WeaponDes_Num_Green>110%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 燃烧 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 燃烧 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</> / 燃燒 <WeaponDes_Num_Green>80%</>\n輕2 (XX)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</> / 燃燒 <WeaponDes_Num_Green>100%</>\n輕3 (XXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</> / 燃燒 <WeaponDes_Num_Green>100%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</> / 燃燒 <WeaponDes_Num_Green>110%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 燃燒 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 燃燒 <WeaponDes_Num_Green>150%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</> / Ignite <WeaponDes_Num_Green>80%</>\nLight 2 (XX): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</> / Ignite <WeaponDes_Num_Green>100%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</> / Ignite <WeaponDes_Num_Green>100%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</> / Ignite <WeaponDes_Num_Green>110%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Ignite <WeaponDes_Num_Green>120%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Ignite <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 燃烧 <WeaponDes_Num_Green>120%</>\nXXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 燃烧 <WeaponDes_Num_Green>150%</>\nXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 燃烧 <WeaponDes_Num_Green>150%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 燃烧 <WeaponDes_Num_Green>150%</>\nXXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 燃烧 <WeaponDes_Num_Green>150%</>\nXXXXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 燃烧 <WeaponDes_Num_Green>150%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 燃烧 <WeaponDes_Num_Green>150%</>\nXXXXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 燃烧 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 燃燒 <WeaponDes_Num_Green>120%</>\nXXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 燃燒 <WeaponDes_Num_Green>150%</>\nXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 燃燒 <WeaponDes_Num_Green>150%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 燃燒 <WeaponDes_Num_Green>150%</>\nXXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 燃燒 <WeaponDes_Num_Green>150%</>\nXXXXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 燃燒 <WeaponDes_Num_Green>150%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 燃燒 <WeaponDes_Num_Green>150%</>\nXXXXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 燃燒 <WeaponDes_Num_Green>150%</>",
+          "en": "XY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Ignite <WeaponDes_Num_Green>120%</>\nXXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Ignite <WeaponDes_Num_Green>150%</>\nXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Ignite <WeaponDes_Num_Green>150%</>\nXXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Ignite <WeaponDes_Num_Green>150%</>\nXXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Ignite <WeaponDes_Num_Green>150%</>\nXXXXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Ignite <WeaponDes_Num_Green>150%</>\nXXXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Ignite <WeaponDes_Num_Green>150%</>\nXXXXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Ignite <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "闪避轻击：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</> / 燃烧 <WeaponDes_Num_Green>112%</>\n切武器攻击：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>220%</> / 燃烧 <WeaponDes_Num_Green>110%</>\n冲刺：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</> / 燃烧 <WeaponDes_Num_Green>104%</>\n拔刀(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>160%</> / 杀气 <WeaponDes_Num_Green>160%</> / 燃烧 <WeaponDes_Num_Green>160%</>\n拔刀冲刺：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</> / 燃烧 <WeaponDes_Num_Green>104%</>\n烈焰(<WeaponDes_Num_Green>3</>段)：杀气 <WeaponDes_Num_Green>24%</>\n特殊招式(<WeaponDes_Num_Green>9</>段)：伤害 <WeaponDes_Num_Green>3455.8%</> / 杀气 <WeaponDes_Num_Green>1761.7%</> / 燃烧 <WeaponDes_Num_Green>3455.8%</>\n闪避攻击：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</> / 燃烧 <WeaponDes_Num_Green>112%</>\n闪避突进：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</> / 燃烧 <WeaponDes_Num_Green>112%</>",
+          "zh-Hant": "閃避輕擊：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</> / 燃燒 <WeaponDes_Num_Green>112%</>\n切武器攻擊：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>220%</> / 燃燒 <WeaponDes_Num_Green>110%</>\n衝刺：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</> / 燃燒 <WeaponDes_Num_Green>104%</>\n拔刀(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>160%</> / 殺氣 <WeaponDes_Num_Green>160%</> / 燃燒 <WeaponDes_Num_Green>160%</>\n拔刀衝刺：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</> / 燃燒 <WeaponDes_Num_Green>104%</>\n烈焰(<WeaponDes_Num_Green>3</>段)：殺氣 <WeaponDes_Num_Green>24%</>\n特殊招式(<WeaponDes_Num_Green>9</>段)：傷害 <WeaponDes_Num_Green>3455.8%</> / 殺氣 <WeaponDes_Num_Green>1761.7%</> / 燃燒 <WeaponDes_Num_Green>3455.8%</>\n閃避攻擊：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</> / 燃燒 <WeaponDes_Num_Green>112%</>\n閃避突進：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</> / 燃燒 <WeaponDes_Num_Green>112%</>",
+          "en": "Dodge Light: DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</> / Ignite <WeaponDes_Num_Green>112%</>\nSwitch Attack: DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>220%</> / Ignite <WeaponDes_Num_Green>110%</>\nDash: DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</> / Ignite <WeaponDes_Num_Green>104%</>\nDraw (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>160%</> / Sha-Chi <WeaponDes_Num_Green>160%</> / Ignite <WeaponDes_Num_Green>160%</>\nDraw Dash: DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</> / Ignite <WeaponDes_Num_Green>104%</>\nFire (<WeaponDes_Num_Green>3</> hits): Sha-Chi <WeaponDes_Num_Green>24%</>\nSpecial Move (<WeaponDes_Num_Green>9</> hits): DMG <WeaponDes_Num_Green>3455.8%</> / Sha-Chi <WeaponDes_Num_Green>1761.7%</> / Ignite <WeaponDes_Num_Green>3455.8%</>\nDodge Strike: DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</> / Ignite <WeaponDes_Num_Green>112%</>\nDodge Strike: DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</> / Ignite <WeaponDes_Num_Green>112%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_015": {
+    "name": "断肢锯",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</> / 流血 <WeaponDes_Num_Green>108%</>\n轻2 (XX)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 流血 <WeaponDes_Num_Green>135%</>\n轻3 (XXX)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 流血 <WeaponDes_Num_Green>135%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>297%</> / 杀气 <WeaponDes_Num_Green>297%</> / 流血 <WeaponDes_Num_Green>297%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>125.6%</> / 杀气 <WeaponDes_Num_Green>125.6%</> / 流血 <WeaponDes_Num_Green>125.6%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</> / 流血 <WeaponDes_Num_Green>108%</>\n輕2 (XX)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 流血 <WeaponDes_Num_Green>135%</>\n輕3 (XXX)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 流血 <WeaponDes_Num_Green>135%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>297%</> / 殺氣 <WeaponDes_Num_Green>297%</> / 流血 <WeaponDes_Num_Green>297%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>125.6%</> / 殺氣 <WeaponDes_Num_Green>125.6%</> / 流血 <WeaponDes_Num_Green>125.6%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</> / Bleed <WeaponDes_Num_Green>108%</>\nLight 2 (XX): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Bleed <WeaponDes_Num_Green>135%</>\nLight 3 (XXX): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Bleed <WeaponDes_Num_Green>135%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>297%</> / Sha-Chi <WeaponDes_Num_Green>297%</> / Bleed <WeaponDes_Num_Green>297%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>125.6%</> / Sha-Chi <WeaponDes_Num_Green>125.6%</> / Bleed <WeaponDes_Num_Green>125.6%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>134%</> / 杀气 <WeaponDes_Num_Green>134%</> / 流血 <WeaponDes_Num_Green>134%</>\nXXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>156.9%</> / 杀气 <WeaponDes_Num_Green>156.9%</> / 流血 <WeaponDes_Num_Green>156.9%</>\nXXXY(<WeaponDes_Num_Green>7</>段)：伤害 <WeaponDes_Num_Green>161.5%</> / 杀气 <WeaponDes_Num_Green>161.5%</> / 流血 <WeaponDes_Num_Green>161.5%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>134%</> / 殺氣 <WeaponDes_Num_Green>134%</> / 流血 <WeaponDes_Num_Green>134%</>\nXXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>156.9%</> / 殺氣 <WeaponDes_Num_Green>156.9%</> / 流血 <WeaponDes_Num_Green>156.9%</>\nXXXY(<WeaponDes_Num_Green>7</>段)：傷害 <WeaponDes_Num_Green>161.5%</> / 殺氣 <WeaponDes_Num_Green>161.5%</> / 流血 <WeaponDes_Num_Green>161.5%</>",
+          "en": "XY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>134%</> / Sha-Chi <WeaponDes_Num_Green>134%</> / Bleed <WeaponDes_Num_Green>134%</>\nXXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>156.9%</> / Sha-Chi <WeaponDes_Num_Green>156.9%</> / Bleed <WeaponDes_Num_Green>156.9%</>\nXXXY (<WeaponDes_Num_Green>7</> hits): DMG <WeaponDes_Num_Green>161.5%</> / Sha-Chi <WeaponDes_Num_Green>161.5%</> / Bleed <WeaponDes_Num_Green>161.5%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</> / 流血 <WeaponDes_Num_Green>140.4%</>\n拔刀轻击：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</> / 流血 <WeaponDes_Num_Green>108%</>\n疾跑拔刀轻击：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</> / 流血 <WeaponDes_Num_Green>140.4%</>\n闪避轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>302.4%</> / 杀气 <WeaponDes_Num_Green>302.4%</> / 流血 <WeaponDes_Num_Green>302.4%</>\n冲刺(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>117.6%</> / 杀气 <WeaponDes_Num_Green>117.6%</> / 流血 <WeaponDes_Num_Green>117.6%</>\n切武器攻击(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>157.1%</> / 杀气 <WeaponDes_Num_Green>157.1%</> / 流血 <WeaponDes_Num_Green>157.1%</>\n技能(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>108.1%</> / 杀气 <WeaponDes_Num_Green>108.1%</> / 流血 <WeaponDes_Num_Green>108.1%</>\n技能XX(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>46%</> / 杀气 <WeaponDes_Num_Green>46%</> / 流血 <WeaponDes_Num_Green>46%</>\n技能XXX(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>99.3%</> / 杀气 <WeaponDes_Num_Green>99.3%</> / 流血 <WeaponDes_Num_Green>99.3%</>\n技能YY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>92.3%</> / 杀气 <WeaponDes_Num_Green>92.3%</> / 流血 <WeaponDes_Num_Green>92.3%</>\n特殊招式(<WeaponDes_Num_Green>10</>段)：伤害 <WeaponDes_Num_Green>319.7%</> / 杀气 <WeaponDes_Num_Green>319.7%</> / 流血 <WeaponDes_Num_Green>319.7%</>\n疾跑拔刀(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>108.8%</> / 杀气 <WeaponDes_Num_Green>108.8%</> / 流血 <WeaponDes_Num_Green>108.8%</>\n破防追击(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>122.4%</> / 杀气 <WeaponDes_Num_Green>122.4%</> / 流血 <WeaponDes_Num_Green>122.4%</>\n空中攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>180%</> / 流血 <WeaponDes_Num_Green>180%</>\n空中攻击拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>180%</> / 流血 <WeaponDes_Num_Green>180%</>\n闪避攻击：伤害 <WeaponDes_Num_Green>151.2%</> / 杀气 <WeaponDes_Num_Green>151.2%</> / 流血 <WeaponDes_Num_Green>151.2%</>\n闪避突进(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>126.7%</> / 杀气 <WeaponDes_Num_Green>126.7%</> / 流血 <WeaponDes_Num_Green>126.7%</>",
+          "zh-Hant": "疾跑輕擊：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</> / 流血 <WeaponDes_Num_Green>140.4%</>\n拔刀輕擊：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</> / 流血 <WeaponDes_Num_Green>108%</>\n疾跑拔刀輕擊：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</> / 流血 <WeaponDes_Num_Green>140.4%</>\n閃避輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>302.4%</> / 殺氣 <WeaponDes_Num_Green>302.4%</> / 流血 <WeaponDes_Num_Green>302.4%</>\n衝刺(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>117.6%</> / 殺氣 <WeaponDes_Num_Green>117.6%</> / 流血 <WeaponDes_Num_Green>117.6%</>\n切武器攻擊(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>157.1%</> / 殺氣 <WeaponDes_Num_Green>157.1%</> / 流血 <WeaponDes_Num_Green>157.1%</>\n技能(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>108.1%</> / 殺氣 <WeaponDes_Num_Green>108.1%</> / 流血 <WeaponDes_Num_Green>108.1%</>\n技能XX(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>46%</> / 殺氣 <WeaponDes_Num_Green>46%</> / 流血 <WeaponDes_Num_Green>46%</>\n技能XXX(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>99.3%</> / 殺氣 <WeaponDes_Num_Green>99.3%</> / 流血 <WeaponDes_Num_Green>99.3%</>\n技能YY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>92.3%</> / 殺氣 <WeaponDes_Num_Green>92.3%</> / 流血 <WeaponDes_Num_Green>92.3%</>\n特殊招式(<WeaponDes_Num_Green>10</>段)：傷害 <WeaponDes_Num_Green>319.7%</> / 殺氣 <WeaponDes_Num_Green>319.7%</> / 流血 <WeaponDes_Num_Green>319.7%</>\n疾跑拔刀(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>108.8%</> / 殺氣 <WeaponDes_Num_Green>108.8%</> / 流血 <WeaponDes_Num_Green>108.8%</>\n破防追擊(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>122.4%</> / 殺氣 <WeaponDes_Num_Green>122.4%</> / 流血 <WeaponDes_Num_Green>122.4%</>\n空中攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>180%</> / 流血 <WeaponDes_Num_Green>180%</>\n空中攻擊拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>180%</> / 流血 <WeaponDes_Num_Green>180%</>\n閃避攻擊：傷害 <WeaponDes_Num_Green>151.2%</> / 殺氣 <WeaponDes_Num_Green>151.2%</> / 流血 <WeaponDes_Num_Green>151.2%</>\n閃避突進(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>126.7%</> / 殺氣 <WeaponDes_Num_Green>126.7%</> / 流血 <WeaponDes_Num_Green>126.7%</>",
+          "en": "Sprint Light: DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</> / Bleed <WeaponDes_Num_Green>140.4%</>\nDraw Light: DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</> / Bleed <WeaponDes_Num_Green>108%</>\nSprint Draw Light: DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</> / Bleed <WeaponDes_Num_Green>140.4%</>\nDodge Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>302.4%</> / Sha-Chi <WeaponDes_Num_Green>302.4%</> / Bleed <WeaponDes_Num_Green>302.4%</>\nDash (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>117.6%</> / Sha-Chi <WeaponDes_Num_Green>117.6%</> / Bleed <WeaponDes_Num_Green>117.6%</>\nSwitch Attack (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>157.1%</> / Sha-Chi <WeaponDes_Num_Green>157.1%</> / Bleed <WeaponDes_Num_Green>157.1%</>\nSkill (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>108.1%</> / Sha-Chi <WeaponDes_Num_Green>108.1%</> / Bleed <WeaponDes_Num_Green>108.1%</>\nSkill XX (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>46%</> / Sha-Chi <WeaponDes_Num_Green>46%</> / Bleed <WeaponDes_Num_Green>46%</>\nSkill XXX (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>99.3%</> / Sha-Chi <WeaponDes_Num_Green>99.3%</> / Bleed <WeaponDes_Num_Green>99.3%</>\nSkill YY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>92.3%</> / Sha-Chi <WeaponDes_Num_Green>92.3%</> / Bleed <WeaponDes_Num_Green>92.3%</>\nSpecial Move (<WeaponDes_Num_Green>10</> hits): DMG <WeaponDes_Num_Green>319.7%</> / Sha-Chi <WeaponDes_Num_Green>319.7%</> / Bleed <WeaponDes_Num_Green>319.7%</>\nDash Draw (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>108.8%</> / Sha-Chi <WeaponDes_Num_Green>108.8%</> / Bleed <WeaponDes_Num_Green>108.8%</>\nBreak Finisher (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>122.4%</> / Sha-Chi <WeaponDes_Num_Green>122.4%</> / Bleed <WeaponDes_Num_Green>122.4%</>\nAir Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>180%</> / Bleed <WeaponDes_Num_Green>180%</>\nAir Attack Draw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>180%</> / Bleed <WeaponDes_Num_Green>180%</>\nDodge Strike: DMG <WeaponDes_Num_Green>151.2%</> / Sha-Chi <WeaponDes_Num_Green>151.2%</> / Bleed <WeaponDes_Num_Green>151.2%</>\nDodge Strike (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>126.7%</> / Sha-Chi <WeaponDes_Num_Green>126.7%</> / Bleed <WeaponDes_Num_Green>126.7%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_016": {
+    "name": "白影",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</> / 冰冻 <WeaponDes_Num_Green>80%</>\n轻2 (XX)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</> / 冰冻 <WeaponDes_Num_Green>100%</>\n轻3 (XXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</> / 冰冻 <WeaponDes_Num_Green>100%</>\n轻4 (XXXX)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</> / 冰冻 <WeaponDes_Num_Green>110%</>\n轻5 (XXXXX)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</> / 冰冻 <WeaponDes_Num_Green>110%</>\n重2 (YY)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 冰冻 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</> / 冰冻 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</> / 冰凍 <WeaponDes_Num_Green>80%</>\n輕2 (XX)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</> / 冰凍 <WeaponDes_Num_Green>100%</>\n輕3 (XXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</> / 冰凍 <WeaponDes_Num_Green>100%</>\n輕4 (XXXX)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</> / 冰凍 <WeaponDes_Num_Green>110%</>\n輕5 (XXXXX)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</> / 冰凍 <WeaponDes_Num_Green>110%</>\n重2 (YY)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 冰凍 <WeaponDes_Num_Green>120%</>\n重3 (YYY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</> / 冰凍 <WeaponDes_Num_Green>150%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</> / Frost <WeaponDes_Num_Green>80%</>\nLight 2 (XX): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</> / Frost <WeaponDes_Num_Green>100%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</> / Frost <WeaponDes_Num_Green>100%</>\nLight 4 (XXXX): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</> / Frost <WeaponDes_Num_Green>110%</>\nLight 5 (XXXXX): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</> / Frost <WeaponDes_Num_Green>110%</>\nHeavy 2 (YY): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Frost <WeaponDes_Num_Green>120%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</> / Frost <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "切武器攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>380%</> / 杀气 <WeaponDes_Num_Green>380%</> / 冰冻 <WeaponDes_Num_Green>480%</>\n强化斩击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</> / 冰冻 <WeaponDes_Num_Green>100%</>\n强化斩击追加：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</> / 冰冻 <WeaponDes_Num_Green>80%</>\n特殊招式(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</> / 冰冻 <WeaponDes_Num_Green>80%</>\n突袭：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>180%</> / 冰冻 <WeaponDes_Num_Green>180%</>",
+          "zh-Hant": "切武器攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>380%</> / 殺氣 <WeaponDes_Num_Green>380%</> / 冰凍 <WeaponDes_Num_Green>480%</>\n強化斬擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</> / 冰凍 <WeaponDes_Num_Green>100%</>\n強化斬擊追加：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</> / 冰凍 <WeaponDes_Num_Green>80%</>\n特殊招式(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</> / 冰凍 <WeaponDes_Num_Green>80%</>\n突袭：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>180%</> / 冰凍 <WeaponDes_Num_Green>180%</>",
+          "en": "Switch Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>380%</> / Sha-Chi <WeaponDes_Num_Green>380%</> / Frost <WeaponDes_Num_Green>480%</>\nBuffed Slash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</> / Frost <WeaponDes_Num_Green>100%</>\nBuffed Attack Additive: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</> / Frost <WeaponDes_Num_Green>80%</>\nSpecial Move (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</> / Frost <WeaponDes_Num_Green>80%</>\nAssault: DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>180%</> / Frost <WeaponDes_Num_Green>180%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_017": {
+    "name": "红妆鬼斩",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n轻2 (XX)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n轻3 (XXX)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n轻4 (XXXX)：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>110%</>\n重2 (YY)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\n重3 (YYY)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n輕2 (XX)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n輕3 (XXX)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n輕4 (XXXX)：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>110%</>\n重2 (YY)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\n重3 (YYY)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nLight 2 (XX): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nLight 3 (XXX): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nLight 4 (XXXX): DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>110%</>\nHeavy 2 (YY): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nHeavy 3 (YYY): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</>\nXXY：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXYY：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXXY：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXYY：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>",
+          "zh-Hant": "XY：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</>\nXXY：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXYY：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXXY：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXYY：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>",
+          "en": "XY: DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nXXY: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXYY: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXXY: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXYY: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n拔刀轻击：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n疾跑拔刀轻击：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n闪避轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>224%</> / 杀气 <WeaponDes_Num_Green>224%</>\n冲刺：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n拔刀：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n特殊招式：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>80%</>\n疾跑拔刀：伤害 <WeaponDes_Num_Green>104%</> / 杀气 <WeaponDes_Num_Green>104%</>\n花瓣大型引爆：伤害 <WeaponDes_Num_Green>30%</>\n花瓣引爆：伤害 <WeaponDes_Num_Green>20%</>\n蓄力：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\n蓄力花瓣引爆：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>100%</>\n闪避攻击：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</>\n闪避突进：伤害 <WeaponDes_Num_Green>112%</> / 杀气 <WeaponDes_Num_Green>112%</>",
+          "zh-Hant": "疾跑輕擊：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n拔刀輕擊：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n疾跑拔刀輕擊：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n閃避輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>224%</> / 殺氣 <WeaponDes_Num_Green>224%</>\n衝刺：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n拔刀：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n特殊招式：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n疾跑拔刀：傷害 <WeaponDes_Num_Green>104%</> / 殺氣 <WeaponDes_Num_Green>104%</>\n花瓣大型引爆：傷害 <WeaponDes_Num_Green>30%</>\n花瓣引爆：傷害 <WeaponDes_Num_Green>20%</>\n蓄力：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\n蓄力花瓣引爆：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>100%</>\n閃避攻擊：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</>\n閃避突進：傷害 <WeaponDes_Num_Green>112%</> / 殺氣 <WeaponDes_Num_Green>112%</>",
+          "en": "Sprint Light: DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nDraw Light: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nSprint Draw Light: DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nDodge Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>224%</> / Sha-Chi <WeaponDes_Num_Green>224%</>\nDash: DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nDraw: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nSpecial Move: DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nDash Draw: DMG <WeaponDes_Num_Green>104%</> / Sha-Chi <WeaponDes_Num_Green>104%</>\nBlossom Large Detonate: DMG <WeaponDes_Num_Green>30%</>\nBlossom Detonate: DMG <WeaponDes_Num_Green>20%</>\nHold: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nHold Blossom Detonate: DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>100%</>\nDodge Strike: DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</>\nDodge Strike: DMG <WeaponDes_Num_Green>112%</> / Sha-Chi <WeaponDes_Num_Green>112%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_018": {
+    "name": "破军",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n轻2 (XX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\n轻3 (XXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>148.5%</> / 杀气 <WeaponDes_Num_Green>148.5%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>162%</> / 杀气 <WeaponDes_Num_Green>162%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n輕2 (XX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\n輕3 (XXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>148.5%</> / 殺氣 <WeaponDes_Num_Green>148.5%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>162%</> / 殺氣 <WeaponDes_Num_Green>162%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nLight 2 (XX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>148.5%</> / Sha-Chi <WeaponDes_Num_Green>148.5%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>162%</> / Sha-Chi <WeaponDes_Num_Green>162%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>162%</> / 杀气 <WeaponDes_Num_Green>162%</>\nXXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>202.5%</> / 杀气 <WeaponDes_Num_Green>202.5%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>202.5%</> / 杀气 <WeaponDes_Num_Green>202.5%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>162%</> / 殺氣 <WeaponDes_Num_Green>162%</>\nXXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>202.5%</> / 殺氣 <WeaponDes_Num_Green>202.5%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>202.5%</> / 殺氣 <WeaponDes_Num_Green>202.5%</>",
+          "en": "XY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>162%</> / Sha-Chi <WeaponDes_Num_Green>162%</>\nXXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>202.5%</> / Sha-Chi <WeaponDes_Num_Green>202.5%</>\nXXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>202.5%</> / Sha-Chi <WeaponDes_Num_Green>202.5%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</>\n拔刀轻击：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n闪避轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>302.4%</> / 杀气 <WeaponDes_Num_Green>302.4%</>\n切武器攻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>248.5%</> / 杀气 <WeaponDes_Num_Green>248.5%</>\n完美闪避反击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>175%</> / 杀气 <WeaponDes_Num_Green>175%</>\n冲刺：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</>\n拔刀：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n拔刀冲刺：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</>\n特殊招式：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n重击派生(<WeaponDes_Num_Green>8</>段)：伤害 <WeaponDes_Num_Green>850%</> / 杀气 <WeaponDes_Num_Green>760%</>\n重击派生强化(<WeaponDes_Num_Green>7</>段)：伤害 <WeaponDes_Num_Green>690%</> / 杀气 <WeaponDes_Num_Green>615%</>\n重击派生普通(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>190%</> / 杀气 <WeaponDes_Num_Green>155%</>\n重击派生普通强化：伤害 <WeaponDes_Num_Green>35%</> / 杀气 <WeaponDes_Num_Green>15%</>\n重击派生蓄力(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>50%</> / 杀气 <WeaponDes_Num_Green>25%</>\n重击派生蓄力强化：伤害 <WeaponDes_Num_Green>25%</> / 杀气 <WeaponDes_Num_Green>10%</>\n闪避攻击：伤害 <WeaponDes_Num_Green>151.2%</> / 杀气 <WeaponDes_Num_Green>151.2%</>\n闪避突进：伤害 <WeaponDes_Num_Green>151.2%</> / 杀气 <WeaponDes_Num_Green>151.2%</>",
+          "zh-Hant": "疾跑輕擊：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</>\n拔刀輕擊：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n閃避輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>302.4%</> / 殺氣 <WeaponDes_Num_Green>302.4%</>\n切武器攻擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>248.5%</> / 殺氣 <WeaponDes_Num_Green>248.5%</>\n完美閃避反擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>175%</> / 殺氣 <WeaponDes_Num_Green>175%</>\n衝刺：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</>\n拔刀：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n拔刀衝刺：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</>\n特殊招式：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n重擊派生(<WeaponDes_Num_Green>8</>段)：傷害 <WeaponDes_Num_Green>850%</> / 殺氣 <WeaponDes_Num_Green>760%</>\n重擊派生強化(<WeaponDes_Num_Green>7</>段)：傷害 <WeaponDes_Num_Green>690%</> / 殺氣 <WeaponDes_Num_Green>615%</>\n重擊派生普通(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>190%</> / 殺氣 <WeaponDes_Num_Green>155%</>\n重擊派生普通強化：傷害 <WeaponDes_Num_Green>35%</> / 殺氣 <WeaponDes_Num_Green>15%</>\n重擊派生蓄力(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>50%</> / 殺氣 <WeaponDes_Num_Green>25%</>\n重擊派生蓄力強化：傷害 <WeaponDes_Num_Green>25%</> / 殺氣 <WeaponDes_Num_Green>10%</>\n閃避攻擊：傷害 <WeaponDes_Num_Green>151.2%</> / 殺氣 <WeaponDes_Num_Green>151.2%</>\n閃避突進：傷害 <WeaponDes_Num_Green>151.2%</> / 殺氣 <WeaponDes_Num_Green>151.2%</>",
+          "en": "Sprint Light: DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</>\nDraw Light: DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nDodge Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>302.4%</> / Sha-Chi <WeaponDes_Num_Green>302.4%</>\nSwitch Attack (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>248.5%</> / Sha-Chi <WeaponDes_Num_Green>248.5%</>\nPerfect Dodge Counter (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>175%</> / Sha-Chi <WeaponDes_Num_Green>175%</>\nDash: DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</>\nDraw: DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nDraw Dash: DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</>\nSpecial Move: DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nHeavy Follow-up (<WeaponDes_Num_Green>8</> hits): DMG <WeaponDes_Num_Green>850%</> / Sha-Chi <WeaponDes_Num_Green>760%</>\nHeavy Follow-up Enhanced (<WeaponDes_Num_Green>7</> hits): DMG <WeaponDes_Num_Green>690%</> / Sha-Chi <WeaponDes_Num_Green>615%</>\nHeavy Follow-up Normal (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>190%</> / Sha-Chi <WeaponDes_Num_Green>155%</>\nHeavy Follow-up Normal Enhanced: DMG <WeaponDes_Num_Green>35%</> / Sha-Chi <WeaponDes_Num_Green>15%</>\nHeavy Follow-up Charge (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>50%</> / Sha-Chi <WeaponDes_Num_Green>25%</>\nHeavy Follow-up Charge Enhanced: DMG <WeaponDes_Num_Green>25%</> / Sha-Chi <WeaponDes_Num_Green>10%</>\nDodge Strike: DMG <WeaponDes_Num_Green>151.2%</> / Sha-Chi <WeaponDes_Num_Green>151.2%</>\nDodge Strike: DMG <WeaponDes_Num_Green>151.2%</> / Sha-Chi <WeaponDes_Num_Green>151.2%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_019": {
+    "name": "荡寇凶刃",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n轻2 (XX)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\n轻3 (XXX)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\n轻4 (XXXX)：伤害 <WeaponDes_Num_Green>148.5%</> / 杀气 <WeaponDes_Num_Green>148.5%</>\n重2 (YY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>162%</> / 杀气 <WeaponDes_Num_Green>162%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n輕2 (XX)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\n輕3 (XXX)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\n輕4 (XXXX)：傷害 <WeaponDes_Num_Green>148.5%</> / 殺氣 <WeaponDes_Num_Green>148.5%</>\n重2 (YY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>162%</> / 殺氣 <WeaponDes_Num_Green>162%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nLight 2 (XX): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nLight 3 (XXX): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nLight 4 (XXXX): DMG <WeaponDes_Num_Green>148.5%</> / Sha-Chi <WeaponDes_Num_Green>148.5%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>162%</> / Sha-Chi <WeaponDes_Num_Green>162%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY：伤害 <WeaponDes_Num_Green>162%</> / 杀气 <WeaponDes_Num_Green>162%</>\nXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>202.5%</> / 杀气 <WeaponDes_Num_Green>202.5%</>\nXXXY：伤害 <WeaponDes_Num_Green>202.5%</> / 杀气 <WeaponDes_Num_Green>202.5%</>",
+          "zh-Hant": "XY：傷害 <WeaponDes_Num_Green>162%</> / 殺氣 <WeaponDes_Num_Green>162%</>\nXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>202.5%</> / 殺氣 <WeaponDes_Num_Green>202.5%</>\nXXXY：傷害 <WeaponDes_Num_Green>202.5%</> / 殺氣 <WeaponDes_Num_Green>202.5%</>",
+          "en": "XY: DMG <WeaponDes_Num_Green>162%</> / Sha-Chi <WeaponDes_Num_Green>162%</>\nXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>202.5%</> / Sha-Chi <WeaponDes_Num_Green>202.5%</>\nXXXY: DMG <WeaponDes_Num_Green>202.5%</> / Sha-Chi <WeaponDes_Num_Green>202.5%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</>\n拔刀轻击：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n疾跑拔刀轻击：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</>\n闪避轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>302.4%</> / 杀气 <WeaponDes_Num_Green>302.4%</>\n冲刺：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</>\n刀波(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>174.2%</> / 杀气 <WeaponDes_Num_Green>174.2%</> / 异常 <WeaponDes_Num_Green>140%</>\n刀波冲刺(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>105.8%</> / 杀气 <WeaponDes_Num_Green>105.8%</> / 异常 <WeaponDes_Num_Green>140%</>\n前冲后撤(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>500%</> / 杀气 <WeaponDes_Num_Green>500%</>\n单段(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>450%</> / 杀气 <WeaponDes_Num_Green>450%</>\n反击攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>345.5%</> / 杀气 <WeaponDes_Num_Green>345.5%</>\n反击攻击击打：伤害 <WeaponDes_Num_Green>170%</> / 杀气 <WeaponDes_Num_Green>170%</>\n反击攻击普通：伤害 <WeaponDes_Num_Green>175.5%</> / 杀气 <WeaponDes_Num_Green>175.5%</>\n多段(<WeaponDes_Num_Green>9</>段)：伤害 <WeaponDes_Num_Green>500%</> / 杀气 <WeaponDes_Num_Green>300%</>\n拔刀：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n拔刀冲刺：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</>\n特殊招式(<WeaponDes_Num_Green>12</>段)：伤害 <WeaponDes_Num_Green>618%</> / 杀气 <WeaponDes_Num_Green>518%</> / 异常 <WeaponDes_Num_Green>368%</>\n闪避攻击：伤害 <WeaponDes_Num_Green>151.2%</> / 杀气 <WeaponDes_Num_Green>151.2%</>\n闪避突进：伤害 <WeaponDes_Num_Green>151.2%</> / 杀气 <WeaponDes_Num_Green>151.2%</>",
+          "zh-Hant": "疾跑輕擊：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</>\n拔刀輕擊：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n疾跑拔刀輕擊：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</>\n閃避輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>302.4%</> / 殺氣 <WeaponDes_Num_Green>302.4%</>\n衝刺：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</>\n刀波(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>174.2%</> / 殺氣 <WeaponDes_Num_Green>174.2%</> / 異常 <WeaponDes_Num_Green>140%</>\n刀波衝刺(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>105.8%</> / 殺氣 <WeaponDes_Num_Green>105.8%</> / 異常 <WeaponDes_Num_Green>140%</>\n前衝后撤(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>500%</> / 殺氣 <WeaponDes_Num_Green>500%</>\n單段(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>450%</> / 殺氣 <WeaponDes_Num_Green>450%</>\n反擊攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>345.5%</> / 殺氣 <WeaponDes_Num_Green>345.5%</>\n反擊攻擊擊打：傷害 <WeaponDes_Num_Green>170%</> / 殺氣 <WeaponDes_Num_Green>170%</>\n反擊攻擊普通：傷害 <WeaponDes_Num_Green>175.5%</> / 殺氣 <WeaponDes_Num_Green>175.5%</>\n多段(<WeaponDes_Num_Green>9</>段)：傷害 <WeaponDes_Num_Green>500%</> / 殺氣 <WeaponDes_Num_Green>300%</>\n拔刀：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n拔刀衝刺：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</>\n特殊招式(<WeaponDes_Num_Green>12</>段)：傷害 <WeaponDes_Num_Green>618%</> / 殺氣 <WeaponDes_Num_Green>518%</> / 異常 <WeaponDes_Num_Green>368%</>\n閃避攻擊：傷害 <WeaponDes_Num_Green>151.2%</> / 殺氣 <WeaponDes_Num_Green>151.2%</>\n閃避突進：傷害 <WeaponDes_Num_Green>151.2%</> / 殺氣 <WeaponDes_Num_Green>151.2%</>",
+          "en": "Sprint Light: DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</>\nDraw Light: DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nSprint Draw Light: DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</>\nDodge Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>302.4%</> / Sha-Chi <WeaponDes_Num_Green>302.4%</>\nDash: DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</>\nBlade Wave (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>174.2%</> / Sha-Chi <WeaponDes_Num_Green>174.2%</> / Status <WeaponDes_Num_Green>140%</>\nBlade Wave Dash (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>105.8%</> / Sha-Chi <WeaponDes_Num_Green>105.8%</> / Status <WeaponDes_Num_Green>140%</>\nFront Back (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>500%</> / Sha-Chi <WeaponDes_Num_Green>500%</>\nSingle (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>450%</> / Sha-Chi <WeaponDes_Num_Green>450%</>\nCounter Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>345.5%</> / Sha-Chi <WeaponDes_Num_Green>345.5%</>\nCounter Attack Hit: DMG <WeaponDes_Num_Green>170%</> / Sha-Chi <WeaponDes_Num_Green>170%</>\nCounter Attack Normal: DMG <WeaponDes_Num_Green>175.5%</> / Sha-Chi <WeaponDes_Num_Green>175.5%</>\nMulti (<WeaponDes_Num_Green>9</> hits): DMG <WeaponDes_Num_Green>500%</> / Sha-Chi <WeaponDes_Num_Green>300%</>\nDraw: DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nDraw Dash: DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</>\nSpecial Move (<WeaponDes_Num_Green>12</> hits): DMG <WeaponDes_Num_Green>618%</> / Sha-Chi <WeaponDes_Num_Green>518%</> / Status <WeaponDes_Num_Green>368%</>\nDodge Strike: DMG <WeaponDes_Num_Green>151.2%</> / Sha-Chi <WeaponDes_Num_Green>151.2%</>\nDodge Strike: DMG <WeaponDes_Num_Green>151.2%</> / Sha-Chi <WeaponDes_Num_Green>151.2%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_020": {
+    "name": "偃月刀",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n轻2 (XX)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\n轻3 (XXX)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\n轻4 (XXXX)：伤害 <WeaponDes_Num_Green>148.5%</> / 杀气 <WeaponDes_Num_Green>148.5%</>\n重2 (YY)：伤害 <WeaponDes_Num_Green>162%</> / 杀气 <WeaponDes_Num_Green>162%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n輕2 (XX)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\n輕3 (XXX)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\n輕4 (XXXX)：傷害 <WeaponDes_Num_Green>148.5%</> / 殺氣 <WeaponDes_Num_Green>148.5%</>\n重2 (YY)：傷害 <WeaponDes_Num_Green>162%</> / 殺氣 <WeaponDes_Num_Green>162%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nLight 2 (XX): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nLight 3 (XXX): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nLight 4 (XXXX): DMG <WeaponDes_Num_Green>148.5%</> / Sha-Chi <WeaponDes_Num_Green>148.5%</>\nHeavy 2 (YY): DMG <WeaponDes_Num_Green>162%</> / Sha-Chi <WeaponDes_Num_Green>162%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</>\n切武器攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>200%</> / 杀气 <WeaponDes_Num_Green>200%</>\n冲刺：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>140.4%</>\n特殊技技能(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>390%</> / 杀气 <WeaponDes_Num_Green>390%</>\n特殊招式(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>533%</> / 杀气 <WeaponDes_Num_Green>533%</>\n闪避攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>376.2%</> / 杀气 <WeaponDes_Num_Green>376.2%</>\n闪避突进(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>376.2%</> / 杀气 <WeaponDes_Num_Green>376.2%</>",
+          "zh-Hant": "疾跑輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</>\n切武器攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>200%</> / 殺氣 <WeaponDes_Num_Green>200%</>\n衝刺：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>140.4%</>\n特殊技技能(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>390%</> / 殺氣 <WeaponDes_Num_Green>390%</>\n特殊招式(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>533%</> / 殺氣 <WeaponDes_Num_Green>533%</>\n閃避攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>376.2%</> / 殺氣 <WeaponDes_Num_Green>376.2%</>\n閃避突進(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>376.2%</> / 殺氣 <WeaponDes_Num_Green>376.2%</>",
+          "en": "Sprint Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</>\nSwitch Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>200%</> / Sha-Chi <WeaponDes_Num_Green>200%</>\nDash: DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>140.4%</>\nSpecial Skill (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>390%</> / Sha-Chi <WeaponDes_Num_Green>390%</>\nSpecial Move (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>533%</> / Sha-Chi <WeaponDes_Num_Green>533%</>\nDodge Strike (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>376.2%</> / Sha-Chi <WeaponDes_Num_Green>376.2%</>\nDodge Strike (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>376.2%</> / Sha-Chi <WeaponDes_Num_Green>376.2%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_022": {
+    "name": "黑伤双刃",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</>\n轻2 (XX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</>\n轻3 (XXX)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</>\n轻5 (XXXXX)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</>\n轻6 (XXXXXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n重2 (YY)(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n重3 (YYY)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\n重4 (YYYY)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>",
+          "zh-Hant": "輕1 (X)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</>\n輕2 (XX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</>\n輕3 (XXX)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</>\n輕5 (XXXXX)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</>\n輕6 (XXXXXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n重2 (YY)(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n重3 (YYY)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\n重4 (YYYY)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>",
+          "en": "Light 1 (X) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</>\nLight 2 (XX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</>\nLight 5 (XXXXX) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</>\nLight 6 (XXXXXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nHeavy 4 (YYYY) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\nXXY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXYY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXXXY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXXXYY(<WeaponDes_Num_Green>7</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXXXYYY(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\nXXY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXYY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXXXY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXXXYY(<WeaponDes_Num_Green>7</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXXXYYY(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>",
+          "en": "XY (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nXXY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXYY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXXXY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXXXYY (<WeaponDes_Num_Green>7</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXXXYYY (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</>\n拔刀轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</>\n疾跑拔刀轻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</>\n闪避轻击(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>302.4%</> / 杀气 <WeaponDes_Num_Green>302.4%</>\n完美闪避反击(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>400%</> / 杀气 <WeaponDes_Num_Green>400%</>\n冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</>\n冲刺拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</>\n切武器攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>128%</>\n拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</>\n特殊招式(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</>\n空中攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>180%</> / 异常 <WeaponDes_Num_Green>80%</>\n空中攻击拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>180%</> / 异常 <WeaponDes_Num_Green>80%</>\n闪避攻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>100.8%</> / 杀气 <WeaponDes_Num_Green>100.8%</>\n闪避突进(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100.8%</> / 杀气 <WeaponDes_Num_Green>100.8%</>",
+          "zh-Hant": "疾跑輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</>\n拔刀輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</>\n疾跑拔刀輕擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</>\n閃避輕擊(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>302.4%</> / 殺氣 <WeaponDes_Num_Green>302.4%</>\n完美閃避反擊(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>400%</> / 殺氣 <WeaponDes_Num_Green>400%</>\n衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</>\n衝刺拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</>\n切武器攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>128%</>\n拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</>\n特殊招式(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</>\n空中攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>180%</> / 異常 <WeaponDes_Num_Green>80%</>\n空中攻擊拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>180%</> / 異常 <WeaponDes_Num_Green>80%</>\n閃避攻擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>100.8%</> / 殺氣 <WeaponDes_Num_Green>100.8%</>\n閃避突進(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100.8%</> / 殺氣 <WeaponDes_Num_Green>100.8%</>",
+          "en": "Sprint Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</>\nDraw Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</>\nSprint Draw Light (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</>\nDodge Light (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>302.4%</> / Sha-Chi <WeaponDes_Num_Green>302.4%</>\nPerfect Dodge Counter (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>400%</> / Sha-Chi <WeaponDes_Num_Green>400%</>\nDash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</>\nDash Draw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</>\nSwitch Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>128%</>\nDraw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</>\nSpecial Move (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</>\nAir Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>180%</> / Status <WeaponDes_Num_Green>80%</>\nAir Attack Draw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>180%</> / Status <WeaponDes_Num_Green>80%</>\nDodge Strike (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>100.8%</> / Sha-Chi <WeaponDes_Num_Green>100.8%</>\nDodge Strike (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100.8%</> / Sha-Chi <WeaponDes_Num_Green>100.8%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_023": {
+    "name": "妖锯",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>64.8%</> / 妖气 <WeaponDes_Num_Green>72%</>\n轻2 (XX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>81%</> / 妖气 <WeaponDes_Num_Green>90%</>\n轻3 (XXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>81%</> / 妖气 <WeaponDes_Num_Green>90%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>89.1%</> / 妖气 <WeaponDes_Num_Green>99%</>\n轻5 (XXXXX)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>89.1%</> / 妖气 <WeaponDes_Num_Green>99%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>97.2%</> / 妖气 <WeaponDes_Num_Green>108%</>\n重3 (YYY)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>121.5%</> / 妖气 <WeaponDes_Num_Green>135%</>\n重4 (YYYY)(<WeaponDes_Num_Green>7</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>121.5%</> / 妖气 <WeaponDes_Num_Green>135%</>",
+          "zh-Hant": "輕1 (X)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>64.8%</> / 妖氣 <WeaponDes_Num_Green>72%</>\n輕2 (XX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>81%</> / 妖氣 <WeaponDes_Num_Green>90%</>\n輕3 (XXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>81%</> / 妖氣 <WeaponDes_Num_Green>90%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>89.1%</> / 妖氣 <WeaponDes_Num_Green>99%</>\n輕5 (XXXXX)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>89.1%</> / 妖氣 <WeaponDes_Num_Green>99%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>97.2%</> / 妖氣 <WeaponDes_Num_Green>108%</>\n重3 (YYY)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>121.5%</> / 妖氣 <WeaponDes_Num_Green>135%</>\n重4 (YYYY)(<WeaponDes_Num_Green>7</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>121.5%</> / 妖氣 <WeaponDes_Num_Green>135%</>",
+          "en": "Light 1 (X) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>64.8%</> / YaoQi <WeaponDes_Num_Green>72%</>\nLight 2 (XX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>81%</> / YaoQi <WeaponDes_Num_Green>90%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>81%</> / YaoQi <WeaponDes_Num_Green>90%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>89.1%</> / YaoQi <WeaponDes_Num_Green>99%</>\nLight 5 (XXXXX) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>89.1%</> / YaoQi <WeaponDes_Num_Green>99%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>97.2%</> / YaoQi <WeaponDes_Num_Green>108%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>121.5%</> / YaoQi <WeaponDes_Num_Green>135%</>\nHeavy 4 (YYYY) (<WeaponDes_Num_Green>7</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>121.5%</> / YaoQi <WeaponDes_Num_Green>135%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>97.2%</> / 妖气 <WeaponDes_Num_Green>108%</>\nXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>121.5%</> / 妖气 <WeaponDes_Num_Green>135%</>\nXXXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>121.5%</> / 妖气 <WeaponDes_Num_Green>135%</>\nXXXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>121.5%</> / 妖气 <WeaponDes_Num_Green>135%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>97.2%</> / 妖氣 <WeaponDes_Num_Green>108%</>\nXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>121.5%</> / 妖氣 <WeaponDes_Num_Green>135%</>\nXXXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>121.5%</> / 妖氣 <WeaponDes_Num_Green>135%</>\nXXXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>121.5%</> / 妖氣 <WeaponDes_Num_Green>135%</>",
+          "en": "XY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>97.2%</> / YaoQi <WeaponDes_Num_Green>108%</>\nXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>121.5%</> / YaoQi <WeaponDes_Num_Green>135%</>\nXXXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>121.5%</> / YaoQi <WeaponDes_Num_Green>135%</>\nXXXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>121.5%</> / YaoQi <WeaponDes_Num_Green>135%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>84.2%</> / 妖气 <WeaponDes_Num_Green>93.6%</>\n拔刀轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>64.8%</> / 妖气 <WeaponDes_Num_Green>72%</>\n疾跑拔刀轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>84.2%</> / 妖气 <WeaponDes_Num_Green>93.6%</>\n闪避轻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>201.6%</> / 杀气 <WeaponDes_Num_Green>201.6%</> / 妖气 <WeaponDes_Num_Green>201.6%</>\n切武器攻击(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 妖气 <WeaponDes_Num_Green>120%</>\n冲刺：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>84.2%</>\n拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>64.8%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>64.8%</>\n疾跑拔刀：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>84.2%</>\n蓄势轻击(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>80%</> / 杀气 <WeaponDes_Num_Green>72%</> / 妖气 <WeaponDes_Num_Green>80%</>\n蓄势重击(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>92.2%</> / 杀气 <WeaponDes_Num_Green>83%</> / 妖气 <WeaponDes_Num_Green>92.2%</>\n蓄势重击余波(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>47.8%</> / 杀气 <WeaponDes_Num_Green>43%</> / 妖气 <WeaponDes_Num_Green>47.8%</>\n闪避攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>100.8%</> / 杀气 <WeaponDes_Num_Green>100.8%</> / 妖气 <WeaponDes_Num_Green>100.8%</>\n闪避突进：伤害 <WeaponDes_Num_Green>100.8%</> / 杀气 <WeaponDes_Num_Green>100.8%</>",
+          "zh-Hant": "疾跑輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>84.2%</> / 妖氣 <WeaponDes_Num_Green>93.6%</>\n拔刀輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>64.8%</> / 妖氣 <WeaponDes_Num_Green>72%</>\n疾跑拔刀輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>84.2%</> / 妖氣 <WeaponDes_Num_Green>93.6%</>\n閃避輕擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>201.6%</> / 殺氣 <WeaponDes_Num_Green>201.6%</> / 妖氣 <WeaponDes_Num_Green>201.6%</>\n切武器攻擊(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 妖氣 <WeaponDes_Num_Green>120%</>\n衝刺：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>84.2%</>\n拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>64.8%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>64.8%</>\n疾跑拔刀：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>84.2%</>\n蓄勢輕擊(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>80%</> / 殺氣 <WeaponDes_Num_Green>72%</> / 妖氣 <WeaponDes_Num_Green>80%</>\n蓄勢重擊(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>92.2%</> / 殺氣 <WeaponDes_Num_Green>83%</> / 妖氣 <WeaponDes_Num_Green>92.2%</>\n蓄勢重擊余波(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>47.8%</> / 殺氣 <WeaponDes_Num_Green>43%</> / 妖氣 <WeaponDes_Num_Green>47.8%</>\n閃避攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>100.8%</> / 殺氣 <WeaponDes_Num_Green>100.8%</> / 妖氣 <WeaponDes_Num_Green>100.8%</>\n閃避突進：傷害 <WeaponDes_Num_Green>100.8%</> / 殺氣 <WeaponDes_Num_Green>100.8%</>",
+          "en": "Sprint Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>84.2%</> / YaoQi <WeaponDes_Num_Green>93.6%</>\nDraw Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>64.8%</> / YaoQi <WeaponDes_Num_Green>72%</>\nSprint Draw Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>84.2%</> / YaoQi <WeaponDes_Num_Green>93.6%</>\nDodge Light (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>201.6%</> / Sha-Chi <WeaponDes_Num_Green>201.6%</> / YaoQi <WeaponDes_Num_Green>201.6%</>\nSwitch Attack (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / YaoQi <WeaponDes_Num_Green>120%</>\nDash: DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>84.2%</>\nDraw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>64.8%</>\nSpecial Move (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>64.8%</>\nDash Draw: DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>84.2%</>\nCharged Light (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>80%</> / Sha-Chi <WeaponDes_Num_Green>72%</> / YaoQi <WeaponDes_Num_Green>80%</>\nCharged Heavy (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>92.2%</> / Sha-Chi <WeaponDes_Num_Green>83%</> / YaoQi <WeaponDes_Num_Green>92.2%</>\nCharged Heavy Aura (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>47.8%</> / Sha-Chi <WeaponDes_Num_Green>43%</> / YaoQi <WeaponDes_Num_Green>47.8%</>\nDodge Strike (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>100.8%</> / Sha-Chi <WeaponDes_Num_Green>100.8%</> / YaoQi <WeaponDes_Num_Green>100.8%</>\nDodge Strike: DMG <WeaponDes_Num_Green>100.8%</> / Sha-Chi <WeaponDes_Num_Green>100.8%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_024": {
+    "name": "绝影",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "召唤(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>933.9%</> / 杀气 <WeaponDes_Num_Green>458.9%</> / 异常 <WeaponDes_Num_Green>533.9%</>\n收招召唤：伤害 <WeaponDes_Num_Green>200%</> / 杀气 <WeaponDes_Num_Green>100%</> / 异常 <WeaponDes_Num_Green>100%</>\n横扫：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>50%</>\n横扫召唤：伤害 <WeaponDes_Num_Green>50%</> / 杀气 <WeaponDes_Num_Green>25%</> / 异常 <WeaponDes_Num_Green>100%</>\n特殊招式(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>1618.2%</> / 杀气 <WeaponDes_Num_Green>818.3%</> / 异常 <WeaponDes_Num_Green>818.3%</>",
+          "zh-Hant": "召唤(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>933.9%</> / 殺氣 <WeaponDes_Num_Green>458.9%</> / 異常 <WeaponDes_Num_Green>533.9%</>\n收招召唤：傷害 <WeaponDes_Num_Green>200%</> / 殺氣 <WeaponDes_Num_Green>100%</> / 異常 <WeaponDes_Num_Green>100%</>\n横扫：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>50%</>\n横扫召唤：傷害 <WeaponDes_Num_Green>50%</> / 殺氣 <WeaponDes_Num_Green>25%</> / 異常 <WeaponDes_Num_Green>100%</>\n特殊招式(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>1618.2%</> / 殺氣 <WeaponDes_Num_Green>818.3%</> / 異常 <WeaponDes_Num_Green>818.3%</>",
+          "en": "Summon (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>933.9%</> / Sha-Chi <WeaponDes_Num_Green>458.9%</> / Status <WeaponDes_Num_Green>533.9%</>\nFinisher Summon: DMG <WeaponDes_Num_Green>200%</> / Sha-Chi <WeaponDes_Num_Green>100%</> / Status <WeaponDes_Num_Green>100%</>\nSweep: DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>50%</>\nSweep Summon: DMG <WeaponDes_Num_Green>50%</> / Sha-Chi <WeaponDes_Num_Green>25%</> / Status <WeaponDes_Num_Green>100%</>\nSpecial Move (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>1618.2%</> / Sha-Chi <WeaponDes_Num_Green>818.3%</> / Status <WeaponDes_Num_Green>818.3%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_026": {
+    "name": "天煞双钺",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</>\n轻2 (XX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</>\n轻3 (XXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</>\n轻5 (XXXXX)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</>\n轻6 (XXXXXX)(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>77.8%</> / 杀气 <WeaponDes_Num_Green>77.8%</>\n重3 (YYY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>72.9%</> / 杀气 <WeaponDes_Num_Green>72.9%</>\n重4 (YYYY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>121.5%</> / 杀气 <WeaponDes_Num_Green>121.5%</>",
+          "zh-Hant": "輕1 (X)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</>\n輕2 (XX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</>\n輕3 (XXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</>\n輕5 (XXXXX)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</>\n輕6 (XXXXXX)(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n重2 (YY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>77.8%</> / 殺氣 <WeaponDes_Num_Green>77.8%</>\n重3 (YYY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>72.9%</> / 殺氣 <WeaponDes_Num_Green>72.9%</>\n重4 (YYYY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>121.5%</> / 殺氣 <WeaponDes_Num_Green>121.5%</>",
+          "en": "Light 1 (X) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</>\nLight 2 (XX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</>\nLight 5 (XXXXX) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</>\nLight 6 (XXXXXX) (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>77.8%</> / Sha-Chi <WeaponDes_Num_Green>77.8%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>72.9%</> / Sha-Chi <WeaponDes_Num_Green>72.9%</>\nHeavy 4 (YYYY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>121.5%</> / Sha-Chi <WeaponDes_Num_Green>121.5%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>97.2%</> / 杀气 <WeaponDes_Num_Green>97.2%</>\nXXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>65.4%</> / 杀气 <WeaponDes_Num_Green>65.4%</>\nXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>44.2%</> / 杀气 <WeaponDes_Num_Green>44.2%</> / 异常 <WeaponDes_Num_Green>27%</>\nXXXY(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>92.9%</> / 杀气 <WeaponDes_Num_Green>92.9%</>\nXXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>27.4%</> / 杀气 <WeaponDes_Num_Green>27.4%</>\nXXXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>41.7%</> / 杀气 <WeaponDes_Num_Green>41.7%</> / 异常 <WeaponDes_Num_Green>24.3%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>97.2%</> / 殺氣 <WeaponDes_Num_Green>97.2%</>\nXXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>65.4%</> / 殺氣 <WeaponDes_Num_Green>65.4%</>\nXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>44.2%</> / 殺氣 <WeaponDes_Num_Green>44.2%</> / 異常 <WeaponDes_Num_Green>27%</>\nXXXY(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>92.9%</> / 殺氣 <WeaponDes_Num_Green>92.9%</>\nXXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>27.4%</> / 殺氣 <WeaponDes_Num_Green>27.4%</>\nXXXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>41.7%</> / 殺氣 <WeaponDes_Num_Green>41.7%</> / 異常 <WeaponDes_Num_Green>24.3%</>",
+          "en": "XY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>97.2%</> / Sha-Chi <WeaponDes_Num_Green>97.2%</>\nXXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>65.4%</> / Sha-Chi <WeaponDes_Num_Green>65.4%</>\nXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>44.2%</> / Sha-Chi <WeaponDes_Num_Green>44.2%</> / Status <WeaponDes_Num_Green>27%</>\nXXXY (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>92.9%</> / Sha-Chi <WeaponDes_Num_Green>92.9%</>\nXXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>27.4%</> / Sha-Chi <WeaponDes_Num_Green>27.4%</>\nXXXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>41.7%</> / Sha-Chi <WeaponDes_Num_Green>41.7%</> / Status <WeaponDes_Num_Green>24.3%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</>\n拔刀轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</>\n疾跑拔刀轻击：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</>\n闪避轻击：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\nXXXXXX强化(<WeaponDes_Num_Green>10</>段)：伤害 <WeaponDes_Num_Green>268%</> / 杀气 <WeaponDes_Num_Green>268%</>\nXXXXX强化(<WeaponDes_Num_Green>8</>段)：伤害 <WeaponDes_Num_Green>255%</> / 杀气 <WeaponDes_Num_Green>255%</>\nXXXX强化(<WeaponDes_Num_Green>8</>段)：伤害 <WeaponDes_Num_Green>253%</> / 杀气 <WeaponDes_Num_Green>253%</>\nXXXYY强化(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>89.6%</> / 杀气 <WeaponDes_Num_Green>89.6%</> / 异常 <WeaponDes_Num_Green>50%</>\nXXXY强化(<WeaponDes_Num_Green>10</>段)：伤害 <WeaponDes_Num_Green>238.8%</> / 杀气 <WeaponDes_Num_Green>238.8%</>\nXXX强化(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>233%</> / 杀气 <WeaponDes_Num_Green>233%</>\nXXYY强化(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>65%</> / 杀气 <WeaponDes_Num_Green>65%</>\nXXY强化(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>125.2%</> / 杀气 <WeaponDes_Num_Green>125.2%</>\nXX强化(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>121.6%</> / 杀气 <WeaponDes_Num_Green>121.6%</>\nXYY强化(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>86.7%</> / 杀气 <WeaponDes_Num_Green>86.7%</> / 异常 <WeaponDes_Num_Green>50%</>\nXY强化(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>185.5%</> / 杀气 <WeaponDes_Num_Green>185.5%</>\nYYYY强化(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>211.4%</> / 杀气 <WeaponDes_Num_Green>211.4%</>\nYYY强化(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>136.2%</> / 杀气 <WeaponDes_Num_Green>136.2%</>\nYY强化(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>131.5%</> / 杀气 <WeaponDes_Num_Green>131.5%</>\n冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>46.8%</> / 杀气 <WeaponDes_Num_Green>46.8%</>\n冲刺强化(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>325.3%</> / 杀气 <WeaponDes_Num_Green>325.3%</>\n右：伤害 <WeaponDes_Num_Green>59.3%</> / 杀气 <WeaponDes_Num_Green>26.1%</> / 异常 <WeaponDes_Num_Green>68.1%</>\n右强化(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>57.3%</> / 异常 <WeaponDes_Num_Green>160.6%</>\n左：伤害 <WeaponDes_Num_Green>59.3%</> / 杀气 <WeaponDes_Num_Green>26.1%</> / 异常 <WeaponDes_Num_Green>68.1%</>\n左强化(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>140.4%</> / 杀气 <WeaponDes_Num_Green>57.3%</> / 异常 <WeaponDes_Num_Green>160.6%</>\n强化(<WeaponDes_Num_Green>26</>段)：伤害 <WeaponDes_Num_Green>1305.5%</> / 杀气 <WeaponDes_Num_Green>910.7%</> / 异常 <WeaponDes_Num_Green>1049.9%</>\n拔刀(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>34.9%</> / 杀气 <WeaponDes_Num_Green>34.9%</>",
+          "zh-Hant": "疾跑輕擊：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</>\n拔刀輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</>\n疾跑拔刀輕擊：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</>\n閃避輕擊：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\nXXXXXX強化(<WeaponDes_Num_Green>10</>段)：傷害 <WeaponDes_Num_Green>268%</> / 殺氣 <WeaponDes_Num_Green>268%</>\nXXXXX強化(<WeaponDes_Num_Green>8</>段)：傷害 <WeaponDes_Num_Green>255%</> / 殺氣 <WeaponDes_Num_Green>255%</>\nXXXX強化(<WeaponDes_Num_Green>8</>段)：傷害 <WeaponDes_Num_Green>253%</> / 殺氣 <WeaponDes_Num_Green>253%</>\nXXXYY強化(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>89.6%</> / 殺氣 <WeaponDes_Num_Green>89.6%</> / 異常 <WeaponDes_Num_Green>50%</>\nXXXY強化(<WeaponDes_Num_Green>10</>段)：傷害 <WeaponDes_Num_Green>238.8%</> / 殺氣 <WeaponDes_Num_Green>238.8%</>\nXXX強化(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>233%</> / 殺氣 <WeaponDes_Num_Green>233%</>\nXXYY強化(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>65%</> / 殺氣 <WeaponDes_Num_Green>65%</>\nXXY強化(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>125.2%</> / 殺氣 <WeaponDes_Num_Green>125.2%</>\nXX強化(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>121.6%</> / 殺氣 <WeaponDes_Num_Green>121.6%</>\nXYY強化(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>86.7%</> / 殺氣 <WeaponDes_Num_Green>86.7%</> / 異常 <WeaponDes_Num_Green>50%</>\nXY強化(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>185.5%</> / 殺氣 <WeaponDes_Num_Green>185.5%</>\nYYYY強化(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>211.4%</> / 殺氣 <WeaponDes_Num_Green>211.4%</>\nYYY強化(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>136.2%</> / 殺氣 <WeaponDes_Num_Green>136.2%</>\nYY強化(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>131.5%</> / 殺氣 <WeaponDes_Num_Green>131.5%</>\n衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>46.8%</> / 殺氣 <WeaponDes_Num_Green>46.8%</>\n衝刺強化(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>325.3%</> / 殺氣 <WeaponDes_Num_Green>325.3%</>\n右：傷害 <WeaponDes_Num_Green>59.3%</> / 殺氣 <WeaponDes_Num_Green>26.1%</> / 異常 <WeaponDes_Num_Green>68.1%</>\n右強化(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>57.3%</> / 異常 <WeaponDes_Num_Green>160.6%</>\n左：傷害 <WeaponDes_Num_Green>59.3%</> / 殺氣 <WeaponDes_Num_Green>26.1%</> / 異常 <WeaponDes_Num_Green>68.1%</>\n左強化(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>140.4%</> / 殺氣 <WeaponDes_Num_Green>57.3%</> / 異常 <WeaponDes_Num_Green>160.6%</>\n強化(<WeaponDes_Num_Green>26</>段)：傷害 <WeaponDes_Num_Green>1305.5%</> / 殺氣 <WeaponDes_Num_Green>910.7%</> / 異常 <WeaponDes_Num_Green>1049.9%</>\n拔刀(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>34.9%</> / 殺氣 <WeaponDes_Num_Green>34.9%</>",
+          "en": "Sprint Light: DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</>\nDraw Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</>\nSprint Draw Light: DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</>\nDodge Light: DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nXXXXXX Enhanced (<WeaponDes_Num_Green>10</> hits): DMG <WeaponDes_Num_Green>268%</> / Sha-Chi <WeaponDes_Num_Green>268%</>\nXXXXX Enhanced (<WeaponDes_Num_Green>8</> hits): DMG <WeaponDes_Num_Green>255%</> / Sha-Chi <WeaponDes_Num_Green>255%</>\nXXXX Enhanced (<WeaponDes_Num_Green>8</> hits): DMG <WeaponDes_Num_Green>253%</> / Sha-Chi <WeaponDes_Num_Green>253%</>\nXXXYY Enhanced (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>89.6%</> / Sha-Chi <WeaponDes_Num_Green>89.6%</> / Status <WeaponDes_Num_Green>50%</>\nXXXY Enhanced (<WeaponDes_Num_Green>10</> hits): DMG <WeaponDes_Num_Green>238.8%</> / Sha-Chi <WeaponDes_Num_Green>238.8%</>\nXXX Enhanced (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>233%</> / Sha-Chi <WeaponDes_Num_Green>233%</>\nXXYY Enhanced (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>65%</> / Sha-Chi <WeaponDes_Num_Green>65%</>\nXXY Enhanced (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>125.2%</> / Sha-Chi <WeaponDes_Num_Green>125.2%</>\nXX Enhanced (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>121.6%</> / Sha-Chi <WeaponDes_Num_Green>121.6%</>\nXYY Enhanced (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>86.7%</> / Sha-Chi <WeaponDes_Num_Green>86.7%</> / Status <WeaponDes_Num_Green>50%</>\nXY Enhanced (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>185.5%</> / Sha-Chi <WeaponDes_Num_Green>185.5%</>\nYYYY Enhanced (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>211.4%</> / Sha-Chi <WeaponDes_Num_Green>211.4%</>\nYYY Enhanced (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>136.2%</> / Sha-Chi <WeaponDes_Num_Green>136.2%</>\nYY Enhanced (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>131.5%</> / Sha-Chi <WeaponDes_Num_Green>131.5%</>\nDash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>46.8%</> / Sha-Chi <WeaponDes_Num_Green>46.8%</>\nDash Enhanced (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>325.3%</> / Sha-Chi <WeaponDes_Num_Green>325.3%</>\nRight: DMG <WeaponDes_Num_Green>59.3%</> / Sha-Chi <WeaponDes_Num_Green>26.1%</> / Status <WeaponDes_Num_Green>68.1%</>\nRight Enhanced (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>57.3%</> / Status <WeaponDes_Num_Green>160.6%</>\nLeft: DMG <WeaponDes_Num_Green>59.3%</> / Sha-Chi <WeaponDes_Num_Green>26.1%</> / Status <WeaponDes_Num_Green>68.1%</>\nLeft Enhanced (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>140.4%</> / Sha-Chi <WeaponDes_Num_Green>57.3%</> / Status <WeaponDes_Num_Green>160.6%</>\nEnhanced (<WeaponDes_Num_Green>26</> hits): DMG <WeaponDes_Num_Green>1305.5%</> / Sha-Chi <WeaponDes_Num_Green>910.7%</> / Status <WeaponDes_Num_Green>1049.9%</>\nDraw (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>34.9%</> / Sha-Chi <WeaponDes_Num_Green>34.9%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_027": {
+    "name": "白蟒赤练",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</> / 中毒 <WeaponDes_Num_Green>72%</>\n轻2 (XX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</> / 中毒 <WeaponDes_Num_Green>90%</>\n轻3 (XXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</> / 中毒 <WeaponDes_Num_Green>90%</>\n重2 (YY)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</> / 中毒 <WeaponDes_Num_Green>108%</>",
+          "zh-Hant": "輕1 (X)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</> / 中毒 <WeaponDes_Num_Green>72%</>\n輕2 (XX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</> / 中毒 <WeaponDes_Num_Green>90%</>\n輕3 (XXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</> / 中毒 <WeaponDes_Num_Green>90%</>\n重2 (YY)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</> / 中毒 <WeaponDes_Num_Green>108%</>",
+          "en": "Light 1 (X) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</> / Poison <WeaponDes_Num_Green>72%</>\nLight 2 (XX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</> / Poison <WeaponDes_Num_Green>90%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</> / Poison <WeaponDes_Num_Green>90%</>\nHeavy 2 (YY): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</> / Poison <WeaponDes_Num_Green>108%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</> / 中毒 <WeaponDes_Num_Green>108%</>\nYX(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</> / 中毒 <WeaponDes_Num_Green>90%</>\nXYX(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</> / 中毒 <WeaponDes_Num_Green>90%</>\nXYY：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 中毒 <WeaponDes_Num_Green>135%</>\nYXX(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</> / 中毒 <WeaponDes_Num_Green>90%</>\nYXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 中毒 <WeaponDes_Num_Green>135%</>\nXYXX(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</> / 中毒 <WeaponDes_Num_Green>99%</>\nXYXY(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>159.1%</> / 杀气 <WeaponDes_Num_Green>159.1%</> / 中毒 <WeaponDes_Num_Green>159.1%</>\nYXYX(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>102.8%</> / 杀气 <WeaponDes_Num_Green>102.8%</> / 中毒 <WeaponDes_Num_Green>82.5%</>\nYXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 中毒 <WeaponDes_Num_Green>135%</>\nXYXYX(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</> / 中毒 <WeaponDes_Num_Green>99%</>\nXYXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 中毒 <WeaponDes_Num_Green>135%</>\nYXYXX(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</> / 中毒 <WeaponDes_Num_Green>99%</>\nYXYXY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 中毒 <WeaponDes_Num_Green>135%</>\nXYXYXX(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</> / 中毒 <WeaponDes_Num_Green>108%</>\nYXYXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>91.6%</> / 杀气 <WeaponDes_Num_Green>91.6%</> / 中毒 <WeaponDes_Num_Green>91.6%</>",
+          "zh-Hant": "XY：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</> / 中毒 <WeaponDes_Num_Green>108%</>\nYX(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</> / 中毒 <WeaponDes_Num_Green>90%</>\nXYX(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</> / 中毒 <WeaponDes_Num_Green>90%</>\nXYY：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 中毒 <WeaponDes_Num_Green>135%</>\nYXX(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</> / 中毒 <WeaponDes_Num_Green>90%</>\nYXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 中毒 <WeaponDes_Num_Green>135%</>\nXYXX(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</> / 中毒 <WeaponDes_Num_Green>99%</>\nXYXY(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>159.1%</> / 殺氣 <WeaponDes_Num_Green>159.1%</> / 中毒 <WeaponDes_Num_Green>159.1%</>\nYXYX(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>102.8%</> / 殺氣 <WeaponDes_Num_Green>102.8%</> / 中毒 <WeaponDes_Num_Green>82.5%</>\nYXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 中毒 <WeaponDes_Num_Green>135%</>\nXYXYX(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</> / 中毒 <WeaponDes_Num_Green>99%</>\nXYXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 中毒 <WeaponDes_Num_Green>135%</>\nYXYXX(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</> / 中毒 <WeaponDes_Num_Green>99%</>\nYXYXY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 中毒 <WeaponDes_Num_Green>135%</>\nXYXYXX(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</> / 中毒 <WeaponDes_Num_Green>108%</>\nYXYXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>91.6%</> / 殺氣 <WeaponDes_Num_Green>91.6%</> / 中毒 <WeaponDes_Num_Green>91.6%</>",
+          "en": "XY: DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</> / Poison <WeaponDes_Num_Green>108%</>\nYX (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</> / Poison <WeaponDes_Num_Green>90%</>\nXYX (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</> / Poison <WeaponDes_Num_Green>90%</>\nXYY: DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Poison <WeaponDes_Num_Green>135%</>\nYXX (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</> / Poison <WeaponDes_Num_Green>90%</>\nYXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Poison <WeaponDes_Num_Green>135%</>\nXYXX (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</> / Poison <WeaponDes_Num_Green>99%</>\nXYXY (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>159.1%</> / Sha-Chi <WeaponDes_Num_Green>159.1%</> / Poison <WeaponDes_Num_Green>159.1%</>\nYXYX (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>102.8%</> / Sha-Chi <WeaponDes_Num_Green>102.8%</> / Poison <WeaponDes_Num_Green>82.5%</>\nYXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Poison <WeaponDes_Num_Green>135%</>\nXYXYX (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</> / Poison <WeaponDes_Num_Green>99%</>\nXYXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Poison <WeaponDes_Num_Green>135%</>\nYXYXX (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</> / Poison <WeaponDes_Num_Green>99%</>\nYXYXY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Poison <WeaponDes_Num_Green>135%</>\nXYXYXX (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</> / Poison <WeaponDes_Num_Green>108%</>\nYXYXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>91.6%</> / Sha-Chi <WeaponDes_Num_Green>91.6%</> / Poison <WeaponDes_Num_Green>91.6%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>62.4%</> / 杀气 <WeaponDes_Num_Green>62.4%</> / 中毒 <WeaponDes_Num_Green>62.4%</>\n闪避轻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>168%</> / 杀气 <WeaponDes_Num_Green>168%</> / 中毒 <WeaponDes_Num_Green>168%</>\n切武器攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>200%</> / 杀气 <WeaponDes_Num_Green>200%</> / 中毒 <WeaponDes_Num_Green>200%</>\n冲刺(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</> / 中毒 <WeaponDes_Num_Green>93.6%</>\n快速(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>220%</> / 杀气 <WeaponDes_Num_Green>240%</> / 中毒 <WeaponDes_Num_Green>120%</>\n格挡：伤害 <WeaponDes_Num_Green>100%</> / 杀气 <WeaponDes_Num_Green>120%</> / 中毒 <WeaponDes_Num_Green>100%</>\n特殊招式(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>338.8%</> / 杀气 <WeaponDes_Num_Green>338.8%</> / 中毒 <WeaponDes_Num_Green>338.8%</>\n轻击派生(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 中毒 <WeaponDes_Num_Green>135%</>\n轻击派生突刺：伤害 <WeaponDes_Num_Green>36%</> / 杀气 <WeaponDes_Num_Green>36%</> / 中毒 <WeaponDes_Num_Green>36%</>\n重击派生(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>145.9%</> / 杀气 <WeaponDes_Num_Green>56.5%</> / 中毒 <WeaponDes_Num_Green>45.9%</>\n重击派生投掷(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>86%</> / 杀气 <WeaponDes_Num_Green>106.8%</> / 中毒 <WeaponDes_Num_Green>86%</>\n重击派生投掷横扫击打：伤害 <WeaponDes_Num_Green>30%</> / 杀气 <WeaponDes_Num_Green>30%</> / 中毒 <WeaponDes_Num_Green>30%</>\n重击派生突刺：伤害 <WeaponDes_Num_Green>50%</> / 杀气 <WeaponDes_Num_Green>50%</> / 中毒 <WeaponDes_Num_Green>50%</>\n闪避攻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>100.8%</> / 杀气 <WeaponDes_Num_Green>100.8%</> / 中毒 <WeaponDes_Num_Green>100.8%</>\n闪避突进(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>100.8%</> / 杀气 <WeaponDes_Num_Green>100.8%</> / 中毒 <WeaponDes_Num_Green>100.8%</>",
+          "zh-Hant": "疾跑輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>62.4%</> / 殺氣 <WeaponDes_Num_Green>62.4%</> / 中毒 <WeaponDes_Num_Green>62.4%</>\n閃避輕擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>168%</> / 殺氣 <WeaponDes_Num_Green>168%</> / 中毒 <WeaponDes_Num_Green>168%</>\n切武器攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>200%</> / 殺氣 <WeaponDes_Num_Green>200%</> / 中毒 <WeaponDes_Num_Green>200%</>\n衝刺(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</> / 中毒 <WeaponDes_Num_Green>93.6%</>\n快速(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>220%</> / 殺氣 <WeaponDes_Num_Green>240%</> / 中毒 <WeaponDes_Num_Green>120%</>\n格擋：傷害 <WeaponDes_Num_Green>100%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 中毒 <WeaponDes_Num_Green>100%</>\n特殊招式(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>338.8%</> / 殺氣 <WeaponDes_Num_Green>338.8%</> / 中毒 <WeaponDes_Num_Green>338.8%</>\n輕擊派生(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 中毒 <WeaponDes_Num_Green>135%</>\n輕擊派生突刺：傷害 <WeaponDes_Num_Green>36%</> / 殺氣 <WeaponDes_Num_Green>36%</> / 中毒 <WeaponDes_Num_Green>36%</>\n重擊派生(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>145.9%</> / 殺氣 <WeaponDes_Num_Green>56.5%</> / 中毒 <WeaponDes_Num_Green>45.9%</>\n重擊派生投掷(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>86%</> / 殺氣 <WeaponDes_Num_Green>106.8%</> / 中毒 <WeaponDes_Num_Green>86%</>\n重擊派生投掷横扫擊打：傷害 <WeaponDes_Num_Green>30%</> / 殺氣 <WeaponDes_Num_Green>30%</> / 中毒 <WeaponDes_Num_Green>30%</>\n重擊派生突刺：傷害 <WeaponDes_Num_Green>50%</> / 殺氣 <WeaponDes_Num_Green>50%</> / 中毒 <WeaponDes_Num_Green>50%</>\n閃避攻擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>100.8%</> / 殺氣 <WeaponDes_Num_Green>100.8%</> / 中毒 <WeaponDes_Num_Green>100.8%</>\n閃避突進(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>100.8%</> / 殺氣 <WeaponDes_Num_Green>100.8%</> / 中毒 <WeaponDes_Num_Green>100.8%</>",
+          "en": "Sprint Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>62.4%</> / Sha-Chi <WeaponDes_Num_Green>62.4%</> / Poison <WeaponDes_Num_Green>62.4%</>\nDodge Light (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>168%</> / Sha-Chi <WeaponDes_Num_Green>168%</> / Poison <WeaponDes_Num_Green>168%</>\nSwitch Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>200%</> / Sha-Chi <WeaponDes_Num_Green>200%</> / Poison <WeaponDes_Num_Green>200%</>\nDash (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</> / Poison <WeaponDes_Num_Green>93.6%</>\nFast (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>220%</> / Sha-Chi <WeaponDes_Num_Green>240%</> / Poison <WeaponDes_Num_Green>120%</>\nDeflect: DMG <WeaponDes_Num_Green>100%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Poison <WeaponDes_Num_Green>100%</>\nSpecial Move (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>338.8%</> / Sha-Chi <WeaponDes_Num_Green>338.8%</> / Poison <WeaponDes_Num_Green>338.8%</>\nLight Follow-up (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Poison <WeaponDes_Num_Green>135%</>\nLight Follow-up Stab: DMG <WeaponDes_Num_Green>36%</> / Sha-Chi <WeaponDes_Num_Green>36%</> / Poison <WeaponDes_Num_Green>36%</>\nHeavy Follow-up (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>145.9%</> / Sha-Chi <WeaponDes_Num_Green>56.5%</> / Poison <WeaponDes_Num_Green>45.9%</>\nHeavy Follow-up Throw (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>86%</> / Sha-Chi <WeaponDes_Num_Green>106.8%</> / Poison <WeaponDes_Num_Green>86%</>\nHeavy Follow-up Throw Sweep Hit: DMG <WeaponDes_Num_Green>30%</> / Sha-Chi <WeaponDes_Num_Green>30%</> / Poison <WeaponDes_Num_Green>30%</>\nHeavy Follow-up Stab: DMG <WeaponDes_Num_Green>50%</> / Sha-Chi <WeaponDes_Num_Green>50%</> / Poison <WeaponDes_Num_Green>50%</>\nDodge Strike (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>100.8%</> / Sha-Chi <WeaponDes_Num_Green>100.8%</> / Poison <WeaponDes_Num_Green>100.8%</>\nDodge Strike (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>100.8%</> / Sha-Chi <WeaponDes_Num_Green>100.8%</> / Poison <WeaponDes_Num_Green>100.8%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "强化 / 剑气派生倍率",
+          "zh-Hant": "強化 / 劍氣派生倍率",
+          "en": "Enhanced / Wave Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "蛇灵·蛇灵(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>550%</> / 杀气 <WeaponDes_Num_Green>550%</> / 中毒 <WeaponDes_Num_Green>550%</>\n蛇灵·蛇灵技能：伤害 <WeaponDes_Num_Green>250%</> / 杀气 <WeaponDes_Num_Green>250%</> / 中毒 <WeaponDes_Num_Green>250%</>\n释放·右(<WeaponDes_Num_Green>25</>段)：伤害 <WeaponDes_Num_Green>1705.3%</> / 杀气 <WeaponDes_Num_Green>1705.3%</> / 中毒 <WeaponDes_Num_Green>1685.5%</>",
+          "zh-Hant": "蛇靈·蛇靈(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>550%</> / 殺氣 <WeaponDes_Num_Green>550%</> / 中毒 <WeaponDes_Num_Green>550%</>\n蛇靈·蛇靈技能：傷害 <WeaponDes_Num_Green>250%</> / 殺氣 <WeaponDes_Num_Green>250%</> / 中毒 <WeaponDes_Num_Green>250%</>\n释放·右(<WeaponDes_Num_Green>25</>段)：傷害 <WeaponDes_Num_Green>1705.3%</> / 殺氣 <WeaponDes_Num_Green>1705.3%</> / 中毒 <WeaponDes_Num_Green>1685.5%</>",
+          "en": "Serpent Serpent (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>550%</> / Sha-Chi <WeaponDes_Num_Green>550%</> / Poison <WeaponDes_Num_Green>550%</>\nSerpent Serpent Skill: DMG <WeaponDes_Num_Green>250%</> / Sha-Chi <WeaponDes_Num_Green>250%</> / Poison <WeaponDes_Num_Green>250%</>\nRelease Right (<WeaponDes_Num_Green>25</> hits): DMG <WeaponDes_Num_Green>1705.3%</> / Sha-Chi <WeaponDes_Num_Green>1705.3%</> / Poison <WeaponDes_Num_Green>1685.5%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_028": {
+    "name": "别离残钩",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</>\n轻2 (XX)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</>\n轻3 (XXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</>\n轻4 (XXXX)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</>\n轻5 (XXXXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</>\n重2 (YY)(<WeaponDes_Num_Green>7</>段)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n重3 (YYY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\n重4 (YYYY)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</>\n輕2 (XX)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</>\n輕3 (XXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</>\n輕4 (XXXX)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</>\n輕5 (XXXXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</>\n重2 (YY)(<WeaponDes_Num_Green>7</>段)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n重3 (YYY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\n重4 (YYYY)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</>\nLight 2 (XX): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</>\nLight 4 (XXXX): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</>\nLight 5 (XXXXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>7</> hits): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nHeavy 4 (YYYY): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\nXXYY(<WeaponDes_Num_Green>7</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>",
+          "zh-Hant": "XY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\nXXYY(<WeaponDes_Num_Green>7</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>",
+          "en": "XY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nXXYY (<WeaponDes_Num_Green>7</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXXXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</>\n拔刀轻击：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</>\n疾跑拔刀轻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</>\n闪避轻击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>201.6%</> / 杀气 <WeaponDes_Num_Green>201.6%</>\n冲刺：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</>\n拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</>\n疾跑拔刀：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</>\n追击(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>234%</> / 杀气 <WeaponDes_Num_Green>234%</>\n重击派生(<WeaponDes_Num_Green>10</>段)：伤害 <WeaponDes_Num_Green>340%</> / 杀气 <WeaponDes_Num_Green>340%</>\n闪避攻击：伤害 <WeaponDes_Num_Green>100.8%</> / 杀气 <WeaponDes_Num_Green>100.8%</>\n闪避突进：伤害 <WeaponDes_Num_Green>100.8%</> / 杀气 <WeaponDes_Num_Green>100.8%</>",
+          "zh-Hant": "疾跑輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</>\n拔刀輕擊：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</>\n疾跑拔刀輕擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</>\n閃避輕擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>201.6%</> / 殺氣 <WeaponDes_Num_Green>201.6%</>\n衝刺：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</>\n拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</>\n疾跑拔刀：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</>\n追擊(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>234%</> / 殺氣 <WeaponDes_Num_Green>234%</>\n重擊派生(<WeaponDes_Num_Green>10</>段)：傷害 <WeaponDes_Num_Green>340%</> / 殺氣 <WeaponDes_Num_Green>340%</>\n閃避攻擊：傷害 <WeaponDes_Num_Green>100.8%</> / 殺氣 <WeaponDes_Num_Green>100.8%</>\n閃避突進：傷害 <WeaponDes_Num_Green>100.8%</> / 殺氣 <WeaponDes_Num_Green>100.8%</>",
+          "en": "Sprint Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</>\nDraw Light: DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</>\nSprint Draw Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</>\nDodge Light (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>201.6%</> / Sha-Chi <WeaponDes_Num_Green>201.6%</>\nDash: DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</>\nDraw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</>\nSpecial Move (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</>\nDash Draw: DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</>\nPursue (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>234%</> / Sha-Chi <WeaponDes_Num_Green>234%</>\nHeavy Follow-up (<WeaponDes_Num_Green>10</> hits): DMG <WeaponDes_Num_Green>340%</> / Sha-Chi <WeaponDes_Num_Green>340%</>\nDodge Strike: DMG <WeaponDes_Num_Green>100.8%</> / Sha-Chi <WeaponDes_Num_Green>100.8%</>\nDodge Strike: DMG <WeaponDes_Num_Green>100.8%</> / Sha-Chi <WeaponDes_Num_Green>100.8%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_029": {
+    "name": "玉双环",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻2 (XX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</>\n轻3 (XXX)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</>\n轻5 (XXXXX)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</>\n轻6 (XXXXXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</>\n重3 (YYY)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\n重4 (YYYY)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>",
+          "zh-Hant": "輕2 (XX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</>\n輕3 (XXX)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</>\n輕5 (XXXXX)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</>\n輕6 (XXXXXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n重3 (YYY)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\n重4 (YYYY)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>",
+          "en": "Light 2 (XX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</>\nLight 5 (XXXXX) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</>\nLight 6 (XXXXXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nHeavy 3 (YYY) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nHeavy 4 (YYYY) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXYY(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXXYY(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>\nXXXYY(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</>",
+          "zh-Hant": "XXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXYY(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXXYY(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>\nXXXYY(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</>",
+          "en": "XXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXYY (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXXYY (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>\nXXXYY (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "闪避轻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>100.8%</> / 杀气 <WeaponDes_Num_Green>100.8%</>\n切武器攻击：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>150%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\nXXXYY(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\nXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\nXXYY(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\nYYYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\n冲刺(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>113.6%</> / 杀气 <WeaponDes_Num_Green>113.6%</>\n前后(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>250%</> / 杀气 <WeaponDes_Num_Green>250%</> / 异常 <WeaponDes_Num_Green>100%</>\n单段(<WeaponDes_Num_Green>9</>段)：伤害 <WeaponDes_Num_Green>750%</> / 杀气 <WeaponDes_Num_Green>750%</>\n残影：伤害 <WeaponDes_Num_Green>44.6%</> / 杀气 <WeaponDes_Num_Green>44.6%</>\n特殊招式(<WeaponDes_Num_Green>24</>段)：伤害 <WeaponDes_Num_Green>1205.9%</> / 杀气 <WeaponDes_Num_Green>789.8%</>\n重击派生(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>160%</> / 杀气 <WeaponDes_Num_Green>160%</>\n闪避攻击(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>170.8%</> / 杀气 <WeaponDes_Num_Green>170.8%</>\n闪避突进(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>120.8%</> / 杀气 <WeaponDes_Num_Green>120.8%</>",
+          "zh-Hant": "閃避輕擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>100.8%</> / 殺氣 <WeaponDes_Num_Green>100.8%</>\n切武器攻擊：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>150%</>\nXXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\nXXXYY(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\nXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\nXXYY(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\nYYYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\n衝刺(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>113.6%</> / 殺氣 <WeaponDes_Num_Green>113.6%</>\n前后(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>250%</> / 殺氣 <WeaponDes_Num_Green>250%</> / 異常 <WeaponDes_Num_Green>100%</>\n單段(<WeaponDes_Num_Green>9</>段)：傷害 <WeaponDes_Num_Green>750%</> / 殺氣 <WeaponDes_Num_Green>750%</>\n残影：傷害 <WeaponDes_Num_Green>44.6%</> / 殺氣 <WeaponDes_Num_Green>44.6%</>\n特殊招式(<WeaponDes_Num_Green>24</>段)：傷害 <WeaponDes_Num_Green>1205.9%</> / 殺氣 <WeaponDes_Num_Green>789.8%</>\n重擊派生(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>160%</> / 殺氣 <WeaponDes_Num_Green>160%</>\n閃避攻擊(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>170.8%</> / 殺氣 <WeaponDes_Num_Green>170.8%</>\n閃避突進(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>120.8%</> / 殺氣 <WeaponDes_Num_Green>120.8%</>",
+          "en": "Dodge Light (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>100.8%</> / Sha-Chi <WeaponDes_Num_Green>100.8%</>\nSwitch Attack: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>150%</>\nXXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nXXXYY (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nXXYY (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nYYYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nDash (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>113.6%</> / Sha-Chi <WeaponDes_Num_Green>113.6%</>\nFwd/Back (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>250%</> / Sha-Chi <WeaponDes_Num_Green>250%</> / Status <WeaponDes_Num_Green>100%</>\nSingle (<WeaponDes_Num_Green>9</> hits): DMG <WeaponDes_Num_Green>750%</> / Sha-Chi <WeaponDes_Num_Green>750%</>\nAfterimage: DMG <WeaponDes_Num_Green>44.6%</> / Sha-Chi <WeaponDes_Num_Green>44.6%</>\nSpecial Move (<WeaponDes_Num_Green>24</> hits): DMG <WeaponDes_Num_Green>1205.9%</> / Sha-Chi <WeaponDes_Num_Green>789.8%</>\nHeavy Follow-up (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>160%</> / Sha-Chi <WeaponDes_Num_Green>160%</>\nDodge Strike (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>170.8%</> / Sha-Chi <WeaponDes_Num_Green>170.8%</>\nDodge Strike (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>120.8%</> / Sha-Chi <WeaponDes_Num_Green>120.8%</>"
+        }
+      }
+    ]
+  },
+  "WeaponDes_031": {
+    "name": "圣母邪扇",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "基础连段倍率",
+          "zh-Hant": "基礎連段倍率",
+          "en": "Basic Combo Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</> / 元素 <WeaponDes_Num_Green>72%</>\n轻2 (XX)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</> / 元素 <WeaponDes_Num_Green>90%</>\n轻3 (XXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>90%</> / 杀气 <WeaponDes_Num_Green>90%</> / 元素 <WeaponDes_Num_Green>90%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</> / 元素 <WeaponDes_Num_Green>99%</>\n轻5 (XXXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>99%</> / 元素 <WeaponDes_Num_Green>99%</>\n重2 (YY)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>39.8%</> / 杀气 <WeaponDes_Num_Green>39.8%</> / 元素 <WeaponDes_Num_Green>39.8%</>",
+          "zh-Hant": "輕1 (X)：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</> / 元素 <WeaponDes_Num_Green>72%</>\n輕2 (XX)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</> / 元素 <WeaponDes_Num_Green>90%</>\n輕3 (XXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>90%</> / 殺氣 <WeaponDes_Num_Green>90%</> / 元素 <WeaponDes_Num_Green>90%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</> / 元素 <WeaponDes_Num_Green>99%</>\n輕5 (XXXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>99%</> / 元素 <WeaponDes_Num_Green>99%</>\n重2 (YY)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>39.8%</> / 殺氣 <WeaponDes_Num_Green>39.8%</> / 元素 <WeaponDes_Num_Green>39.8%</>",
+          "en": "Light 1 (X): DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</> / Elem <WeaponDes_Num_Green>72%</>\nLight 2 (XX): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</> / Elem <WeaponDes_Num_Green>90%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>90%</> / Sha-Chi <WeaponDes_Num_Green>90%</> / Elem <WeaponDes_Num_Green>90%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</> / Elem <WeaponDes_Num_Green>99%</>\nLight 5 (XXXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>99%</> / Elem <WeaponDes_Num_Green>99%</>\nHeavy 2 (YY) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>39.8%</> / Sha-Chi <WeaponDes_Num_Green>39.8%</> / Elem <WeaponDes_Num_Green>39.8%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "派生变招倍率",
+          "zh-Hant": "派生變招倍率",
+          "en": "Combo Variant Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "XY：伤害 <WeaponDes_Num_Green>108%</> / 杀气 <WeaponDes_Num_Green>108%</> / 元素 <WeaponDes_Num_Green>108%</>\nXXY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 元素 <WeaponDes_Num_Green>135%</>\nXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>135%</> / 杀气 <WeaponDes_Num_Green>135%</> / 元素 <WeaponDes_Num_Green>135%</>\nXXYY(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>39.1%</> / 杀气 <WeaponDes_Num_Green>39.1%</> / 元素 <WeaponDes_Num_Green>39.1%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>23.6%</> / 杀气 <WeaponDes_Num_Green>23.6%</> / 元素 <WeaponDes_Num_Green>23.6%</>",
+          "zh-Hant": "XY：傷害 <WeaponDes_Num_Green>108%</> / 殺氣 <WeaponDes_Num_Green>108%</> / 元素 <WeaponDes_Num_Green>108%</>\nXXY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 元素 <WeaponDes_Num_Green>135%</>\nXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>135%</> / 殺氣 <WeaponDes_Num_Green>135%</> / 元素 <WeaponDes_Num_Green>135%</>\nXXYY(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>39.1%</> / 殺氣 <WeaponDes_Num_Green>39.1%</> / 元素 <WeaponDes_Num_Green>39.1%</>\nXXXYY(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>23.6%</> / 殺氣 <WeaponDes_Num_Green>23.6%</> / 元素 <WeaponDes_Num_Green>23.6%</>",
+          "en": "XY: DMG <WeaponDes_Num_Green>108%</> / Sha-Chi <WeaponDes_Num_Green>108%</> / Elem <WeaponDes_Num_Green>108%</>\nXXY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Elem <WeaponDes_Num_Green>135%</>\nXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>135%</> / Sha-Chi <WeaponDes_Num_Green>135%</> / Elem <WeaponDes_Num_Green>135%</>\nXXYY (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>39.1%</> / Sha-Chi <WeaponDes_Num_Green>39.1%</> / Elem <WeaponDes_Num_Green>39.1%</>\nXXXYY (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>23.6%</> / Sha-Chi <WeaponDes_Num_Green>23.6%</> / Elem <WeaponDes_Num_Green>23.6%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "冲刺 / 拔刀 / 特殊派生倍率",
+          "zh-Hant": "衝刺 / 拔刀 / 特殊派生倍率",
+          "en": "Dash / Draw / Special Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "疾跑轻击：伤害 <WeaponDes_Num_Green>93.6%</> / 杀气 <WeaponDes_Num_Green>93.6%</> / 元素 <WeaponDes_Num_Green>93.6%</>\n拔刀轻击：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</> / 元素 <WeaponDes_Num_Green>72%</>\n疾跑拔刀轻击：伤害 <WeaponDes_Num_Green>72%</> / 杀气 <WeaponDes_Num_Green>72%</> / 元素 <WeaponDes_Num_Green>72%</>\n闪避轻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>201.6%</> / 杀气 <WeaponDes_Num_Green>201.6%</> / 元素 <WeaponDes_Num_Green>201.6%</>\n切武器攻击(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\nYY寒冰：伤害 <WeaponDes_Num_Green>22.7%</> / 杀气 <WeaponDes_Num_Green>22.7%</> / 元素 <WeaponDes_Num_Green>22.7%</>\nYY烈焰：伤害 <WeaponDes_Num_Green>22.7%</> / 杀气 <WeaponDes_Num_Green>22.7%</> / 元素 <WeaponDes_Num_Green>22.7%</>\nYY雷霆：伤害 <WeaponDes_Num_Green>22.7%</> / 杀气 <WeaponDes_Num_Green>22.7%</> / 元素 <WeaponDes_Num_Green>22.7%</>\n冲刺(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>18.7%</> / 杀气 <WeaponDes_Num_Green>18.7%</> / 元素 <WeaponDes_Num_Green>18.7%</>\n冲刺寒冰：伤害 <WeaponDes_Num_Green>9.4%</> / 杀气 <WeaponDes_Num_Green>9.4%</> / 元素 <WeaponDes_Num_Green>9.4%</>\n冲刺烈焰：伤害 <WeaponDes_Num_Green>9.4%</> / 杀气 <WeaponDes_Num_Green>9.4%</> / 元素 <WeaponDes_Num_Green>9.4%</>\n冲刺雷霆：伤害 <WeaponDes_Num_Green>9.4%</> / 杀气 <WeaponDes_Num_Green>9.4%</> / 元素 <WeaponDes_Num_Green>9.4%</>\n寒冰：伤害 <WeaponDes_Num_Green>8%</> / 杀气 <WeaponDes_Num_Green>8%</> / 元素 <WeaponDes_Num_Green>8%</>\n拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>16%</> / 杀气 <WeaponDes_Num_Green>16%</> / 元素 <WeaponDes_Num_Green>16%</>\n拔刀寒冰：伤害 <WeaponDes_Num_Green>8%</> / 杀气 <WeaponDes_Num_Green>8%</> / 元素 <WeaponDes_Num_Green>8%</>\n拔刀烈焰：伤害 <WeaponDes_Num_Green>8%</> / 杀气 <WeaponDes_Num_Green>8%</> / 元素 <WeaponDes_Num_Green>8%</>\n拔刀雷霆：伤害 <WeaponDes_Num_Green>8%</> / 杀气 <WeaponDes_Num_Green>8%</> / 元素 <WeaponDes_Num_Green>8%</>\n烈焰：伤害 <WeaponDes_Num_Green>8%</> / 杀气 <WeaponDes_Num_Green>8%</> / 元素 <WeaponDes_Num_Green>8%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>16%</> / 杀气 <WeaponDes_Num_Green>16%</> / 元素 <WeaponDes_Num_Green>16%</>\n疾跑拔刀(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>14.4%</> / 杀气 <WeaponDes_Num_Green>14.4%</> / 元素 <WeaponDes_Num_Green>14.4%</>\n疾跑拔刀寒冰：伤害 <WeaponDes_Num_Green>7.2%</> / 杀气 <WeaponDes_Num_Green>7.2%</> / 元素 <WeaponDes_Num_Green>7.2%</>\n疾跑拔刀烈焰：伤害 <WeaponDes_Num_Green>7.2%</> / 杀气 <WeaponDes_Num_Green>7.2%</> / 元素 <WeaponDes_Num_Green>7.2%</>\n疾跑拔刀雷霆：伤害 <WeaponDes_Num_Green>7.2%</> / 杀气 <WeaponDes_Num_Green>7.2%</> / 元素 <WeaponDes_Num_Green>7.2%</>\n落雷寒冰反击：伤害 <WeaponDes_Num_Green>30%</> / 杀气 <WeaponDes_Num_Green>30%</>\n落雷寒冰反击满蓄：伤害 <WeaponDes_Num_Green>37.5%</> / 杀气 <WeaponDes_Num_Green>37.5%</>\n重击派生寒冰普通：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>10%</>",
+          "zh-Hant": "疾跑輕擊：傷害 <WeaponDes_Num_Green>93.6%</> / 殺氣 <WeaponDes_Num_Green>93.6%</> / 元素 <WeaponDes_Num_Green>93.6%</>\n拔刀輕擊：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</> / 元素 <WeaponDes_Num_Green>72%</>\n疾跑拔刀輕擊：傷害 <WeaponDes_Num_Green>72%</> / 殺氣 <WeaponDes_Num_Green>72%</> / 元素 <WeaponDes_Num_Green>72%</>\n閃避輕擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>201.6%</> / 殺氣 <WeaponDes_Num_Green>201.6%</> / 元素 <WeaponDes_Num_Green>201.6%</>\n切武器攻擊(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>120%</> / 元素 <WeaponDes_Num_Green>120%</>\nYY寒冰：傷害 <WeaponDes_Num_Green>22.7%</> / 殺氣 <WeaponDes_Num_Green>22.7%</> / 元素 <WeaponDes_Num_Green>22.7%</>\nYY烈焰：傷害 <WeaponDes_Num_Green>22.7%</> / 殺氣 <WeaponDes_Num_Green>22.7%</> / 元素 <WeaponDes_Num_Green>22.7%</>\nYY雷霆：傷害 <WeaponDes_Num_Green>22.7%</> / 殺氣 <WeaponDes_Num_Green>22.7%</> / 元素 <WeaponDes_Num_Green>22.7%</>\n衝刺(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>18.7%</> / 殺氣 <WeaponDes_Num_Green>18.7%</> / 元素 <WeaponDes_Num_Green>18.7%</>\n衝刺寒冰：傷害 <WeaponDes_Num_Green>9.4%</> / 殺氣 <WeaponDes_Num_Green>9.4%</> / 元素 <WeaponDes_Num_Green>9.4%</>\n衝刺烈焰：傷害 <WeaponDes_Num_Green>9.4%</> / 殺氣 <WeaponDes_Num_Green>9.4%</> / 元素 <WeaponDes_Num_Green>9.4%</>\n衝刺雷霆：傷害 <WeaponDes_Num_Green>9.4%</> / 殺氣 <WeaponDes_Num_Green>9.4%</> / 元素 <WeaponDes_Num_Green>9.4%</>\n寒冰：傷害 <WeaponDes_Num_Green>8%</> / 殺氣 <WeaponDes_Num_Green>8%</> / 元素 <WeaponDes_Num_Green>8%</>\n拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>16%</> / 殺氣 <WeaponDes_Num_Green>16%</> / 元素 <WeaponDes_Num_Green>16%</>\n拔刀寒冰：傷害 <WeaponDes_Num_Green>8%</> / 殺氣 <WeaponDes_Num_Green>8%</> / 元素 <WeaponDes_Num_Green>8%</>\n拔刀烈焰：傷害 <WeaponDes_Num_Green>8%</> / 殺氣 <WeaponDes_Num_Green>8%</> / 元素 <WeaponDes_Num_Green>8%</>\n拔刀雷霆：傷害 <WeaponDes_Num_Green>8%</> / 殺氣 <WeaponDes_Num_Green>8%</> / 元素 <WeaponDes_Num_Green>8%</>\n烈焰：傷害 <WeaponDes_Num_Green>8%</> / 殺氣 <WeaponDes_Num_Green>8%</> / 元素 <WeaponDes_Num_Green>8%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>16%</> / 殺氣 <WeaponDes_Num_Green>16%</> / 元素 <WeaponDes_Num_Green>16%</>\n疾跑拔刀(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>14.4%</> / 殺氣 <WeaponDes_Num_Green>14.4%</> / 元素 <WeaponDes_Num_Green>14.4%</>\n疾跑拔刀寒冰：傷害 <WeaponDes_Num_Green>7.2%</> / 殺氣 <WeaponDes_Num_Green>7.2%</> / 元素 <WeaponDes_Num_Green>7.2%</>\n疾跑拔刀烈焰：傷害 <WeaponDes_Num_Green>7.2%</> / 殺氣 <WeaponDes_Num_Green>7.2%</> / 元素 <WeaponDes_Num_Green>7.2%</>\n疾跑拔刀雷霆：傷害 <WeaponDes_Num_Green>7.2%</> / 殺氣 <WeaponDes_Num_Green>7.2%</> / 元素 <WeaponDes_Num_Green>7.2%</>\n落雷寒冰反擊：傷害 <WeaponDes_Num_Green>30%</> / 殺氣 <WeaponDes_Num_Green>30%</>\n落雷寒冰反擊滿蓄：傷害 <WeaponDes_Num_Green>37.5%</> / 殺氣 <WeaponDes_Num_Green>37.5%</>\n重擊派生寒冰普通：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>10%</>",
+          "en": "Sprint Light: DMG <WeaponDes_Num_Green>93.6%</> / Sha-Chi <WeaponDes_Num_Green>93.6%</> / Elem <WeaponDes_Num_Green>93.6%</>\nDraw Light: DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</> / Elem <WeaponDes_Num_Green>72%</>\nSprint Draw Light: DMG <WeaponDes_Num_Green>72%</> / Sha-Chi <WeaponDes_Num_Green>72%</> / Elem <WeaponDes_Num_Green>72%</>\nDodge Light (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>201.6%</> / Sha-Chi <WeaponDes_Num_Green>201.6%</> / Elem <WeaponDes_Num_Green>201.6%</>\nSwitch Attack (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>120%</> / Elem <WeaponDes_Num_Green>120%</>\nYY Ice: DMG <WeaponDes_Num_Green>22.7%</> / Sha-Chi <WeaponDes_Num_Green>22.7%</> / Elem <WeaponDes_Num_Green>22.7%</>\nYY Fire: DMG <WeaponDes_Num_Green>22.7%</> / Sha-Chi <WeaponDes_Num_Green>22.7%</> / Elem <WeaponDes_Num_Green>22.7%</>\nYY Thunder: DMG <WeaponDes_Num_Green>22.7%</> / Sha-Chi <WeaponDes_Num_Green>22.7%</> / Elem <WeaponDes_Num_Green>22.7%</>\nDash (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>18.7%</> / Sha-Chi <WeaponDes_Num_Green>18.7%</> / Elem <WeaponDes_Num_Green>18.7%</>\nDash Ice: DMG <WeaponDes_Num_Green>9.4%</> / Sha-Chi <WeaponDes_Num_Green>9.4%</> / Elem <WeaponDes_Num_Green>9.4%</>\nDash Fire: DMG <WeaponDes_Num_Green>9.4%</> / Sha-Chi <WeaponDes_Num_Green>9.4%</> / Elem <WeaponDes_Num_Green>9.4%</>\nDash Thunder: DMG <WeaponDes_Num_Green>9.4%</> / Sha-Chi <WeaponDes_Num_Green>9.4%</> / Elem <WeaponDes_Num_Green>9.4%</>\nIce: DMG <WeaponDes_Num_Green>8%</> / Sha-Chi <WeaponDes_Num_Green>8%</> / Elem <WeaponDes_Num_Green>8%</>\nDraw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>16%</> / Sha-Chi <WeaponDes_Num_Green>16%</> / Elem <WeaponDes_Num_Green>16%</>\nDraw Ice: DMG <WeaponDes_Num_Green>8%</> / Sha-Chi <WeaponDes_Num_Green>8%</> / Elem <WeaponDes_Num_Green>8%</>\nDraw Fire: DMG <WeaponDes_Num_Green>8%</> / Sha-Chi <WeaponDes_Num_Green>8%</> / Elem <WeaponDes_Num_Green>8%</>\nDraw Thunder: DMG <WeaponDes_Num_Green>8%</> / Sha-Chi <WeaponDes_Num_Green>8%</> / Elem <WeaponDes_Num_Green>8%</>\nFire: DMG <WeaponDes_Num_Green>8%</> / Sha-Chi <WeaponDes_Num_Green>8%</> / Elem <WeaponDes_Num_Green>8%</>\nSpecial Move (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>16%</> / Sha-Chi <WeaponDes_Num_Green>16%</> / Elem <WeaponDes_Num_Green>16%</>\nDash Draw (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>14.4%</> / Sha-Chi <WeaponDes_Num_Green>14.4%</> / Elem <WeaponDes_Num_Green>14.4%</>\nDash Draw Ice: DMG <WeaponDes_Num_Green>7.2%</> / Sha-Chi <WeaponDes_Num_Green>7.2%</> / Elem <WeaponDes_Num_Green>7.2%</>\nDash Draw Fire: DMG <WeaponDes_Num_Green>7.2%</> / Sha-Chi <WeaponDes_Num_Green>7.2%</> / Elem <WeaponDes_Num_Green>7.2%</>\nDash Draw Thunder: DMG <WeaponDes_Num_Green>7.2%</> / Sha-Chi <WeaponDes_Num_Green>7.2%</> / Elem <WeaponDes_Num_Green>7.2%</>\nLightning Ice Counter: DMG <WeaponDes_Num_Green>30%</> / Sha-Chi <WeaponDes_Num_Green>30%</>\nLightning Ice Counter Full Charge: DMG <WeaponDes_Num_Green>37.5%</> / Sha-Chi <WeaponDes_Num_Green>37.5%</>\nHeavy Follow-up Ice Normal: DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>10%</>"
+        }
+      },
+      {
+        "title": {
+          "zh-Hans": "强化 / 剑气派生倍率",
+          "zh-Hant": "強化 / 劍氣派生倍率",
+          "en": "Enhanced / Wave Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "强化·重击派生烈焰强化满蓄：杀气 <WeaponDes_Num_Green>187.5%</>\n强化·重击派生落雷强化满蓄(<WeaponDes_Num_Green>2</>段)：杀气 <WeaponDes_Num_Green>125%</>",
+          "zh-Hant": "強化·重擊派生烈焰強化滿蓄：殺氣 <WeaponDes_Num_Green>187.5%</>\n強化·重擊派生落雷強化滿蓄(<WeaponDes_Num_Green>2</>段)：殺氣 <WeaponDes_Num_Green>125%</>",
+          "en": "Enhanced Heavy Follow-up Fire Enhanced Full Charge: Sha-Chi <WeaponDes_Num_Green>187.5%</>\nEnhanced Heavy Follow-up Lightning Enhanced Full Charge (<WeaponDes_Num_Green>2</> hits): Sha-Chi <WeaponDes_Num_Green>125%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_001": {
+    "name": "巨凶斧",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "普通(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>500%</> / 杀气 <WeaponDes_Num_Green>80%</>\n特殊招式：伤害 <WeaponDes_Num_Green>415%</> / 杀气 <WeaponDes_Num_Green>332%</>\n疾冲释放(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>1780%</> / 杀气 <WeaponDes_Num_Green>1430%</>\n释放(<WeaponDes_Num_Green>9</>段)：伤害 <WeaponDes_Num_Green>2255%</> / 杀气 <WeaponDes_Num_Green>1822%</>",
+          "zh-Hant": "普通(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>500%</> / 殺氣 <WeaponDes_Num_Green>80%</>\n特殊招式：傷害 <WeaponDes_Num_Green>415%</> / 殺氣 <WeaponDes_Num_Green>332%</>\n疾衝释放(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>1780%</> / 殺氣 <WeaponDes_Num_Green>1430%</>\n释放(<WeaponDes_Num_Green>9</>段)：傷害 <WeaponDes_Num_Green>2255%</> / 殺氣 <WeaponDes_Num_Green>1822%</>",
+          "en": "Normal (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>500%</> / Sha-Chi <WeaponDes_Num_Green>80%</>\nSpecial Move: DMG <WeaponDes_Num_Green>415%</> / Sha-Chi <WeaponDes_Num_Green>332%</>\nSprint Release (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>1780%</> / Sha-Chi <WeaponDes_Num_Green>1430%</>\nRelease (<WeaponDes_Num_Green>9</> hits): DMG <WeaponDes_Num_Green>2255%</> / Sha-Chi <WeaponDes_Num_Green>1822%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_002": {
+    "name": "长柄金瓜",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "剑气(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>1800%</> / 杀气 <WeaponDes_Num_Green>1560%</> / 异常 <WeaponDes_Num_Green>700%</>\n攻击(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>480%</> / 杀气 <WeaponDes_Num_Green>384%</> / 异常 <WeaponDes_Num_Green>120%</>\n普通(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>300%</> / 杀气 <WeaponDes_Num_Green>240%</>\n特殊招式：伤害 <WeaponDes_Num_Green>415%</> / 杀气 <WeaponDes_Num_Green>332%</>\n追击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>850%</> / 杀气 <WeaponDes_Num_Green>680%</> / 异常 <WeaponDes_Num_Green>350%</>\n释放(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>1082.5%</> / 杀气 <WeaponDes_Num_Green>866%</>",
+          "zh-Hant": "劍氣(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>1800%</> / 殺氣 <WeaponDes_Num_Green>1560%</> / 異常 <WeaponDes_Num_Green>700%</>\n攻擊(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>480%</> / 殺氣 <WeaponDes_Num_Green>384%</> / 異常 <WeaponDes_Num_Green>120%</>\n普通(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>300%</> / 殺氣 <WeaponDes_Num_Green>240%</>\n特殊招式：傷害 <WeaponDes_Num_Green>415%</> / 殺氣 <WeaponDes_Num_Green>332%</>\n追擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>850%</> / 殺氣 <WeaponDes_Num_Green>680%</> / 異常 <WeaponDes_Num_Green>350%</>\n释放(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>1082.5%</> / 殺氣 <WeaponDes_Num_Green>866%</>",
+          "en": "Wave (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>1800%</> / Sha-Chi <WeaponDes_Num_Green>1560%</> / Status <WeaponDes_Num_Green>700%</>\nAttack (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>480%</> / Sha-Chi <WeaponDes_Num_Green>384%</> / Status <WeaponDes_Num_Green>120%</>\nNormal (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>300%</> / Sha-Chi <WeaponDes_Num_Green>240%</>\nSpecial Move: DMG <WeaponDes_Num_Green>415%</> / Sha-Chi <WeaponDes_Num_Green>332%</>\nFollow-up (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>850%</> / Sha-Chi <WeaponDes_Num_Green>680%</> / Status <WeaponDes_Num_Green>350%</>\nRelease (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>1082.5%</> / Sha-Chi <WeaponDes_Num_Green>866%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_004": {
+    "name": "拙壁盾",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "冲锋：伤害 <WeaponDes_Num_Green>58.9%</> / 杀气 <WeaponDes_Num_Green>47.1%</>\n冲锋小型：伤害 <WeaponDes_Num_Green>26.9%</> / 杀气 <WeaponDes_Num_Green>21.5%</>\n反击攻击剑气：异常 <WeaponDes_Num_Green>238.8%</>\n反击攻击后撤(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>107.7%</> / 杀气 <WeaponDes_Num_Green>86.2%</>\n后撤：伤害 <WeaponDes_Num_Green>138.8%</> / 杀气 <WeaponDes_Num_Green>313%</>\n小型：伤害 <WeaponDes_Num_Green>26.9%</> / 杀气 <WeaponDes_Num_Green>21.5%</>\n滑铲：伤害 <WeaponDes_Num_Green>250%</> / 杀气 <WeaponDes_Num_Green>200%</>\n滑铲小型：伤害 <WeaponDes_Num_Green>250%</> / 杀气 <WeaponDes_Num_Green>200%</>\n特殊招式(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>489.7%</> / 杀气 <WeaponDes_Num_Green>461.8%</> / 异常 <WeaponDes_Num_Green>850%</>\n剑气·反击攻击剑气(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>358.9%</> / 杀气 <WeaponDes_Num_Green>247.1%</> / 异常 <WeaponDes_Num_Green>261.2%</>",
+          "zh-Hant": "衝锋：傷害 <WeaponDes_Num_Green>58.9%</> / 殺氣 <WeaponDes_Num_Green>47.1%</>\n衝锋小型：傷害 <WeaponDes_Num_Green>26.9%</> / 殺氣 <WeaponDes_Num_Green>21.5%</>\n反擊攻擊劍氣：異常 <WeaponDes_Num_Green>238.8%</>\n反擊攻擊后撤(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>107.7%</> / 殺氣 <WeaponDes_Num_Green>86.2%</>\n后撤：傷害 <WeaponDes_Num_Green>138.8%</> / 殺氣 <WeaponDes_Num_Green>313%</>\n小型：傷害 <WeaponDes_Num_Green>26.9%</> / 殺氣 <WeaponDes_Num_Green>21.5%</>\n滑铲：傷害 <WeaponDes_Num_Green>250%</> / 殺氣 <WeaponDes_Num_Green>200%</>\n滑铲小型：傷害 <WeaponDes_Num_Green>250%</> / 殺氣 <WeaponDes_Num_Green>200%</>\n特殊招式(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>489.7%</> / 殺氣 <WeaponDes_Num_Green>461.8%</> / 異常 <WeaponDes_Num_Green>850%</>\n劍氣·反擊攻擊劍氣(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>358.9%</> / 殺氣 <WeaponDes_Num_Green>247.1%</> / 異常 <WeaponDes_Num_Green>261.2%</>",
+          "en": "Rush: DMG <WeaponDes_Num_Green>58.9%</> / Sha-Chi <WeaponDes_Num_Green>47.1%</>\nRush Small: DMG <WeaponDes_Num_Green>26.9%</> / Sha-Chi <WeaponDes_Num_Green>21.5%</>\nCounter Attack Wave: Status <WeaponDes_Num_Green>238.8%</>\nCounter Attack Back (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>107.7%</> / Sha-Chi <WeaponDes_Num_Green>86.2%</>\nBack: DMG <WeaponDes_Num_Green>138.8%</> / Sha-Chi <WeaponDes_Num_Green>313%</>\nSmall: DMG <WeaponDes_Num_Green>26.9%</> / Sha-Chi <WeaponDes_Num_Green>21.5%</>\nSlide: DMG <WeaponDes_Num_Green>250%</> / Sha-Chi <WeaponDes_Num_Green>200%</>\nSlide Small: DMG <WeaponDes_Num_Green>250%</> / Sha-Chi <WeaponDes_Num_Green>200%</>\nSpecial Move (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>489.7%</> / Sha-Chi <WeaponDes_Num_Green>461.8%</> / Status <WeaponDes_Num_Green>850%</>\nWave Counter Attack Wave (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>358.9%</> / Sha-Chi <WeaponDes_Num_Green>247.1%</> / Status <WeaponDes_Num_Green>261.2%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_005": {
+    "name": "贪狼",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "攻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>420%</> / 杀气 <WeaponDes_Num_Green>336%</> / 流血 <WeaponDes_Num_Green>420%</>\n普通(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>350%</> / 杀气 <WeaponDes_Num_Green>280%</> / 流血 <WeaponDes_Num_Green>350%</>\n烈焰：杀气 <WeaponDes_Num_Green>10%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>475%</> / 杀气 <WeaponDes_Num_Green>450%</> / 流血 <WeaponDes_Num_Green>475%</>\n追击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>250%</> / 杀气 <WeaponDes_Num_Green>200%</> / 流血 <WeaponDes_Num_Green>250%</>",
+          "zh-Hant": "攻擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>420%</> / 殺氣 <WeaponDes_Num_Green>336%</> / 流血 <WeaponDes_Num_Green>420%</>\n普通(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>350%</> / 殺氣 <WeaponDes_Num_Green>280%</> / 流血 <WeaponDes_Num_Green>350%</>\n烈焰：殺氣 <WeaponDes_Num_Green>10%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>475%</> / 殺氣 <WeaponDes_Num_Green>450%</> / 流血 <WeaponDes_Num_Green>475%</>\n追擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>250%</> / 殺氣 <WeaponDes_Num_Green>200%</> / 流血 <WeaponDes_Num_Green>250%</>",
+          "en": "Attack (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>420%</> / Sha-Chi <WeaponDes_Num_Green>336%</> / Bleed <WeaponDes_Num_Green>420%</>\nNormal (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>350%</> / Sha-Chi <WeaponDes_Num_Green>280%</> / Bleed <WeaponDes_Num_Green>350%</>\nFire: Sha-Chi <WeaponDes_Num_Green>10%</>\nSpecial Move (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>475%</> / Sha-Chi <WeaponDes_Num_Green>450%</> / Bleed <WeaponDes_Num_Green>475%</>\nFollow-up (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>250%</> / Sha-Chi <WeaponDes_Num_Green>200%</> / Bleed <WeaponDes_Num_Green>250%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_006": {
+    "name": "虎炮",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "反击：伤害 <WeaponDes_Num_Green>770%</> / 杀气 <WeaponDes_Num_Green>616%</> / 燃烧 <WeaponDes_Num_Green>770%</>\n火焰：燃烧 <WeaponDes_Num_Green>10%</>\n爆发(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>1220%</> / 杀气 <WeaponDes_Num_Green>976%</> / 燃烧 <WeaponDes_Num_Green>1220%</>\n爆发冲刺：伤害 <WeaponDes_Num_Green>330%</> / 杀气 <WeaponDes_Num_Green>264%</> / 燃烧 <WeaponDes_Num_Green>330%</>\n爆发完美：伤害 <WeaponDes_Num_Green>585%</> / 杀气 <WeaponDes_Num_Green>468%</> / 燃烧 <WeaponDes_Num_Green>585%</>\n爆发普通：伤害 <WeaponDes_Num_Green>249%</> / 杀气 <WeaponDes_Num_Green>199.2%</> / 燃烧 <WeaponDes_Num_Green>249%</>\n特殊招式：伤害 <WeaponDes_Num_Green>250%</> / 杀气 <WeaponDes_Num_Green>300%</> / 燃烧 <WeaponDes_Num_Green>300%</>",
+          "zh-Hant": "反擊：傷害 <WeaponDes_Num_Green>770%</> / 殺氣 <WeaponDes_Num_Green>616%</> / 燃燒 <WeaponDes_Num_Green>770%</>\n火焰：燃燒 <WeaponDes_Num_Green>10%</>\n爆发(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>1220%</> / 殺氣 <WeaponDes_Num_Green>976%</> / 燃燒 <WeaponDes_Num_Green>1220%</>\n爆发衝刺：傷害 <WeaponDes_Num_Green>330%</> / 殺氣 <WeaponDes_Num_Green>264%</> / 燃燒 <WeaponDes_Num_Green>330%</>\n爆发完美：傷害 <WeaponDes_Num_Green>585%</> / 殺氣 <WeaponDes_Num_Green>468%</> / 燃燒 <WeaponDes_Num_Green>585%</>\n爆发普通：傷害 <WeaponDes_Num_Green>249%</> / 殺氣 <WeaponDes_Num_Green>199.2%</> / 燃燒 <WeaponDes_Num_Green>249%</>\n特殊招式：傷害 <WeaponDes_Num_Green>250%</> / 殺氣 <WeaponDes_Num_Green>300%</> / 燃燒 <WeaponDes_Num_Green>300%</>",
+          "en": "Counter: DMG <WeaponDes_Num_Green>770%</> / Sha-Chi <WeaponDes_Num_Green>616%</> / Ignite <WeaponDes_Num_Green>770%</>\nFlame: Ignite <WeaponDes_Num_Green>10%</>\nExplosion (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>1220%</> / Sha-Chi <WeaponDes_Num_Green>976%</> / Ignite <WeaponDes_Num_Green>1220%</>\nExplosion Dash: DMG <WeaponDes_Num_Green>330%</> / Sha-Chi <WeaponDes_Num_Green>264%</> / Ignite <WeaponDes_Num_Green>330%</>\nExplosion Perfect: DMG <WeaponDes_Num_Green>585%</> / Sha-Chi <WeaponDes_Num_Green>468%</> / Ignite <WeaponDes_Num_Green>585%</>\nExplosion Normal: DMG <WeaponDes_Num_Green>249%</> / Sha-Chi <WeaponDes_Num_Green>199.2%</> / Ignite <WeaponDes_Num_Green>249%</>\nSpecial Move: DMG <WeaponDes_Num_Green>250%</> / Sha-Chi <WeaponDes_Num_Green>300%</> / Ignite <WeaponDes_Num_Green>300%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_008": {
+    "name": "黄金火铳",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "前冲射击：伤害 <WeaponDes_Num_Green>73.3%</> / 杀气 <WeaponDes_Num_Green>58.7%</>\n右闪射击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>146.7%</> / 杀气 <WeaponDes_Num_Green>117.3%</>\n后撤射击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>146.7%</> / 杀气 <WeaponDes_Num_Green>117.3%</>\n完美枪托反击：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>79.4%</>\n完美格挡反击：伤害 <WeaponDes_Num_Green>396%</> / 杀气 <WeaponDes_Num_Green>317.4%</> / 异常 <WeaponDes_Num_Green>495%</>\n左闪射击：伤害 <WeaponDes_Num_Green>73.3%</> / 杀气 <WeaponDes_Num_Green>58.7%</>\n普通射击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>1120%</> / 杀气 <WeaponDes_Num_Green>896%</>\n枪托反击：伤害 <WeaponDes_Num_Green>66%</> / 杀气 <WeaponDes_Num_Green>52.8%</>\n格挡反击：伤害 <WeaponDes_Num_Green>264%</> / 杀气 <WeaponDes_Num_Green>211.2%</> / 异常 <WeaponDes_Num_Green>330%</>\n特殊招式：异常 <WeaponDes_Num_Green>580%</>",
+          "zh-Hant": "前衝射擊：傷害 <WeaponDes_Num_Green>73.3%</> / 殺氣 <WeaponDes_Num_Green>58.7%</>\n右閃射擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>146.7%</> / 殺氣 <WeaponDes_Num_Green>117.3%</>\n后撤射擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>146.7%</> / 殺氣 <WeaponDes_Num_Green>117.3%</>\n完美槍托反擊：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>79.4%</>\n完美格擋反擊：傷害 <WeaponDes_Num_Green>396%</> / 殺氣 <WeaponDes_Num_Green>317.4%</> / 異常 <WeaponDes_Num_Green>495%</>\n左閃射擊：傷害 <WeaponDes_Num_Green>73.3%</> / 殺氣 <WeaponDes_Num_Green>58.7%</>\n普通射擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>1120%</> / 殺氣 <WeaponDes_Num_Green>896%</>\n槍托反擊：傷害 <WeaponDes_Num_Green>66%</> / 殺氣 <WeaponDes_Num_Green>52.8%</>\n格擋反擊：傷害 <WeaponDes_Num_Green>264%</> / 殺氣 <WeaponDes_Num_Green>211.2%</> / 異常 <WeaponDes_Num_Green>330%</>\n特殊招式：異常 <WeaponDes_Num_Green>580%</>",
+          "en": "Fwd Dash Shot: DMG <WeaponDes_Num_Green>73.3%</> / Sha-Chi <WeaponDes_Num_Green>58.7%</>\nRight Dash Shot (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>146.7%</> / Sha-Chi <WeaponDes_Num_Green>117.3%</>\nBack Dash Shot (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>146.7%</> / Sha-Chi <WeaponDes_Num_Green>117.3%</>\nPerfect Gunstock Counter: DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>79.4%</>\nPerfect Deflect Counter: DMG <WeaponDes_Num_Green>396%</> / Sha-Chi <WeaponDes_Num_Green>317.4%</> / Status <WeaponDes_Num_Green>495%</>\nLeft Dash Shot: DMG <WeaponDes_Num_Green>73.3%</> / Sha-Chi <WeaponDes_Num_Green>58.7%</>\nNormal Shot (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>1120%</> / Sha-Chi <WeaponDes_Num_Green>896%</>\nGunstock Counter: DMG <WeaponDes_Num_Green>66%</> / Sha-Chi <WeaponDes_Num_Green>52.8%</>\nDeflect Counter: DMG <WeaponDes_Num_Green>264%</> / Sha-Chi <WeaponDes_Num_Green>211.2%</> / Status <WeaponDes_Num_Green>330%</>\nSpecial Move: Status <WeaponDes_Num_Green>580%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_009": {
+    "name": "羽弓",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "前冲射击：伤害 <WeaponDes_Num_Green>47.1%</> / 杀气 <WeaponDes_Num_Green>37.7%</>\n右闪射击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>94.3%</> / 杀气 <WeaponDes_Num_Green>75.4%</>\n后撤射击：伤害 <WeaponDes_Num_Green>47.1%</> / 杀气 <WeaponDes_Num_Green>37.7%</>\n完美格挡反击：伤害 <WeaponDes_Num_Green>495%</> / 杀气 <WeaponDes_Num_Green>396%</>\n左闪射击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>141.4%</> / 杀气 <WeaponDes_Num_Green>113.1%</>\n格挡反击：伤害 <WeaponDes_Num_Green>99%</> / 杀气 <WeaponDes_Num_Green>79.2%</>\n特殊招式：异常 <WeaponDes_Num_Green>580%</>",
+          "zh-Hant": "前衝射擊：傷害 <WeaponDes_Num_Green>47.1%</> / 殺氣 <WeaponDes_Num_Green>37.7%</>\n右閃射擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>94.3%</> / 殺氣 <WeaponDes_Num_Green>75.4%</>\n后撤射擊：傷害 <WeaponDes_Num_Green>47.1%</> / 殺氣 <WeaponDes_Num_Green>37.7%</>\n完美格擋反擊：傷害 <WeaponDes_Num_Green>495%</> / 殺氣 <WeaponDes_Num_Green>396%</>\n左閃射擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>141.4%</> / 殺氣 <WeaponDes_Num_Green>113.1%</>\n格擋反擊：傷害 <WeaponDes_Num_Green>99%</> / 殺氣 <WeaponDes_Num_Green>79.2%</>\n特殊招式：異常 <WeaponDes_Num_Green>580%</>",
+          "en": "Fwd Dash Shot: DMG <WeaponDes_Num_Green>47.1%</> / Sha-Chi <WeaponDes_Num_Green>37.7%</>\nRight Dash Shot (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>94.3%</> / Sha-Chi <WeaponDes_Num_Green>75.4%</>\nBack Dash Shot: DMG <WeaponDes_Num_Green>47.1%</> / Sha-Chi <WeaponDes_Num_Green>37.7%</>\nPerfect Deflect Counter: DMG <WeaponDes_Num_Green>495%</> / Sha-Chi <WeaponDes_Num_Green>396%</>\nLeft Dash Shot (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>141.4%</> / Sha-Chi <WeaponDes_Num_Green>113.1%</>\nDeflect Counter: DMG <WeaponDes_Num_Green>99%</> / Sha-Chi <WeaponDes_Num_Green>79.2%</>\nSpecial Move: Status <WeaponDes_Num_Green>580%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_010": {
+    "name": "妙手飞刀",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "右(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>46.3%</> / 杀气 <WeaponDes_Num_Green>37.1%</> / 异常 <WeaponDes_Num_Green>59%</>\n后撤射击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>440%</> / 杀气 <WeaponDes_Num_Green>352%</>\n左(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>46.3%</> / 杀气 <WeaponDes_Num_Green>37.1%</> / 异常 <WeaponDes_Num_Green>59%</>\n普通射击(<WeaponDes_Num_Green>9</>段)：伤害 <WeaponDes_Num_Green>692.3%</> / 杀气 <WeaponDes_Num_Green>553.8%</> / 异常 <WeaponDes_Num_Green>840%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>415%</> / 杀气 <WeaponDes_Num_Green>332%</>\n远程(<WeaponDes_Num_Green>2</>段)：异常 <WeaponDes_Num_Green>580%</>\n重击派生右：伤害 <WeaponDes_Num_Green>40%</> / 杀气 <WeaponDes_Num_Green>32%</>\n重击派生左：伤害 <WeaponDes_Num_Green>40%</> / 杀气 <WeaponDes_Num_Green>32%</>",
+          "zh-Hant": "右(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>46.3%</> / 殺氣 <WeaponDes_Num_Green>37.1%</> / 異常 <WeaponDes_Num_Green>59%</>\n后撤射擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>440%</> / 殺氣 <WeaponDes_Num_Green>352%</>\n左(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>46.3%</> / 殺氣 <WeaponDes_Num_Green>37.1%</> / 異常 <WeaponDes_Num_Green>59%</>\n普通射擊(<WeaponDes_Num_Green>9</>段)：傷害 <WeaponDes_Num_Green>692.3%</> / 殺氣 <WeaponDes_Num_Green>553.8%</> / 異常 <WeaponDes_Num_Green>840%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>415%</> / 殺氣 <WeaponDes_Num_Green>332%</>\n远程(<WeaponDes_Num_Green>2</>段)：異常 <WeaponDes_Num_Green>580%</>\n重擊派生右：傷害 <WeaponDes_Num_Green>40%</> / 殺氣 <WeaponDes_Num_Green>32%</>\n重擊派生左：傷害 <WeaponDes_Num_Green>40%</> / 殺氣 <WeaponDes_Num_Green>32%</>",
+          "en": "Right (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>46.3%</> / Sha-Chi <WeaponDes_Num_Green>37.1%</> / Status <WeaponDes_Num_Green>59%</>\nBack Dash Shot (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>440%</> / Sha-Chi <WeaponDes_Num_Green>352%</>\nLeft (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>46.3%</> / Sha-Chi <WeaponDes_Num_Green>37.1%</> / Status <WeaponDes_Num_Green>59%</>\nNormal Shot (<WeaponDes_Num_Green>9</> hits): DMG <WeaponDes_Num_Green>692.3%</> / Sha-Chi <WeaponDes_Num_Green>553.8%</> / Status <WeaponDes_Num_Green>840%</>\nSpecial Move (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>415%</> / Sha-Chi <WeaponDes_Num_Green>332%</>\nRanged (<WeaponDes_Num_Green>2</> hits): Status <WeaponDes_Num_Green>580%</>\nHeavy Follow-up Right: DMG <WeaponDes_Num_Green>40%</> / Sha-Chi <WeaponDes_Num_Green>32%</>\nHeavy Follow-up Left: DMG <WeaponDes_Num_Green>40%</> / Sha-Chi <WeaponDes_Num_Green>32%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_011": {
+    "name": "游龙头",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "持续(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>52.2%</> / 杀气 <WeaponDes_Num_Green>41.8%</> / 潮湿 <WeaponDes_Num_Green>52.2%</>\n爆发(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>750%</> / 杀气 <WeaponDes_Num_Green>600%</> / 潮湿 <WeaponDes_Num_Green>750%</>\n高压水炮爆发(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>1165%</> / 杀气 <WeaponDes_Num_Green>932%</> / 潮湿 <WeaponDes_Num_Green>1165%</>",
+          "zh-Hant": "持續(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>52.2%</> / 殺氣 <WeaponDes_Num_Green>41.8%</> / 潮湿 <WeaponDes_Num_Green>52.2%</>\n爆发(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>750%</> / 殺氣 <WeaponDes_Num_Green>600%</> / 潮湿 <WeaponDes_Num_Green>750%</>\n高压水炮爆发(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>1165%</> / 殺氣 <WeaponDes_Num_Green>932%</> / 潮湿 <WeaponDes_Num_Green>1165%</>",
+          "en": "Loop (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>52.2%</> / Sha-Chi <WeaponDes_Num_Green>41.8%</> / Water <WeaponDes_Num_Green>52.2%</>\nExplosion (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>750%</> / Sha-Chi <WeaponDes_Num_Green>600%</> / Water <WeaponDes_Num_Green>750%</>\nWater Cannon Explosion (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>1165%</> / Sha-Chi <WeaponDes_Num_Green>932%</> / Water <WeaponDes_Num_Green>1165%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_012": {
+    "name": "烈焰狮头",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "冲刺：伤害 <WeaponDes_Num_Green>200%</> / 杀气 <WeaponDes_Num_Green>400%</> / 燃烧 <WeaponDes_Num_Green>300%</>\n持续(<WeaponDes_Num_Green>3</>段)：杀气 <WeaponDes_Num_Green>36.4%</> / 燃烧 <WeaponDes_Num_Green>334.1%</>\n收招(<WeaponDes_Num_Green>3</>段)：杀气 <WeaponDes_Num_Green>6.8%</> / 燃烧 <WeaponDes_Num_Green>390.7%</>\n火球爆发(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>500%</> / 杀气 <WeaponDes_Num_Green>550%</> / 燃烧 <WeaponDes_Num_Green>500%</>\n爆发(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>500%</> / 杀气 <WeaponDes_Num_Green>550%</> / 燃烧 <WeaponDes_Num_Green>500%</>\n特殊招式：伤害 <WeaponDes_Num_Green>200%</> / 杀气 <WeaponDes_Num_Green>400%</> / 燃烧 <WeaponDes_Num_Green>300%</>\n起手(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>520%</> / 杀气 <WeaponDes_Num_Green>138.1%</> / 燃烧 <WeaponDes_Num_Green>369.2%</>",
+          "zh-Hant": "衝刺：傷害 <WeaponDes_Num_Green>200%</> / 殺氣 <WeaponDes_Num_Green>400%</> / 燃燒 <WeaponDes_Num_Green>300%</>\n持續(<WeaponDes_Num_Green>3</>段)：殺氣 <WeaponDes_Num_Green>36.4%</> / 燃燒 <WeaponDes_Num_Green>334.1%</>\n收招(<WeaponDes_Num_Green>3</>段)：殺氣 <WeaponDes_Num_Green>6.8%</> / 燃燒 <WeaponDes_Num_Green>390.7%</>\n火球爆发(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>500%</> / 殺氣 <WeaponDes_Num_Green>550%</> / 燃燒 <WeaponDes_Num_Green>500%</>\n爆发(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>500%</> / 殺氣 <WeaponDes_Num_Green>550%</> / 燃燒 <WeaponDes_Num_Green>500%</>\n特殊招式：傷害 <WeaponDes_Num_Green>200%</> / 殺氣 <WeaponDes_Num_Green>400%</> / 燃燒 <WeaponDes_Num_Green>300%</>\n起手(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>520%</> / 殺氣 <WeaponDes_Num_Green>138.1%</> / 燃燒 <WeaponDes_Num_Green>369.2%</>",
+          "en": "Dash: DMG <WeaponDes_Num_Green>200%</> / Sha-Chi <WeaponDes_Num_Green>400%</> / Ignite <WeaponDes_Num_Green>300%</>\nLoop (<WeaponDes_Num_Green>3</> hits): Sha-Chi <WeaponDes_Num_Green>36.4%</> / Ignite <WeaponDes_Num_Green>334.1%</>\nFinisher (<WeaponDes_Num_Green>3</> hits): Sha-Chi <WeaponDes_Num_Green>6.8%</> / Ignite <WeaponDes_Num_Green>390.7%</>\nFireball Explosion (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>500%</> / Sha-Chi <WeaponDes_Num_Green>550%</> / Ignite <WeaponDes_Num_Green>500%</>\nExplosion (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>500%</> / Sha-Chi <WeaponDes_Num_Green>550%</> / Ignite <WeaponDes_Num_Green>500%</>\nSpecial Move: DMG <WeaponDes_Num_Green>200%</> / Sha-Chi <WeaponDes_Num_Green>400%</> / Ignite <WeaponDes_Num_Green>300%</>\nOpener (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>520%</> / Sha-Chi <WeaponDes_Num_Green>138.1%</> / Ignite <WeaponDes_Num_Green>369.2%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_014": {
+    "name": "追命锁镰",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "特殊技(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>180%</> / 杀气 <WeaponDes_Num_Green>72%</>\n特殊轻派生(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>400%</> / 杀气 <WeaponDes_Num_Green>160%</>\n特殊重派生(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>400%</> / 杀气 <WeaponDes_Num_Green>160%</>\n特殊二连斩(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>270%</> / 杀气 <WeaponDes_Num_Green>108%</>\n特殊三连斩(<WeaponDes_Num_Green>6</>段)：伤害 <WeaponDes_Num_Green>360%</> / 杀气 <WeaponDes_Num_Green>144%</>\n特殊招式(<WeaponDes_Num_Green>40</>段)：伤害 <WeaponDes_Num_Green>2407.5%</> / 杀气 <WeaponDes_Num_Green>963%</> / 异常 <WeaponDes_Num_Green>3087.5%</>\n远程(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>25%</> / 杀气 <WeaponDes_Num_Green>20%</>\n钩索拉近：伤害 <WeaponDes_Num_Green>500%</> / 杀气 <WeaponDes_Num_Green>400%</>",
+          "zh-Hant": "特殊技(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>180%</> / 殺氣 <WeaponDes_Num_Green>72%</>\n特殊輕派生(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>400%</> / 殺氣 <WeaponDes_Num_Green>160%</>\n特殊重派生(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>400%</> / 殺氣 <WeaponDes_Num_Green>160%</>\n特殊二連斬(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>270%</> / 殺氣 <WeaponDes_Num_Green>108%</>\n特殊三連斬(<WeaponDes_Num_Green>6</>段)：傷害 <WeaponDes_Num_Green>360%</> / 殺氣 <WeaponDes_Num_Green>144%</>\n特殊招式(<WeaponDes_Num_Green>40</>段)：傷害 <WeaponDes_Num_Green>2407.5%</> / 殺氣 <WeaponDes_Num_Green>963%</> / 異常 <WeaponDes_Num_Green>3087.5%</>\n远程(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>25%</> / 殺氣 <WeaponDes_Num_Green>20%</>\n钩索拉近：傷害 <WeaponDes_Num_Green>500%</> / 殺氣 <WeaponDes_Num_Green>400%</>",
+          "en": "Special (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>180%</> / Sha-Chi <WeaponDes_Num_Green>72%</>\nSpecial Light (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>400%</> / Sha-Chi <WeaponDes_Num_Green>160%</>\nSpecial Heavy (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>400%</> / Sha-Chi <WeaponDes_Num_Green>160%</>\nSpecial Combo 2 (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>270%</> / Sha-Chi <WeaponDes_Num_Green>108%</>\nSpecial Combo 3 (<WeaponDes_Num_Green>6</> hits): DMG <WeaponDes_Num_Green>360%</> / Sha-Chi <WeaponDes_Num_Green>144%</>\nSpecial Move (<WeaponDes_Num_Green>40</> hits): DMG <WeaponDes_Num_Green>2407.5%</> / Sha-Chi <WeaponDes_Num_Green>963%</> / Status <WeaponDes_Num_Green>3087.5%</>\nRanged (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>25%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nHook Pull: DMG <WeaponDes_Num_Green>500%</> / Sha-Chi <WeaponDes_Num_Green>400%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_015": {
+    "name": "火流星",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>200%</> / 杀气 <WeaponDes_Num_Green>160%</> / 燃烧 <WeaponDes_Num_Green>200%</>\n轻2 (XX)(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>300%</> / 杀气 <WeaponDes_Num_Green>240%</> / 燃烧 <WeaponDes_Num_Green>300%</>\n轻3 (XXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>400%</> / 杀气 <WeaponDes_Num_Green>320%</> / 燃烧 <WeaponDes_Num_Green>400%</>\n轻4 (XXXX)(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>47.5%</> / 杀气 <WeaponDes_Num_Green>38%</> / 燃烧 <WeaponDes_Num_Green>47.5%</>\nXXXX引爆(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>89%</> / 杀气 <WeaponDes_Num_Green>71.2%</> / 燃烧 <WeaponDes_Num_Green>89%</>\nXX强化：伤害 <WeaponDes_Num_Green>110%</> / 杀气 <WeaponDes_Num_Green>88%</> / 燃烧 <WeaponDes_Num_Green>110%</>\n强化：伤害 <WeaponDes_Num_Green>81.5%</> / 杀气 <WeaponDes_Num_Green>65.2%</> / 燃烧 <WeaponDes_Num_Green>81.5%</>\n烈焰爆发(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>67.3%</> / 杀气 <WeaponDes_Num_Green>53.9%</> / 燃烧 <WeaponDes_Num_Green>67.3%</>\n特殊招式(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>236.8%</> / 杀气 <WeaponDes_Num_Green>189.5%</> / 燃烧 <WeaponDes_Num_Green>570%</>\n重击派生：伤害 <WeaponDes_Num_Green>225%</> / 杀气 <WeaponDes_Num_Green>180%</> / 燃烧 <WeaponDes_Num_Green>225%</>\n重击派生持续(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>315%</> / 杀气 <WeaponDes_Num_Green>252%</> / 燃烧 <WeaponDes_Num_Green>315%</>",
+          "zh-Hant": "輕1 (X)(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>200%</> / 殺氣 <WeaponDes_Num_Green>160%</> / 燃燒 <WeaponDes_Num_Green>200%</>\n輕2 (XX)(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>300%</> / 殺氣 <WeaponDes_Num_Green>240%</> / 燃燒 <WeaponDes_Num_Green>300%</>\n輕3 (XXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>400%</> / 殺氣 <WeaponDes_Num_Green>320%</> / 燃燒 <WeaponDes_Num_Green>400%</>\n輕4 (XXXX)(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>47.5%</> / 殺氣 <WeaponDes_Num_Green>38%</> / 燃燒 <WeaponDes_Num_Green>47.5%</>\nXXXX引爆(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>89%</> / 殺氣 <WeaponDes_Num_Green>71.2%</> / 燃燒 <WeaponDes_Num_Green>89%</>\nXX強化：傷害 <WeaponDes_Num_Green>110%</> / 殺氣 <WeaponDes_Num_Green>88%</> / 燃燒 <WeaponDes_Num_Green>110%</>\n強化：傷害 <WeaponDes_Num_Green>81.5%</> / 殺氣 <WeaponDes_Num_Green>65.2%</> / 燃燒 <WeaponDes_Num_Green>81.5%</>\n烈焰爆发(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>67.3%</> / 殺氣 <WeaponDes_Num_Green>53.9%</> / 燃燒 <WeaponDes_Num_Green>67.3%</>\n特殊招式(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>236.8%</> / 殺氣 <WeaponDes_Num_Green>189.5%</> / 燃燒 <WeaponDes_Num_Green>570%</>\n重擊派生：傷害 <WeaponDes_Num_Green>225%</> / 殺氣 <WeaponDes_Num_Green>180%</> / 燃燒 <WeaponDes_Num_Green>225%</>\n重擊派生持續(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>315%</> / 殺氣 <WeaponDes_Num_Green>252%</> / 燃燒 <WeaponDes_Num_Green>315%</>",
+          "en": "Light 1 (X) (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>200%</> / Sha-Chi <WeaponDes_Num_Green>160%</> / Ignite <WeaponDes_Num_Green>200%</>\nLight 2 (XX) (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>300%</> / Sha-Chi <WeaponDes_Num_Green>240%</> / Ignite <WeaponDes_Num_Green>300%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>400%</> / Sha-Chi <WeaponDes_Num_Green>320%</> / Ignite <WeaponDes_Num_Green>400%</>\nLight 4 (XXXX) (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>47.5%</> / Sha-Chi <WeaponDes_Num_Green>38%</> / Ignite <WeaponDes_Num_Green>47.5%</>\nXXXX Detonate (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>89%</> / Sha-Chi <WeaponDes_Num_Green>71.2%</> / Ignite <WeaponDes_Num_Green>89%</>\nXX Enhanced: DMG <WeaponDes_Num_Green>110%</> / Sha-Chi <WeaponDes_Num_Green>88%</> / Ignite <WeaponDes_Num_Green>110%</>\nEnhanced: DMG <WeaponDes_Num_Green>81.5%</> / Sha-Chi <WeaponDes_Num_Green>65.2%</> / Ignite <WeaponDes_Num_Green>81.5%</>\nFire Explosion (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>67.3%</> / Sha-Chi <WeaponDes_Num_Green>53.9%</> / Ignite <WeaponDes_Num_Green>67.3%</>\nSpecial Move (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>236.8%</> / Sha-Chi <WeaponDes_Num_Green>189.5%</> / Ignite <WeaponDes_Num_Green>570%</>\nHeavy Follow-up: DMG <WeaponDes_Num_Green>225%</> / Sha-Chi <WeaponDes_Num_Green>180%</> / Ignite <WeaponDes_Num_Green>225%</>\nHeavy Follow-up Loop (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>315%</> / Sha-Chi <WeaponDes_Num_Green>252%</> / Ignite <WeaponDes_Num_Green>315%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_016": {
+    "name": "游龙叉",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "前冲攻击：伤害 <WeaponDes_Num_Green>440%</> / 杀气 <WeaponDes_Num_Green>352%</>\n后撤攻击：伤害 <WeaponDes_Num_Green>440%</> / 杀气 <WeaponDes_Num_Green>352%</>\n完美：伤害 <WeaponDes_Num_Green>780%</> / 杀气 <WeaponDes_Num_Green>624%</>\n普通(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>664%</> / 杀气 <WeaponDes_Num_Green>531.2%</>\n满蓄：伤害 <WeaponDes_Num_Green>600%</> / 杀气 <WeaponDes_Num_Green>480%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>500%</> / 杀气 <WeaponDes_Num_Green>400%</> / 异常 <WeaponDes_Num_Green>1080%</>",
+          "zh-Hant": "前衝攻擊：傷害 <WeaponDes_Num_Green>440%</> / 殺氣 <WeaponDes_Num_Green>352%</>\n后撤攻擊：傷害 <WeaponDes_Num_Green>440%</> / 殺氣 <WeaponDes_Num_Green>352%</>\n完美：傷害 <WeaponDes_Num_Green>780%</> / 殺氣 <WeaponDes_Num_Green>624%</>\n普通(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>664%</> / 殺氣 <WeaponDes_Num_Green>531.2%</>\n滿蓄：傷害 <WeaponDes_Num_Green>600%</> / 殺氣 <WeaponDes_Num_Green>480%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>500%</> / 殺氣 <WeaponDes_Num_Green>400%</> / 異常 <WeaponDes_Num_Green>1080%</>",
+          "en": "Fwd Dash Attack: DMG <WeaponDes_Num_Green>440%</> / Sha-Chi <WeaponDes_Num_Green>352%</>\nBack Dash Attack: DMG <WeaponDes_Num_Green>440%</> / Sha-Chi <WeaponDes_Num_Green>352%</>\nPerfect: DMG <WeaponDes_Num_Green>780%</> / Sha-Chi <WeaponDes_Num_Green>624%</>\nNormal (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>664%</> / Sha-Chi <WeaponDes_Num_Green>531.2%</>\nMax: DMG <WeaponDes_Num_Green>600%</> / Sha-Chi <WeaponDes_Num_Green>480%</>\nSpecial Move (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>500%</> / Sha-Chi <WeaponDes_Num_Green>400%</> / Status <WeaponDes_Num_Green>1080%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_017": {
+    "name": "铁狂拳套",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "反击：伤害 <WeaponDes_Num_Green>550%</> / 杀气 <WeaponDes_Num_Green>440%</>\n特殊招式：伤害 <WeaponDes_Num_Green>350%</> / 杀气 <WeaponDes_Num_Green>350%</>\n蓄力：伤害 <WeaponDes_Num_Green>249%</> / 杀气 <WeaponDes_Num_Green>199.2%</>\n蓄力XX：伤害 <WeaponDes_Num_Green>249%</> / 杀气 <WeaponDes_Num_Green>199.2%</>\n蓄力XXX：伤害 <WeaponDes_Num_Green>415%</> / 杀气 <WeaponDes_Num_Green>332%</>\n蓄力XXX一段：伤害 <WeaponDes_Num_Green>500%</> / 杀气 <WeaponDes_Num_Green>400%</>\n蓄力XXX二段：伤害 <WeaponDes_Num_Green>650%</> / 杀气 <WeaponDes_Num_Green>520%</>\n蓄力XX一段：伤害 <WeaponDes_Num_Green>300%</> / 杀气 <WeaponDes_Num_Green>240%</>\n蓄力XX二段：伤害 <WeaponDes_Num_Green>390%</> / 杀气 <WeaponDes_Num_Green>312%</>\n蓄力一段：伤害 <WeaponDes_Num_Green>300%</> / 杀气 <WeaponDes_Num_Green>240%</>\n蓄力二段：伤害 <WeaponDes_Num_Green>390%</> / 杀气 <WeaponDes_Num_Green>312%</>\n蓄力击打：伤害 <WeaponDes_Num_Green>10%</> / 杀气 <WeaponDes_Num_Green>10%</>\n蓄力击打XX：伤害 <WeaponDes_Num_Green>20%</> / 杀气 <WeaponDes_Num_Green>20%</>\n蓄力击打XXX：伤害 <WeaponDes_Num_Green>30%</> / 杀气 <WeaponDes_Num_Green>30%</>\n蓄力剑气(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>71.5%</> / 杀气 <WeaponDes_Num_Green>57.2%</>\n蓄力剑气XX：伤害 <WeaponDes_Num_Green>30%</> / 杀气 <WeaponDes_Num_Green>24%</>\n蓄力剑气XXX：伤害 <WeaponDes_Num_Green>50%</> / 杀气 <WeaponDes_Num_Green>40%</>",
+          "zh-Hant": "反擊：傷害 <WeaponDes_Num_Green>550%</> / 殺氣 <WeaponDes_Num_Green>440%</>\n特殊招式：傷害 <WeaponDes_Num_Green>350%</> / 殺氣 <WeaponDes_Num_Green>350%</>\n蓄力：傷害 <WeaponDes_Num_Green>249%</> / 殺氣 <WeaponDes_Num_Green>199.2%</>\n蓄力XX：傷害 <WeaponDes_Num_Green>249%</> / 殺氣 <WeaponDes_Num_Green>199.2%</>\n蓄力XXX：傷害 <WeaponDes_Num_Green>415%</> / 殺氣 <WeaponDes_Num_Green>332%</>\n蓄力XXX一段：傷害 <WeaponDes_Num_Green>500%</> / 殺氣 <WeaponDes_Num_Green>400%</>\n蓄力XXX二段：傷害 <WeaponDes_Num_Green>650%</> / 殺氣 <WeaponDes_Num_Green>520%</>\n蓄力XX一段：傷害 <WeaponDes_Num_Green>300%</> / 殺氣 <WeaponDes_Num_Green>240%</>\n蓄力XX二段：傷害 <WeaponDes_Num_Green>390%</> / 殺氣 <WeaponDes_Num_Green>312%</>\n蓄力一段：傷害 <WeaponDes_Num_Green>300%</> / 殺氣 <WeaponDes_Num_Green>240%</>\n蓄力二段：傷害 <WeaponDes_Num_Green>390%</> / 殺氣 <WeaponDes_Num_Green>312%</>\n蓄力擊打：傷害 <WeaponDes_Num_Green>10%</> / 殺氣 <WeaponDes_Num_Green>10%</>\n蓄力擊打XX：傷害 <WeaponDes_Num_Green>20%</> / 殺氣 <WeaponDes_Num_Green>20%</>\n蓄力擊打XXX：傷害 <WeaponDes_Num_Green>30%</> / 殺氣 <WeaponDes_Num_Green>30%</>\n蓄力劍氣(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>71.5%</> / 殺氣 <WeaponDes_Num_Green>57.2%</>\n蓄力劍氣XX：傷害 <WeaponDes_Num_Green>30%</> / 殺氣 <WeaponDes_Num_Green>24%</>\n蓄力劍氣XXX：傷害 <WeaponDes_Num_Green>50%</> / 殺氣 <WeaponDes_Num_Green>40%</>",
+          "en": "Counter: DMG <WeaponDes_Num_Green>550%</> / Sha-Chi <WeaponDes_Num_Green>440%</>\nSpecial Move: DMG <WeaponDes_Num_Green>350%</> / Sha-Chi <WeaponDes_Num_Green>350%</>\nCharge: DMG <WeaponDes_Num_Green>249%</> / Sha-Chi <WeaponDes_Num_Green>199.2%</>\nCharge XX: DMG <WeaponDes_Num_Green>249%</> / Sha-Chi <WeaponDes_Num_Green>199.2%</>\nCharge XXX: DMG <WeaponDes_Num_Green>415%</> / Sha-Chi <WeaponDes_Num_Green>332%</>\nCharge XXX Lv1: DMG <WeaponDes_Num_Green>500%</> / Sha-Chi <WeaponDes_Num_Green>400%</>\nCharge XXX Lv2: DMG <WeaponDes_Num_Green>650%</> / Sha-Chi <WeaponDes_Num_Green>520%</>\nCharge XX Lv1: DMG <WeaponDes_Num_Green>300%</> / Sha-Chi <WeaponDes_Num_Green>240%</>\nCharge XX Lv2: DMG <WeaponDes_Num_Green>390%</> / Sha-Chi <WeaponDes_Num_Green>312%</>\nCharge Lv1: DMG <WeaponDes_Num_Green>300%</> / Sha-Chi <WeaponDes_Num_Green>240%</>\nCharge Lv2: DMG <WeaponDes_Num_Green>390%</> / Sha-Chi <WeaponDes_Num_Green>312%</>\nCharge Hit: DMG <WeaponDes_Num_Green>10%</> / Sha-Chi <WeaponDes_Num_Green>10%</>\nCharge Hit XX: DMG <WeaponDes_Num_Green>20%</> / Sha-Chi <WeaponDes_Num_Green>20%</>\nCharge Hit XXX: DMG <WeaponDes_Num_Green>30%</> / Sha-Chi <WeaponDes_Num_Green>30%</>\nCharge Wave (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>71.5%</> / Sha-Chi <WeaponDes_Num_Green>57.2%</>\nCharge Wave XX: DMG <WeaponDes_Num_Green>30%</> / Sha-Chi <WeaponDes_Num_Green>24%</>\nCharge Wave XXX: DMG <WeaponDes_Num_Green>50%</> / Sha-Chi <WeaponDes_Num_Green>40%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_018": {
+    "name": "墨血无痕",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "完美闪避反击：伤害 <WeaponDes_Num_Green>343.1%</> / 杀气 <WeaponDes_Num_Green>274.5%</>\nXX(<WeaponDes_Num_Green>7</>段)：伤害 <WeaponDes_Num_Green>314.6%</> / 杀气 <WeaponDes_Num_Green>251.7%</>\nXXX(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>530%</> / 杀气 <WeaponDes_Num_Green>400%</> / 异常 <WeaponDes_Num_Green>500%</>\nXX完美：伤害 <WeaponDes_Num_Green>150%</> / 杀气 <WeaponDes_Num_Green>120%</>\n上挑奔跑：伤害 <WeaponDes_Num_Green>500%</> / 杀气 <WeaponDes_Num_Green>400%</>\n特殊招式(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>656.9%</> / 杀气 <WeaponDes_Num_Green>595.5%</>",
+          "zh-Hant": "完美閃避反擊：傷害 <WeaponDes_Num_Green>343.1%</> / 殺氣 <WeaponDes_Num_Green>274.5%</>\nXX(<WeaponDes_Num_Green>7</>段)：傷害 <WeaponDes_Num_Green>314.6%</> / 殺氣 <WeaponDes_Num_Green>251.7%</>\nXXX(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>530%</> / 殺氣 <WeaponDes_Num_Green>400%</> / 異常 <WeaponDes_Num_Green>500%</>\nXX完美：傷害 <WeaponDes_Num_Green>150%</> / 殺氣 <WeaponDes_Num_Green>120%</>\n上挑奔跑：傷害 <WeaponDes_Num_Green>500%</> / 殺氣 <WeaponDes_Num_Green>400%</>\n特殊招式(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>656.9%</> / 殺氣 <WeaponDes_Num_Green>595.5%</>",
+          "en": "Perfect Dodge Counter: DMG <WeaponDes_Num_Green>343.1%</> / Sha-Chi <WeaponDes_Num_Green>274.5%</>\nXX (<WeaponDes_Num_Green>7</> hits): DMG <WeaponDes_Num_Green>314.6%</> / Sha-Chi <WeaponDes_Num_Green>251.7%</>\nXXX (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>530%</> / Sha-Chi <WeaponDes_Num_Green>400%</> / Status <WeaponDes_Num_Green>500%</>\nXX Perfect: DMG <WeaponDes_Num_Green>150%</> / Sha-Chi <WeaponDes_Num_Green>120%</>\nUp Sprint: DMG <WeaponDes_Num_Green>500%</> / Sha-Chi <WeaponDes_Num_Green>400%</>\nSpecial Move (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>656.9%</> / Sha-Chi <WeaponDes_Num_Green>595.5%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_019": {
+    "name": "雷霆枪",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "前冲攻击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>500%</> / 杀气 <WeaponDes_Num_Green>400%</> / 感电 <WeaponDes_Num_Green>500%</>\n普通(<WeaponDes_Num_Green>8</>段)：伤害 <WeaponDes_Num_Green>955.5%</> / 杀气 <WeaponDes_Num_Green>764.4%</> / 感电 <WeaponDes_Num_Green>955.5%</>\n格挡反击(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>92%</> / 杀气 <WeaponDes_Num_Green>73.6%</> / 感电 <WeaponDes_Num_Green>92%</>\n特殊技落雷：伤害 <WeaponDes_Num_Green>65%</> / 杀气 <WeaponDes_Num_Green>50%</> / 感电 <WeaponDes_Num_Green>65%</>\n特殊招式：伤害 <WeaponDes_Num_Green>166.6%</> / 杀气 <WeaponDes_Num_Green>133.3%</> / 感电 <WeaponDes_Num_Green>166.6%</>\n落雷(<WeaponDes_Num_Green>7</>段)：伤害 <WeaponDes_Num_Green>500%</> / 杀气 <WeaponDes_Num_Green>435%</> / 感电 <WeaponDes_Num_Green>500%</>\n落雷普通(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>108.6%</> / 杀气 <WeaponDes_Num_Green>86.9%</> / 感电 <WeaponDes_Num_Green>108.6%</>\n闪避攻击：伤害 <WeaponDes_Num_Green>289.5%</> / 杀气 <WeaponDes_Num_Green>231.6%</> / 感电 <WeaponDes_Num_Green>289.5%</>",
+          "zh-Hant": "前衝攻擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>500%</> / 殺氣 <WeaponDes_Num_Green>400%</> / 感電 <WeaponDes_Num_Green>500%</>\n普通(<WeaponDes_Num_Green>8</>段)：傷害 <WeaponDes_Num_Green>955.5%</> / 殺氣 <WeaponDes_Num_Green>764.4%</> / 感電 <WeaponDes_Num_Green>955.5%</>\n格擋反擊(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>92%</> / 殺氣 <WeaponDes_Num_Green>73.6%</> / 感電 <WeaponDes_Num_Green>92%</>\n特殊技落雷：傷害 <WeaponDes_Num_Green>65%</> / 殺氣 <WeaponDes_Num_Green>50%</> / 感電 <WeaponDes_Num_Green>65%</>\n特殊招式：傷害 <WeaponDes_Num_Green>166.6%</> / 殺氣 <WeaponDes_Num_Green>133.3%</> / 感電 <WeaponDes_Num_Green>166.6%</>\n落雷(<WeaponDes_Num_Green>7</>段)：傷害 <WeaponDes_Num_Green>500%</> / 殺氣 <WeaponDes_Num_Green>435%</> / 感電 <WeaponDes_Num_Green>500%</>\n落雷普通(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>108.6%</> / 殺氣 <WeaponDes_Num_Green>86.9%</> / 感電 <WeaponDes_Num_Green>108.6%</>\n閃避攻擊：傷害 <WeaponDes_Num_Green>289.5%</> / 殺氣 <WeaponDes_Num_Green>231.6%</> / 感電 <WeaponDes_Num_Green>289.5%</>",
+          "en": "Fwd Dash Attack (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>500%</> / Sha-Chi <WeaponDes_Num_Green>400%</> / Elec <WeaponDes_Num_Green>500%</>\nNormal (<WeaponDes_Num_Green>8</> hits): DMG <WeaponDes_Num_Green>955.5%</> / Sha-Chi <WeaponDes_Num_Green>764.4%</> / Elec <WeaponDes_Num_Green>955.5%</>\nDeflect Counter (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>92%</> / Sha-Chi <WeaponDes_Num_Green>73.6%</> / Elec <WeaponDes_Num_Green>92%</>\nSpecial Lightning: DMG <WeaponDes_Num_Green>65%</> / Sha-Chi <WeaponDes_Num_Green>50%</> / Elec <WeaponDes_Num_Green>65%</>\nSpecial Move: DMG <WeaponDes_Num_Green>166.6%</> / Sha-Chi <WeaponDes_Num_Green>133.3%</> / Elec <WeaponDes_Num_Green>166.6%</>\nLightning (<WeaponDes_Num_Green>7</> hits): DMG <WeaponDes_Num_Green>500%</> / Sha-Chi <WeaponDes_Num_Green>435%</> / Elec <WeaponDes_Num_Green>500%</>\nLightning Normal (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>108.6%</> / Sha-Chi <WeaponDes_Num_Green>86.9%</> / Elec <WeaponDes_Num_Green>108.6%</>\nDodge Attack: DMG <WeaponDes_Num_Green>289.5%</> / Sha-Chi <WeaponDes_Num_Green>231.6%</> / Elec <WeaponDes_Num_Green>289.5%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_020": {
+    "name": "血滴子",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>120%</> / 杀气 <WeaponDes_Num_Green>96%</> / 流血 <WeaponDes_Num_Green>120%</>\n轻2 (XX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>133.3%</> / 杀气 <WeaponDes_Num_Green>106.7%</> / 流血 <WeaponDes_Num_Green>133.3%</>\n轻3 (XXX)(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>142.9%</> / 杀气 <WeaponDes_Num_Green>114.3%</> / 流血 <WeaponDes_Num_Green>142.9%</>\n特殊技(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>113.4%</> / 杀气 <WeaponDes_Num_Green>90.7%</> / 流血 <WeaponDes_Num_Green>113.4%</>\n攻击(<WeaponDes_Num_Green>3</>段)：伤害 <WeaponDes_Num_Green>257.6%</> / 杀气 <WeaponDes_Num_Green>257.6%</> / 流血 <WeaponDes_Num_Green>257.6%</>\n特殊招式(<WeaponDes_Num_Green>5</>段)：伤害 <WeaponDes_Num_Green>553.3%</> / 杀气 <WeaponDes_Num_Green>442.7%</> / 流血 <WeaponDes_Num_Green>553.3%</>",
+          "zh-Hant": "輕1 (X)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>120%</> / 殺氣 <WeaponDes_Num_Green>96%</> / 流血 <WeaponDes_Num_Green>120%</>\n輕2 (XX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>133.3%</> / 殺氣 <WeaponDes_Num_Green>106.7%</> / 流血 <WeaponDes_Num_Green>133.3%</>\n輕3 (XXX)(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>142.9%</> / 殺氣 <WeaponDes_Num_Green>114.3%</> / 流血 <WeaponDes_Num_Green>142.9%</>\n特殊技(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>113.4%</> / 殺氣 <WeaponDes_Num_Green>90.7%</> / 流血 <WeaponDes_Num_Green>113.4%</>\n攻擊(<WeaponDes_Num_Green>3</>段)：傷害 <WeaponDes_Num_Green>257.6%</> / 殺氣 <WeaponDes_Num_Green>257.6%</> / 流血 <WeaponDes_Num_Green>257.6%</>\n特殊招式(<WeaponDes_Num_Green>5</>段)：傷害 <WeaponDes_Num_Green>553.3%</> / 殺氣 <WeaponDes_Num_Green>442.7%</> / 流血 <WeaponDes_Num_Green>553.3%</>",
+          "en": "Light 1 (X) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>120%</> / Sha-Chi <WeaponDes_Num_Green>96%</> / Bleed <WeaponDes_Num_Green>120%</>\nLight 2 (XX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>133.3%</> / Sha-Chi <WeaponDes_Num_Green>106.7%</> / Bleed <WeaponDes_Num_Green>133.3%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>142.9%</> / Sha-Chi <WeaponDes_Num_Green>114.3%</> / Bleed <WeaponDes_Num_Green>142.9%</>\nSpecial (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>113.4%</> / Sha-Chi <WeaponDes_Num_Green>90.7%</> / Bleed <WeaponDes_Num_Green>113.4%</>\nAttack (<WeaponDes_Num_Green>3</> hits): DMG <WeaponDes_Num_Green>257.6%</> / Sha-Chi <WeaponDes_Num_Green>257.6%</> / Bleed <WeaponDes_Num_Green>257.6%</>\nSpecial Move (<WeaponDes_Num_Green>5</> hits): DMG <WeaponDes_Num_Green>553.3%</> / Sha-Chi <WeaponDes_Num_Green>442.7%</> / Bleed <WeaponDes_Num_Green>553.3%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_022": {
+    "name": "泥头车",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "回旋撞击：伤害 <WeaponDes_Num_Green>657.6%</> / 杀气 <WeaponDes_Num_Green>657.6%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>60.3%</> / 杀气 <WeaponDes_Num_Green>60.3%</>",
+          "zh-Hant": "回旋撞擊：傷害 <WeaponDes_Num_Green>657.6%</> / 殺氣 <WeaponDes_Num_Green>657.6%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>60.3%</> / 殺氣 <WeaponDes_Num_Green>60.3%</>",
+          "en": "Turn Slam: DMG <WeaponDes_Num_Green>657.6%</> / Sha-Chi <WeaponDes_Num_Green>657.6%</>\nSpecial Move (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>60.3%</> / Sha-Chi <WeaponDes_Num_Green>60.3%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_024": {
+    "name": "催心琵琶",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "轻1 (X)(<WeaponDes_Num_Green>4</>段)：异常 <WeaponDes_Num_Green>453.6%</>\n轻2 (XX)(<WeaponDes_Num_Green>4</>段)：异常 <WeaponDes_Num_Green>604.8%</>\n轻3 (XXX)(<WeaponDes_Num_Green>2</>段)：异常 <WeaponDes_Num_Green>756%</>\n冲刺(<WeaponDes_Num_Green>2</>段)：异常 <WeaponDes_Num_Green>1386%</>\n冲刺前(<WeaponDes_Num_Green>2</>段)：异常 <WeaponDes_Num_Green>1386%</>\n冲刺右(<WeaponDes_Num_Green>2</>段)：异常 <WeaponDes_Num_Green>1386%</>\n冲刺左(<WeaponDes_Num_Green>2</>段)：异常 <WeaponDes_Num_Green>1386%</>\n技能(<WeaponDes_Num_Green>2</>段)：异常 <WeaponDes_Num_Green>201.6%</>\n特殊招式(<WeaponDes_Num_Green>5</>段)：异常 <WeaponDes_Num_Green>1084%</>",
+          "zh-Hant": "輕1 (X)(<WeaponDes_Num_Green>4</>段)：異常 <WeaponDes_Num_Green>453.6%</>\n輕2 (XX)(<WeaponDes_Num_Green>4</>段)：異常 <WeaponDes_Num_Green>604.8%</>\n輕3 (XXX)(<WeaponDes_Num_Green>2</>段)：異常 <WeaponDes_Num_Green>756%</>\n衝刺(<WeaponDes_Num_Green>2</>段)：異常 <WeaponDes_Num_Green>1386%</>\n衝刺前(<WeaponDes_Num_Green>2</>段)：異常 <WeaponDes_Num_Green>1386%</>\n衝刺右(<WeaponDes_Num_Green>2</>段)：異常 <WeaponDes_Num_Green>1386%</>\n衝刺左(<WeaponDes_Num_Green>2</>段)：異常 <WeaponDes_Num_Green>1386%</>\n技能(<WeaponDes_Num_Green>2</>段)：異常 <WeaponDes_Num_Green>201.6%</>\n特殊招式(<WeaponDes_Num_Green>5</>段)：異常 <WeaponDes_Num_Green>1084%</>",
+          "en": "Light 1 (X) (<WeaponDes_Num_Green>4</> hits): Status <WeaponDes_Num_Green>453.6%</>\nLight 2 (XX) (<WeaponDes_Num_Green>4</> hits): Status <WeaponDes_Num_Green>604.8%</>\nLight 3 (XXX) (<WeaponDes_Num_Green>2</> hits): Status <WeaponDes_Num_Green>756%</>\nDash (<WeaponDes_Num_Green>2</> hits): Status <WeaponDes_Num_Green>1386%</>\nDash Fwd (<WeaponDes_Num_Green>2</> hits): Status <WeaponDes_Num_Green>1386%</>\nDash Right (<WeaponDes_Num_Green>2</> hits): Status <WeaponDes_Num_Green>1386%</>\nDash Left (<WeaponDes_Num_Green>2</> hits): Status <WeaponDes_Num_Green>1386%</>\nSkill (<WeaponDes_Num_Green>2</> hits): Status <WeaponDes_Num_Green>201.6%</>\nSpecial Move (<WeaponDes_Num_Green>5</> hits): Status <WeaponDes_Num_Green>1084%</>"
+        }
+      }
+    ]
+  },
+  "PhantomEdgesDes_109": {
+    "name": "独眼弓",
+    "entries": [
+      {
+        "title": {
+          "zh-Hans": "影之武装招式倍率",
+          "zh-Hant": "影之武裝招式倍率",
+          "en": "Shadow Weapon Move Multipliers"
+        },
+        "desc": {
+          "zh-Hans": "普通射击(<WeaponDes_Num_Green>4</>段)：伤害 <WeaponDes_Num_Green>834%</> / 杀气 <WeaponDes_Num_Green>667.2%</>\n普通死光：伤害 <WeaponDes_Num_Green>220%</> / 杀气 <WeaponDes_Num_Green>76%</>\n死光：伤害 <WeaponDes_Num_Green>45%</> / 杀气 <WeaponDes_Num_Green>36%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：伤害 <WeaponDes_Num_Green>0.9%</> / 杀气 <WeaponDes_Num_Green>0.7%</> / 异常 <WeaponDes_Num_Green>580.9%</>",
+          "zh-Hant": "普通射擊(<WeaponDes_Num_Green>4</>段)：傷害 <WeaponDes_Num_Green>834%</> / 殺氣 <WeaponDes_Num_Green>667.2%</>\n普通死光：傷害 <WeaponDes_Num_Green>220%</> / 殺氣 <WeaponDes_Num_Green>76%</>\n死光：傷害 <WeaponDes_Num_Green>45%</> / 殺氣 <WeaponDes_Num_Green>36%</>\n特殊招式(<WeaponDes_Num_Green>2</>段)：傷害 <WeaponDes_Num_Green>0.9%</> / 殺氣 <WeaponDes_Num_Green>0.7%</> / 異常 <WeaponDes_Num_Green>580.9%</>",
+          "en": "Normal Shot (<WeaponDes_Num_Green>4</> hits): DMG <WeaponDes_Num_Green>834%</> / Sha-Chi <WeaponDes_Num_Green>667.2%</>\nNormal Laser: DMG <WeaponDes_Num_Green>220%</> / Sha-Chi <WeaponDes_Num_Green>76%</>\nLaser: DMG <WeaponDes_Num_Green>45%</> / Sha-Chi <WeaponDes_Num_Green>36%</>\nSpecial Move (<WeaponDes_Num_Green>2</> hits): DMG <WeaponDes_Num_Green>0.9%</> / Sha-Chi <WeaponDes_Num_Green>0.7%</> / Status <WeaponDes_Num_Green>580.9%</>"
+        }
+      }
+    ]
+  }
+};

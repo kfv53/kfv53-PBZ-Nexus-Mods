@@ -1,0 +1,26 @@
+# Whitelist-only .gitignore: track ONLY root docs and the 4 published Nexus Mods folders
+*
+
+# Root repository files
+!.gitignore
+!README.md
+!README_EN.md
+
+# Track the 4 published Mod directories
+!PBZDetailedWeaponDesc/
+!PBZDetailedWeaponDesc/**
+!PBZDetailedWeaponDesc_Dynamic/
+!PBZDetailedWeaponDesc_Dynamic/**
+!PBZEnemyStatusBars/
+!PBZEnemyStatusBars/**
+!PBZExtraAccessorySlots/
+!PBZExtraAccessorySlots/**
+
+# Exclude temporary/local runtime files even inside tracked folders
+*.log
+*.zip
+*.7z
+*.rar
+*.tmp
+.DS_Store
+Thumbs.db
