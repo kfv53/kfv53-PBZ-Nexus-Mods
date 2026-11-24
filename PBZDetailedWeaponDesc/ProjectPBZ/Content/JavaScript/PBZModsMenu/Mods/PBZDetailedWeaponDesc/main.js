@@ -1,10 +1,10 @@
 "use strict";
 
-// PBZDetailedWeaponDesc v1.1.0
+// PBZDetailedWeaponDesc v1.3.0
 // Enhances Phantom Blade Zero weapon & shadow weapon (影之武装) descriptions with exact engine-verified
 // multipliers, upgrade percentages (including locked preview tiers), erosion/burst mechanics, and
 // clean localized combo/variant move tables.
-// - Full i18n: automatically follows the game's active language (zh-Hans / zh-Hant / en)
+// - Full i18n: automatically follows the game's active language (zh-Hans / zh-Hant / en / ko)
 // - 100% native RichText styles (<WeaponDes_Num_Green>, <WeaponDes_Main_Green>, <Character_Yellow_Decorator2>)
 // - 100% native UMG widgets (W_WeaponNormalText / W_WeaponAdvancdText / W_WeaponAdvancdNumricValueText)
 
@@ -17,7 +17,7 @@ const LOC_PATCHES = DATA.LOC_PATCHES || {};
 const EXTRA_MOVES_BY_WEAPON = DATA.EXTRA_MOVES_BY_WEAPON || {};
 
 const MOD_ID = "PBZDetailedWeaponDesc";
-const VERSION = "1.2.0";
+const VERSION = "1.3.0";
 const SETTINGS_FILE = "PBZDetailedWeaponDesc.txt";
 const LOG_FILE = "PBZDetailedWeaponDesc.log";
 
@@ -54,7 +54,7 @@ function log(msg) {
     catch (e) {}
 }
 
-// Automatically detect the game's current UI language (zh-Hans / zh-Hant / en)
+// Automatically detect the game's current UI language (zh-Hans / zh-Hant / en / ko)
 function getCurrentLang() {
     try {
         let culture = "";
@@ -69,6 +69,9 @@ function getCurrentLang() {
         }
         if (c.startsWith("zh")) {
             return "zh-Hans";
+        }
+        if (c.startsWith("ko")) {
+            return "ko";
         }
         if (c.length > 0) {
             return "en";
@@ -243,15 +246,21 @@ function installRefreshBasicHooks() {
 }
 
 function registerMenu() {
-    const label = (en, zh, zht) => ({ en, "zh-Hans": zh, "zh-Hant": zht || zh });
+    const label = (en, zh, zht, ko) => ({ en, "zh-Hans": zh, "zh-Hant": zht || zh, ko: ko || en });
     const menu = globalThis.PBZModsMenu || (globalThis.PBZModsMenu = []);
     menu.push({
         id: MOD_ID,
-        title: label("Detailed Weapon Descriptions", "武器与影之武装详细倍率说明", "武器與影之武裝詳細倍率說明"),
+        title: label(
+            "Detailed Weapon Descriptions",
+            "武器与影之武装详细倍率说明",
+            "武器與影之武裝詳細倍率說明",
+            "무기 및 그림자 무장 상세 배율 설명"
+        ),
         description: label(
             "Shows exact move multipliers, combo variants, status buildup, and upgrade percentages using native UI styles.",
             "以原生字体/配色展示武器与影之武装的精确招式倍率、派生变招、异常倍率与升级百分比。",
-            "以原生字體/配色展示武器與影之武裝的精確招式倍率、派生變招、異常倍率與升級百分比。"
+            "以原生字體/配色展示武器與影之武裝的精確招式倍率、派生變招、異常倍率與升級百分比。",
+            "인게임 기본 UI 스타일로 무기와 그림자 무장의 정확한 기술 배율, 파생 콤보, 상태이상 누적 및 강화 수치를 표시합니다."
         ),
         version: VERSION,
         file: SETTINGS_FILE,
@@ -259,28 +268,28 @@ function registerMenu() {
             {
                 key: "enabled",
                 type: "toggle",
-                label: label("Enable Detailed Descriptions", "启用详细数值说明", "啟用詳細數值說明"),
+                label: label("Enable Detailed Descriptions", "启用详细数值说明", "啟用詳細數值說明", "상세 수치 설명 활성화"),
                 default: true,
                 help: "Master toggle for all enhanced weapon & shadow weapon descriptions",
             },
             {
                 key: "showUpgradeValues",
                 type: "toggle",
-                label: label("Show Exact Upgrade & Passive Values", "显示升级词条与异化/被动精确数值", "顯示升級詞條與異化/被動精確數值"),
+                label: label("Show Exact Upgrade & Passive Values", "显示升级词条与异化/被动精确数值", "顯示升級詞條與異化/被動精確數值", "강화 효과 및 패시브 정확 수치 표시"),
                 default: true,
                 help: "Appends exact percentages & burst multipliers in parentheses (including locked preview tiers)",
             },
             {
                 key: "showSkillMultipliers",
                 type: "toggle",
-                label: label("Show Skill Multipliers", "在原有技能后追加精确倍率", "在原有技能後追加精確倍率"),
+                label: label("Show Skill Multipliers", "在原有技能后追加精确倍率", "在原有技能後追加精確倍率", "기존 기술 설명에 정확 배율 추가"),
                 default: true,
                 help: "Appends hit count, damage & shachi multipliers to existing weapon skills",
             },
             {
                 key: "showExtraMoveEntries",
                 type: "toggle",
-                label: label("Show Combo & Variant Move Tables", "底部新增基础连段与派生变招倍率", "底部新增基礎連段與派生變招倍率"),
+                label: label("Show Combo & Variant Move Tables", "底部新增基础连段与派生变招倍率", "底部新增基礎連段與派生變招倍率", "하단에 기본 콤보 및 파생 기술 배율표 추가"),
                 default: true,
                 help: "Adds native entries at the bottom listing all combo variants, dash/draw moves & status multipliers",
             },

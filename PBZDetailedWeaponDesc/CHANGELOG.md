@@ -1,5 +1,8 @@
 # Changelog — PBZDetailedWeaponDesc (Standard Edition)
 
+## v1.3.0
+- Added full authentic **Korean (`ko`)** localization automatically following the game's active UI language (`GetCurrentCulture()`), aligned strictly with official *Phantom Blade Zero* Korean terminology extracted from `ko/Game.locres` (covering all 100 upgrade/passive/skill patches, all 48 weapons & Shadow Weapons move tables, and `PBZ Mods Menu` labels).
+
 ## v1.2.0
 - Added all remaining engine-verified `UpLevelData.GEUIDataArray` (SetByCaller) upgrade values across main weapons and Shadow Weapons (bringing total exact upgrade/passive/skill patches to **100 entries**, including Iron Blade Bleed buildup, Shachi Hook status bonus, Snake Dual combo ramp, Brutal Axe charge DR, HuoLiuXing ATK reduction, MiaoShouFeiDao sweet-spot bonus, Lute sound blade bonus, summon durations, etc.).
 - Achieved **0 leaked English code tokens** across all 48 weapons & Shadow Weapons in Simplified/Traditional Chinese move tables.
