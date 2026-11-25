@@ -92,11 +92,11 @@ function pickLocalized(obj) {
     return obj[lang] || obj["zh-Hans"] || obj["en"] || "";
 }
 
-function seqToInputIcons(seq) {
+function seqToInputIcons(seq, trailingPad = 0) {
     let out = "";
     for (let i = 0; i < seq.length; i++) {
         const id = seq[i] === "X" ? "LightAttack" : "HeavyAttack";
-        const rp = i < seq.length - 1 ? 3 : 0;
+        const rp = i < seq.length - 1 ? 3 : trailingPad;
         out += `<InputAction id="${id}" height="22" RightPadding="${rp}" LeftPadding="0"/>`;
     }
     return out;
@@ -113,8 +113,12 @@ function formatComboIcons(descStr) {
         const tail = line.slice(sepIdx);
         const newHead = head.split(/(<[^>]+>)/g).map((part) => {
             if (part.startsWith("<")) return part;
-            let p = part.replace(/\(([XY]+)\)/g, (_, seq) => `(${seqToInputIcons(seq)})`);
-            p = p.replace(/(^|[\s·])([XY]{2,})(?=$|[\s(])/g, (_, pre, seq) => pre + seqToInputIcons(seq));
+            let p = part.replace(/\(([XY]+)\)/g, (_, seq) => `(${seqToInputIcons(seq, 0)})`);
+            p = p.replace(/(^|[^A-Za-z])([XY]{2,})(?![A-Za-z])/g, (m, pre, seq, offset, full) => {
+                const nextCh = full[offset + m.length] || "";
+                const pad = nextCh && !/[\s(（]/.test(nextCh) ? 4 : 0;
+                return pre + seqToInputIcons(seq, pad);
+            });
             return p;
         }).join("");
         return newHead + tail;
