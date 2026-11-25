@@ -15,8 +15,8 @@
 
 | 模组名称（与 N 网同名） | 当前版本 | 功能简介 | 更新记录 |
 | :--- | :---: | :--- | :---: |
-| [**PBZDetailedWeaponDesc**](./PBZDetailedWeaponDesc) | `v1.3.1` | **武器与影之武装详细倍率扩展（标准版）**：以 100% 游戏原生字体与富文本配色，为全 48 把武器与影之武装补全引擎实读的招式倍率、派生变招、异常积累倍率及 100 条升级/异化精确数值（含未解锁预览），支持简/繁/英/韩四语自动跟随，切换武器 0 卡顿。 | [CHANGELOG](./PBZDetailedWeaponDesc/CHANGELOG.md) |
-| [**PBZDetailedWeaponDesc_Dynamic**](./PBZDetailedWeaponDesc_Dynamic) | `v1.3.1-Dynamic` | **武器与影之武装详细倍率扩展（动态兼容可选版）**：N 网 Optional File，替代主文件使用。专为安装第三方武器/平衡修改 Mod 的玩家设计：按需实时读取内存中的 `BulletData` 与升级数值，并延迟追加底部出招表，避免覆盖其他武器 Mod 的自定义词条，同样支持简/繁/英/韩四语自动跟随。 | [CHANGELOG](./PBZDetailedWeaponDesc_Dynamic/CHANGELOG.md) |
+| [**PBZDetailedWeaponDesc**](./PBZDetailedWeaponDesc) | `v1.4.0` | **武器与影之武装详细倍率扩展（标准版）**：以 100% 游戏原生字体与富文本配色，为全 48 把武器与影之武装补全引擎实读的招式倍率、派生变招、异常积累倍率及 100 条升级/异化精确数值（含未解锁预览），支持简/繁/英/韩/俄五语自动跟随与原生动态按键图标（自动适配手柄/键鼠/自定义改键），切换武器 0 卡顿。 | [CHANGELOG](./PBZDetailedWeaponDesc/CHANGELOG.md) |
+| [**PBZDetailedWeaponDesc_Dynamic**](./PBZDetailedWeaponDesc_Dynamic) | `v1.4.0-Dynamic` | **武器与影之武装详细倍率扩展（动态兼容可选版）**：N 网 Optional File，替代主文件使用。专为安装第三方武器/平衡修改 Mod 的玩家设计：按需实时读取内存中的 `BulletData` 与升级数值，并延迟追加底部出招表，避免覆盖其他武器 Mod 的自定义词条，同样支持简/繁/英/韩/俄五语与原生动态按键图标。 | [CHANGELOG](./PBZDetailedWeaponDesc_Dynamic/CHANGELOG.md) |
 | [**PBZEnemyStatusBars**](./PBZEnemyStatusBars) | `v1.3.4` | **敌人与 Boss 异常状态积累与倒计时指示环**：在普通敌人和 Boss 血条上方以游戏原生 270° 圆形进度环与图标实时展示 7 种异常状态（流血、中毒、燃烧、冰冻、感电、潮湿、混沌）的积累进度与 DoT 剩余时间，支持 Mod 菜单逐项自定义开关与尺寸。 | [CHANGELOG](./PBZEnemyStatusBars/CHANGELOG.md) |
 | [**PBZExtraAccessorySlots**](./PBZExtraAccessorySlots) | `v1.3.1` | **额外饰品栏扩展**：在保留原版 1~6 号饰品栏自然解锁进度的前提下，在后续追加 0~12 个额外解锁饰品栏；完整支持原生 3 列网格排版、手柄/键鼠导航、真实 GAS 词条效果与精炼等级、独立 JSON 持久化及安全自动卸下。 | [CHANGELOG](./PBZExtraAccessorySlots/CHANGELOG.md) |
 

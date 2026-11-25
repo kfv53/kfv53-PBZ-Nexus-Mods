@@ -1,5 +1,9 @@
 # Changelog — PBZDetailedWeaponDesc (Standard Edition)
 
+## v1.4.0
+- Added full authentic **Russian (`ru`)** localization aligned strictly with official *Phantom Blade Zero* Russian terminology (`ru/Game.locres`, e.g. `Фантомный коготь`, `Ша-Ци`, `Искра сознания`, `Эрозия Ауры Демона`), automatically following the game's UI language across all 100 upgrade/skill entries, 48 weapons, and `PBZ Mods Menu` labels.
+- Added **Native Dynamic Button Icons (`<InputAction/>`)** for all combo sequences (`X` / `Y` → `LightAttack` / `HeavyAttack`), automatically adapting in real time to Xbox controllers, PlayStation controllers, PC Keyboard+Mouse, and **custom keybindings**! Includes a live `Use Native Button Icons` toggle in `PBZ Mods Menu` (default ON; turn OFF to revert to plain `X`/`Y` text).
+
 ## v1.3.1
 - Fixed a bullet-name parser bug where `"B"` in `WEAPON_NAME_TOKENS` accidentally stripped the standalone Heavy 1 (`Y`) move (`重1 (Y)` / `Heavy 1 (Y)` / `강공격 1 (Y)`) as well as the `B_` prefix on Sprint Heavy / Draw Heavy / Dodge Heavy moves across weapons.
 

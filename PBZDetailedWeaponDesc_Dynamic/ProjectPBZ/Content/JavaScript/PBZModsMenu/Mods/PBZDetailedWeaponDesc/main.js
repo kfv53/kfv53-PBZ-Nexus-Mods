@@ -1,10 +1,11 @@
 "use strict";
 
-// PBZDetailedWeaponDesc v1.3.1-Dynamic (Dynamic Live-Read Edition — Optional Mod-Compatible Build)
+// PBZDetailedWeaponDesc v1.4.0-Dynamic (Dynamic Live-Read Edition — Optional Mod-Compatible Build)
 // Lazy-reads live BulletData.DamageData and UpLevelData.GEUIDataArray directly from game memory
 // when viewing a weapon, automatically reflecting changes from third-party weapon/rebalance mods.
 // Falls back cleanly to static weapon_data.js whenever needed.
-// - Full i18n: automatically follows the game's active language (zh-Hans / zh-Hant / en / ko)
+// - Full i18n: automatically follows the game's active language (zh-Hans / zh-Hant / en / ko / ru)
+// - Native dynamic <InputAction/> button icons (auto-adapts to Xbox / PS / PC KB+M / custom keybinds)
 
 const UE = require("ue");
 const puerts = require("puerts");
@@ -18,7 +19,7 @@ const STATIC_EXTRA_MOVES = DATA.EXTRA_MOVES_BY_WEAPON || {};
 const liveLocPatches = {};
 
 const MOD_ID = "PBZDetailedWeaponDesc";
-const VERSION = "1.3.1-Dynamic";
+const VERSION = "1.4.0-Dynamic";
 const SETTINGS_FILE = "PBZDetailedWeaponDesc.txt";
 const LOG_FILE = "PBZDetailedWeaponDesc.log";
 // Defer appending extra move tables briefly so polling-based weapon mods (e.g. PBZCrimsonVow)
@@ -31,6 +32,7 @@ const defaults = {
     showUpgradeValues: true,
     showSkillMultipliers: true,
     showExtraMoveEntries: true,
+    useNativeKeyIcons: true,
     clearLiveCache: false,
 };
 
@@ -72,6 +74,7 @@ function getCurrentLang() {
         if (c.includes("zh-hant") || c.includes("zh-tw") || c.includes("zh-hk") || c.includes("zh_tw")) return "zh-Hant";
         if (c.startsWith("zh")) return "zh-Hans";
         if (c.startsWith("ko")) return "ko";
+        if (c.startsWith("ru")) return "ru";
         if (c.length > 0) return "en";
     } catch (e) {}
     return "zh-Hans";
@@ -82,6 +85,35 @@ function pickLocalized(obj) {
     if (typeof obj === "string") return obj;
     const lang = getCurrentLang();
     return obj[lang] || obj["zh-Hans"] || obj["en"] || "";
+}
+
+function seqToInputIcons(seq) {
+    let out = "";
+    for (let i = 0; i < seq.length; i++) {
+        const id = seq[i] === "X" ? "LightAttack" : "HeavyAttack";
+        const rp = i < seq.length - 1 ? 3 : 0;
+        out += `<InputAction id="${id}" height="22" RightPadding="${rp}" LeftPadding="0"/>`;
+    }
+    return out;
+}
+
+// Replaces X/Y combo sequences in move labels with native PBZ <InputAction/> icons,
+// automatically adapting to Xbox, PlayStation, PC Keyboard+Mouse, and custom keybindings.
+function formatComboIcons(descStr) {
+    if (!config.useNativeKeyIcons || !descStr) return descStr;
+    return descStr.split("\n").map((line) => {
+        const sepIdx = line.search(/[：:]/);
+        if (sepIdx <= 0) return line;
+        const head = line.slice(0, sepIdx);
+        const tail = line.slice(sepIdx);
+        const newHead = head.split(/(<[^>]+>)/g).map((part) => {
+            if (part.startsWith("<")) return part;
+            let p = part.replace(/\(([XY]+)\)/g, (_, seq) => `(${seqToInputIcons(seq)})`);
+            p = p.replace(/(^|[\s·])([XY]{2,})(?=$|[\s(])/g, (_, pre, seq) => pre + seqToInputIcons(seq));
+            return p;
+        }).join("");
+        return newHead + tail;
+    }).join("\n");
 }
 
 function loadSettings() {
@@ -182,7 +214,7 @@ function appendExtraMoveEntries(widget, weaponID, isMain, backpackSubsystem) {
             const entry = widget.DynamicEntryBox.BP_CreateEntryOfClass(widget.NormalTextClass);
             if (!entry) continue;
             const titleStr = pickLocalized(item.title);
-            const descStr = pickLocalized(item.desc);
+            const descStr = formatComboIcons(pickLocalized(item.desc));
             entry.InitText(cpp.FText.FromString(titleStr), cpp.FText.FromString(descStr));
             if (entry.TitleText) {
                 entry.TitleText.SetVisibility(
@@ -280,7 +312,7 @@ function installRefreshBasicHooks() {
 }
 
 function registerMenu() {
-    const label = (en, zh, zht, ko) => ({ en, "zh-Hans": zh, "zh-Hant": zht || zh, ko: ko || en });
+    const label = (en, zh, zht, ko, ru) => ({ en, "zh-Hans": zh, "zh-Hant": zht || zh, ko: ko || en, ru: ru || en });
     const menu = globalThis.PBZModsMenu || (globalThis.PBZModsMenu = []);
     menu.push({
         id: MOD_ID,
@@ -288,23 +320,26 @@ function registerMenu() {
             "Detailed Weapon Descriptions (Dynamic)",
             "武器与影之武装详细倍率说明 (动态兼容版)",
             "武器與影之武裝詳細倍率說明 (動態相容版)",
-            "무기 및 그림자 무장 상세 배율 설명 (동적 호환판)"
+            "무기 및 그림자 무장 상세 배율 설명 (동적 호환판)",
+            "Подробные описания оружия (Динамическая версия)"
         ),
         description: label(
             "Dynamically reads live BulletData & upgrade values for compatibility with weapon rebalance mods (auto fallback to static table).",
             "按需实时读取游戏内存中的招式与升级数值，自动兼容其他武器修改 Mod（读取失败自动回退原版表）。",
             "按需即時讀取遊戲記憶體中的招式與升級數值，自動相容其他武器修改 Mod（讀取失敗自動回退原版表）。",
-            "게임 메모리에서 실시간으로 기술 배율과 강화 수치를 읽어 타 무기 밸런스 모드와 자동 호환됩니다 (실패 시 기본 테이블로 자동 전환)."
+            "게임 메모리에서 실시간으로 기술 배율과 강화 수치를 읽어 타 무기 밸런스 모드와 자동 호환됩니다 (실패 시 기본 테이블로 자동 전환).",
+            "Динамически считывает множители и улучшения из памяти для совместимости с модами на баланс оружия (с автооткатом)."
         ),
         version: VERSION,
         file: SETTINGS_FILE,
         settings: [
-            { key: "enabled", type: "toggle", label: label("Enable Detailed Descriptions", "启用详细数值说明", "啟用詳細數值說明", "상세 수치 설명 활성화"), default: true },
-            { key: "dynamicLiveRead", type: "toggle", label: label("Dynamic Live Read (Mod Compat)", "实时动态读取 (兼容其他武器Mod)", "即時動態讀取 (相容其他武器Mod)", "실시간 동적 읽기 (타 무기 모드 호환)"), default: true },
-            { key: "showUpgradeValues", type: "toggle", label: label("Show Exact Upgrade & Passive Values", "显示升级词条与异化/被动精确数值", "顯示升級詞條與異化/被動精確數值", "강화 효과 및 패시브 정확 수치 표시"), default: true },
-            { key: "showSkillMultipliers", type: "toggle", label: label("Show Skill Multipliers", "在原有技能后追加精确倍率", "在原有技能後追加精確倍率", "기존 기술 설명에 정확 배율 추가"), default: true },
-            { key: "showExtraMoveEntries", type: "toggle", label: label("Show Combo & Variant Move Tables", "底部新增基础连段与派生变招倍率", "底部新增基礎連段與派生變招倍率", "하단에 기본 콤보 및 파생 기술 배율표 추가"), default: true },
-            { key: "clearLiveCache", type: "toggle", label: label("Refresh Live Cache", "清除动态缓存并重读", "清除動態快取並重讀", "동적 캐시 초기화 및 다시 읽기"), default: false },
+            { key: "enabled", type: "toggle", label: label("Enable Detailed Descriptions", "启用详细数值说明", "啟用詳細數值說明", "상세 수치 설명 활성화", "Включить подробные описания"), default: true },
+            { key: "dynamicLiveRead", type: "toggle", label: label("Dynamic Live Read (Mod Compat)", "实时动态读取 (兼容其他武器Mod)", "即時動態讀取 (相容其他武器Mod)", "실시간 동적 읽기 (타 무기 모드 호환)", "Динамическое чтение (совместимость с модами)"), default: true },
+            { key: "showUpgradeValues", type: "toggle", label: label("Show Exact Upgrade & Passive Values", "显示升级词条与异化/被动精确数值", "顯示升級詞條與異化/被動精確數值", "강화 효과 및 패시브 정확 수치 표시", "Показывать точные значения улучшений"), default: true },
+            { key: "showSkillMultipliers", type: "toggle", label: label("Show Skill Multipliers", "在原有技能后追加精确倍率", "在原有技能後追加精確倍率", "기존 기술 설명에 정확 배율 추가", "Показывать множители навыков"), default: true },
+            { key: "showExtraMoveEntries", type: "toggle", label: label("Show Combo & Variant Move Tables", "底部新增基础连段与派生变招倍率", "底部新增基礎連段與派生變招倍率", "하단에 기본 콤보 및 파생 기술 배율표 추가", "Показывать таблицы комбо и вариаций"), default: true },
+            { key: "useNativeKeyIcons", type: "toggle", label: label("Use Native Button Icons (Auto KB+M / Gamepad)", "使用原生按键图标 (自动适配键鼠/改键/手柄)", "使用原生按鍵圖示 (自動適配鍵鼠/改鍵/手把)", "인게임 기본 버튼 아이콘 사용 (키마/패드/키설정 자동)", "Родные значки кнопок (авто Клавиатура/Геймпад)"), default: true },
+            { key: "clearLiveCache", type: "toggle", label: label("Refresh Live Cache", "清除动态缓存并重读", "清除動態快取並重讀", "동적 캐시 초기화 및 다시 읽기", "Сбросить и обновить динамический кэш"), default: false },
         ],
         onChange: (key, value) => {
             if (key === "clearLiveCache" && value) {

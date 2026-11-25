@@ -1,5 +1,9 @@
 # Changelog — PBZDetailedWeaponDesc_Dynamic (Optional Mod-Compatible Edition)
 
+## v1.4.0-Dynamic
+- Added full authentic **Russian (`ru`)** localization aligned strictly with official `ru/Game.locres` terminology across `weapon_data.js`, `live_reader.js`, and `PBZ Mods Menu` labels.
+- Added **Native Dynamic Button Icons (`<InputAction/>`)** for all combo sequences, automatically adapting in real time to Xbox, PlayStation, PC Keyboard+Mouse, and **custom keybindings**, with a live `Use Native Button Icons` toggle in `PBZ Mods Menu` (default ON).
+
 ## v1.3.1-Dynamic
 - Fixed a bullet-name parser bug in both `weapon_data.js` and `live_reader.js` where `"B"` in `WEAPON_NAME_TOKENS` accidentally stripped the standalone Heavy 1 (`Y`) move (`重1 (Y)` / `Heavy 1 (Y)` / `강공격 1 (Y)`) and the `B_` prefix on Sprint Heavy / Draw Heavy / Dodge Heavy moves.
 

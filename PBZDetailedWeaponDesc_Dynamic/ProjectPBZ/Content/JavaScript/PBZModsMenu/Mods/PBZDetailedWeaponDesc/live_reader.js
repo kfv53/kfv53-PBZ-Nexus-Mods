@@ -15,59 +15,59 @@ const EK = "Damage.Attack.Target.ElementDamage";
 const BULLET_ROOT = "/PBZCombatAsset/ActorData/Players/Hun/BulletData/";
 const SKIP_RE = /(OldTimeline|_Old$|_Old_|Test|Temp|Archive|Backup|Debug|Unused|Copy|Deprecated|ForWuXuan|Alert$|Spawner$)/i;
 
-// equipDescKey -> { dirs, elemZh, elemEn, elemKo, isRanged, isShaChi }
+// equipDescKey -> { dirs, elemZh, elemEn, elemKo, elemRu, isRanged, isShaChi }
 const WEAPON_DIR_MAP = {
     // Main weapons
-    WeaponDes_000: { dirs: ["TangBlade/WoodenSword"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_001: { dirs: ["TangBlade/Default"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_002: { dirs: ["Iron/Default"], elemZh: "流血", elemEn: "Bleed", elemKo: "출혈", isRanged: false },
-    WeaponDes_003: { dirs: ["LuanYing"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_004: { dirs: ["ChaosBlade"], elemZh: "元素", elemEn: "Elem", elemKo: "속성", isRanged: false },
-    WeaponDes_005: { dirs: ["HeiMoShang"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_007: { dirs: ["BronzeSword"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_008: { dirs: ["ChiZheCanJian/Use"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_009: { dirs: ["SlitheringSword/Attack"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_010: { dirs: ["BaiShanFengLeiJian"], elemZh: "风雷", elemEn: "Elem", elemKo: "풍뢰", isRanged: false },
-    WeaponDes_011: { dirs: ["ZiMingJian"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_012: { dirs: ["LongBlade/Default"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_013: { dirs: ["ZhanMaBlade"], elemZh: "流血", elemEn: "Bleed", elemKo: "출혈", isRanged: false },
-    WeaponDes_014: { dirs: ["LongBlade/ChiRen"], elemZh: "燃烧", elemEn: "Ignite", elemKo: "연소", isRanged: false },
-    WeaponDes_015: { dirs: ["LongBlade/Jigsaw"], elemZh: "流血", elemEn: "Bleed", elemKo: "출혈", isRanged: false },
-    WeaponDes_016: { dirs: ["BaiYing"], elemZh: "冰冻", elemEn: "Frost", elemKo: "빙결", isRanged: false },
-    WeaponDes_017: { dirs: ["LongBlade/GuiTouBlade"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_018: { dirs: ["PoJun"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_019: { dirs: ["Horizontal"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_020: { dirs: ["YanYueDao"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_022: { dirs: ["DoubleBlade/AAAAAA", "DoubleBlade/AB", "DoubleBlade/BBBB", "DoubleBlade/CCC", "DoubleBlade/Air", "DoubleBlade/PerfectDodge"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_023: { dirs: ["DoubleBlade/YuuBlade"], elemZh: "妖气", elemEn: "YaoQi", elemKo: "요기", isRanged: false },
-    WeaponDes_024: { dirs: ["DoubleBlade/JueYing", "JueYing"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_026: { dirs: ["ShuangYue"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_027: { dirs: ["SnakeDual/Attack", "SnakeDual/ReleaseAttack", "SnakeDual/Snake"], elemZh: "中毒", elemEn: "Poison", elemKo: "중독", isRanged: false },
-    WeaponDes_028: { dirs: ["DualHook"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_029: { dirs: ["DoubleBlade/Jade", "Jade"], elemZh: null, elemEn: null, elemKo: null, isRanged: false },
-    WeaponDes_031: { dirs: ["XieShan"], elemZh: "元素", elemEn: "Elem", elemKo: "속성", isRanged: false },
+    WeaponDes_000: { dirs: ["TangBlade/WoodenSword"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_001: { dirs: ["TangBlade/Default"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_002: { dirs: ["Iron/Default"], elemZh: "流血", elemEn: "Bleed", elemKo: "출혈", elemRu: "Кровот.", isRanged: false },
+    WeaponDes_003: { dirs: ["LuanYing"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_004: { dirs: ["ChaosBlade"], elemZh: "元素", elemEn: "Elem", elemKo: "속성", elemRu: "Стихия", isRanged: false },
+    WeaponDes_005: { dirs: ["HeiMoShang"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_007: { dirs: ["BronzeSword"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_008: { dirs: ["ChiZheCanJian/Use"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_009: { dirs: ["SlitheringSword/Attack"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_010: { dirs: ["BaiShanFengLeiJian"], elemZh: "风雷", elemEn: "Elem", elemKo: "풍뢰", elemRu: "Стихия", isRanged: false },
+    WeaponDes_011: { dirs: ["ZiMingJian"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_012: { dirs: ["LongBlade/Default"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_013: { dirs: ["ZhanMaBlade"], elemZh: "流血", elemEn: "Bleed", elemKo: "출혈", elemRu: "Кровот.", isRanged: false },
+    WeaponDes_014: { dirs: ["LongBlade/ChiRen"], elemZh: "燃烧", elemEn: "Ignite", elemKo: "연소", elemRu: "Горение", isRanged: false },
+    WeaponDes_015: { dirs: ["LongBlade/Jigsaw"], elemZh: "流血", elemEn: "Bleed", elemKo: "출혈", elemRu: "Кровот.", isRanged: false },
+    WeaponDes_016: { dirs: ["BaiYing"], elemZh: "冰冻", elemEn: "Frost", elemKo: "빙결", elemRu: "Заморозка", isRanged: false },
+    WeaponDes_017: { dirs: ["LongBlade/GuiTouBlade"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_018: { dirs: ["PoJun"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_019: { dirs: ["Horizontal"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_020: { dirs: ["YanYueDao"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_022: { dirs: ["DoubleBlade/AAAAAA", "DoubleBlade/AB", "DoubleBlade/BBBB", "DoubleBlade/CCC", "DoubleBlade/Air", "DoubleBlade/PerfectDodge"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_023: { dirs: ["DoubleBlade/YuuBlade"], elemZh: "妖气", elemEn: "YaoQi", elemKo: "요기", elemRu: "Аура демона", isRanged: false },
+    WeaponDes_024: { dirs: ["DoubleBlade/JueYing", "JueYing"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_026: { dirs: ["ShuangYue"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_027: { dirs: ["SnakeDual/Attack", "SnakeDual/ReleaseAttack", "SnakeDual/Snake"], elemZh: "中毒", elemEn: "Poison", elemKo: "중독", elemRu: "Отравл.", isRanged: false },
+    WeaponDes_028: { dirs: ["DualHook"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_029: { dirs: ["DoubleBlade/Jade", "Jade"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false },
+    WeaponDes_031: { dirs: ["XieShan"], elemZh: "元素", elemEn: "Elem", elemKo: "속성", elemRu: "Стихия", isRanged: false },
     // Shadow weapons
-    PhantomEdgesDes_001: { dirs: ["ShachiWeapon/BrutalAxe"], elemZh: null, elemEn: null, elemKo: null, isRanged: false, isShaChi: true },
-    PhantomEdgesDes_002: { dirs: ["ShachiWeapon/JinGua", "ShachiAbility/JinGua"], elemZh: null, elemEn: null, elemKo: null, isRanged: false, isShaChi: true },
-    PhantomEdgesDes_004: { dirs: ["ShachiWeapon/ZhuoBiDun"], elemZh: null, elemEn: null, elemKo: null, isRanged: false, isShaChi: true },
-    PhantomEdgesDes_005: { dirs: ["ShachiAbility/TanLang"], elemZh: "流血", elemEn: "Bleed", elemKo: "출혈", isRanged: false, isShaChi: true },
-    PhantomEdgesDes_006: { dirs: ["ShachiWeapon/TigerCannon"], elemZh: "燃烧", elemEn: "Ignite", elemKo: "연소", isRanged: true, isShaChi: true },
-    PhantomEdgesDes_008: { dirs: ["ShachiWeapon/HuangJinHuoChong"], elemZh: null, elemEn: null, elemKo: null, isRanged: true, isShaChi: true },
-    PhantomEdgesDes_009: { dirs: ["ShachiWeapon/Bow"], elemZh: null, elemEn: null, elemKo: null, isRanged: true, isShaChi: true },
-    PhantomEdgesDes_010: { dirs: ["MiaoShouFeiDao"], elemZh: null, elemEn: null, elemKo: null, isRanged: true, isShaChi: true },
-    PhantomEdgesDes_011: { dirs: ["ShachiWeapon/YouLongHead"], elemZh: "潮湿", elemEn: "Water", elemKo: "침수", isRanged: true, isShaChi: true },
-    PhantomEdgesDes_012: { dirs: ["ShachiWeapon/LionHead"], elemZh: "燃烧", elemEn: "Ignite", elemKo: "연소", isRanged: true, isShaChi: true },
-    PhantomEdgesDes_014: { dirs: ["ShachiWeapon/ShachiHook", "ShachiAbility/ShachiHook"], elemZh: null, elemEn: null, elemKo: null, isRanged: false, isShaChi: true },
-    PhantomEdgesDes_015: { dirs: ["ShachiWeapon/HuoLiuXing"], elemZh: "燃烧", elemEn: "Ignite", elemKo: "연소", isRanged: false, isShaChi: true },
-    PhantomEdgesDes_016: { dirs: ["YouLongCha"], elemZh: null, elemEn: null, elemKo: null, isRanged: false, isShaChi: true },
-    PhantomEdgesDes_017: { dirs: ["ShachiAbility/TieKuangQuanTao"], elemZh: null, elemEn: null, elemKo: null, isRanged: false, isShaChi: true },
-    PhantomEdgesDes_018: { dirs: ["ShachiWeapon/MoJian"], elemZh: null, elemEn: null, elemKo: null, isRanged: false, isShaChi: true },
-    PhantomEdgesDes_019: { dirs: ["ShachiWeapon/LeiTingQiang"], elemZh: "感电", elemEn: "Elec", elemKo: "마비", isRanged: false, isShaChi: true },
-    PhantomEdgesDes_020: { dirs: ["ShachiAbility/XueDiZi"], elemZh: "流血", elemEn: "Bleed", elemKo: "출혈", isRanged: false, isShaChi: true },
-    PhantomEdgesDes_022: { dirs: ["NiTouChe"], elemZh: null, elemEn: null, elemKo: null, isRanged: false, isShaChi: true },
-    PhantomEdgesDes_023: { dirs: ["ShachiAbility/XuKongHuaShan"], elemZh: null, elemEn: null, elemKo: null, isRanged: false, isShaChi: true },
-    PhantomEdgesDes_024: { dirs: ["ShachiWeapon/Lute", "ShachiAbility/Lute"], elemZh: null, elemEn: null, elemKo: null, isRanged: true, isShaChi: true },
-    PhantomEdgesDes_109: { dirs: ["DuYanBow"], elemZh: null, elemEn: null, elemKo: null, isRanged: true, isShaChi: true },
+    PhantomEdgesDes_001: { dirs: ["ShachiWeapon/BrutalAxe"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false, isShaChi: true },
+    PhantomEdgesDes_002: { dirs: ["ShachiWeapon/JinGua", "ShachiAbility/JinGua"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false, isShaChi: true },
+    PhantomEdgesDes_004: { dirs: ["ShachiWeapon/ZhuoBiDun"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false, isShaChi: true },
+    PhantomEdgesDes_005: { dirs: ["ShachiAbility/TanLang"], elemZh: "流血", elemEn: "Bleed", elemKo: "출혈", elemRu: "Кровот.", isRanged: false, isShaChi: true },
+    PhantomEdgesDes_006: { dirs: ["ShachiWeapon/TigerCannon"], elemZh: "燃烧", elemEn: "Ignite", elemKo: "연소", elemRu: "Горение", isRanged: true, isShaChi: true },
+    PhantomEdgesDes_008: { dirs: ["ShachiWeapon/HuangJinHuoChong"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: true, isShaChi: true },
+    PhantomEdgesDes_009: { dirs: ["ShachiWeapon/Bow"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: true, isShaChi: true },
+    PhantomEdgesDes_010: { dirs: ["MiaoShouFeiDao"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: true, isShaChi: true },
+    PhantomEdgesDes_011: { dirs: ["ShachiWeapon/YouLongHead"], elemZh: "潮湿", elemEn: "Water", elemKo: "침수", elemRu: "Промокание", isRanged: true, isShaChi: true },
+    PhantomEdgesDes_012: { dirs: ["ShachiWeapon/LionHead"], elemZh: "燃烧", elemEn: "Ignite", elemKo: "연소", elemRu: "Горение", isRanged: true, isShaChi: true },
+    PhantomEdgesDes_014: { dirs: ["ShachiWeapon/ShachiHook", "ShachiAbility/ShachiHook"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false, isShaChi: true },
+    PhantomEdgesDes_015: { dirs: ["ShachiWeapon/HuoLiuXing"], elemZh: "燃烧", elemEn: "Ignite", elemKo: "연소", elemRu: "Горение", isRanged: false, isShaChi: true },
+    PhantomEdgesDes_016: { dirs: ["YouLongCha"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false, isShaChi: true },
+    PhantomEdgesDes_017: { dirs: ["ShachiAbility/TieKuangQuanTao"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false, isShaChi: true },
+    PhantomEdgesDes_018: { dirs: ["ShachiWeapon/MoJian"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false, isShaChi: true },
+    PhantomEdgesDes_019: { dirs: ["ShachiWeapon/LeiTingQiang"], elemZh: "感电", elemEn: "Elec", elemKo: "마비", elemRu: "Паралич", isRanged: false, isShaChi: true },
+    PhantomEdgesDes_020: { dirs: ["ShachiAbility/XueDiZi"], elemZh: "流血", elemEn: "Bleed", elemKo: "출혈", elemRu: "Кровот.", isRanged: false, isShaChi: true },
+    PhantomEdgesDes_022: { dirs: ["NiTouChe"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false, isShaChi: true },
+    PhantomEdgesDes_023: { dirs: ["ShachiAbility/XuKongHuaShan"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: false, isShaChi: true },
+    PhantomEdgesDes_024: { dirs: ["ShachiWeapon/Lute", "ShachiAbility/Lute"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: true, isShaChi: true },
+    PhantomEdgesDes_109: { dirs: ["DuYanBow"], elemZh: null, elemEn: null, elemKo: null, elemRu: null, isRanged: true, isShaChi: true },
 };
 
 const WEAPON_NAME_TOKENS = new Set([
@@ -85,98 +85,98 @@ const WEAPON_NAME_TOKENS = new Set([
 ]);
 
 const TOKEN_MAP = {
-    BreakActCharge: ["蓄力破防追击", "Charged Break Finisher", "차지 방어 파괴 추격"],
-    BreakAct: ["破防追击", "Break Finisher", "방어 파괴 추격"],
-    BChargeAttack: ["蓄力斩", "Charged Slash", "차지 베기"],
-    ChargeAttack: ["蓄力攻击", "Charged Attack", "차지 공격"],
-    FastLightAttack: ["蓄势轻击", "Charged Light", "축세 약공격"],
-    FastHeavyAttack: ["蓄势重击", "Charged Heavy", "축세 강공격"],
-    DeflectCounter: ["格挡反击", "Deflect Counter", "방어 반격"],
-    PerfectDeflect: ["完美格挡反击", "Perfect Deflect", "완벽 방어 반격"],
-    PerfectDodge: ["完美闪避反击", "Perfect Dodge Counter", "완벽 회피 반격"],
-    Gunstock: ["枪托", "Gunstock", "개머리판"],
-    Perfect: ["完美", "Perfect", "완벽"],
-    Normal: ["普通", "Normal", "일반"],
-    Heavy: ["重击", "Heavy", "강공격"],
-    Light: ["轻击", "Light", "약공격"],
-    DashDraw: ["疾跑拔刀", "Dash Draw", "질주 발도"],
-    DashSnap: ["闪避突进", "Dodge Strike", "회피 돌진"],
-    Dash: ["冲刺", "Dash", "대시"],
-    Draw: ["拔刀", "Draw", "발도"],
-    Snap: ["闪避攻击", "Dodge Strike", "회피 공격"],
-    BuffAtk: ["强化斩击", "Buffed Slash", "강화 참격"],
-    Buff: ["强化斩击", "Buffed Attack", "강화 공격"],
-    SWT: ["切武器攻击", "Switch Attack", "무기 전환 공격"],
-    Air: ["空中攻击", "Air Attack", "공중 공격"],
-    Charge: ["蓄力", "Charge", "차지"],
-    Hold: ["蓄力", "Hold", "차지"],
-    FireBall: ["火球", "Fireball", "화구"],
-    DoubleFireBall: ["双火球", "Twin Fireball", "이중 화구"],
-    FireGround: ["火海", "Fire Ground", "화염 지대"],
-    Fire: ["烈焰", "Fire", "화염"],
-    Flame: ["火焰", "Flame", "불꽃"],
-    Ice: ["寒冰", "Ice", "한빙"],
-    Frost: ["冰霜", "Frost", "서리"],
-    Lightning: ["落雷", "Lightning", "낙뢰"],
-    Thunder: ["雷霆", "Thunder", "뇌정"],
-    Wind: ["疾风", "Wind", "질풍"],
-    WaterCannon: ["高压水炮", "Water Cannon", "고압 수포"],
-    Water: ["水柱", "Water Jet", "물기둥"],
-    BloodSaw: ["血锯", "Blood Saw", "혈톱"],
-    BloodArrow: ["血箭", "Blood Arrow", "혈전"],
-    BladeWave: ["刀波", "Blade Wave", "도파"],
-    Wave: ["剑气", "Wave", "검기"],
-    Tornado: ["旋风", "Tornado", "회오리"],
-    Slide: ["滑铲", "Slide", "슬라이딩"],
-    Rush: ["冲锋", "Rush", "돌격"],
-    Sprint: ["疾冲", "Sprint", "질주"],
-    TurnAttack: ["回旋撞击", "Turn Slam", "회전 강타"],
-    Turn: ["回旋", "Turn", "회전"],
-    SitDown: ["坐弹", "Seated Play", "앉아 연주"],
-    HookMove: ["钩索拉近", "Hook Pull", "갈고리 당기기"],
-    Hook: ["钩索", "Hook", "갈고리"],
-    Stab: ["突刺", "Stab", "찌르기"],
-    Throw: ["投掷", "Throw", "투척"],
-    Shoot: ["射击", "Shot", "사격"],
-    Aim: ["瞄准射击", "Aimed Shot", "조준 사격"],
-    Spin: ["旋斩", "Spin", "회전 베기"],
-    Slam: ["重砸", "Slam", "내려찍기"],
-    Sweep: ["横扫", "Sweep", "횡베기"],
-    Jump: ["跳劈", "Jump", "도약 베기"],
-    Assault: ["突袭", "Assault", "기습"],
-    Pursue: ["追击", "Pursue", "추격"],
-    Combo: ["连击", "Combo", "연격"],
-    Counter: ["反击", "Counter", "반격"],
-    SpecialAttack: ["特殊技", "Special", "특수기"],
-    Special: ["特殊技", "Special", "특수기"],
-    Skill: ["技能", "Skill", "기술"],
-    Release: ["释放", "Release", "해방"],
-    Explode: ["引爆", "Detonate", "기폭"],
-    Explosion: ["爆发", "Explosion", "폭발"],
-    ExtraAttack: ["追击", "Follow-up", "추격"],
-    Extra: ["额外", "Extra", "추가"],
-    FreeStrike: ["御剑连击", "Free Strike", "어검 연격"],
-    CriticalStrike: ["御剑重击", "Critical Strike", "어검 강공격"],
-    GhostDash: ["鬼步", "Ghost Dash", "귀보"],
-    Afterimage: ["残影", "Afterimage", "잔영"],
-    Ring: ["飞环", "Chakram", "비환"],
-    Arrow: ["箭矢", "Arrow", "화살"],
-    Bullet: ["弹丸", "Bullet", "탄환"],
-    Cannon: ["炮击", "Cannon", "포격"],
-    Shield: ["盾击", "Shield", "방패 치기"],
-    Underwater: ["水下突刺", "Underwater", "수중 찌르기"],
-    Final: ["终结", "Finisher", "마무리"],
-    Aura: ["余波", "Aura", "여파"],
-    Enhanced: ["强化", "Enhanced", "강화"],
-    FullCharge: ["满蓄", "Full Charge", "최대 차지"],
-    Lv1: ["一段", "Lv1", "1단계"],
-    Lv2: ["二段", "Lv2", "2단계"],
-    Lv3: ["三段", "Lv3", "3단계"],
-    Lv4: ["四段", "Lv4", "4단계"],
-    F: ["前", "Fwd", "전방"],
-    B: ["后", "Back", "후방"],
-    L: ["左", "Left", "좌측"],
-    R: ["右", "Right", "우측"],
+    BreakActCharge: ["蓄力破防追击", "Charged Break Finisher", "차지 방어 파괴 추격", "Заряж. добивание пробития"],
+    BreakAct: ["破防追击", "Break Finisher", "방어 파괴 추격", "Добивание пробития"],
+    BChargeAttack: ["蓄力斩", "Charged Slash", "차지 베기", "Заряженный удар"],
+    ChargeAttack: ["蓄力攻击", "Charged Attack", "차지 공격", "Заряженная атака"],
+    FastLightAttack: ["蓄势轻击", "Charged Light", "축세 약공격", "Заряж. лёгкая"],
+    FastHeavyAttack: ["蓄势重击", "Charged Heavy", "축세 강공격", "Заряж. тяжёлая"],
+    DeflectCounter: ["格挡反击", "Deflect Counter", "방어 반격", "Контратака парир."],
+    PerfectDeflect: ["完美格挡反击", "Perfect Deflect", "완벽 방어 반격", "Идеальное парирование"],
+    PerfectDodge: ["完美闪避反击", "Perfect Dodge Counter", "완벽 회피 반격", "Контратака уклонения"],
+    Gunstock: ["枪托", "Gunstock", "개머리판", "Приклад"],
+    Perfect: ["完美", "Perfect", "완벽", "Идеал."],
+    Normal: ["普通", "Normal", "일반", "Обычн."],
+    Heavy: ["重击", "Heavy", "강공격", "Тяжёлая"],
+    Light: ["轻击", "Light", "약공격", "Лёгкая"],
+    DashDraw: ["疾跑拔刀", "Dash Draw", "질주 발도", "Выпад из рывка"],
+    DashSnap: ["闪避突进", "Dodge Strike", "회피 돌진", "Выпад уклонения"],
+    Dash: ["冲刺", "Dash", "대시", "Рывок"],
+    Draw: ["拔刀", "Draw", "발도", "Обнажение"],
+    Snap: ["闪避攻击", "Dodge Strike", "회피 공격", "Удар уклонения"],
+    BuffAtk: ["强化斩击", "Buffed Slash", "강화 참격", "Усил. удар"],
+    Buff: ["强化斩击", "Buffed Attack", "강화 공격", "Усил. атака"],
+    SWT: ["切武器攻击", "Switch Attack", "무기 전환 공격", "Атака при смене"],
+    Air: ["空中攻击", "Air Attack", "공중 공격", "Атака в воздухе"],
+    Charge: ["蓄力", "Charge", "차지", "Заряд"],
+    Hold: ["蓄力", "Hold", "차지", "Удержание"],
+    FireBall: ["火球", "Fireball", "화구", "Огненный шар"],
+    DoubleFireBall: ["双火球", "Twin Fireball", "이중 화구", "Двойной огн. шар"],
+    FireGround: ["火海", "Fire Ground", "화염 지대", "Огненная земля"],
+    Fire: ["烈焰", "Fire", "화염", "Огонь"],
+    Flame: ["火焰", "Flame", "불꽃", "Пламя"],
+    Ice: ["寒冰", "Ice", "한빙", "Лёд"],
+    Frost: ["冰霜", "Frost", "서리", "Стужа"],
+    Lightning: ["落雷", "Lightning", "낙뢰", "Молния"],
+    Thunder: ["雷霆", "Thunder", "뇌정", "Гром"],
+    Wind: ["疾风", "Wind", "질풍", "Ветер"],
+    WaterCannon: ["高压水炮", "Water Cannon", "고압 수포", "Водяная пушка"],
+    Water: ["水柱", "Water Jet", "물기둥", "Струя воды"],
+    BloodSaw: ["血锯", "Blood Saw", "혈톱", "Кровавая пила"],
+    BloodArrow: ["血箭", "Blood Arrow", "혈전", "Кровавая стрела"],
+    BladeWave: ["刀波", "Blade Wave", "도파", "Волна клинка"],
+    Wave: ["剑气", "Wave", "검기", "Волна"],
+    Tornado: ["旋风", "Tornado", "회오리", "Вихрь"],
+    Slide: ["滑铲", "Slide", "슬라이딩", "Подкат"],
+    Rush: ["冲锋", "Rush", "돌격", "Натиск"],
+    Sprint: ["疾冲", "Sprint", "질주", "Бег"],
+    TurnAttack: ["回旋撞击", "Turn Slam", "회전 강타", "Удар с разворота"],
+    Turn: ["回旋", "Turn", "회전", "Разворот"],
+    SitDown: ["坐弹", "Seated Play", "앉아 연주", "Игра сидя"],
+    HookMove: ["钩索拉近", "Hook Pull", "갈고리 당기기", "Притягивание крюком"],
+    Hook: ["钩索", "Hook", "갈고리", "Крюк"],
+    Stab: ["突刺", "Stab", "찌르기", "Выпад"],
+    Throw: ["投掷", "Throw", "투척", "Бросок"],
+    Shoot: ["射击", "Shot", "사격", "Выстрел"],
+    Aim: ["瞄准射击", "Aimed Shot", "조준 사격", "Прицельный выстрел"],
+    Spin: ["旋斩", "Spin", "회전 베기", "Вихревой удар"],
+    Slam: ["重砸", "Slam", "내려찍기", "Сокрушение"],
+    Sweep: ["横扫", "Sweep", "횡베기", "Размашистый удар"],
+    Jump: ["跳劈", "Jump", "도약 베기", "Удар в прыжке"],
+    Assault: ["突袭", "Assault", "기습", "Штурм"],
+    Pursue: ["追击", "Pursue", "추격", "Преследование"],
+    Combo: ["连击", "Combo", "연격", "Комбо"],
+    Counter: ["反击", "Counter", "반격", "Контратака"],
+    SpecialAttack: ["特殊技", "Special", "특수기", "Особый приём"],
+    Special: ["特殊技", "Special", "특수기", "Особый приём"],
+    Skill: ["技能", "Skill", "기술", "Навык"],
+    Release: ["释放", "Release", "해방", "Выброс"],
+    Explode: ["引爆", "Detonate", "기폭", "Подрыв"],
+    Explosion: ["爆发", "Explosion", "폭발", "Взрыв"],
+    ExtraAttack: ["追击", "Follow-up", "추격", "Доп. удар"],
+    Extra: ["额外", "Extra", "추가", "Доп."],
+    FreeStrike: ["御剑连击", "Free Strike", "어검 연격", "Серия парящих мечей"],
+    CriticalStrike: ["御剑重击", "Critical Strike", "어검 강공격", "Тяжёлый парящий меч"],
+    GhostDash: ["鬼步", "Ghost Dash", "귀보", "Призрачный шаг"],
+    Afterimage: ["残影", "Afterimage", "잔영", "Фантом"],
+    Ring: ["飞环", "Chakram", "비환", "Чакрам"],
+    Arrow: ["箭矢", "Arrow", "화살", "Стрела"],
+    Bullet: ["弹丸", "Bullet", "탄환", "Пуля"],
+    Cannon: ["炮击", "Cannon", "포격", "Залп"],
+    Shield: ["盾击", "Shield", "방패 치기", "Удар щитом"],
+    Underwater: ["水下突刺", "Underwater", "수중 찌르기", "Подводный выпад"],
+    Final: ["终结", "Finisher", "마무리", "Завершение"],
+    Aura: ["余波", "Aura", "여파", "Волна ауры"],
+    Enhanced: ["强化", "Enhanced", "강화", "Усил."],
+    FullCharge: ["满蓄", "Full Charge", "최대 차지", "Полный заряд"],
+    Lv1: ["一段", "Lv1", "1단계", "Ур.1"],
+    Lv2: ["二段", "Lv2", "2단계", "Ур.2"],
+    Lv3: ["三段", "Lv3", "3단계", "Ур.3"],
+    Lv4: ["四段", "Lv4", "4단계", "Ур.4"],
+    F: ["前", "Fwd", "전방", "Вперёд"],
+    B: ["后", "Back", "후방", "Назад"],
+    L: ["左", "Left", "좌측", "Влево"],
+    R: ["右", "Right", "우측", "Вправо"],
 };
 
 const S2T_FROM = "伤杀气连段变招冲拔闪避轻重击蓄势强剑波异状流血燃烧冰冻感电妖满级预期升减防破韧弹枪托侧进退悬空飞环斩击势术灵影处决持续时间层数回复消耗额外基础派生攻击特殊技武装体扇锤斧盾弓刀剑双单手持反追踪爆诱饮酒微醺醉态钢刃烈焰寒霜风雷护佑印记穿透格挡过载";
@@ -193,8 +193,8 @@ function toHant(s) {
     }).join("");
 }
 
-function L(zh, en, ko) {
-    return { "zh-Hans": zh, "zh-Hant": toHant(zh), en, ko: ko || en };
+function L(zh, en, ko, ru) {
+    return { "zh-Hans": zh, "zh-Hant": toHant(zh), en, ko: ko || en, ru: ru || en };
 }
 
 function N(s) { return `<WeaponDes_Num_Green>${s}</>`; }
@@ -215,31 +215,32 @@ function isValid(o) {
 }
 
 function translateTokens(core, isRanged) {
-    if (core === "Dash_F") return isRanged ? ["前冲射击", "Fwd Dash Shot", "전방 대시 사격"] : ["前冲攻击", "Fwd Dash Attack", "전방 대시 공격"];
-    if (core === "Dash_B") return isRanged ? ["后撤射击", "Back Dash Shot", "후방 대시 사격"] : ["后撤攻击", "Back Dash Attack", "후방 대시 공격"];
-    if (core === "Dash_L") return isRanged ? ["左闪射击", "Left Dash Shot", "좌측 회피 사격"] : ["左闪攻击", "Left Dash Attack", "좌측 회피 공격"];
-    if (core === "Dash_R") return isRanged ? ["右闪射击", "Right Dash Shot", "우측 회피 사격"] : ["右闪攻击", "Right Dash Attack", "우측 회피 공격"];
-    if (core === "DeflectCounter_Gunstock") return ["枪托反击", "Gunstock Counter", "개머리판 반격"];
-    if (core === "DeflectCounter_Gunstock_Perfect") return ["完美枪托反击", "Perfect Gunstock Counter", "완벽 개머리판 반격"];
-    if (core === "DeflectCounter_Normal") return ["格挡反击", "Deflect Counter", "방어 반격"];
-    if (core === "DeflectCounter_Perfect") return ["完美格挡反击", "Perfect Deflect Counter", "완벽 방어 반격"];
-    if (core === "BChargeAttack_Lv1") return ["一段蓄力斩", "Charged Slash Lv1", "1단계 차지 베기"];
-    if (core === "BChargeAttack_Lv2") return ["二段蓄力斩", "Charged Slash Lv2", "2단계 차지 베기"];
-    if (core === "BChargeAttack_Lv3") return ["三段蓄力斩", "Charged Slash Lv3", "3단계 차지 베기"];
+    if (core === "Dash_F") return isRanged ? ["前冲射击", "Fwd Dash Shot", "전방 대시 사격", "Выстрел в рывке вперёд"] : ["前冲攻击", "Fwd Dash Attack", "전방 대시 공격", "Рывок вперёд"];
+    if (core === "Dash_B") return isRanged ? ["后撤射击", "Back Dash Shot", "후방 대시 사격", "Выстрел с отскоком"] : ["后撤攻击", "Back Dash Attack", "후방 대시 공격", "Удар с отскоком"];
+    if (core === "Dash_L") return isRanged ? ["左闪射击", "Left Dash Shot", "좌측 회피 사격", "Выстрел в рывке влево"] : ["左闪攻击", "Left Dash Attack", "좌측 회피 공격", "Рывок влево"];
+    if (core === "Dash_R") return isRanged ? ["右闪射击", "Right Dash Shot", "우측 회피 사격", "Выстрел в рывке вправо"] : ["右闪攻击", "Right Dash Attack", "우측 회피 공격", "Рывок вправо"];
+    if (core === "DeflectCounter_Gunstock") return ["枪托反击", "Gunstock Counter", "개머리판 반격", "Контратака прикладом"];
+    if (core === "DeflectCounter_Gunstock_Perfect") return ["完美枪托反击", "Perfect Gunstock Counter", "완벽 개머리판 반격", "Идеал. контратака прикладом"];
+    if (core === "DeflectCounter_Normal") return ["格挡反击", "Deflect Counter", "방어 반격", "Контратака парир."];
+    if (core === "DeflectCounter_Perfect") return ["完美格挡反击", "Perfect Deflect Counter", "완벽 방어 반격", "Идеал. контратака"];
+    if (core === "BChargeAttack_Lv1") return ["一段蓄力斩", "Charged Slash Lv1", "1단계 차지 베기", "Заряж. удар Ур.1"];
+    if (core === "BChargeAttack_Lv2") return ["二段蓄力斩", "Charged Slash Lv2", "2단계 차지 베기", "Заряж. удар Ур.2"];
+    if (core === "BChargeAttack_Lv3") return ["三段蓄力斩", "Charged Slash Lv3", "3단계 차지 베기", "Заряж. удар Ур.3"];
 
     const rawParts = core.split(/[_\-]+/).filter(Boolean);
-    const zh = [], en = [], ko = [];
+    const zh = [], en = [], ko = [], ru = [];
     for (const p of rawParts) {
         if (WEAPON_NAME_TOKENS.has(p) || /^\d+$/.test(p)) continue;
         if (TOKEN_MAP[p]) {
             zh.push(TOKEN_MAP[p][0]);
             en.push(TOKEN_MAP[p][1]);
             ko.push(TOKEN_MAP[p][2] || TOKEN_MAP[p][1]);
+            ru.push(TOKEN_MAP[p][3] || TOKEN_MAP[p][1]);
             continue;
         }
         if (/^[AB]{2,}$/.test(p)) {
             const xy = p.replace(/A/g, "X").replace(/B/g, "Y");
-            zh.push(xy); en.push(xy); ko.push(xy);
+            zh.push(xy); en.push(xy); ko.push(xy); ru.push(xy);
             continue;
         }
         const subs = p.match(/[A-Z][a-z0-9]*|[a-z0-9]+/g) || [];
@@ -249,19 +250,21 @@ function translateTokens(core, isRanged) {
                 zh.push(TOKEN_MAP[sp][0]);
                 en.push(TOKEN_MAP[sp][1]);
                 ko.push(TOKEN_MAP[sp][2] || TOKEN_MAP[sp][1]);
+                ru.push(TOKEN_MAP[sp][3] || TOKEN_MAP[sp][1]);
             }
         }
     }
     const dedup = (arr) => arr.filter((x, i) => i === 0 || arr[i - 1] !== x);
-    const dz = dedup(zh), de = dedup(en), dk = dedup(ko);
-    if (dz.length === 0) return ["特殊招式", "Special Move", "특수 기술"];
+    const dz = dedup(zh), de = dedup(en), dk = dedup(ko), dr = dedup(ru);
+    if (dz.length === 0) return ["特殊招式", "Special Move", "특수 기술", "Особый приём"];
     let zStr = dz.join("").replace(/前冲冲刺/g, "前冲").replace(/后撤冲刺/g, "后撤").replace(/攻击攻击/g, "攻击").replace(/射击射击/g, "射击");
     let eStr = de.join(" ");
     let kStr = dk.join(" ").replace(/공격 공격/g, "공격").replace(/사격 사격/g, "사격");
+    let rStr = dr.join(" ").replace(/Атака Атака/g, "Атака").replace(/Выстрел Выстрел/g, "Выстрел");
     if (isRanged && (zStr === "普通" || zStr === "蓄力" || zStr === "满蓄")) {
-        zStr += "射击"; eStr += " Shot"; kStr += " 사격";
+        zStr += "射击"; eStr += " Shot"; kStr += " 사격"; rStr += " выстрел";
     }
-    return [zStr, eStr, kStr];
+    return [zStr, eStr, kStr, rStr];
 }
 
 function cleanBulletCore(relPath) {
@@ -282,46 +285,46 @@ function extractMove(relPath, isRanged) {
     const name = relPath.split("/").pop() || "";
     if (/\/(ExE|SimpleExE|EXE)\/|SimpleExecution|_BEx_|_BEd_/.test(relPath)) return null;
 
-    let subZh = "", subEn = "", subKo = "", cat = "combo";
-    if (relPath.includes("/Enhanced/") || name.includes("_Enhanced_")) { subZh = "强化·"; subEn = "Enhanced "; subKo = "강화·"; cat = "enhanced"; }
-    else if (relPath.includes("/Wave/") || name.includes("_Wave_")) { subZh = "剑气·"; subEn = "Wave "; subKo = "검기·"; cat = "enhanced"; }
-    else if (relPath.includes("/Fire/")) { subZh = "烈焰·"; subEn = "Fire "; subKo = "화염·"; }
-    else if (relPath.includes("/Ice/")) { subZh = "寒冰·"; subEn = "Ice "; subKo = "한빙·"; }
-    else if (relPath.includes("/Physics/")) { subZh = "钢刃·"; subEn = "Steel "; subKo = "강철·"; }
-    else if (relPath.includes("/FengLeiState/")) { subZh = "风雷·"; subEn = "Storm "; subKo = "풍뢰·"; cat = "enhanced"; }
-    else if (relPath.includes("/ReleaseAttack/")) { subZh = "释放·"; subEn = "Release "; subKo = "해방·"; cat = "enhanced"; }
-    else if (relPath.includes("/Snake/")) { subZh = "蛇灵·"; subEn = "Serpent "; subKo = "사령·"; cat = "enhanced"; }
+    let subZh = "", subEn = "", subKo = "", subRu = "", cat = "combo";
+    if (relPath.includes("/Enhanced/") || name.includes("_Enhanced_")) { subZh = "强化·"; subEn = "Enhanced "; subKo = "강화·"; subRu = "Усил. "; cat = "enhanced"; }
+    else if (relPath.includes("/Wave/") || name.includes("_Wave_")) { subZh = "剑气·"; subEn = "Wave "; subKo = "검기·"; subRu = "Волна "; cat = "enhanced"; }
+    else if (relPath.includes("/Fire/")) { subZh = "烈焰·"; subEn = "Fire "; subKo = "화염·"; subRu = "Огонь "; }
+    else if (relPath.includes("/Ice/")) { subZh = "寒冰·"; subEn = "Ice "; subKo = "한빙·"; subRu = "Стужа "; }
+    else if (relPath.includes("/Physics/")) { subZh = "钢刃·"; subEn = "Steel "; subKo = "강철·"; subRu = "Сталь "; }
+    else if (relPath.includes("/FengLeiState/")) { subZh = "风雷·"; subEn = "Storm "; subKo = "풍뢰·"; subRu = "Буря "; cat = "enhanced"; }
+    else if (relPath.includes("/ReleaseAttack/")) { subZh = "释放·"; subEn = "Release "; subKo = "해방·"; subRu = "Выброс "; cat = "enhanced"; }
+    else if (relPath.includes("/Snake/")) { subZh = "蛇灵·"; subEn = "Serpent "; subKo = "사령·"; subRu = "Змея "; cat = "enhanced"; }
 
     let core = cleanBulletCore(relPath);
     if (!core) return null;
     core = core.replace("A_Dash_Draw", "A_DashDraw").replace("B_Dash_Draw", "B_DashDraw");
 
-    if (/^A+$/.test(core)) { const n = core.length; return { cat: "basic", zh: `${subZh}轻${n} (${"X".repeat(n)})`, en: `${subEn}Light ${n} (${"X".repeat(n)})`, ko: `${subKo}약공격 ${n} (${"X".repeat(n)})`, sort: 100 + n }; }
-    if (/^B+$/.test(core)) { const n = core.length; return { cat: "basic", zh: `${subZh}重${n} (${"Y".repeat(n)})`, en: `${subEn}Heavy ${n} (${"Y".repeat(n)})`, ko: `${subKo}강공격 ${n} (${"Y".repeat(n)})`, sort: 200 + n }; }
-    if (/^[AB]+$/.test(core)) { const xy = core.replace(/A/g, "X").replace(/B/g, "Y"); return { cat: "variant", zh: `${subZh}${xy}`, en: `${subEn}${xy}`, ko: `${subKo}${xy}`, sort: 300 + core.length }; }
+    if (/^A+$/.test(core)) { const n = core.length; return { cat: "basic", zh: `${subZh}轻${n} (${"X".repeat(n)})`, en: `${subEn}Light ${n} (${"X".repeat(n)})`, ko: `${subKo}약공격 ${n} (${"X".repeat(n)})`, ru: `${subRu}Лёгкая ${n} (${"X".repeat(n)})`, sort: 100 + n }; }
+    if (/^B+$/.test(core)) { const n = core.length; return { cat: "basic", zh: `${subZh}重${n} (${"Y".repeat(n)})`, en: `${subEn}Heavy ${n} (${"Y".repeat(n)})`, ko: `${subKo}강공격 ${n} (${"Y".repeat(n)})`, ru: `${subRu}Тяжёлая ${n} (${"Y".repeat(n)})`, sort: 200 + n }; }
+    if (/^[AB]+$/.test(core)) { const xy = core.replace(/A/g, "X").replace(/B/g, "Y"); return { cat: "variant", zh: `${subZh}${xy}`, en: `${subEn}${xy}`, ko: `${subKo}${xy}`, ru: `${subRu}${xy}`, sort: 300 + core.length }; }
     if (/^(C|CA|CB|CC|CCC|Skill|Special|SpecialAttack)$/.test(core)) {
         const cm = {
-            CA: ["特殊轻派生", "Special Light", "특수 약공격 파생"],
-            CB: ["特殊重派生", "Special Heavy", "특수 강공격 파생"],
-            CC: ["特殊二连斩", "Special Combo 2", "특수 2연격"],
-            CCC: ["特殊三连斩", "Special Combo 3", "특수 3연격"],
+            CA: ["特殊轻派生", "Special Light", "특수 약공격 파생", "Особый лёгкий"],
+            CB: ["特殊重派生", "Special Heavy", "특수 강공격 파생", "Особый тяжёлый"],
+            CC: ["特殊二连斩", "Special Combo 2", "특수 2연격", "Особое комбо 2"],
+            CCC: ["特殊三连斩", "Special Combo 3", "특수 3연격", "Особое комбо 3"],
         };
-        const triple = cm[core] || ["特殊技", "Special", "특수기"];
-        return { cat: "skill", zh: `${subZh}${triple[0]}`, en: `${subEn}${triple[1]}`, ko: `${subKo}${triple[2]}`, sort: 400 + core.length };
+        const quad = cm[core] || ["特殊技", "Special", "특수기", "Особый приём"];
+        return { cat: "skill", zh: `${subZh}${quad[0]}`, en: `${subEn}${quad[1]}`, ko: `${subKo}${quad[2]}`, ru: `${subRu}${quad[3]}`, sort: 400 + core.length };
     }
-    if (core === "A_Dash") return { cat: "special", zh: `${subZh}疾跑轻击`, en: `${subEn}Sprint Light`, ko: `${subKo}질주 약공격`, sort: 510 };
-    if (core === "B_Dash") return { cat: "special", zh: `${subZh}疾跑重击`, en: `${subEn}Sprint Heavy`, ko: `${subKo}질주 강공격`, sort: 511 };
-    if (core === "A_Draw") return { cat: "special", zh: `${subZh}拔刀轻击`, en: `${subEn}Draw Light`, ko: `${subKo}발도 약공격`, sort: 512 };
-    if (core === "B_Draw") return { cat: "special", zh: `${subZh}拔刀重击`, en: `${subEn}Draw Heavy`, ko: `${subKo}발도 강공격`, sort: 513 };
-    if (core === "A_DashDraw") return { cat: "special", zh: `${subZh}疾跑拔刀轻击`, en: `${subEn}Sprint Draw Light`, ko: `${subKo}질주 발도 약공격`, sort: 514 };
-    if (core === "B_DashDraw") return { cat: "special", zh: `${subZh}疾跑拔刀重击`, en: `${subEn}Sprint Draw Heavy`, ko: `${subKo}질주 발도 강공격`, sort: 515 };
-    if (core === "A_Snap" || core === "A_DashSnap") return { cat: "special", zh: `${subZh}闪避轻击`, en: `${subEn}Dodge Light`, ko: `${subKo}회피 약공격`, sort: 516 };
-    if (core === "B_Snap" || core === "B_DashSnap") return { cat: "special", zh: `${subZh}闪避重击`, en: `${subEn}Dodge Heavy`, ko: `${subKo}회피 강공격`, sort: 517 };
-    if (core === "SWT") return { cat: "special", zh: `${subZh}切武器攻击`, en: `${subEn}Switch Attack`, ko: `${subKo}무기 전환 공격`, sort: 518 };
-    if (relPath.includes("PerfectDodge") || core === "PerfectDodge") return { cat: "special", zh: `${subZh}完美闪避反击`, en: `${subEn}Perfect Dodge Counter`, ko: `${subKo}완벽 회피 반격`, sort: 520 };
+    if (core === "A_Dash") return { cat: "special", zh: `${subZh}疾跑轻击`, en: `${subEn}Sprint Light`, ko: `${subKo}질주 약공격`, ru: `${subRu}Лёгкая с разбега`, sort: 510 };
+    if (core === "B_Dash") return { cat: "special", zh: `${subZh}疾跑重击`, en: `${subEn}Sprint Heavy`, ko: `${subKo}질주 강공격`, ru: `${subRu}Тяжёлая с разбега`, sort: 511 };
+    if (core === "A_Draw") return { cat: "special", zh: `${subZh}拔刀轻击`, en: `${subEn}Draw Light`, ko: `${subKo}발도 약공격`, ru: `${subRu}Лёгкое обнажение`, sort: 512 };
+    if (core === "B_Draw") return { cat: "special", zh: `${subZh}拔刀重击`, en: `${subEn}Draw Heavy`, ko: `${subKo}발도 강공격`, ru: `${subRu}Тяжёлое обнажение`, sort: 513 };
+    if (core === "A_DashDraw") return { cat: "special", zh: `${subZh}疾跑拔刀轻击`, en: `${subEn}Sprint Draw Light`, ko: `${subKo}질주 발도 약공격`, ru: `${subRu}Лёгкое обнаж. с разбега`, sort: 514 };
+    if (core === "B_DashDraw") return { cat: "special", zh: `${subZh}疾跑拔刀重击`, en: `${subEn}Sprint Draw Heavy`, ko: `${subKo}질주 발도 강공격`, ru: `${subRu}Тяжёлое обнаж. с разбега`, sort: 515 };
+    if (core === "A_Snap" || core === "A_DashSnap") return { cat: "special", zh: `${subZh}闪避轻击`, en: `${subEn}Dodge Light`, ko: `${subKo}회피 약공격`, ru: `${subRu}Лёгкая после уклонения`, sort: 516 };
+    if (core === "B_Snap" || core === "B_DashSnap") return { cat: "special", zh: `${subZh}闪避重击`, en: `${subEn}Dodge Heavy`, ko: `${subKo}회피 강공격`, ru: `${subRu}Тяжёлая после уклонения`, sort: 517 };
+    if (core === "SWT") return { cat: "special", zh: `${subZh}切武器攻击`, en: `${subEn}Switch Attack`, ko: `${subKo}무기 전환 공격`, ru: `${subRu}Атака при смене`, sort: 518 };
+    if (relPath.includes("PerfectDodge") || core === "PerfectDodge") return { cat: "special", zh: `${subZh}完美闪避反击`, en: `${subEn}Perfect Dodge Counter`, ko: `${subKo}완벽 회피 반격`, ru: `${subRu}Идеал. уклонение (контр.)`, sort: 520 };
 
-    const [zLbl, eLbl, kLbl] = translateTokens(core, isRanged);
-    return { cat: cat === "combo" ? "special" : cat, zh: `${subZh}${zLbl}`, en: `${subEn}${eLbl}`, ko: `${subKo}${kLbl}`, sort: 600 };
+    const [zLbl, eLbl, kLbl, rLbl] = translateTokens(core, isRanged);
+    return { cat: cat === "combo" ? "special" : cat, zh: `${subZh}${zLbl}`, en: `${subEn}${eLbl}`, ko: `${subKo}${kLbl}`, ru: `${subRu}${rLbl}`, sort: 600 };
 }
 
 function readDamageDataMap(bulletObj) {
@@ -343,26 +346,30 @@ function readDamageDataMap(bulletObj) {
     return { phys, anger, elem };
 }
 
-function fmtLine(g, elemZh, elemEn, elemKo) {
+function fmtLine(g, elemZh, elemEn, elemKo, elemRu) {
     const zhHits = g.hits > 1 ? `(${N(String(g.hits))}段)` : "";
     const enHits = g.hits > 1 ? ` (${N(String(g.hits))} hits)` : "";
     const koHits = g.hits > 1 ? ` (${N(String(g.hits))}타)` : "";
-    const zp = [], ep = [], kp = [];
-    if (g.phys > 0) { zp.push(`伤害 ${N(fmtPct(g.phys))}`); ep.push(`DMG ${N(fmtPct(g.phys))}`); kp.push(`피해 ${N(fmtPct(g.phys))}`); }
-    if (g.anger > 0) { zp.push(`杀气 ${N(fmtPct(g.anger))}`); ep.push(`Sha-Chi ${N(fmtPct(g.anger))}`); kp.push(`살기 ${N(fmtPct(g.anger))}`); }
+    const ruHits = g.hits > 1 ? ` (${N(String(g.hits))} уд.)` : "";
+    const zp = [], ep = [], kp = [], rp = [];
+    if (g.phys > 0) { zp.push(`伤害 ${N(fmtPct(g.phys))}`); ep.push(`DMG ${N(fmtPct(g.phys))}`); kp.push(`피해 ${N(fmtPct(g.phys))}`); rp.push(`Урон ${N(fmtPct(g.phys))}`); }
+    if (g.anger > 0) { zp.push(`杀气 ${N(fmtPct(g.anger))}`); ep.push(`Sha-Chi ${N(fmtPct(g.anger))}`); kp.push(`살기 ${N(fmtPct(g.anger))}`); rp.push(`Ша-Ци ${N(fmtPct(g.anger))}`); }
     if (elemZh && g.elem > 0) {
         zp.push(`${elemZh} ${N(fmtPct(g.elem))}`);
         ep.push(`${elemEn} ${N(fmtPct(g.elem))}`);
         kp.push(`${elemKo || elemEn} ${N(fmtPct(g.elem))}`);
+        rp.push(`${elemRu || elemEn} ${N(fmtPct(g.elem))}`);
     } else if (g.elem > 0 && Math.abs(g.elem - g.phys) > 0.01) {
         zp.push(`异常 ${N(fmtPct(g.elem))}`);
         ep.push(`Status ${N(fmtPct(g.elem))}`);
         kp.push(`상태이상 ${N(fmtPct(g.elem))}`);
+        rp.push(`Эффект ${N(fmtPct(g.elem))}`);
     }
     return [
         `${g.zh}${zhHits}：${zp.join(" / ")}`,
         `${g.en}${enHits}: ${ep.join(" / ")}`,
         `${g.ko || g.en}${koHits}: ${kp.join(" / ")}`,
+        `${g.ru || g.en}${ruHits}: ${rp.join(" / ")}`,
     ];
 }
 
@@ -405,7 +412,7 @@ function readLiveWeaponBullets(equipKey, logFn) {
             const gKey = `${parsed.cat}|${parsed.zh}`;
             let g = groups.get(gKey);
             if (!g) {
-                g = { cat: parsed.cat, zh: parsed.zh, en: parsed.en, ko: parsed.ko, sort: parsed.sort, hits: 0, phys: 0, anger: 0, elem: 0 };
+                g = { cat: parsed.cat, zh: parsed.zh, en: parsed.en, ko: parsed.ko, ru: parsed.ru, sort: parsed.sort, hits: 0, phys: 0, anger: 0, elem: 0 };
                 groups.set(gKey, g);
             }
             g.hits += 1;
@@ -425,14 +432,14 @@ function readLiveWeaponBullets(equipKey, logFn) {
         if (skills.length > 0) {
             const m = equipKey.match(/WeaponDes_(\d+)/);
             if (m) {
-                const zItems = [], eItems = [], kItems = [];
+                const zItems = [], eItems = [], kItems = [], rItems = [];
                 for (const g of skills) {
-                    const [zl, el, kl] = fmtLine(g, spec.elemZh, spec.elemEn, spec.elemKo);
-                    zItems.push(zl); eItems.push(el); kItems.push(kl);
+                    const [zl, el, kl, rl] = fmtLine(g, spec.elemZh, spec.elemEn, spec.elemKo, spec.elemRu);
+                    zItems.push(zl); eItems.push(el); kItems.push(kl); rItems.push(rl);
                 }
                 skillPatch = {
                     key: `Weapon_FunctionDes_${m[1]}_Skill`,
-                    patch: { kind: "skill", append: L(`（${zItems.join("；")}）`, ` (${eItems.join("; ")})`, ` (${kItems.join("; ")})`) },
+                    patch: { kind: "skill", append: L(`（${zItems.join("；")}）`, ` (${eItems.join("; ")})`, ` (${kItems.join("; ")})`, ` (${rItems.join("; ")})`) },
                 };
             }
         }
@@ -442,33 +449,33 @@ function readLiveWeaponBullets(equipKey, logFn) {
     const entries = [];
     if (spec.isShaChi) {
         all.sort((a, b) => a.sort - b.sort || a.zh.localeCompare(b.zh));
-        const zLines = [], eLines = [], kLines = [];
+        const zLines = [], eLines = [], kLines = [], rLines = [];
         for (const g of all.slice(0, 20)) {
-            const [zl, el, kl] = fmtLine(g, spec.elemZh, spec.elemEn, spec.elemKo);
-            zLines.push(zl); eLines.push(el); kLines.push(kl);
+            const [zl, el, kl, rl] = fmtLine(g, spec.elemZh, spec.elemEn, spec.elemKo, spec.elemRu);
+            zLines.push(zl); eLines.push(el); kLines.push(kl); rLines.push(rl);
         }
         if (zLines.length > 0) {
             entries.push({
-                title: L("影之武装招式倍率", "Shadow Weapon Move Multipliers", "그림자 무장 기술 배율"),
-                desc: L(zLines.join("\n"), eLines.join("\n"), kLines.join("\n")),
+                title: L("影之武装招式倍率", "Shadow Weapon Move Multipliers", "그림자 무장 기술 배율", "Множители Фантомного когтя"),
+                desc: L(zLines.join("\n"), eLines.join("\n"), kLines.join("\n"), rLines.join("\n")),
             });
         }
     } else {
         const cats = [
-            ["basic", "基础连段倍率", "Basic Combo Multipliers", "기본 콤보 배율"],
-            ["variant", "派生变招倍率", "Combo Variant Multipliers", "파생 콤보 배율"],
-            ["special", "冲刺 / 拔刀 / 特殊派生倍率", "Dash / Draw / Special Multipliers", "대시 / 발도 / 특수 파생 배율"],
-            ["enhanced", "强化 / 剑气派生倍率", "Enhanced / Wave Multipliers", "강화 / 검기 파생 배율"],
+            ["basic", "基础连段倍率", "Basic Combo Multipliers", "기본 콤보 배율", "Множители базового комбо"],
+            ["variant", "派生变招倍率", "Combo Variant Multipliers", "파생 콤보 배율", "Множители вариаций комбо"],
+            ["special", "冲刺 / 拔刀 / 特殊派生倍率", "Dash / Draw / Special Multipliers", "대시 / 발도 / 특수 파생 배율", "Рывок / Обнажение / Особые приёмы"],
+            ["enhanced", "强化 / 剑气派生倍率", "Enhanced / Wave Multipliers", "강화 / 검기 파생 배율", "Усиленные / Волны клинка"],
         ];
-        for (const [ck, tz, te, tk] of cats) {
+        for (const [ck, tz, te, tk, tr] of cats) {
             const items = all.filter((g) => g.cat === ck).sort((a, b) => a.sort - b.sort || a.zh.localeCompare(b.zh));
             if (items.length === 0) continue;
-            const zLines = [], eLines = [], kLines = [];
+            const zLines = [], eLines = [], kLines = [], rLines = [];
             for (const g of items.slice(0, 26)) {
-                const [zl, el, kl] = fmtLine(g, spec.elemZh, spec.elemEn, spec.elemKo);
-                zLines.push(zl); eLines.push(el); kLines.push(kl);
+                const [zl, el, kl, rl] = fmtLine(g, spec.elemZh, spec.elemEn, spec.elemKo, spec.elemRu);
+                zLines.push(zl); eLines.push(el); kLines.push(kl); rLines.push(rl);
             }
-            entries.push({ title: L(tz, te, tk), desc: L(zLines.join("\n"), eLines.join("\n"), kLines.join("\n")) });
+            entries.push({ title: L(tz, te, tk, tr), desc: L(zLines.join("\n"), eLines.join("\n"), kLines.join("\n"), rLines.join("\n")) });
         }
     }
 
@@ -509,32 +516,34 @@ function readLiveUpgradeValues(weaponID, isMain, backpackSubsystem, liveLocPatch
         if (!u1 || !u2 || !u3 || !Number.isFinite(u1.val)) return;
 
         const t = u1.tag;
-        const makeTier3 = (zhLbl, enLbl, koLbl, f1, f2, f3, isSec = false) => {
+        const makeTier3 = (zhLbl, enLbl, koLbl, ruLbl, f1, f2, f3, isSec = false) => {
             const z1 = isSec ? `${f1}秒` : f1, z2 = isSec ? `${f2}秒` : f2, z3 = isSec ? `${f3}秒` : f3;
             const e1 = isSec ? `${f1}s` : f1, e2 = isSec ? `${f2}s` : f2, e3 = isSec ? `${f3}s` : f3;
             const k1 = isSec ? `${f1}초` : f1, k2 = isSec ? `${f2}초` : f2, k3 = isSec ? `${f3}초` : f3;
+            const r1 = isSec ? `${f1}с` : f1, r2 = isSec ? `${f2}с` : f2, r3 = isSec ? `${f3}с` : f3;
             liveLocPatches[descKey] = {
                 kind: "upgrade",
                 append: L(
                     `（${zhLbl} {&${N(z1)}|${N(z2)}|${N(z3)}}，满级 ${N(z3)}）`,
                     ` (${enLbl} {&${N(e1)}|${N(e2)}|${N(e3)}}, Max ${N(e3)})`,
-                    ` (${koLbl} {&${N(k1)}|${N(k2)}|${N(k3)}}, 최대 ${N(k3)})`
+                    ` (${koLbl} {&${N(k1)}|${N(k2)}|${N(k3)}}, 최대 ${N(k3)})`,
+                    ` (${ruLbl} {&${N(r1)}|${N(r2)}|${N(r3)}}, макс. ${N(r3)})`
                 ),
             };
         };
 
-        if (t.endsWith("BleedIncrement")) makeTier3("流血积累速度提升", "Bleed Buildup", "출혈 누적 속도 증가", `+${fmtPct(u1.val)}`, `+${fmtPct(u2.val)}`, `+${fmtPct(u3.val)}`);
-        else if (t.endsWith("ChargeAttackMultiplier")) makeTier3("蓄力攻击伤害提升", "Charged Attack DMG", "차지 공격 피해 증가", `+${fmtPct(u1.val - 1)}`, `+${fmtPct(u2.val - 1)}`, `+${fmtPct(u3.val - 1)}`);
-        else if (t.endsWith("ComboMultiplier")) makeTier3("每段伤害增幅", "DMG Ramp per Hit", "타격당 피해 증가", `+${fmtPct(u1.val)}`, `+${fmtPct(u2.val)}`, `+${fmtPct(u3.val)}`);
-        else if (t.endsWith("StrongDefense")) makeTier3("蓄力受伤害降低", "Charge DMG Taken", "차지 중 받는 피해 감소", `-${fmtPct(1 - u1.val)}`, `-${fmtPct(1 - u2.val)}`, `-${fmtPct(1 - u3.val)}`);
-        else if (t.endsWith("BleedAttack")) makeTier3("对异常状态敌人伤害提升", "DMG vs Status Targets", "상태이상 적 대상 피해 증가", `+${fmtPct(u1.val - 1)}`, `+${fmtPct(u2.val - 1)}`, `+${fmtPct(u3.val - 1)}`);
-        else if (t.endsWith("GreenFireAttackMultiplier")) makeTier3("磷火降低敌人攻击力", "Enemy ATK Reduction", "인화 적 공격력 감소", `-${fmtPct(1 - u1.val)}`, `-${fmtPct(1 - u2.val)}`, `-${fmtPct(1 - u3.val)}`);
-        else if (t.endsWith("SummonLifeTime")) makeTier3("召唤物在场时间", "Summon Duration", "소환물 지속 시간", `${u1.val}`, `${u2.val}`, `${u3.val}`, true);
-        else if (t.endsWith("ProjectileDuration")) makeTier3("光轮剑持续时间", "Halo Blade Duration", "광륜검 지속 시간", `${u1.val}`, `${u2.val}`, `${u3.val}`, true);
-        else if (t.endsWith("Time")) makeTier3("场域持续时间", "Field Duration", "영역 지속 시간", `${u1.val}`, `${u2.val}`, `${u3.val}`, true);
-        else if (t.endsWith("FlameDamage")) makeTier3("地面火焰伤害倍率", "Fire Ground DMG", "지면 화염 피해 배율", fmtPct(u1.val), fmtPct(u2.val), fmtPct(u3.val));
-        else if (t.endsWith("BlueBulletDamage")) makeTier3("蓝/红音刃伤害提升", "Blue/Red Note DMG", "푸른/붉은 음인 피해 증가", `+${fmtPct(u1.val - 1)}`, `+${fmtPct(u2.val - 1)}`, `+${fmtPct(u3.val - 1)}`);
-        else if (t.endsWith("Physical") && descKey.includes("010_10")) makeTier3("最佳射程伤害/杀气/削韧提升", "Sweet-spot DMG/Sha-Chi/Poise", "최적 사거리 피해/살기/강인도 증가", `+${fmtPct(u1.val - 1)}`, `+${fmtPct(u2.val - 1)}`, `+${fmtPct(u3.val - 1)}`);
+        if (t.endsWith("BleedIncrement")) makeTier3("流血积累速度提升", "Bleed Buildup", "출혈 누적 속도 증가", "Накопление кровотечения", `+${fmtPct(u1.val)}`, `+${fmtPct(u2.val)}`, `+${fmtPct(u3.val)}`);
+        else if (t.endsWith("ChargeAttackMultiplier")) makeTier3("蓄力攻击伤害提升", "Charged Attack DMG", "차지 공격 피해 증가", "Урон заряж. атаки", `+${fmtPct(u1.val - 1)}`, `+${fmtPct(u2.val - 1)}`, `+${fmtPct(u3.val - 1)}`);
+        else if (t.endsWith("ComboMultiplier")) makeTier3("每段伤害增幅", "DMG Ramp per Hit", "타격당 피해 증가", "Прирост урона за удар", `+${fmtPct(u1.val)}`, `+${fmtPct(u2.val)}`, `+${fmtPct(u3.val)}`);
+        else if (t.endsWith("StrongDefense")) makeTier3("蓄力受伤害降低", "Charge DMG Taken", "차지 중 받는 피해 감소", "Получ. урон при заряде", `-${fmtPct(1 - u1.val)}`, `-${fmtPct(1 - u2.val)}`, `-${fmtPct(1 - u3.val)}`);
+        else if (t.endsWith("BleedAttack")) makeTier3("对异常状态敌人伤害提升", "DMG vs Status Targets", "상태이상 적 대상 피해 증가", "Урон по целям с эффектом", `+${fmtPct(u1.val - 1)}`, `+${fmtPct(u2.val - 1)}`, `+${fmtPct(u3.val - 1)}`);
+        else if (t.endsWith("GreenFireAttackMultiplier")) makeTier3("磷火降低敌人攻击力", "Enemy ATK Reduction", "인화 적 공격력 감소", "Сниж. атаки врага", `-${fmtPct(1 - u1.val)}`, `-${fmtPct(1 - u2.val)}`, `-${fmtPct(1 - u3.val)}`);
+        else if (t.endsWith("SummonLifeTime")) makeTier3("召唤物在场时间", "Summon Duration", "소환물 지속 시간", "Длит. призыва", `${u1.val}`, `${u2.val}`, `${u3.val}`, true);
+        else if (t.endsWith("ProjectileDuration")) makeTier3("光轮剑持续时间", "Halo Blade Duration", "광륜검 지속 시간", "Длит. Сияющего диска", `${u1.val}`, `${u2.val}`, `${u3.val}`, true);
+        else if (t.endsWith("Time")) makeTier3("场域持续时间", "Field Duration", "영역 지속 시간", "Длит. поля", `${u1.val}`, `${u2.val}`, `${u3.val}`, true);
+        else if (t.endsWith("FlameDamage")) makeTier3("地面火焰伤害倍率", "Fire Ground DMG", "지면 화염 피해 배율", "Урон огня на земле", fmtPct(u1.val), fmtPct(u2.val), fmtPct(u3.val));
+        else if (t.endsWith("BlueBulletDamage")) makeTier3("蓝/红音刃伤害提升", "Blue/Red Note DMG", "푸른/붉은 음인 피해 증가", "Синий/Красный Звуковой клинок", `+${fmtPct(u1.val - 1)}`, `+${fmtPct(u2.val - 1)}`, `+${fmtPct(u3.val - 1)}`);
+        else if (t.endsWith("Physical") && descKey.includes("010_10")) makeTier3("最佳射程伤害/杀气/削韧提升", "Sweet-spot DMG/Sha-Chi/Poise", "최적 사거리 피해/살기/강인도 증가", "Опт. дистанция Урон/Ша-Ци/Стойк.", `+${fmtPct(u1.val - 1)}`, `+${fmtPct(u2.val - 1)}`, `+${fmtPct(u3.val - 1)}`);
     } catch (e) {}
 }
 
