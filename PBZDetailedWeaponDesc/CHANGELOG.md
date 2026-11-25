@@ -1,5 +1,8 @@
 # Changelog — PBZDetailedWeaponDesc (Standard Edition)
 
+## v1.3.1
+- Fixed a bullet-name parser bug where `"B"` in `WEAPON_NAME_TOKENS` accidentally stripped the standalone Heavy 1 (`Y`) move (`重1 (Y)` / `Heavy 1 (Y)` / `강공격 1 (Y)`) as well as the `B_` prefix on Sprint Heavy / Draw Heavy / Dodge Heavy moves across weapons.
+
 ## v1.3.0
 - Added full authentic **Korean (`ko`)** localization automatically following the game's active UI language (`GetCurrentCulture()`), aligned strictly with official *Phantom Blade Zero* Korean terminology extracted from `ko/Game.locres` (covering all 100 upgrade/passive/skill patches, all 48 weapons & Shadow Weapons move tables, and `PBZ Mods Menu` labels).
 

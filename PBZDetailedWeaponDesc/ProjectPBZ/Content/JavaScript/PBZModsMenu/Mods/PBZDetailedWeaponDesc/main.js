@@ -1,6 +1,6 @@
 "use strict";
 
-// PBZDetailedWeaponDesc v1.3.0
+// PBZDetailedWeaponDesc v1.3.1
 // Enhances Phantom Blade Zero weapon & shadow weapon (影之武装) descriptions with exact engine-verified
 // multipliers, upgrade percentages (including locked preview tiers), erosion/burst mechanics, and
 // clean localized combo/variant move tables.
@@ -17,7 +17,7 @@ const LOC_PATCHES = DATA.LOC_PATCHES || {};
 const EXTRA_MOVES_BY_WEAPON = DATA.EXTRA_MOVES_BY_WEAPON || {};
 
 const MOD_ID = "PBZDetailedWeaponDesc";
-const VERSION = "1.3.0";
+const VERSION = "1.3.1";
 const SETTINGS_FILE = "PBZDetailedWeaponDesc.txt";
 const LOG_FILE = "PBZDetailedWeaponDesc.log";
 

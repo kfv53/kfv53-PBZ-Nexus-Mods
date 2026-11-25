@@ -71,7 +71,7 @@ const WEAPON_DIR_MAP = {
 };
 
 const WEAPON_NAME_TOKENS = new Set([
-    "Hun", "BulletData", "BD", "B", "EB", "YuuBlade", "YaoJu", "HeiMoShang", "TangBlade", "Tang",
+    "Hun", "BulletData", "BD", "EB", "YuuBlade", "YaoJu", "HeiMoShang", "TangBlade", "Tang",
     "DoubleBlade", "DoubleBalde", "Double", "LongBlade", "Long", "Iron", "IronBlade", "LuanYing",
     "ChaosBlade", "Chaos", "BronzeSword", "ChiZheCanJian", "SlitheringSword", "BaiShanFengLeiJian",
     "FengLeiJian", "ZiMingJian", "ZhanMaBlade", "ZhanMa", "ChiRen", "XieHuo", "Jigsaw", "JigSaw",

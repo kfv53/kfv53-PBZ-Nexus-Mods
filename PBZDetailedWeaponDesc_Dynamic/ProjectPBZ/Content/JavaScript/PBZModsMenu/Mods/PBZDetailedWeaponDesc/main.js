@@ -1,6 +1,6 @@
 "use strict";
 
-// PBZDetailedWeaponDesc v1.3.0-Dynamic (Dynamic Live-Read Edition — Optional Mod-Compatible Build)
+// PBZDetailedWeaponDesc v1.3.1-Dynamic (Dynamic Live-Read Edition — Optional Mod-Compatible Build)
 // Lazy-reads live BulletData.DamageData and UpLevelData.GEUIDataArray directly from game memory
 // when viewing a weapon, automatically reflecting changes from third-party weapon/rebalance mods.
 // Falls back cleanly to static weapon_data.js whenever needed.
@@ -18,7 +18,7 @@ const STATIC_EXTRA_MOVES = DATA.EXTRA_MOVES_BY_WEAPON || {};
 const liveLocPatches = {};
 
 const MOD_ID = "PBZDetailedWeaponDesc";
-const VERSION = "1.3.0-Dynamic";
+const VERSION = "1.3.1-Dynamic";
 const SETTINGS_FILE = "PBZDetailedWeaponDesc.txt";
 const LOG_FILE = "PBZDetailedWeaponDesc.log";
 // Defer appending extra move tables briefly so polling-based weapon mods (e.g. PBZCrimsonVow)
