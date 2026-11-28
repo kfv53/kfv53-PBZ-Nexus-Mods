@@ -110,8 +110,6 @@ function registerMenu() {
         "zh-Hans": zhHans,
         "zh-Hant": zhHant || zhHans,
     });
-    const menu = globalThis.PBZModsMenu || (globalThis.PBZModsMenu = []);
-    const idx = menu.findIndex((m) => m && m.id === MOD_ID);
     const entry = {
         id: MOD_ID,
         title: label("Free Revert (1.03+)", "免费回退重置 (1.03+)", "免費回退重置 (1.03+)"),
@@ -173,8 +171,14 @@ function registerMenu() {
             }
         },
     };
-    if (idx >= 0) menu[idx] = entry;
-    else menu.push(entry);
+    const menu = globalThis.PBZModsMenu;
+    if (menu && typeof menu.register === "function") {
+        menu.register(entry);
+    } else if (menu && typeof menu.push === "function") {
+        menu.push(entry);
+    } else {
+        globalThis.PBZModsMenu = [entry];
+    }
 }
 
 // ---------------------------------------------------------------------------
