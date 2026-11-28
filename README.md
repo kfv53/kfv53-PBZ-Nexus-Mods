@@ -19,6 +19,8 @@
 | [**PBZDetailedWeaponDesc_Dynamic**](./PBZDetailedWeaponDesc_Dynamic) | `v1.4.0-Dynamic` | **武器与影之武装详细倍率扩展（动态兼容可选版）**：N 网 Optional File，替代主文件使用。专为安装第三方武器/平衡修改 Mod 的玩家设计：按需实时读取内存中的 `BulletData` 与升级数值，并延迟追加底部出招表，避免覆盖其他武器 Mod 的自定义词条，同样支持简/繁/英/韩/俄五语与原生动态按键图标。 | [CHANGELOG](./PBZDetailedWeaponDesc_Dynamic/CHANGELOG.md) |
 | [**PBZEnemyStatusBars**](./PBZEnemyStatusBars) | `v1.3.4` | **敌人与 Boss 异常状态积累与倒计时指示环**：在普通敌人和 Boss 血条上方以游戏原生 270° 圆形进度环与图标实时展示 7 种异常状态（流血、中毒、燃烧、冰冻、感电、潮湿、混沌）的积累进度与 DoT 剩余时间，支持 Mod 菜单逐项自定义开关与尺寸。 | [CHANGELOG](./PBZEnemyStatusBars/CHANGELOG.md) |
 | [**PBZExtraAccessorySlots**](./PBZExtraAccessorySlots) | `v1.3.1` | **额外饰品栏扩展**：在保留原版 1~6 号饰品栏自然解锁进度的前提下，在后续追加 0~12 个额外解锁饰品栏；完整支持原生 3 列网格排版、手柄/键鼠导航、真实 GAS 词条效果与精炼等级、独立 JSON 持久化及安全自动卸下。 | [CHANGELOG](./PBZExtraAccessorySlots/CHANGELOG.md) |
+| [**PBZWeatherControl**](./PBZWeatherControl) | `v1.1.3` | **全地图天气与光照控制**：基于游戏原生 UDS/UDW 系统，在任意当前地图实时切换 13 种天气预设（晴空万里、大雪、暴风雪、沙尘暴、大雨等）、7 种时间段光照氛围、阳光/天光/雾效/饱和度/太阳方位角与晴天地面烘干，支持进图原版快照与一键无损恢复。 | [CHANGELOG](./PBZWeatherControl/CHANGELOG.md) |
+| [**PBZFreeRevert**](./PBZFreeRevert) | `v1.0.0` | **武器/影之武装/饰品/药品免费回退重置（1.03+ 纯 JS 兼容版）**：主武器与影之武装免重铸符直接回退 Lv.1 并全额返还材料与残渣，跳过突破符箓弹窗；饰品与药品强化页新增原生回退键（T / Y）及中英文确认框，全额返还残渣与材料并自动重装刷新词条，零 UE4SS 钩子冲突。 | [CHANGELOG](./PBZFreeRevert/CHANGELOG.md) |
 
 ---
 
